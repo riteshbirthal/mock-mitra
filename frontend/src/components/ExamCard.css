@@ -1,0 +1,71 @@
+.exam-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.exam-icon {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  animation: pulse 2s infinite;
+}
+
+.exam-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 10px;
+}
+
+.exam-description {
+  color: var(--gray);
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.exam-meta {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.exam-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--gray-light);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.meta-icon {
+  font-size: 1rem;
+}
+
+.exam-btn {
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (max-width: 480px) {
+  .exam-card {
+    padding: 20px;
+  }
+
+  .exam-icon {
+    font-size: 2.5rem;
+  }
+
+  .exam-name {
+    font-size: 1.2rem;
+  }
+
+  .exam-meta {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

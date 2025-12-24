@@ -1,0 +1,35 @@
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--white);
+  padding: 12px 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.timer-icon {
+  font-size: 1.4rem;
+}
+
+.timer.warning {
+  background: var(--warning);
+  color: var(--white);
+  animation: pulse 1s infinite;
+}
+
+.timer.danger {
+  background: var(--danger);
+  color: var(--white);
+  animation: pulse 0.5s infinite;
+}
+
+@media (max-width: 480px) {
+  .timer {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+  }
+}

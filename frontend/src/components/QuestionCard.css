@@ -1,0 +1,138 @@
+.question-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  box-shadow: var(--shadow);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.question-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.question-number {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: rgba(102, 126, 234, 0.1);
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+.question-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 16px 20px;
+  background: var(--light);
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  text-align: left;
+  font-size: 1rem;
+  color: var(--dark);
+  transition: all 0.2s ease;
+}
+
+.option-btn:hover:not(:disabled) {
+  background: rgba(102, 126, 234, 0.1);
+  border-color: var(--primary);
+}
+
+.option-btn.selected {
+  background: rgba(102, 126, 234, 0.15);
+  border-color: var(--primary);
+}
+
+.option-btn.correct {
+  background: rgba(72, 187, 120, 0.15);
+  border-color: var(--success);
+}
+
+.option-btn.wrong {
+  background: rgba(245, 101, 101, 0.15);
+  border-color: var(--danger);
+}
+
+.option-letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--white);
+  border-radius: 50%;
+  font-weight: 700;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.option-btn.selected .option-letter {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.option-btn.correct .option-letter {
+  background: var(--success);
+  color: var(--white);
+}
+
+.option-btn.wrong .option-letter {
+  background: var(--danger);
+  color: var(--white);
+}
+
+.option-text {
+  flex: 1;
+}
+
+.option-icon {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.option-btn.correct .option-icon {
+  color: var(--success);
+}
+
+.option-btn.wrong .option-icon {
+  color: var(--danger);
+}
+
+@media (max-width: 480px) {
+  .question-card {
+    padding: 20px;
+  }
+
+  .question-text {
+    font-size: 1.05rem;
+  }
+
+  .option-btn {
+    padding: 14px 15px;
+    font-size: 0.95rem;
+  }
+
+  .option-letter {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,106 @@
+[
+    {
+        "_id": "general-knowledge",
+        "name": "General Knowledge",
+        "icon": "🌍",
+        "color": "#667eea",
+        "description": "Current affairs, important facts, and general awareness",
+        "topics": ["India Facts", "World Geography", "Important Days", "Awards & Honours", "First in India", "World Organizations", "National Symbols"]
+    },
+    {
+        "_id": "mathematics",
+        "name": "Mathematics",
+        "icon": "📐",
+        "color": "#48bb78",
+        "description": "Quantitative aptitude, arithmetic, algebra, and geometry",
+        "topics": ["Percentage", "Ratio & Proportion", "Profit & Loss", "Time & Work", "Number System", "Simple & Compound Interest", "Average", "Algebra"]
+    },
+    {
+        "_id": "reasoning",
+        "name": "Reasoning",
+        "icon": "🧩",
+        "color": "#ed8936",
+        "description": "Logical reasoning, analytical ability, and problem solving",
+        "topics": ["Number Series", "Coding-Decoding", "Analogies", "Blood Relations", "Direction Sense", "Syllogism", "Puzzles"]
+    },
+    {
+        "_id": "english",
+        "name": "English",
+        "icon": "📝",
+        "color": "#9f7aea",
+        "description": "Grammar, vocabulary, comprehension, and writing skills",
+        "topics": ["Grammar Rules", "Vocabulary", "Idioms & Phrases", "Sentence Correction", "Reading Comprehension", "Synonyms & Antonyms", "One Word Substitution"]
+    },
+    {
+        "_id": "computer",
+        "name": "Computer Awareness",
+        "icon": "💻",
+        "color": "#38b2ac",
+        "description": "Computer fundamentals, hardware, software, and internet",
+        "topics": ["Computer Basics", "Hardware & Software", "MS Office", "Internet", "Shortcuts", "Networking", "Databases", "Operating Systems"]
+    },
+    {
+        "_id": "biology",
+        "name": "Biology",
+        "icon": "🧬",
+        "color": "#e53e3e",
+        "description": "Human body, life sciences, diseases, and nutrition",
+        "topics": ["Human Body Systems", "Cell Biology", "Vitamins & Nutrition", "Diseases", "Genetics", "Plant Biology", "Ecology"]
+    },
+    {
+        "_id": "chemistry",
+        "name": "Chemistry",
+        "icon": "⚗️",
+        "color": "#dd6b20",
+        "description": "Elements, compounds, reactions, and periodic table",
+        "topics": ["Periodic Table", "Acids & Bases", "Chemical Compounds", "Reactions", "Alloys", "Atomic Structure", "Organic Chemistry"]
+    },
+    {
+        "_id": "physics",
+        "name": "Physics",
+        "icon": "⚡",
+        "color": "#3182ce",
+        "description": "Laws of motion, energy, waves, and scientific instruments",
+        "topics": ["Laws of Motion", "Energy & Work", "Waves", "Units", "Instruments", "Electricity", "Optics", "Thermodynamics"]
+    },
+    {
+        "_id": "polity",
+        "name": "Indian Polity",
+        "icon": "🏛️",
+        "color": "#805ad5",
+        "description": "Constitution, governance, fundamental rights, and duties",
+        "topics": ["Constitution", "Fundamental Rights", "Parliament", "Judiciary", "Elections", "Directive Principles", "Constitutional Bodies"]
+    },
+    {
+        "_id": "history",
+        "name": "History",
+        "icon": "📜",
+        "color": "#b7791f",
+        "description": "Indian history, freedom struggle, and ancient civilizations",
+        "topics": ["Freedom Struggle", "Ancient India", "Medieval India", "Modern India", "World History", "Important Battles", "Indian National Movement"]
+    },
+    {
+        "_id": "geography",
+        "name": "Geography",
+        "icon": "🗺️",
+        "color": "#2f855a",
+        "description": "Indian geography, rivers, mountains, climate, and resources",
+        "topics": ["Physical Geography", "Rivers", "Climate", "Soil Types", "Natural Resources", "Indian States", "World Geography"]
+    },
+    {
+        "_id": "economics",
+        "name": "Economics",
+        "icon": "💰",
+        "color": "#c53030",
+        "description": "Indian economy, banking, budget, and international trade",
+        "topics": ["GDP & National Income", "Banking", "Budget", "Inflation", "International Trade", "Five Year Plans", "Economic Organizations"]
+    },
+    {
+        "_id": "current-affairs",
+        "name": "Current Affairs",
+        "icon": "📰",
+        "color": "#2b6cb0",
+        "description": "Latest news, government schemes, and current events",
+        "topics": ["National Affairs", "International Affairs", "Sports", "Awards", "Government Schemes", "Science & Tech", "Economy Updates"]
+    }
+]

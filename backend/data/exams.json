@@ -1,0 +1,74 @@
+[
+    {
+        "_id": "ssc",
+        "name": "SSC CGL",
+        "description": "Staff Selection Commission - Combined Graduate Level",
+        "icon": "📋",
+        "duration": 60,
+        "total_questions": 25,
+        "question_sources": [
+            {"collection": "computer_awareness", "categories": []},
+            {"collection": "mathematics", "categories": []}
+        ]
+    },
+    {
+        "_id": "banking",
+        "name": "Banking",
+        "description": "IBPS PO, SBI PO, RBI Grade B",
+        "icon": "🏦",
+        "duration": 45,
+        "total_questions": 20,
+        "question_sources": [
+            {"collection": "computer_awareness", "categories": []},
+            {"collection": "mathematics", "categories": []}
+        ]
+    },
+    {
+        "_id": "railway",
+        "name": "Railway",
+        "description": "RRB NTPC, Group D, JE",
+        "icon": "🚂",
+        "duration": 60,
+        "total_questions": 25,
+        "question_sources": [
+            {"collection": "computer_awareness", "categories": []},
+            {"collection": "mathematics", "categories": []}
+        ]
+    },
+    {
+        "_id": "upsc",
+        "name": "UPSC",
+        "description": "Civil Services Preliminary Examination",
+        "icon": "🏛️",
+        "duration": 90,
+        "total_questions": 30,
+        "question_sources": [
+            {"collection": "computer_awareness", "categories": []},
+            {"collection": "mathematics", "categories": []}
+        ]
+    },
+    {
+        "_id": "state_psc",
+        "name": "State PSC",
+        "description": "State Public Service Commission Exams",
+        "icon": "📜",
+        "duration": 60,
+        "total_questions": 25,
+        "question_sources": [
+            {"collection": "computer_awareness", "categories": []},
+            {"collection": "mathematics", "categories": []}
+        ]
+    },
+    {
+        "_id": "defence",
+        "name": "Defence",
+        "description": "NDA, CDS, AFCAT",
+        "icon": "🎖️",
+        "duration": 60,
+        "total_questions": 25,
+        "question_sources": [
+            {"collection": "computer_awareness", "categories": []},
+            {"collection": "mathematics", "categories": []}
+        ]
+    }
+]
