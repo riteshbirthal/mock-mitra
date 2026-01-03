@@ -70,5 +70,20 @@
             {"collection": "computer_awareness", "categories": []},
             {"collection": "mathematics", "categories": []}
         ]
+    },
+    {
+        "_id": "hssc_mphw",
+        "name": "HSSC MPHW",
+        "description": "Haryana Multi Purpose Health Worker (Group-32)",
+        "icon": "🏥",
+        "duration": 90,
+        "total_questions": 100,
+        "question_sources": [
+            {"collection": "reasoning", "categories": []},
+            {"collection": "computer_awareness", "categories": []},
+            {"collection": "mathematics", "categories": []},
+            {"collection": "general_awareness", "categories": []},
+            {"collection": "mphw_specific", "categories": []}
+        ]
     }
 ]

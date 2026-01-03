@@ -1,0 +1,212 @@
+.topic-layout {
+  padding: 20px 0;
+}
+
+.topic-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 20px;
+  padding: 30px;
+  color: white;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.topic-header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topic-icon {
+  width: 70px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.topic-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.topic-description {
+  opacity: 0.9;
+  font-size: 1rem;
+  max-width: 500px;
+}
+
+.topic-progress {
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.topic-progress .progress-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.topic-progress .progress-bar-fill {
+  height: 100%;
+  background: #48bb78;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.topic-tabs {
+  display: flex;
+  gap: 8px;
+  background: #f7fafc;
+  padding: 8px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  overflow-x: auto;
+}
+
+.topic-tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border: none;
+  background: transparent;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4a5568;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.topic-tab:hover {
+  background: #edf2f7;
+}
+
+.topic-tab.active {
+  background: white;
+  color: #667eea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-icon {
+  font-size: 1.2rem;
+}
+
+.topic-content {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .topic-layout {
+    padding: 10px 0;
+  }
+
+  .topic-header {
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+
+  .topic-header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .topic-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+
+  .topic-progress {
+    width: 100%;
+  }
+
+  .topic-title {
+    font-size: 1.3rem;
+  }
+
+  .topic-description {
+    font-size: 0.9rem;
+  }
+
+  .topic-tabs {
+    padding: 6px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    gap: 6px;
+  }
+
+  .topic-tab {
+    padding: 10px 14px;
+    font-size: 0.8rem;
+    border-radius: 6px;
+  }
+
+  .tab-icon {
+    font-size: 1rem;
+  }
+
+  .tab-label {
+    display: none;
+  }
+
+  .topic-content {
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topic-header {
+    padding: 16px;
+  }
+
+  .topic-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.6rem;
+    border-radius: 12px;
+  }
+
+  .topic-title {
+    font-size: 1.1rem;
+  }
+
+  .topic-tabs {
+    padding: 4px;
+  }
+
+  .topic-tab {
+    padding: 10px 12px;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .tab-icon {
+    font-size: 1.1rem;
+  }
+}

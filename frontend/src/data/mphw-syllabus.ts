@@ -1,0 +1,325 @@
+export interface Topic {
+  id: string;
+  name: string;
+  description?: string;
+  questionsCount: number;
+  difficulty: 'Easy' | 'Medium' | 'Hard' | 'Easy-Medium' | 'Medium-Hard';
+  hasContent: boolean;
+}
+
+export interface SubTopic {
+  id: string;
+  name: string;
+  topics: string[];
+}
+
+export interface Subject {
+  id: string;
+  name: string;
+  icon: string;
+  color: string;
+  description: string;
+  questions: number;
+  marks: number;
+  topics: Topic[];
+  subTopics?: SubTopic[];
+}
+
+export interface ExamInfo {
+  name: string;
+  fullName: string;
+  organization: string;
+  group: string;
+  totalQuestions: number;
+  totalMarks: number;
+  duration: number;
+  negativeMarking: boolean;
+  mode: string;
+  qualification: string;
+}
+
+export const examInfo: ExamInfo = {
+  name: 'HSSC MPHW',
+  fullName: 'Haryana Multi Purpose Health Worker',
+  organization: 'Haryana Staff Selection Commission (HSSC)',
+  group: 'Group-32',
+  totalQuestions: 100,
+  totalMarks: 100,
+  duration: 90,
+  negativeMarking: false,
+  mode: 'Offline (OMR-based)',
+  qualification: '10th Pass + MPHW Training Course',
+};
+
+export const subjects: Subject[] = [
+  {
+    id: 'general-awareness',
+    name: 'General Awareness & Studies',
+    icon: '🌍',
+    color: '#667eea',
+    description: 'GK, Current Affairs, History, Geography, Civics, Science with Haryana focus',
+    questions: 20,
+    marks: 20,
+    topics: [
+      { id: 'indian-history', name: 'Indian History', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'indian-geography', name: 'Indian Geography', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'indian-polity', name: 'Indian Polity & Constitution', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'indian-economy', name: 'Indian Economy', questionsCount: 8, difficulty: 'Medium', hasContent: false },
+      { id: 'general-science', name: 'General Science', questionsCount: 12, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'haryana-history', name: 'History of Haryana', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'haryana-geography', name: 'Geography of Haryana', questionsCount: 8, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'haryana-culture', name: 'Culture & Folk of Haryana', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'current-affairs', name: 'Current Affairs', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'environment', name: 'Environment & Ecology', questionsCount: 8, difficulty: 'Easy-Medium', hasContent: false },
+    ],
+    subTopics: [
+      {
+        id: 'haryana-gk',
+        name: 'Haryana Specific',
+        topics: ['History of Haryana', 'Geography of Haryana', 'Culture of Haryana', 'Folk Music and Dance', 'Important Personalities', 'Districts and Administration', 'Major Rivers and Water Bodies', 'Haryana Literature']
+      }
+    ]
+  },
+  {
+    id: 'reasoning',
+    name: 'Reasoning',
+    icon: '🧩',
+    color: '#ed8936',
+    description: 'Verbal & Non-Verbal Reasoning, Analogies, Series, Puzzles, Syllogism',
+    questions: 20,
+    marks: 20,
+    topics: [
+      { id: '01-analogies', name: 'Analogies', questionsCount: 15, difficulty: 'Easy-Medium', hasContent: true },
+      { id: '02-classification', name: 'Classification', questionsCount: 15, difficulty: 'Easy', hasContent: true },
+      { id: '03-series', name: 'Number & Letter Series', questionsCount: 15, difficulty: 'Medium', hasContent: true },
+      { id: '04-coding-decoding', name: 'Coding & Decoding', questionsCount: 15, difficulty: 'Medium', hasContent: true },
+      { id: '05-blood-relations', name: 'Blood Relations', questionsCount: 15, difficulty: 'Medium', hasContent: true },
+      { id: '06-direction-sense', name: 'Direction Sense', questionsCount: 15, difficulty: 'Easy-Medium', hasContent: true },
+      { id: '07-syllogism', name: 'Syllogism', questionsCount: 15, difficulty: 'Hard', hasContent: true },
+      { id: '08-venn-diagrams', name: 'Venn Diagrams', questionsCount: 15, difficulty: 'Medium', hasContent: true },
+      { id: '09-puzzles', name: 'Puzzles & Seating Arrangement', questionsCount: 15, difficulty: 'Hard', hasContent: true },
+      { id: '10-non-verbal-reasoning', name: 'Non-Verbal Reasoning', questionsCount: 15, difficulty: 'Medium', hasContent: true },
+      { id: '11-logical-sequence', name: 'Logical Sequence of Words', questionsCount: 15, difficulty: 'Easy', hasContent: true },
+      { id: '12-mathematical-operations', name: 'Mathematical Operations', questionsCount: 15, difficulty: 'Medium', hasContent: true },
+      { id: '13-data-sufficiency', name: 'Data Sufficiency', questionsCount: 15, difficulty: 'Hard', hasContent: true },
+      { id: '14-critical-thinking', name: 'Critical Thinking & Statements', questionsCount: 15, difficulty: 'Medium-Hard', hasContent: true },
+    ]
+  },
+  {
+    id: 'mathematics',
+    name: 'Mathematics',
+    icon: '📐',
+    color: '#48bb78',
+    description: 'Number System, Percentage, Profit-Loss, Time & Work, Data Interpretation',
+    questions: 20,
+    marks: 20,
+    topics: [
+      { id: 'number-system', name: 'Number System', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'hcf-lcm', name: 'HCF and LCM', questionsCount: 10, difficulty: 'Easy', hasContent: false },
+      { id: 'simplification', name: 'Simplification', questionsCount: 10, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'percentage', name: 'Percentage', questionsCount: 12, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'profit-loss', name: 'Profit and Loss', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'interest', name: 'Simple & Compound Interest', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'ratio-proportion', name: 'Ratio and Proportion', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'average', name: 'Average', questionsCount: 10, difficulty: 'Easy', hasContent: false },
+      { id: 'time-work', name: 'Time and Work', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'time-speed-distance', name: 'Time, Speed & Distance', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'mensuration', name: 'Mensuration', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'data-interpretation', name: 'Data Interpretation', questionsCount: 15, difficulty: 'Medium-Hard', hasContent: false },
+    ]
+  },
+  {
+    id: 'computer',
+    name: 'Computer Knowledge',
+    icon: '💻',
+    color: '#38b2ac',
+    description: 'Computer Fundamentals, MS Office (Word, Excel, PowerPoint), Internet',
+    questions: 10,
+    marks: 10,
+    topics: [
+      { id: 'computer-fundamentals', name: 'Computer Fundamentals', questionsCount: 15, difficulty: 'Easy', hasContent: false },
+      { id: 'hardware-software', name: 'Hardware & Software', questionsCount: 12, difficulty: 'Easy', hasContent: false },
+      { id: 'input-output-devices', name: 'Input & Output Devices', questionsCount: 10, difficulty: 'Easy', hasContent: false },
+      { id: 'memory-types', name: 'Memory Types (RAM, ROM, Cache)', questionsCount: 10, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'operating-systems', name: 'Operating Systems Basics', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'ms-word', name: 'Microsoft Word', questionsCount: 15, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'ms-excel', name: 'Microsoft Excel', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'ms-powerpoint', name: 'Microsoft PowerPoint', questionsCount: 10, difficulty: 'Easy', hasContent: false },
+      { id: 'internet-basics', name: 'Internet & Web Browsing', questionsCount: 12, difficulty: 'Easy', hasContent: false },
+      { id: 'email', name: 'Email Communication', questionsCount: 10, difficulty: 'Easy', hasContent: false },
+    ]
+  },
+  {
+    id: 'anatomy',
+    name: 'Anatomy',
+    icon: '🦴',
+    color: '#e53e3e',
+    description: 'Human Body Structure, Skeletal, Muscular, Circulatory, Nervous Systems',
+    questions: 70,
+    marks: 70,
+    topics: [
+      { id: 'body-structure', name: 'Human Body Structure', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'skeletal-system', name: 'Skeletal System', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'muscular-system', name: 'Muscular System', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'circulatory-system', name: 'Circulatory System', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'respiratory-system', name: 'Respiratory System', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'digestive-system', name: 'Digestive System', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'nervous-system', name: 'Nervous System', questionsCount: 12, difficulty: 'Medium-Hard', hasContent: false },
+      { id: 'reproductive-system', name: 'Reproductive System', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'endocrine-system', name: 'Endocrine System', questionsCount: 10, difficulty: 'Medium-Hard', hasContent: false },
+    ]
+  },
+  {
+    id: 'physiology',
+    name: 'Physiology',
+    icon: '💓',
+    color: '#d53f8c',
+    description: 'Body Functions, Cell Biology, Blood, Heart, Respiration, Metabolism',
+    questions: 70,
+    marks: 70,
+    topics: [
+      { id: 'body-functions', name: 'Functions of Body Systems', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'cell-biology', name: 'Cell Biology', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'blood-components', name: 'Blood and its Components', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'heart-circulation', name: 'Heart and Circulation', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'respiration-process', name: 'Respiration Process', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'digestion-metabolism', name: 'Digestion and Metabolism', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'excretion', name: 'Excretion', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'hormones', name: 'Hormones and Functions', questionsCount: 12, difficulty: 'Medium-Hard', hasContent: false },
+    ]
+  },
+  {
+    id: 'microbiology',
+    name: 'Microbiology',
+    icon: '🦠',
+    color: '#805ad5',
+    description: 'Microorganisms, Bacteria, Viruses, Disease Transmission, Sterilization',
+    questions: 70,
+    marks: 70,
+    topics: [
+      { id: 'microorganisms-intro', name: 'Introduction to Microorganisms', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'bacteria-viruses', name: 'Bacteria, Viruses, Fungi', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'disease-transmission', name: 'Mode of Disease Transmission', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'sterilization', name: 'Sterilization and Disinfection', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'infectious-diseases', name: 'Common Infectious Diseases', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'infection-control', name: 'Prevention & Control of Infections', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+    ]
+  },
+  {
+    id: 'public-health',
+    name: 'Public Health',
+    icon: '🏥',
+    color: '#319795',
+    description: 'Health Programs, Immunization, MCH, Family Planning, Epidemiology',
+    questions: 70,
+    marks: 70,
+    topics: [
+      { id: 'health-concepts', name: 'Concept of Health and Disease', questionsCount: 10, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'preventive-medicine', name: 'Preventive Medicine', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'national-health-programs', name: 'National Health Programs', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'immunization', name: 'Immunization Schedule', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'mch', name: 'Maternal & Child Health', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'family-planning', name: 'Family Planning', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'nutrition', name: 'Nutrition and Malnutrition', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'communicable-diseases', name: 'Communicable Diseases', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'non-communicable-diseases', name: 'Non-Communicable Diseases', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'epidemiology', name: 'Epidemiology Basics', questionsCount: 10, difficulty: 'Medium-Hard', hasContent: false },
+    ]
+  },
+  {
+    id: 'health-hygiene',
+    name: 'Health & Hygiene',
+    icon: '🧼',
+    color: '#3182ce',
+    description: 'Personal Hygiene, Environmental Sanitation, Water, Food, Waste Disposal',
+    questions: 70,
+    marks: 70,
+    topics: [
+      { id: 'personal-hygiene', name: 'Personal Hygiene', questionsCount: 12, difficulty: 'Easy', hasContent: false },
+      { id: 'environmental-sanitation', name: 'Environmental Sanitation', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'water-sanitation', name: 'Water Sanitation', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'food-hygiene', name: 'Food Hygiene', questionsCount: 10, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'waste-disposal', name: 'Waste Disposal', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'vector-control', name: 'Vector Control', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'housing-ventilation', name: 'Housing and Ventilation', questionsCount: 8, difficulty: 'Easy', hasContent: false },
+    ]
+  },
+  {
+    id: 'first-aid',
+    name: 'First Aid & Emergency',
+    icon: '🚑',
+    color: '#dd6b20',
+    description: 'First Aid Principles, Wounds, Fractures, Burns, CPR, Emergency Care',
+    questions: 70,
+    marks: 70,
+    topics: [
+      { id: 'first-aid-principles', name: 'Principles of First Aid', questionsCount: 12, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'wounds-bleeding', name: 'Wounds and Bleeding', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'fractures', name: 'Fractures and Dislocations', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'burns', name: 'Burns and Scalds', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'bites', name: 'Snake Bites and Dog Bites', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'poisoning', name: 'Poisoning', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'drowning', name: 'Drowning', questionsCount: 8, difficulty: 'Medium', hasContent: false },
+      { id: 'cpr', name: 'CPR (Cardiopulmonary Resuscitation)', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'shock-management', name: 'Shock Management', questionsCount: 10, difficulty: 'Medium-Hard', hasContent: false },
+      { id: 'emergency-transport', name: 'Emergency Transport', questionsCount: 8, difficulty: 'Easy-Medium', hasContent: false },
+    ]
+  },
+  {
+    id: 'health-education',
+    name: 'Health Education & Communication',
+    icon: '📢',
+    color: '#9f7aea',
+    description: 'Communication Skills, Health Education Techniques, Audio-Visual Aids',
+    questions: 70,
+    marks: 70,
+    topics: [
+      { id: 'communication-skills', name: 'Communication Skills', questionsCount: 12, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'health-education-techniques', name: 'Health Education Techniques', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'av-aids', name: 'Audio-Visual Aids', questionsCount: 10, difficulty: 'Easy', hasContent: false },
+      { id: 'community-health-education', name: 'Community Health Education', questionsCount: 12, difficulty: 'Medium', hasContent: false },
+      { id: 'behavior-change', name: 'Behavior Change Communication', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'health-info-systems', name: 'Health Information Systems', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+    ]
+  },
+];
+
+export const examSections = [
+  {
+    id: 'section-1',
+    name: 'General Awareness & General Studies',
+    questions: 20,
+    marks: 20,
+    subjects: ['general-awareness', 'reasoning', 'mathematics'],
+    color: '#667eea',
+    icon: '📚',
+  },
+  {
+    id: 'section-2',
+    name: 'Computer Knowledge',
+    questions: 10,
+    marks: 10,
+    subjects: ['computer'],
+    color: '#38b2ac',
+    icon: '💻',
+  },
+  {
+    id: 'section-3',
+    name: 'Post-Specific Subject (MPHW)',
+    questions: 70,
+    marks: 70,
+    subjects: ['anatomy', 'physiology', 'microbiology', 'public-health', 'health-hygiene', 'first-aid', 'health-education'],
+    color: '#e53e3e',
+    icon: '🏥',
+  },
+];
+
+export const getSubjectById = (id: string): Subject | undefined => {
+  return subjects.find(s => s.id === id);
+};
+
+export const getSubjectsBySection = (sectionId: string): Subject[] => {
+  const section = examSections.find(s => s.id === sectionId);
+  if (!section) return [];
+  return subjects.filter(s => section.subjects.includes(s.id));
+};

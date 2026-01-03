@@ -8,6 +8,11 @@ import ContentList from './pages/ContentList';
 import ContentView from './pages/ContentView';
 import Subjects from './pages/Subjects';
 import SubjectDetail from './pages/SubjectDetail';
+import { ExamPrep, ExamTopics, ExamTopicDetail } from './pages/exam';
+import MPHWPractice from './pages/mphw/MPHWPractice';
+import MPHWArticles from './pages/mphw/MPHWArticles';
+import ComputerKnowledge from './pages/mphw/ComputerKnowledge';
+import ComputerKnowledgeLesson from './pages/mphw/ComputerKnowledgeLesson';
 import './App.css';
 
 function App() {
@@ -25,6 +30,20 @@ function App() {
             <Route path="/subjects/:subjectId" element={<SubjectDetail />} />
             <Route path="/content" element={<ContentList />} />
             <Route path="/content/:contentId" element={<ContentView />} />
+            
+            {/* Generic Exam Prep Routes */}
+            <Route path="/prep/:examId" element={<ExamPrep />} />
+            <Route path="/prep/:examId/topics/:subjectId" element={<ExamTopics />} />
+            <Route path="/prep/:examId/topic/:subjectId/:topicId" element={<ExamTopicDetail />} />
+            
+            {/* Legacy MPHW routes (redirect to generic) */}
+            <Route path="/mphw" element={<ExamPrep />} />
+            <Route path="/mphw/topics/:subjectId" element={<ExamTopics />} />
+            <Route path="/mphw/topic/:subjectId/:topicId" element={<ExamTopicDetail />} />
+            <Route path="/mphw/practice" element={<MPHWPractice />} />
+            <Route path="/mphw/articles" element={<MPHWArticles />} />
+            <Route path="/mphw/computer-knowledge" element={<ComputerKnowledge />} />
+            <Route path="/mphw/computer-knowledge/:lessonId" element={<ComputerKnowledgeLesson />} />
           </Routes>
         </main>
         <footer className="footer">

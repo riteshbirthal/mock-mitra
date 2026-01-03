@@ -1,0 +1,278 @@
+.resources-content {
+  padding: 30px;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.resource-card {
+  background: #f7fafc;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.resource-card.full-width {
+  grid-column: span 2;
+}
+
+.resource-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.resource-card h3 {
+  font-size: 1.1rem;
+  color: #2d3748;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.storage-diagram {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.storage-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: white;
+  border-radius: 8px;
+}
+
+.storage-unit {
+  font-weight: 700;
+  color: #667eea;
+  width: 60px;
+}
+
+.storage-arrow {
+  color: #a0aec0;
+}
+
+.storage-value {
+  color: #4a5568;
+}
+
+.shortcuts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shortcut-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: white;
+  border-radius: 8px;
+}
+
+.shortcut-item kbd {
+  padding: 4px 8px;
+  background: #edf2f7;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #2d3748;
+}
+
+.shortcut-item span {
+  margin-left: auto;
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.generations-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gen-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: white;
+  border-radius: 8px;
+}
+
+.gen-badge {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.gen-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.gen-tech {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.gen-year {
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+.extensions-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.ext-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: white;
+  border-radius: 8px;
+}
+
+.ext-name {
+  font-family: monospace;
+  font-weight: 600;
+  color: #667eea;
+}
+
+.ext-app {
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.fullforms-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.ff-item {
+  padding: 12px 16px;
+  background: white;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.ff-item strong {
+  color: #667eea;
+  display: block;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 900px) {
+  .resources-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .resource-card.full-width {
+    grid-column: span 1;
+  }
+
+  .fullforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .resources-content {
+    padding: 16px;
+  }
+
+  .resource-card {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .resource-icon {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+
+  .resource-card h3 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+
+  .storage-item,
+  .shortcut-item,
+  .gen-item,
+  .ext-item {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+
+  .storage-unit-name {
+    min-width: 50px;
+    font-size: 0.85rem;
+  }
+
+  .shortcut-item kbd {
+    padding: 3px 6px;
+    font-size: 0.75rem;
+  }
+
+  .gen-badge {
+    width: 32px;
+    height: 32px;
+    font-size: 0.75rem;
+  }
+
+  .gen-tech {
+    font-size: 0.85rem;
+  }
+
+  .gen-year {
+    font-size: 0.75rem;
+  }
+
+  .extensions-list {
+    grid-template-columns: 1fr;
+  }
+
+  .fullforms-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .ff-item {
+    padding: 10px 12px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .resources-content {
+    padding: 12px;
+  }
+
+  .resource-card {
+    padding: 12px;
+  }
+
+  .storage-visual,
+  .shortcuts-list,
+  .generations-timeline {
+    gap: 8px;
+  }
+}

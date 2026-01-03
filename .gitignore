@@ -1,5 +1,5 @@
 # Dependencies
-node_modules/
+*/node_modules/
 __pycache__/
 *.pyc
 *.pyo
@@ -36,6 +36,8 @@ build/
 .DS_Store
 Thumbs.db
 desktop.ini
+content
+temp
 
 # Logs
 *.log

@@ -1,0 +1,127 @@
+import { ExamData, ExamInfo, Subject, ExamSection } from './types';
+
+export const examInfo: ExamInfo = {
+  id: 'railway',
+  name: 'Railway',
+  fullName: 'RRB NTPC / Group D / JE',
+  organization: 'Railway Recruitment Board (RRB)',
+  icon: '🚂',
+  totalQuestions: 100,
+  totalMarks: 100,
+  duration: 90,
+  negativeMarking: true,
+  negativeMarkingValue: 0.33,
+  mode: 'Computer Based Test (CBT)',
+  qualification: '12th/Graduate (varies by post)',
+  description: 'Railway exams are conducted by RRB for recruitment in Indian Railways including NTPC, Group D, and JE posts.',
+  officialSyllabusUrl: 'https://rrbcdg.gov.in',
+};
+
+export const subjects: Subject[] = [
+  {
+    id: 'general-awareness',
+    name: 'General Awareness',
+    icon: '🌍',
+    color: '#667eea',
+    description: 'Current Affairs, History, Geography, Polity, Science, Railway GK',
+    questions: 40,
+    marks: 40,
+    topics: [
+      { id: 'current-affairs', name: 'Current Affairs', questionsCount: 20, difficulty: 'Medium', hasContent: false },
+      { id: 'indian-history', name: 'Indian History', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'indian-geography', name: 'Indian Geography', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'indian-polity', name: 'Indian Polity', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'indian-economy', name: 'Indian Economy', questionsCount: 10, difficulty: 'Medium', hasContent: false },
+      { id: 'general-science', name: 'General Science', questionsCount: 20, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'railway-gk', name: 'Railway General Knowledge', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'sports', name: 'Sports & Games', questionsCount: 10, difficulty: 'Easy', hasContent: false },
+      { id: 'awards', name: 'Awards & Honours', questionsCount: 10, difficulty: 'Easy', hasContent: false },
+      { id: 'important-days', name: 'Important Days', questionsCount: 10, difficulty: 'Easy', hasContent: false },
+    ],
+  },
+  {
+    id: 'mathematics',
+    name: 'Mathematics',
+    icon: '📐',
+    color: '#48bb78',
+    description: 'Number System, Algebra, Geometry, Mensuration, Data Interpretation',
+    questions: 30,
+    marks: 30,
+    topics: [
+      { id: 'number-system', name: 'Number System', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'simplification', name: 'Simplification', questionsCount: 15, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'percentage', name: 'Percentage', questionsCount: 15, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'ratio-proportion', name: 'Ratio & Proportion', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'profit-loss', name: 'Profit, Loss & Discount', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'interest', name: 'Simple & Compound Interest', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'time-work', name: 'Time & Work', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'time-speed-distance', name: 'Time, Speed & Distance', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'algebra', name: 'Algebra', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'geometry', name: 'Geometry', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'mensuration', name: 'Mensuration', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'trigonometry', name: 'Trigonometry', questionsCount: 10, difficulty: 'Medium-Hard', hasContent: false },
+      { id: 'data-interpretation', name: 'Data Interpretation', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+    ],
+  },
+  {
+    id: 'general-intelligence',
+    name: 'General Intelligence & Reasoning',
+    icon: '🧩',
+    color: '#ed8936',
+    description: 'Verbal, Non-Verbal, Analogies, Series, Coding-Decoding',
+    questions: 30,
+    marks: 30,
+    topics: [
+      { id: 'analogies', name: 'Analogies', questionsCount: 15, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'classification', name: 'Classification', questionsCount: 15, difficulty: 'Easy', hasContent: false },
+      { id: 'series', name: 'Number & Letter Series', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'coding-decoding', name: 'Coding & Decoding', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'blood-relations', name: 'Blood Relations', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'direction-sense', name: 'Direction Sense', questionsCount: 15, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'syllogism', name: 'Syllogism', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'venn-diagrams', name: 'Venn Diagrams', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'puzzles', name: 'Puzzles', questionsCount: 15, difficulty: 'Medium-Hard', hasContent: false },
+      { id: 'non-verbal', name: 'Non-Verbal Reasoning', questionsCount: 15, difficulty: 'Medium', hasContent: false },
+      { id: 'calendar', name: 'Calendar', questionsCount: 10, difficulty: 'Easy-Medium', hasContent: false },
+      { id: 'clock', name: 'Clock', questionsCount: 10, difficulty: 'Easy-Medium', hasContent: false },
+    ],
+  },
+];
+
+export const examSections: ExamSection[] = [
+  {
+    id: 'section-1',
+    name: 'General Awareness',
+    questions: 40,
+    marks: 40,
+    subjects: ['general-awareness'],
+    color: '#667eea',
+    icon: '🌍',
+  },
+  {
+    id: 'section-2',
+    name: 'Mathematics',
+    questions: 30,
+    marks: 30,
+    subjects: ['mathematics'],
+    color: '#48bb78',
+    icon: '📐',
+  },
+  {
+    id: 'section-3',
+    name: 'General Intelligence & Reasoning',
+    questions: 30,
+    marks: 30,
+    subjects: ['general-intelligence'],
+    color: '#ed8936',
+    icon: '🧩',
+  },
+];
+
+export const railwayExamData: ExamData = {
+  examInfo,
+  subjects,
+  examSections,
+};
+
+export default railwayExamData;

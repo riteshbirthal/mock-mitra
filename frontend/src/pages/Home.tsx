@@ -9,27 +9,28 @@ const features = [
 ];
 
 const exams = [
-  { icon: '📋', name: 'SSC', color: '#667eea' },
-  { icon: '🏦', name: 'Banking', color: '#48bb78' },
-  { icon: '🚂', name: 'Railway', color: '#ed8936' },
-  { icon: '🏛️', name: 'UPSC', color: '#e53e3e' },
-  { icon: '📜', name: 'State PSC', color: '#9f7aea' },
-  { icon: '🎖️', name: 'Defence', color: '#38b2ac' },
+  { icon: '📋', name: 'SSC', color: '#667eea', link: '/prep/ssc' },
+  { icon: '🏦', name: 'Banking', color: '#48bb78', link: '/prep/banking' },
+  { icon: '🚂', name: 'Railway', color: '#ed8936', link: '/prep/railway' },
+  { icon: '🏛️', name: 'UPSC', color: '#e53e3e', link: '/prep/upsc' },
+  { icon: '📜', name: 'State PSC', color: '#9f7aea', link: '/prep/state_psc' },
+  { icon: '🎖️', name: 'Defence', color: '#38b2ac', link: '/prep/defence' },
+  { icon: '🏥', name: 'HSSC MPHW', color: '#e91e63', link: '/prep/mphw' },
 ];
 
 const subjects = [
-  { icon: '🌍', name: 'General Knowledge', color: '#667eea' },
-  { icon: '📐', name: 'Mathematics', color: '#48bb78' },
-  { icon: '🧩', name: 'Reasoning', color: '#ed8936' },
-  { icon: '💻', name: 'Computer', color: '#38b2ac' },
-  { icon: '🧬', name: 'Biology', color: '#e53e3e' },
-  { icon: '⚗️', name: 'Chemistry', color: '#dd6b20' },
-  { icon: '⚡', name: 'Physics', color: '#3182ce' },
-  { icon: '🏛️', name: 'Polity', color: '#805ad5' },
-  { icon: '📜', name: 'History', color: '#b7791f' },
-  { icon: '🗺️', name: 'Geography', color: '#2f855a' },
-  { icon: '💰', name: 'Economics', color: '#c53030' },
-  { icon: '📝', name: 'English', color: '#9f7aea' },
+  { icon: '🌍', name: 'General Knowledge', color: '#667eea', link: '/prep/ssc/topics/general-awareness' },
+  { icon: '📐', name: 'Mathematics', color: '#48bb78', link: '/prep/ssc/topics/quantitative-aptitude' },
+  { icon: '🧩', name: 'Reasoning', color: '#ed8936', link: '/prep/mphw/topics/reasoning' },
+  { icon: '💻', name: 'Computer', color: '#38b2ac', link: '/mphw/computer-knowledge' },
+  { icon: '🧬', name: 'Biology', color: '#e53e3e', link: '/prep/mphw/topics/anatomy' },
+  { icon: '⚗️', name: 'Chemistry', color: '#dd6b20', link: '/subjects' },
+  { icon: '⚡', name: 'Physics', color: '#3182ce', link: '/subjects' },
+  { icon: '🏛️', name: 'Polity', color: '#805ad5', link: '/prep/upsc/topics/general-studies' },
+  { icon: '📜', name: 'History', color: '#b7791f', link: '/prep/ssc/topics/general-awareness' },
+  { icon: '🗺️', name: 'Geography', color: '#2f855a', link: '/prep/ssc/topics/general-awareness' },
+  { icon: '💰', name: 'Economics', color: '#c53030', link: '/prep/banking/topics/general-awareness' },
+  { icon: '📝', name: 'English', color: '#9f7aea', link: '/prep/ssc/topics/english-comprehension' },
 ];
 
 const Home = () => {
@@ -99,7 +100,7 @@ const Home = () => {
             {exams.map((exam, index) => (
               <Link 
                 key={index} 
-                to="/exams" 
+                to={exam.link || '/exams'} 
                 className="exam-item"
                 style={{ '--accent-color': exam.color } as React.CSSProperties}
               >
@@ -119,7 +120,7 @@ const Home = () => {
             {subjects.map((subject, index) => (
               <Link 
                 key={index} 
-                to="/subjects" 
+                to={subject.link} 
                 className="subject-item"
                 style={{ '--accent-color': subject.color } as React.CSSProperties}
               >
