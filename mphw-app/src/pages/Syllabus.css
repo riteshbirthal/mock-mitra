@@ -330,3 +330,108 @@
     width: 100%;
   }
 }
+
+/* Quick Topics Section */
+.quick-topics-section {
+  margin: 50px 0;
+  padding: 30px;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-radius: 20px;
+  border: 2px solid #e2e8f0;
+}
+
+.quick-topics-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.quick-topics-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: #1a202c;
+}
+
+.quick-topics-section .section-subtitle {
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.all-lessons-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.all-lessons-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.quick-topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.quick-topic-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  background: white;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #334155;
+  font-weight: 500;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.quick-topic-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-color: #667eea;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.quick-topic-card span:first-child {
+  font-size: 1.4rem;
+}
+
+.quick-topic-card span:last-child {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .quick-topics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .quick-topic-card {
+    padding: 12px;
+    font-size: 0.8rem;
+  }
+  
+  .quick-topic-card span:first-child {
+    font-size: 1.2rem;
+  }
+}

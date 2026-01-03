@@ -1,0 +1,188 @@
+/* Microbiology Topic Styles */
+.gram-comparison {
+  display: flex;
+  gap: 16px;
+}
+
+.gram-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.gram-positive {
+  background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);
+  color: white;
+}
+
+.gram-negative {
+  background: linear-gradient(135deg, #ec4899 0%, #f472b6 100%);
+  color: white;
+}
+
+.gram-label {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.gram-color {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin: 4px 0;
+}
+
+.gram-examples {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+/* Shapes List */
+.shapes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.shape-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.shape-icon {
+  font-size: 1.5rem;
+}
+
+.shape-name {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.shape-desc {
+  margin-left: auto;
+  color: #64748b;
+}
+
+/* Sterilization List */
+.sterilization-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sterilization-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border-radius: 10px;
+  border-left: 4px solid #f59e0b;
+}
+
+.sterilization-item .method {
+  font-weight: 600;
+  color: #92400e;
+}
+
+.sterilization-item .params {
+  font-size: 0.9rem;
+  color: #b45309;
+}
+
+/* Waste Colors */
+.waste-colors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.waste-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.waste-item .color-box {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+}
+
+.waste-item.red {
+  background: #fee2e2;
+}
+.waste-item.red .color-box {
+  background: #ef4444;
+}
+
+.waste-item.yellow {
+  background: #fef9c3;
+}
+.waste-item.yellow .color-box {
+  background: #eab308;
+}
+
+.waste-item.blue {
+  background: #dbeafe;
+}
+.waste-item.blue .color-box {
+  background: #3b82f6;
+}
+
+.waste-item.black {
+  background: #e2e8f0;
+}
+.waste-item.black .color-box {
+  background: #1e293b;
+}
+
+/* Five Moments */
+.five-moments {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.moment-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+  border-radius: 12px;
+  border-left: 4px solid #10b981;
+}
+
+.moment-num {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #10b981;
+  color: white;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .gram-comparison {
+    flex-direction: column;
+  }
+
+  .five-moments {
+    grid-template-columns: 1fr;
+  }
+}

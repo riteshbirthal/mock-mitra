@@ -1,0 +1,164 @@
+/* Physiology Topic Styles */
+.physiology-page .resources-content {
+  padding: 20px;
+}
+
+.physiology-page .resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.physiology-page .resource-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.physiology-page .resource-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.physiology-page .resource-card.full-width {
+  grid-column: 1 / -1;
+}
+
+.physiology-page .resource-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.physiology-page .resource-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #667eea;
+}
+
+/* Parameter List */
+.param-list,
+.blood-values,
+.resp-values,
+.renal-values {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.param-item,
+.blood-item,
+.resp-item,
+.renal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.param-name,
+.blood-label,
+.resp-label,
+.renal-label {
+  font-weight: 500;
+  color: #475569;
+}
+
+.param-value,
+.blood-value,
+.resp-value,
+.renal-value {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #667eea;
+}
+
+/* Blood Values */
+.blood-item {
+  border-left-color: #ef4444;
+}
+
+.blood-value {
+  color: #dc2626;
+}
+
+/* Respiratory Values */
+.resp-item {
+  border-left-color: #3b82f6;
+}
+
+.resp-value {
+  color: #2563eb;
+}
+
+/* Renal Values */
+.renal-item {
+  border-left-color: #22c55e;
+}
+
+.renal-value {
+  color: #16a34a;
+}
+
+/* Hormone Grid */
+.hormone-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.hormone-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border-radius: 12px;
+  border: 2px solid #fbbf24;
+  text-align: center;
+}
+
+.hormone-item strong {
+  color: #92400e;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.hormone-item span {
+  color: #b45309;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .physiology-page .resources-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .physiology-page .resource-card {
+    padding: 20px;
+  }
+
+  .physiology-page .resource-icon {
+    font-size: 2rem;
+  }
+
+  .hormone-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .hormone-item {
+    padding: 12px;
+  }
+}

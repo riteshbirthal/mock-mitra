@@ -115,6 +115,45 @@ const Syllabus = () => {
           </section>
         ))}
 
+        {/* Quick Access - All Topics */}
+        <section className="quick-topics-section">
+          <div className="quick-topics-header">
+            <div>
+              <h2>
+                {isHindi ? '🚀 सभी टॉपिक्स - त्वरित पहुंच' : '🚀 All Topics - Quick Access'}
+              </h2>
+              <p className="section-subtitle">
+                {isHindi ? 'सभी 20 विषयों के लिए सीधा लिंक' : 'Direct links to all 20 formatted topics'}
+              </p>
+            </div>
+            <Link to="/all-lessons" className="all-lessons-btn">
+              📚 {isHindi ? 'सभी 105 पाठ देखें' : 'View All 105 Lessons'} →
+            </Link>
+          </div>
+          <div className="quick-topics-grid">
+            <Link to="/topics/computer-knowledge" className="quick-topic-card"><span>💻</span><span>{isHindi ? 'कंप्यूटर ज्ञान' : 'Computer Knowledge'}</span></Link>
+            <Link to="/topics/anatomy" className="quick-topic-card"><span>🦴</span><span>{isHindi ? 'शरीर रचना' : 'Anatomy'}</span></Link>
+            <Link to="/topics/physiology" className="quick-topic-card"><span>💓</span><span>{isHindi ? 'शरीर क्रिया' : 'Physiology'}</span></Link>
+            <Link to="/topics/microbiology" className="quick-topic-card"><span>🦠</span><span>{isHindi ? 'सूक्ष्म जीव विज्ञान' : 'Microbiology'}</span></Link>
+            <Link to="/topics/first-aid" className="quick-topic-card"><span>🚑</span><span>{isHindi ? 'प्राथमिक चिकित्सा' : 'First Aid'}</span></Link>
+            <Link to="/topics/health-hygiene" className="quick-topic-card"><span>🧼</span><span>{isHindi ? 'स्वास्थ्य स्वच्छता' : 'Health & Hygiene'}</span></Link>
+            <Link to="/topics/nutrition" className="quick-topic-card"><span>🥗</span><span>{isHindi ? 'पोषण' : 'Nutrition'}</span></Link>
+            <Link to="/topics/immunization" className="quick-topic-card"><span>💉</span><span>{isHindi ? 'टीकाकरण' : 'Immunization'}</span></Link>
+            <Link to="/topics/maternal-child-health" className="quick-topic-card"><span>👩‍👧</span><span>{isHindi ? 'मातृ शिशु स्वास्थ्य' : 'MCH'}</span></Link>
+            <Link to="/topics/communicable-diseases" className="quick-topic-card"><span>🔬</span><span>{isHindi ? 'संचारी रोग' : 'Communicable Diseases'}</span></Link>
+            <Link to="/topics/public-health" className="quick-topic-card"><span>🏥</span><span>{isHindi ? 'सार्वजनिक स्वास्थ्य' : 'Public Health'}</span></Link>
+            <Link to="/topics/mental-health" className="quick-topic-card"><span>🧠</span><span>{isHindi ? 'मानसिक स्वास्थ्य' : 'Mental Health'}</span></Link>
+            <Link to="/topics/pharmacology" className="quick-topic-card"><span>💊</span><span>{isHindi ? 'औषध विज्ञान' : 'Pharmacology'}</span></Link>
+            <Link to="/topics/practical-skills" className="quick-topic-card"><span>🩺</span><span>{isHindi ? 'व्यावहारिक कौशल' : 'Practical Skills'}</span></Link>
+            <Link to="/topics/record-keeping" className="quick-topic-card"><span>📋</span><span>{isHindi ? 'रिकॉर्ड रखना' : 'Record Keeping'}</span></Link>
+            <Link to="/topics/communication-skills" className="quick-topic-card"><span>💬</span><span>{isHindi ? 'संचार कौशल' : 'Communication Skills'}</span></Link>
+            <Link to="/topics/health-education" className="quick-topic-card"><span>📢</span><span>{isHindi ? 'स्वास्थ्य शिक्षा' : 'Health Education'}</span></Link>
+            <Link to="/topics/infection-control" className="quick-topic-card"><span>🛡️</span><span>{isHindi ? 'संक्रमण नियंत्रण' : 'Infection Control'}</span></Link>
+            <Link to="/topics/general-awareness" className="quick-topic-card"><span>🌍</span><span>{isHindi ? 'सामान्य जागरूकता' : 'General Awareness'}</span></Link>
+            <Link to="/topics/occupational-health" className="quick-topic-card"><span>🏭</span><span>{isHindi ? 'व्यावसायिक स्वास्थ्य' : 'Occupational Health'}</span></Link>
+          </div>
+        </section>
+
         {/* Study Tips */}
         <section className="study-tips">
           <h2>

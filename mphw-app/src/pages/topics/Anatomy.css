@@ -1,0 +1,232 @@
+/* Anatomy Topic Styles */
+.resources-content {
+  padding: 20px;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.resource-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.resource-card.full-width {
+  grid-column: 1 / -1;
+}
+
+.resource-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.resource-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #667eea;
+}
+
+/* Bone Diagram */
+.bone-diagram {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bone-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.bone-item.total {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-left: none;
+  font-weight: 700;
+}
+
+.bone-region {
+  font-weight: 500;
+}
+
+.bone-count {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #667eea;
+}
+
+.bone-item.total .bone-count {
+  color: white;
+}
+
+/* Terms List */
+.terms-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.term-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border-radius: 10px;
+  border-left: 4px solid #22c55e;
+}
+
+.term {
+  font-weight: 700;
+  color: #166534;
+}
+
+.meaning {
+  color: #15803d;
+  font-weight: 500;
+}
+
+/* Heart Diagram */
+.heart-diagram {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.chamber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+  border-radius: 12px;
+  border: 2px solid #fca5a5;
+}
+
+.chamber-name {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #dc2626;
+}
+
+.chamber-full {
+  font-size: 0.85rem;
+  color: #991b1b;
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Lung Info */
+.lung-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lung-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border-radius: 12px;
+  border-left: 4px solid #3b82f6;
+}
+
+.lung-side {
+  font-weight: 600;
+  color: #1e40af;
+}
+
+.lung-detail {
+  font-weight: 700;
+  color: #2563eb;
+  font-size: 1.1rem;
+}
+
+/* Injection Grid */
+.injection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.injection-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background: linear-gradient(135deg, #fefce8 0%, #fef3c7 100%);
+  border-radius: 12px;
+  border: 2px solid #fbbf24;
+  text-align: center;
+}
+
+.injection-item strong {
+  color: #92400e;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.injection-item span {
+  color: #b45309;
+  font-size: 0.85rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .resources-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .resource-card {
+    padding: 20px;
+  }
+
+  .resource-icon {
+    font-size: 2rem;
+  }
+
+  .heart-diagram {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .chamber {
+    padding: 12px;
+  }
+
+  .chamber-name {
+    font-size: 1.2rem;
+  }
+
+  .injection-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .injection-item {
+    padding: 12px;
+  }
+}

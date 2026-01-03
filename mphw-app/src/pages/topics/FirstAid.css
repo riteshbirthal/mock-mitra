@@ -1,0 +1,167 @@
+/* First Aid Topic Styles */
+
+/* DRABC List */
+.drabc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.drabc-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border-radius: 10px;
+}
+
+.drabc-item .letter {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f59e0b;
+  color: white;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* CPR Values */
+.cpr-values {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cpr-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+  border-radius: 10px;
+  border-left: 4px solid #ef4444;
+}
+
+.cpr-label {
+  font-weight: 500;
+  color: #991b1b;
+}
+
+.cpr-value {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #dc2626;
+}
+
+/* Rule of Nines */
+.rule-nines {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nine-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%);
+  border-radius: 8px;
+}
+
+.nine-item span:last-child {
+  font-weight: 700;
+  color: #ea580c;
+}
+
+/* Emergency Numbers */
+.emergency-numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.number-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.number-item span:first-child {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.number-item span:last-child {
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.number-item.emergency {
+  background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+  color: white;
+}
+
+.number-item.ambulance {
+  background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%);
+  color: white;
+}
+
+.number-item.police {
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  color: white;
+}
+
+.number-item.fire {
+  background: linear-gradient(135deg, #ea580c 0%, #f97316 100%);
+  color: white;
+}
+
+/* Pressure Points */
+.pressure-points {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.point-item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+  border-radius: 12px;
+  border-left: 4px solid #ec4899;
+}
+
+.point-item strong {
+  font-size: 1.1rem;
+  color: #be185d;
+  margin-bottom: 6px;
+}
+
+.point-item span {
+  font-size: 0.9rem;
+  color: #9d174d;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .emergency-numbers {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .number-item span:first-child {
+    font-size: 1.5rem;
+  }
+
+  .pressure-points {
+    grid-template-columns: 1fr;
+  }
+}

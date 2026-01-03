@@ -10,6 +10,27 @@ import MockTest from './pages/MockTest';
 import Progress from './pages/Progress';
 import Rewards from './pages/Rewards';
 import ComputerKnowledge from './pages/topics/ComputerKnowledge';
+import Anatomy from './pages/topics/Anatomy';
+import Physiology from './pages/topics/Physiology';
+import Microbiology from './pages/topics/Microbiology';
+import FirstAid from './pages/topics/FirstAid';
+import HealthHygiene from './pages/topics/HealthHygiene';
+import Nutrition from './pages/topics/Nutrition';
+import Immunization from './pages/topics/Immunization';
+import MCH from './pages/topics/MCH';
+import CommunicableDiseases from './pages/topics/CommunicableDiseases';
+import PublicHealth from './pages/topics/PublicHealth';
+import MentalHealth from './pages/topics/MentalHealth';
+import Pharmacology from './pages/topics/Pharmacology';
+import PracticalSkills from './pages/topics/PracticalSkills';
+import RecordKeeping from './pages/topics/RecordKeeping';
+import CommunicationSkills from './pages/topics/CommunicationSkills';
+import HealthEducation from './pages/topics/HealthEducation';
+import InfectionControl from './pages/topics/InfectionControl';
+import GeneralAwareness from './pages/topics/GeneralAwareness';
+import OccupationalHealth from './pages/topics/OccupationalHealth';
+import LessonPage from './pages/LessonPage';
+import AllLessons from './pages/AllLessons';
 import './App.css';
 
 function App() {
@@ -27,6 +48,27 @@ function App() {
             <Route path="/practice/:topicId" element={<Practice />} />
             <Route path="/mock-test" element={<MockTest />} />
             <Route path="/topics/computer-knowledge" element={<ComputerKnowledge />} />
+            <Route path="/topics/anatomy" element={<Anatomy />} />
+            <Route path="/topics/physiology" element={<Physiology />} />
+            <Route path="/topics/microbiology" element={<Microbiology />} />
+            <Route path="/topics/first-aid" element={<FirstAid />} />
+            <Route path="/topics/health-hygiene" element={<HealthHygiene />} />
+            <Route path="/topics/nutrition" element={<Nutrition />} />
+            <Route path="/topics/immunization" element={<Immunization />} />
+            <Route path="/topics/maternal-child-health" element={<MCH />} />
+            <Route path="/topics/communicable-diseases" element={<CommunicableDiseases />} />
+            <Route path="/topics/public-health" element={<PublicHealth />} />
+            <Route path="/topics/mental-health" element={<MentalHealth />} />
+            <Route path="/topics/pharmacology" element={<Pharmacology />} />
+            <Route path="/topics/practical-skills" element={<PracticalSkills />} />
+            <Route path="/topics/record-keeping" element={<RecordKeeping />} />
+            <Route path="/topics/communication-skills" element={<CommunicationSkills />} />
+            <Route path="/topics/health-education" element={<HealthEducation />} />
+            <Route path="/topics/infection-control" element={<InfectionControl />} />
+            <Route path="/topics/general-awareness" element={<GeneralAwareness />} />
+            <Route path="/topics/occupational-health" element={<OccupationalHealth />} />
+            <Route path="/lesson/:topicId/:lessonId" element={<LessonPage />} />
+            <Route path="/all-lessons" element={<AllLessons />} />
             <Route path="/progress" element={<Progress />} />
             <Route path="/rewards" element={<Rewards />} />
           </Routes>
