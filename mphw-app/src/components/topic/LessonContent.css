@@ -9,8 +9,9 @@
 
 .lesson-content {
   display: flex;
-  min-height: 600px;
+  height: calc(100vh - 140px);
   background: linear-gradient(135deg, #fafbfc 0%, #f0f4f8 100%);
+  overflow: hidden;
 }
 
 .lesson-sidebar {
@@ -20,6 +21,8 @@
   padding: 24px 20px;
   flex-shrink: 0;
   box-shadow: 2px 0 8px rgba(0, 0, 0, 0.03);
+  overflow-y: auto;
+  height: 100%;
 }
 
 .sidebar-title {
@@ -107,6 +110,7 @@
   max-width: 900px;
   background: white;
   box-shadow: -4px 0 16px rgba(0, 0, 0, 0.03);
+  height: 100%;
 }
 
 .lesson-header {
@@ -741,14 +745,18 @@
 @media (max-width: 900px) {
   .lesson-content {
     flex-direction: column;
+    height: calc(100vh - 120px);
   }
 
   .lesson-sidebar {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid #e2e8f0;
-    max-height: none;
-    padding: 16px;
+    max-height: 80px;
+    height: auto;
+    padding: 12px 16px;
+    flex-shrink: 0;
+    overflow-y: hidden;
   }
 
   .sidebar-title {
@@ -779,6 +787,9 @@
 
   .lesson-main {
     padding: 20px;
+    flex: 1;
+    height: auto;
+    overflow-y: auto;
   }
 
   .lesson-header {

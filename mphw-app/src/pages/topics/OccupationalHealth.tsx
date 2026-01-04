@@ -45,7 +45,7 @@ export default function OccupationalHealth() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={occupationalHealthLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="occupational-health" />;
+      case 'learn': return <LessonContent lessons={occupationalHealthLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={ohQuestions} questionCount={10} title={isHindi ? 'व्यावसायिक स्वास्थ्य क्विज़' : 'Occupational Health Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={ohQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

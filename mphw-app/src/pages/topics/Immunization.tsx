@@ -45,7 +45,7 @@ export default function Immunization() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={immunizationLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="immunization" />;
+      case 'learn': return <LessonContent lessons={immunizationLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={immunizationQuestions} questionCount={10} title={isHindi ? 'टीकाकरण क्विज़' : 'Immunization Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={immunizationQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

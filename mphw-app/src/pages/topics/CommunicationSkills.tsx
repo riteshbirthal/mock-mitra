@@ -45,7 +45,7 @@ export default function CommunicationSkills() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={communicationSkillsLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="communication-skills" />;
+      case 'learn': return <LessonContent lessons={communicationSkillsLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={csQuestions} questionCount={10} title={isHindi ? 'संचार कौशल क्विज़' : 'Communication Skills Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={csQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

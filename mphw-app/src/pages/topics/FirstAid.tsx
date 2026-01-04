@@ -179,7 +179,6 @@ export default function FirstAid() {
             lessons={firstAidLessons}
             completedLessons={completedLessons}
             onLessonComplete={handleLessonComplete}
-            topicId="first-aid"
           />
         );
       case 'quiz':

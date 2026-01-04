@@ -45,7 +45,7 @@ export default function MCH() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={mchLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="maternal-child-health" />;
+      case 'learn': return <LessonContent lessons={mchLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={mchQuestions} questionCount={10} title={isHindi ? 'MCH क्विज़' : 'MCH Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={mchQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

@@ -49,7 +49,7 @@ export default function HealthHygiene() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={healthHygieneLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="health-hygiene" />;
+      case 'learn': return <LessonContent lessons={healthHygieneLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={healthHygieneQuestions} questionCount={10} title={isHindi ? 'स्वास्थ्य और स्वच्छता क्विज़' : 'Health & Hygiene Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={healthHygieneQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

@@ -45,7 +45,7 @@ export default function HealthEducation() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={healthEducationLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="health-education" />;
+      case 'learn': return <LessonContent lessons={healthEducationLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={heQuestions} questionCount={10} title={isHindi ? 'स्वास्थ्य शिक्षा क्विज़' : 'Health Education Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={heQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

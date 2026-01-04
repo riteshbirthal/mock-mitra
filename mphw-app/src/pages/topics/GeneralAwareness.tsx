@@ -45,7 +45,7 @@ export default function GeneralAwareness() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={generalAwarenessLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="general-awareness" />;
+      case 'learn': return <LessonContent lessons={generalAwarenessLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={gaQuestions} questionCount={10} title={isHindi ? 'सामान्य जागरूकता क्विज़' : 'General Awareness Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={gaQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

@@ -45,7 +45,7 @@ export default function PracticalSkills() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={practicalSkillsLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="practical-skills" />;
+      case 'learn': return <LessonContent lessons={practicalSkillsLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={psQuestions} questionCount={10} title={isHindi ? 'व्यावहारिक कौशल क्विज़' : 'Practical Skills Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={psQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

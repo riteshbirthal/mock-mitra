@@ -45,7 +45,7 @@ export default function InfectionControl() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={infectionControlLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="infection-control" />;
+      case 'learn': return <LessonContent lessons={infectionControlLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={icQuestions} questionCount={10} title={isHindi ? 'संक्रमण नियंत्रण क्विज़' : 'Infection Control Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={icQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

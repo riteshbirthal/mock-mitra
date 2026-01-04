@@ -179,7 +179,6 @@ export default function Microbiology() {
             lessons={microbiologyLessons}
             completedLessons={completedLessons}
             onLessonComplete={handleLessonComplete}
-            topicId="microbiology"
           />
         );
       case 'quiz':

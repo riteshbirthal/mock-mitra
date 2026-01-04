@@ -179,7 +179,6 @@ export default function Physiology() {
             lessons={physiologyLessons}
             completedLessons={completedLessons}
             onLessonComplete={handleLessonComplete}
-            topicId="physiology"
           />
         );
       case 'quiz':

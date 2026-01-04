@@ -45,7 +45,7 @@ export default function Nutrition() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={nutritionLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="nutrition" />;
+      case 'learn': return <LessonContent lessons={nutritionLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={nutritionQuestions} questionCount={10} title={isHindi ? 'पोषण क्विज़' : 'Nutrition Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={nutritionQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

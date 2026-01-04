@@ -29,7 +29,7 @@ import HealthEducation from './pages/topics/HealthEducation';
 import InfectionControl from './pages/topics/InfectionControl';
 import GeneralAwareness from './pages/topics/GeneralAwareness';
 import OccupationalHealth from './pages/topics/OccupationalHealth';
-import LessonPage from './pages/LessonPage';
+
 import AllLessons from './pages/AllLessons';
 import './App.css';
 
@@ -67,7 +67,7 @@ function App() {
             <Route path="/topics/infection-control" element={<InfectionControl />} />
             <Route path="/topics/general-awareness" element={<GeneralAwareness />} />
             <Route path="/topics/occupational-health" element={<OccupationalHealth />} />
-            <Route path="/lesson/:topicId/:lessonId" element={<LessonPage />} />
+            
             <Route path="/all-lessons" element={<AllLessons />} />
             <Route path="/progress" element={<Progress />} />
             <Route path="/rewards" element={<Rewards />} />

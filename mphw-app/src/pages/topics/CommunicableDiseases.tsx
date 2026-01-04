@@ -45,7 +45,7 @@ export default function CommunicableDiseases() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={communicableDiseasesLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="communicable-diseases" />;
+      case 'learn': return <LessonContent lessons={communicableDiseasesLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={cdQuestions} questionCount={10} title={isHindi ? 'संचारी रोग क्विज़' : 'Communicable Diseases Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={cdQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

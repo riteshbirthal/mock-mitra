@@ -60,7 +60,6 @@ export default function ComputerKnowledge() {
             lessons={computerKnowledgeLessons}
             completedLessons={completedLessons}
             onLessonComplete={handleLessonComplete}
-            topicId="computer-knowledge"
           />
         );
       case 'quiz':

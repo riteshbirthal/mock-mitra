@@ -45,7 +45,7 @@ export default function MentalHealth() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={mentalHealthLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="mental-health" />;
+      case 'learn': return <LessonContent lessons={mentalHealthLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={mhQuestions} questionCount={10} title={isHindi ? 'मानसिक स्वास्थ्य क्विज़' : 'Mental Health Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={mhQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

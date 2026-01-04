@@ -1,5 +1,4 @@
 import { useState, useMemo, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -13,7 +12,6 @@ interface LessonContentProps {
   lessons: Lesson[];
   onLessonComplete?: (lessonId: number) => void;
   completedLessons?: number[];
-  topicId?: string;
 }
 
 // Process custom callout syntax (:::info, :::tip, :::success, :::warning)
@@ -44,7 +42,7 @@ const processBoldToMark = (content: string): string => {
   return content.replace(/\*\*([^*]+)\*\*/g, '<mark>$1</mark>');
 };
 
-export default function LessonContent({ lessons, onLessonComplete, completedLessons = [], topicId }: LessonContentProps) {
+export default function LessonContent({ lessons, onLessonComplete, completedLessons = [] }: LessonContentProps) {
   const { isHindi } = useLanguage();
   
   // Initialize activeLesson from localStorage
@@ -128,14 +126,6 @@ export default function LessonContent({ lessons, onLessonComplete, completedLess
                 {isHindi ? currentLesson.titleHi : currentLesson.titleEn}
               </h2>
               <div className="lesson-actions">
-                {topicId && (
-                  <Link 
-                    to={`/lesson/${topicId}/${currentLesson.id}`}
-                    className="btn btn-outline btn-sm"
-                  >
-                    {isHindi ? 'पूरा पेज देखें' : 'Open Full Page'} ↗
-                  </Link>
-                )}
                 {!completedLessons.includes(currentLesson.id) && (
                   <button 
                     className="btn btn-success btn-sm"

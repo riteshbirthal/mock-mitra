@@ -45,7 +45,7 @@ export default function PublicHealth() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={publicHealthLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="public-health" />;
+      case 'learn': return <LessonContent lessons={publicHealthLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={phQuestions} questionCount={10} title={isHindi ? 'सार्वजनिक स्वास्थ्य क्विज़' : 'Public Health Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={phQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

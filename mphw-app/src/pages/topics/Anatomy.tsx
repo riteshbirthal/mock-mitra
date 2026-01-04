@@ -181,7 +181,6 @@ export default function Anatomy() {
             lessons={anatomyLessons}
             completedLessons={completedLessons}
             onLessonComplete={handleLessonComplete}
-            topicId="anatomy"
           />
         );
       case 'quiz':

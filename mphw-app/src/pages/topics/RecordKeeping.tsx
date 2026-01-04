@@ -45,7 +45,7 @@ export default function RecordKeeping() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={recordKeepingLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="record-keeping" />;
+      case 'learn': return <LessonContent lessons={recordKeepingLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={rkQuestions} questionCount={10} title={isHindi ? 'रिकॉर्ड रखना क्विज़' : 'Record Keeping Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={rkQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (

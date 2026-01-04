@@ -650,5 +650,2300 @@ export const healthEducationLessons: Lesson[] = [
 5. अभ्यास के लिए अवलोकन
 :::
 `
+  },
+  {
+    id: 6,
+    titleEn: "Planning Health Education Sessions",
+    titleHi: "स्वास्थ्य शिक्षा सत्र की योजना",
+    contentEn: `
+# 📋 Planning Health Education Sessions
+
+---
+
+## 📖 Why Plan?
+
+> **Planning** ensures health education sessions are effective, well-organized, and achieve desired outcomes.
+
+---
+
+## 🎯 ADDIE Model for Planning
+
+:::success
+**5 Phases of Instructional Design:**
+- **A**nalyze - Assess needs, audience
+- **D**esign - Set objectives, plan content
+- **D**evelop - Create materials
+- **I**mplement - Conduct session
+- **E**valuate - Measure effectiveness
+:::
+
+---
+
+## 📊 Needs Assessment
+
+### Questions to Ask
+
+| Question | Purpose |
+|:---------|:--------|
+| **Who** is the audience? | Identify target group |
+| **What** do they know? | Assess current knowledge |
+| **What** do they need? | Identify knowledge gaps |
+| **Why** is topic important? | Relevance to audience |
+| **Where** will session be held? | Logistics planning |
+| **When** is the best time? | Convenience for audience |
+
+### Sources of Information
+
+| Source | Data |
+|:-------|:-----|
+| Health records | Common diseases, coverage |
+| Community surveys | Knowledge, practices |
+| Key informants | Local issues, beliefs |
+| Service statistics | Utilization patterns |
+| Observation | Behaviors, environment |
+
+---
+
+## 📝 Writing Learning Objectives
+
+### SMART Objectives
+
+| Element | Description | Example |
+|:--------|:------------|:--------|
+| **S**pecific | Clear and precise | "Explain 3 danger signs in pregnancy" |
+| **M**easurable | Can be assessed | "List at least 3 signs" |
+| **A**chievable | Realistic for audience | Appropriate for education level |
+| **R**elevant | Important to learners | Related to their needs |
+| **T**ime-bound | Within session time | "By end of session" |
+
+### Domains of Learning
+
+| Domain | Focus | Action Verbs |
+|:-------|:------|:-------------|
+| **Cognitive** | Knowledge | List, describe, explain |
+| **Affective** | Attitudes | Accept, appreciate, value |
+| **Psychomotor** | Skills | Demonstrate, perform, practice |
+
+---
+
+## 📋 Session Planning Template
+
+| Component | Description |
+|:----------|:------------|
+| **Topic** | What will be taught |
+| **Audience** | Who will attend |
+| **Duration** | How long (30-60 mins ideal) |
+| **Objectives** | What learners will achieve |
+| **Content Outline** | Key points to cover |
+| **Methods** | How content will be delivered |
+| **Materials** | AV aids needed |
+| **Activities** | Interactive elements |
+| **Evaluation** | How to assess learning |
+
+---
+
+## ⏱️ Time Management
+
+### Typical Session Structure
+
+| Phase | Time | Activity |
+|:------|:-----|:---------|
+| **Introduction** | 5-10% | Welcome, objectives |
+| **Main Content** | 60-70% | Teaching points |
+| **Activities** | 15-20% | Practice, discussion |
+| **Summary** | 5-10% | Key points, Q&A |
+
+### Tips
+
+| Do | Don't |
+|:---|:------|
+| Start and end on time | Exceed allotted time |
+| Allow buffer time | Rush through content |
+| Plan for questions | Ignore audience needs |
+| Keep sessions 30-60 mins | Make sessions too long |
+
+---
+
+## 📦 Material Preparation Checklist
+
+| Item | Check |
+|:-----|:------|
+| AV aids (posters, flipcharts) | ☐ |
+| Real objects/models | ☐ |
+| Handouts/pamphlets | ☐ |
+| Demonstration materials | ☐ |
+| Registration sheets | ☐ |
+| Feedback forms | ☐ |
+| Attendance register | ☐ |
+
+---
+
+## 🎯 Quick Revision Points
+
+:::tip
+**Remember:**
+1. ADDIE = Analyze, Design, Develop, Implement, Evaluate
+2. Do needs assessment first
+3. SMART objectives guide planning
+4. 3 domains: Cognitive, Affective, Psychomotor
+5. Keep sessions 30-60 minutes
+6. Introduction 10%, Content 60-70%, Activities 20%, Summary 10%
+7. Prepare all materials in advance
+:::
+`,
+    contentHi: `
+# 📋 स्वास्थ्य शिक्षा सत्र की योजना
+
+---
+
+## 📖 योजना क्यों?
+
+> **योजना** सुनिश्चित करती है कि स्वास्थ्य शिक्षा सत्र प्रभावी, सुव्यवस्थित हों और वांछित परिणाम प्राप्त करें।
+
+---
+
+## 🎯 योजना के लिए ADDIE मॉडल
+
+:::success
+**निर्देशात्मक डिजाइन के 5 चरण:**
+- **A**nalyze - आवश्यकताओं, दर्शकों का आकलन
+- **D**esign - उद्देश्य निर्धारित, सामग्री योजना
+- **D**evelop - सामग्री बनाएं
+- **I**mplement - सत्र संचालित करें
+- **E**valuate - प्रभावशीलता मापें
+:::
+
+---
+
+## 📊 आवश्यकता आकलन
+
+### पूछने के लिए प्रश्न
+
+| प्रश्न | उद्देश्य |
+|:------|:--------|
+| दर्शक **कौन** हैं? | लक्ष्य समूह पहचानें |
+| वे **क्या** जानते हैं? | वर्तमान ज्ञान आकलन |
+| उन्हें **क्या** चाहिए? | ज्ञान अंतराल पहचानें |
+| विषय **क्यों** महत्वपूर्ण? | दर्शकों के लिए प्रासंगिकता |
+| सत्र **कहां** होगा? | लॉजिस्टिक्स योजना |
+| **कब** सबसे अच्छा समय? | दर्शकों की सुविधा |
+
+### जानकारी के स्रोत
+
+| स्रोत | डेटा |
+|:------|:-----|
+| स्वास्थ्य रिकॉर्ड | आम बीमारियां, कवरेज |
+| सामुदायिक सर्वेक्षण | ज्ञान, प्रथाएं |
+| मुख्य सूचनादाता | स्थानीय मुद्दे, विश्वास |
+| सेवा आंकड़े | उपयोग पैटर्न |
+| अवलोकन | व्यवहार, वातावरण |
+
+---
+
+## 📝 सीखने के उद्देश्य लिखना
+
+### SMART उद्देश्य
+
+| तत्व | विवरण | उदाहरण |
+|:-----|:------|:-------|
+| **S**pecific | स्पष्ट और सटीक | "गर्भावस्था में 3 खतरे के संकेत समझाएं" |
+| **M**easurable | आकलन योग्य | "कम से कम 3 संकेत सूचीबद्ध करें" |
+| **A**chievable | दर्शकों के लिए वास्तविक | शिक्षा स्तर के अनुसार |
+| **R**elevant | सीखने वालों के लिए महत्वपूर्ण | उनकी जरूरतों से संबंधित |
+| **T**ime-bound | सत्र समय के भीतर | "सत्र के अंत तक" |
+
+### सीखने के क्षेत्र
+
+| क्षेत्र | फोकस | क्रिया शब्द |
+|:------|:-----|:----------|
+| **संज्ञानात्मक** | ज्ञान | सूचीबद्ध, वर्णन, समझाएं |
+| **भावात्मक** | दृष्टिकोण | स्वीकार, सराहना, महत्व |
+| **मनोगतिक** | कौशल | प्रदर्शित, प्रदर्शन, अभ्यास |
+
+---
+
+## 📋 सत्र योजना टेम्पलेट
+
+| घटक | विवरण |
+|:----|:------|
+| **विषय** | क्या पढ़ाया जाएगा |
+| **दर्शक** | कौन भाग लेगा |
+| **अवधि** | कितनी देर (30-60 मिनट आदर्श) |
+| **उद्देश्य** | सीखने वाले क्या हासिल करेंगे |
+| **सामग्री रूपरेखा** | कवर करने के मुख्य बिंदु |
+| **विधियां** | सामग्री कैसे दी जाएगी |
+| **सामग्री** | आवश्यक AV सहायक |
+| **गतिविधियां** | संवादात्मक तत्व |
+| **मूल्यांकन** | सीखने का आकलन कैसे |
+
+---
+
+## ⏱️ समय प्रबंधन
+
+### विशिष्ट सत्र संरचना
+
+| चरण | समय | गतिविधि |
+|:----|:----|:--------|
+| **परिचय** | 5-10% | स्वागत, उद्देश्य |
+| **मुख्य सामग्री** | 60-70% | शिक्षण बिंदु |
+| **गतिविधियां** | 15-20% | अभ्यास, चर्चा |
+| **सारांश** | 5-10% | मुख्य बिंदु, Q&A |
+
+### सुझाव
+
+| करें | न करें |
+|:----|:------|
+| समय पर शुरू और समाप्त करें | आवंटित समय से अधिक |
+| बफर समय रखें | सामग्री में जल्दबाजी |
+| प्रश्नों के लिए योजना | दर्शकों की जरूरतें अनदेखी |
+| सत्र 30-60 मिनट रखें | सत्र बहुत लंबे |
+
+---
+
+## 🎯 त्वरित संशोधन बिंदु
+
+:::tip
+**याद रखें:**
+1. ADDIE = विश्लेषण, डिजाइन, विकास, कार्यान्वयन, मूल्यांकन
+2. पहले आवश्यकता आकलन करें
+3. SMART उद्देश्य योजना मार्गदर्शन करते हैं
+4. 3 क्षेत्र: संज्ञानात्मक, भावात्मक, मनोगतिक
+5. सत्र 30-60 मिनट रखें
+6. परिचय 10%, सामग्री 60-70%, गतिविधियां 20%, सारांश 10%
+7. सभी सामग्री पहले से तैयार करें
+:::
+`
+  },
+  {
+    id: 7,
+    titleEn: "Teaching Methods & Techniques",
+    titleHi: "शिक्षण विधियां और तकनीकें",
+    contentEn: `
+# 📚 Teaching Methods & Techniques
+
+---
+
+## 📖 Types of Teaching Methods
+
+> Different methods suit different audiences, topics, and objectives.
+
+---
+
+## 🗣️ Lecture Method
+
+### Description
+One-way presentation of information by the educator
+
+### Best For
+- Large groups
+- Providing factual information
+- Introduction of new topics
+
+### Tips for Effective Lectures
+
+| Do | Don't |
+|:---|:------|
+| Use simple language | Read from notes |
+| Make eye contact | Speak too fast |
+| Use examples | Use technical jargon |
+| Include questions | Talk non-stop |
+| Vary voice tone | Be monotonous |
+
+---
+
+## 💬 Discussion Method
+
+### Description
+Two-way exchange of ideas between educator and learners
+
+### Types
+
+| Type | Description | Best For |
+|:-----|:------------|:---------|
+| **Guided** | Educator leads | Exploring concepts |
+| **Open** | Learners lead | Problem-solving |
+| **Panel** | Experts discuss | Multiple perspectives |
+| **Brainstorming** | Free ideas | Generating solutions |
+
+### Facilitation Tips
+- Ask open-ended questions
+- Encourage participation
+- Summarize key points
+- Manage dominant speakers
+- Keep on topic
+
+---
+
+## 🎭 Demonstration Method
+
+### Description
+Showing how to perform a skill or procedure
+
+### Steps
+
+| Step | Action |
+|:-----|:-------|
+| 1 | **Explain** - Tell what will be done |
+| 2 | **Demonstrate** - Show how it's done |
+| 3 | **Practice** - Learners try it |
+| 4 | **Feedback** - Correct and reinforce |
+
+### Best For
+- Clinical procedures
+- Hand washing technique
+- ORS preparation
+- Breastfeeding position
+
+---
+
+## 🎬 Role Play Method
+
+### Description
+Acting out situations to practice skills or explore attitudes
+
+### Types
+
+| Type | Description |
+|:-----|:------------|
+| **Structured** | Script provided |
+| **Spontaneous** | Improvised |
+| **Fishbowl** | Inner group acts, outer observes |
+
+### Best For
+- Counseling skills
+- Communication practice
+- Exploring sensitive topics
+- Understanding different perspectives
+
+### Steps
+1. Explain the scenario
+2. Assign roles
+3. Act out the situation
+4. Debrief and discuss
+5. Summarize learning
+
+---
+
+## 👥 Group Work Method
+
+### Description
+Small groups work together on tasks
+
+### Types
+
+| Type | Size | Task |
+|:-----|:-----|:-----|
+| **Buzz groups** | 2-3 | Quick discussion |
+| **Small groups** | 4-6 | Problem-solving |
+| **Case study** | 4-8 | Analyze scenarios |
+| **Projects** | 4-8 | Extended tasks |
+
+### Benefits
+- Active participation
+- Peer learning
+- Multiple perspectives
+- Builds confidence
+
+---
+
+## 📊 Case Study Method
+
+### Description
+Analyzing real or realistic scenarios
+
+### Structure
+
+| Component | Content |
+|:----------|:--------|
+| **Background** | Context of the case |
+| **Problem** | Issue to be addressed |
+| **Questions** | Points to discuss |
+| **Discussion** | Analysis by group |
+| **Summary** | Key learnings |
+
+### Example Case
+> "Sunita, 24, pregnant with first child, hasn't attended ANC. Lives 5 km from PHC. Husband is migrant worker. What barriers might she face? How can you help?"
+
+---
+
+## 🎮 Games & Simulations
+
+### Types
+
+| Type | Use |
+|:-----|:----|
+| **Quiz games** | Knowledge testing |
+| **Board games** | Topic reinforcement |
+| **Card matching** | Association learning |
+| **Simulations** | Skill practice |
+
+### Benefits
+- Fun and engaging
+- Non-threatening learning
+- Reinforces key messages
+- Memorable
+
+---
+
+## 🎯 Matching Methods to Objectives
+
+| Objective | Best Methods |
+|:----------|:-------------|
+| **Knowledge** | Lecture, discussion, reading |
+| **Comprehension** | Case study, discussion |
+| **Application** | Demonstration, practice |
+| **Analysis** | Case study, problem-solving |
+| **Attitude change** | Discussion, role play |
+| **Skill development** | Demonstration, practice |
+
+---
+
+## 🎯 Quick Revision Points
+
+:::tip
+**Remember:**
+1. Lecture = One-way, good for large groups
+2. Discussion = Two-way, explores ideas
+3. Demonstration = Show → Practice → Feedback
+4. Role play = Act out scenarios
+5. Group work = Active participation
+6. Case study = Analyze real scenarios
+7. Match method to learning objective
+8. Combine methods for best results
+:::
+`,
+    contentHi: `
+# 📚 शिक्षण विधियां और तकनीकें
+
+---
+
+## 📖 शिक्षण विधियों के प्रकार
+
+> विभिन्न विधियां विभिन्न दर्शकों, विषयों और उद्देश्यों के लिए उपयुक्त हैं।
+
+---
+
+## 🗣️ व्याख्यान विधि
+
+### विवरण
+शिक्षक द्वारा जानकारी की एक-तरफा प्रस्तुति
+
+### के लिए सर्वश्रेष्ठ
+- बड़े समूह
+- तथ्यात्मक जानकारी प्रदान करना
+- नए विषयों का परिचय
+
+### प्रभावी व्याख्यान के लिए सुझाव
+
+| करें | न करें |
+|:----|:------|
+| सरल भाषा का उपयोग | नोट्स से पढ़ें |
+| आंखों का संपर्क रखें | बहुत तेज बोलें |
+| उदाहरणों का उपयोग | तकनीकी शब्दावली |
+| प्रश्न शामिल करें | बिना रुके बोलें |
+| आवाज का स्वर बदलें | नीरस रहें |
+
+---
+
+## 💬 चर्चा विधि
+
+### विवरण
+शिक्षक और सीखने वालों के बीच विचारों का दो-तरफा आदान-प्रदान
+
+### प्रकार
+
+| प्रकार | विवरण | के लिए सर्वश्रेष्ठ |
+|:------|:------|:--------------|
+| **निर्देशित** | शिक्षक नेतृत्व | अवधारणाएं खोजना |
+| **खुली** | सीखने वाले नेतृत्व | समस्या-समाधान |
+| **पैनल** | विशेषज्ञ चर्चा | कई दृष्टिकोण |
+| **ब्रेनस्टॉर्मिंग** | मुक्त विचार | समाधान उत्पन्न करना |
+
+### सुविधा सुझाव
+- खुले प्रश्न पूछें
+- भागीदारी प्रोत्साहित करें
+- मुख्य बिंदुओं का सारांश
+- प्रभावशाली वक्ताओं को प्रबंधित करें
+- विषय पर रहें
+
+---
+
+## 🎭 प्रदर्शन विधि
+
+### विवरण
+कौशल या प्रक्रिया कैसे करें यह दिखाना
+
+### चरण
+
+| चरण | कार्य |
+|:----|:-----|
+| 1 | **समझाएं** - क्या किया जाएगा बताएं |
+| 2 | **प्रदर्शित करें** - कैसे करना है दिखाएं |
+| 3 | **अभ्यास** - सीखने वाले कोशिश करें |
+| 4 | **प्रतिक्रिया** - सही करें और मजबूत करें |
+
+### के लिए सर्वश्रेष्ठ
+- नैदानिक प्रक्रियाएं
+- हाथ धोने की तकनीक
+- ORS तैयारी
+- स्तनपान स्थिति
+
+---
+
+## 🎬 रोल प्ले विधि
+
+### विवरण
+कौशल अभ्यास या दृष्टिकोण खोजने के लिए स्थितियों का अभिनय
+
+### प्रकार
+
+| प्रकार | विवरण |
+|:------|:------|
+| **संरचित** | स्क्रिप्ट प्रदान |
+| **स्वतःस्फूर्त** | आशुरचित |
+| **फिशबाउल** | आंतरिक समूह अभिनय, बाहरी देखें |
+
+### के लिए सर्वश्रेष्ठ
+- परामर्श कौशल
+- संचार अभ्यास
+- संवेदनशील विषय खोजना
+- विभिन्न दृष्टिकोण समझना
+
+---
+
+## 👥 समूह कार्य विधि
+
+### विवरण
+छोटे समूह कार्यों पर मिलकर काम करते हैं
+
+### प्रकार
+
+| प्रकार | आकार | कार्य |
+|:------|:-----|:-----|
+| **बज़ समूह** | 2-3 | त्वरित चर्चा |
+| **छोटे समूह** | 4-6 | समस्या-समाधान |
+| **केस स्टडी** | 4-8 | परिदृश्य विश्लेषण |
+| **प्रोजेक्ट** | 4-8 | विस्तारित कार्य |
+
+### लाभ
+- सक्रिय भागीदारी
+- सहकर्मी सीखना
+- कई दृष्टिकोण
+- आत्मविश्वास बनाता है
+
+---
+
+## 📊 केस स्टडी विधि
+
+### विवरण
+वास्तविक या यथार्थवादी परिदृश्यों का विश्लेषण
+
+### संरचना
+
+| घटक | सामग्री |
+|:----|:-------|
+| **पृष्ठभूमि** | मामले का संदर्भ |
+| **समस्या** | संबोधित करने का मुद्दा |
+| **प्रश्न** | चर्चा बिंदु |
+| **चर्चा** | समूह द्वारा विश्लेषण |
+| **सारांश** | मुख्य सीख |
+
+---
+
+## 🎯 उद्देश्यों से विधियां मिलाना
+
+| उद्देश्य | सर्वश्रेष्ठ विधियां |
+|:--------|:--------------|
+| **ज्ञान** | व्याख्यान, चर्चा, पढ़ना |
+| **समझ** | केस स्टडी, चर्चा |
+| **अनुप्रयोग** | प्रदर्शन, अभ्यास |
+| **विश्लेषण** | केस स्टडी, समस्या-समाधान |
+| **दृष्टिकोण परिवर्तन** | चर्चा, रोल प्ले |
+| **कौशल विकास** | प्रदर्शन, अभ्यास |
+
+---
+
+## 🎯 त्वरित संशोधन बिंदु
+
+:::tip
+**याद रखें:**
+1. व्याख्यान = एक-तरफा, बड़े समूहों के लिए अच्छा
+2. चर्चा = दो-तरफा, विचारों की खोज
+3. प्रदर्शन = दिखाएं → अभ्यास → प्रतिक्रिया
+4. रोल प्ले = परिदृश्यों का अभिनय
+5. समूह कार्य = सक्रिय भागीदारी
+6. केस स्टडी = वास्तविक परिदृश्यों का विश्लेषण
+7. सीखने के उद्देश्य से विधि मिलाएं
+8. सर्वोत्तम परिणामों के लिए विधियां संयोजित करें
+:::
+`
+  },
+  {
+    id: 8,
+    titleEn: "Health Education in Different Settings",
+    titleHi: "विभिन्न परिस्थितियों में स्वास्थ्य शिक्षा",
+    contentEn: `
+# 🏥 Health Education in Different Settings
+
+---
+
+## 📖 Settings for Health Education
+
+> Health education happens in various settings, each requiring different approaches.
+
+---
+
+## 🏠 Home-Based Health Education
+
+### Opportunities
+
+| Occasion | Topics |
+|:---------|:-------|
+| **ANC home visit** | Danger signs, nutrition, birth preparedness |
+| **PNC visit** | Newborn care, breastfeeding, immunization |
+| **Child health visit** | Growth monitoring, nutrition, WASH |
+| **Follow-up visit** | Treatment compliance, lifestyle |
+
+### Advantages
+
+| Advantage | Description |
+|:----------|:------------|
+| **Personalized** | Tailored to family needs |
+| **Private** | Confidential discussions |
+| **Practical** | See actual living conditions |
+| **Family involvement** | Include decision-makers |
+| **Reinforcement** | Repeat visits possible |
+
+### Tips
+- Respect the home environment
+- Include family members appropriately
+- Use teach-back method
+- Leave written materials
+- Schedule follow-up
+
+---
+
+## 🏥 Facility-Based Health Education
+
+### Settings
+
+| Setting | Activities |
+|:--------|:-----------|
+| **OPD waiting area** | Group health talks, video shows |
+| **ANC clinic** | Focused ANC counseling |
+| **Immunization clinic** | Vaccine information, next visit |
+| **Inpatient ward** | Disease-specific education |
+| **Postnatal ward** | Breastfeeding, newborn care |
+
+### Challenges & Solutions
+
+| Challenge | Solution |
+|:----------|:---------|
+| Crowded waiting area | Shorter, focused talks |
+| Noise and distractions | Use visual aids |
+| Limited time | Prioritize key messages |
+| Mixed audience | Address common needs first |
+| Language barriers | Use local language, interpreters |
+
+---
+
+## 🏘️ Community-Based Health Education
+
+### Platforms
+
+| Platform | Description |
+|:---------|:------------|
+| **VHND** | Monthly health & nutrition day |
+| **VHSNC meeting** | Village health committee |
+| **SHG meeting** | Self-help group |
+| **Gram Sabha** | Village assembly |
+| **Community events** | Festivals, gatherings |
+
+### VHND Activities
+
+| Activity | Health Education |
+|:---------|:-----------------|
+| Immunization | Importance, schedule, AEFI |
+| ANC checkup | Danger signs, nutrition |
+| Growth monitoring | Child nutrition, feeding |
+| Nutrition counseling | Complementary feeding |
+| Health talks | Topic of the month |
+
+---
+
+## 🏫 School-Based Health Education
+
+### Topics by Age
+
+| Age Group | Topics |
+|:----------|:-------|
+| **Primary (6-10)** | Personal hygiene, handwashing, nutrition |
+| **Middle (11-14)** | Puberty, menstrual hygiene, tobacco |
+| **High School (15-18)** | Reproductive health, mental health, substance abuse |
+
+### Activities
+
+| Activity | Focus |
+|:---------|:------|
+| **Health talks** | Topic-based information |
+| **Demonstrations** | Handwashing, toothbrushing |
+| **Competitions** | Poster, essay, quiz |
+| **Health clubs** | Peer education |
+| **Health checkups** | Screening, referral |
+
+---
+
+## 🏭 Workplace Health Education
+
+### Topics
+
+| Topic | Focus |
+|:------|:------|
+| **Occupational hazards** | Prevention, safety |
+| **Lifestyle diseases** | NCD screening, diet |
+| **Mental health** | Stress management |
+| **First aid** | Emergency response |
+| **Sanitation** | WASH at workplace |
+
+### Methods
+- Toolbox talks (short talks before shifts)
+- Safety demonstrations
+- Posters and signage
+- Health camps
+- Employee training
+
+---
+
+## 📊 Adapting to Different Settings
+
+| Factor | Adaptation |
+|:-------|:-----------|
+| **Group size** | Large: Lecture; Small: Discussion |
+| **Time available** | Short: Key messages; Long: Detailed |
+| **Literacy level** | Low: Visual aids; High: Written materials |
+| **Language** | Use local language, avoid jargon |
+| **Cultural context** | Respect local practices |
+| **Privacy needs** | Private: Sensitive topics |
+
+---
+
+## 🎯 Quick Revision Points
+
+:::tip
+**Remember:**
+1. Home visits allow personalized education
+2. OPD waiting area for group talks
+3. VHND is key community platform
+4. School health by age-appropriate topics
+5. Workplace: Toolbox talks, safety demos
+6. Adapt methods to setting
+7. Always consider privacy for sensitive topics
+8. Use local language and cultural context
+:::
+`,
+    contentHi: `
+# 🏥 विभिन्न परिस्थितियों में स्वास्थ्य शिक्षा
+
+---
+
+## 📖 स्वास्थ्य शिक्षा के लिए स्थान
+
+> स्वास्थ्य शिक्षा विभिन्न स्थानों में होती है, प्रत्येक को अलग दृष्टिकोण की आवश्यकता होती है।
+
+---
+
+## 🏠 घर-आधारित स्वास्थ्य शिक्षा
+
+### अवसर
+
+| अवसर | विषय |
+|:-----|:-----|
+| **ANC घर का दौरा** | खतरे के संकेत, पोषण, जन्म तैयारी |
+| **PNC दौरा** | नवजात देखभाल, स्तनपान, टीकाकरण |
+| **बाल स्वास्थ्य दौरा** | वृद्धि निगरानी, पोषण, WASH |
+| **फॉलो-अप दौरा** | उपचार पालन, जीवनशैली |
+
+### लाभ
+
+| लाभ | विवरण |
+|:----|:------|
+| **व्यक्तिगत** | परिवार की जरूरतों के अनुसार |
+| **निजी** | गोपनीय चर्चा |
+| **व्यावहारिक** | वास्तविक रहने की स्थिति देखें |
+| **परिवार की भागीदारी** | निर्णयकर्ताओं को शामिल करें |
+| **सुदृढ़ीकरण** | दोहराए गए दौरे संभव |
+
+### सुझाव
+- घर के वातावरण का सम्मान करें
+- परिवार के सदस्यों को उचित रूप से शामिल करें
+- टीच-बैक विधि का उपयोग करें
+- लिखित सामग्री छोड़ें
+- फॉलो-अप शेड्यूल करें
+
+---
+
+## 🏥 सुविधा-आधारित स्वास्थ्य शिक्षा
+
+### स्थान
+
+| स्थान | गतिविधियां |
+|:------|:----------|
+| **OPD प्रतीक्षा क्षेत्र** | समूह स्वास्थ्य वार्ता, वीडियो शो |
+| **ANC क्लिनिक** | केंद्रित ANC परामर्श |
+| **टीकाकरण क्लिनिक** | वैक्सीन जानकारी, अगली विजिट |
+| **IPD वार्ड** | रोग-विशिष्ट शिक्षा |
+| **प्रसवोत्तर वार्ड** | स्तनपान, नवजात देखभाल |
+
+### चुनौतियां और समाधान
+
+| चुनौती | समाधान |
+|:-------|:------|
+| भीड़भाड़ वाला प्रतीक्षा क्षेत्र | छोटी, केंद्रित वार्ता |
+| शोर और विकर्षण | दृश्य सहायकों का उपयोग |
+| सीमित समय | मुख्य संदेशों को प्राथमिकता |
+| मिश्रित दर्शक | पहले सामान्य जरूरतें संबोधित |
+| भाषा बाधाएं | स्थानीय भाषा, दुभाषिया |
+
+---
+
+## 🏘️ समुदाय-आधारित स्वास्थ्य शिक्षा
+
+### मंच
+
+| मंच | विवरण |
+|:----|:------|
+| **VHND** | मासिक स्वास्थ्य और पोषण दिवस |
+| **VHSNC बैठक** | ग्राम स्वास्थ्य समिति |
+| **SHG बैठक** | स्व-सहायता समूह |
+| **ग्राम सभा** | ग्राम सभा |
+| **सामुदायिक कार्यक्रम** | त्योहार, सभाएं |
+
+### VHND गतिविधियां
+
+| गतिविधि | स्वास्थ्य शिक्षा |
+|:--------|:--------------|
+| टीकाकरण | महत्व, अनुसूची, AEFI |
+| ANC जांच | खतरे के संकेत, पोषण |
+| वृद्धि निगरानी | बाल पोषण, आहार |
+| पोषण परामर्श | पूरक आहार |
+| स्वास्थ्य वार्ता | महीने का विषय |
+
+---
+
+## 🏫 स्कूल-आधारित स्वास्थ्य शिक्षा
+
+### आयु के अनुसार विषय
+
+| आयु समूह | विषय |
+|:---------|:-----|
+| **प्राथमिक (6-10)** | व्यक्तिगत स्वच्छता, हाथ धोना, पोषण |
+| **मध्य (11-14)** | यौवन, मासिक धर्म स्वच्छता, तंबाकू |
+| **हाई स्कूल (15-18)** | प्रजनन स्वास्थ्य, मानसिक स्वास्थ्य, मादक द्रव्य |
+
+### गतिविधियां
+
+| गतिविधि | फोकस |
+|:--------|:-----|
+| **स्वास्थ्य वार्ता** | विषय-आधारित जानकारी |
+| **प्रदर्शन** | हाथ धोना, दांत ब्रश करना |
+| **प्रतियोगिताएं** | पोस्टर, निबंध, क्विज़ |
+| **स्वास्थ्य क्लब** | सहकर्मी शिक्षा |
+| **स्वास्थ्य जांच** | स्क्रीनिंग, रेफरल |
+
+---
+
+## 🏭 कार्यस्थल स्वास्थ्य शिक्षा
+
+### विषय
+
+| विषय | फोकस |
+|:-----|:-----|
+| **व्यावसायिक खतरे** | रोकथाम, सुरक्षा |
+| **जीवनशैली रोग** | NCD स्क्रीनिंग, आहार |
+| **मानसिक स्वास्थ्य** | तनाव प्रबंधन |
+| **प्राथमिक चिकित्सा** | आपातकालीन प्रतिक्रिया |
+| **स्वच्छता** | कार्यस्थल पर WASH |
+
+### विधियां
+- टूलबॉक्स वार्ता (शिफ्ट से पहले छोटी वार्ता)
+- सुरक्षा प्रदर्शन
+- पोस्टर और साइनेज
+- स्वास्थ्य शिविर
+- कर्मचारी प्रशिक्षण
+
+---
+
+## 🎯 त्वरित संशोधन बिंदु
+
+:::tip
+**याद रखें:**
+1. घर के दौरे व्यक्तिगत शिक्षा की अनुमति देते हैं
+2. समूह वार्ता के लिए OPD प्रतीक्षा क्षेत्र
+3. VHND मुख्य सामुदायिक मंच है
+4. आयु-उपयुक्त विषयों द्वारा स्कूल स्वास्थ्य
+5. कार्यस्थल: टूलबॉक्स वार्ता, सुरक्षा प्रदर्शन
+6. सेटिंग के अनुसार विधियां अनुकूलित करें
+7. संवेदनशील विषयों के लिए हमेशा गोपनीयता पर विचार करें
+8. स्थानीय भाषा और सांस्कृतिक संदर्भ का उपयोग करें
+:::
+`
+  },
+  {
+    id: 9,
+    titleEn: "Community Participation in Health Education",
+    titleHi: "स्वास्थ्य शिक्षा में सामुदायिक भागीदारी",
+    contentEn: `
+# 🤝 Community Participation in Health Education
+
+---
+
+## 📖 What is Community Participation?
+
+> **Community Participation** is the active involvement of community members in planning, implementing, and evaluating health programs.
+
+---
+
+## 🎯 Levels of Participation
+
+| Level | Description | Example |
+|:------|:------------|:--------|
+| **Passive** | Receive information | Attend health talk |
+| **Consultative** | Give feedback | Answer surveys |
+| **Interactive** | Share decisions | VHSNC planning |
+| **Self-mobilization** | Lead initiatives | Community-led sanitation |
+
+---
+
+## 👥 Key Community Stakeholders
+
+| Stakeholder | Role in Health Education |
+|:------------|:------------------------|
+| **VHSNC** | Planning, monitoring, mobilization |
+| **PRI members** | Resource allocation, advocacy |
+| **ASHA** | Community link, mobilization |
+| **AWW** | Nutrition education, ECCD |
+| **SHG members** | Peer education, support |
+| **Teachers** | School health education |
+| **Religious leaders** | Influence community beliefs |
+| **Youth groups** | Peer education, campaigns |
+
+---
+
+## 🏥 VHSNC (Village Health Sanitation and Nutrition Committee)
+
+### Composition
+
+| Member | Role |
+|:-------|:-----|
+| **Elected representative** | Chairperson |
+| **ANM** | Technical guidance |
+| **ASHA** | Secretary, mobilization |
+| **AWW** | Nutrition focus |
+| **Community members** | Women, SC/ST representatives |
+
+### Health Education Activities
+
+| Activity | Description |
+|:---------|:------------|
+| **Monthly meetings** | Discuss village health issues |
+| **Village Health Plan** | Identify priorities, plan activities |
+| **VHND planning** | Organize monthly health day |
+| **Monitoring** | Track health indicators |
+| **Resource mobilization** | Untied funds utilization |
+
+---
+
+## 🌟 Peer Education
+
+### What is Peer Education?
+
+> **Peer Education** is teaching by individuals of similar age, status, or background.
+
+### Benefits
+
+| Benefit | Description |
+|:--------|:------------|
+| **Credibility** | Trust among peers |
+| **Accessibility** | Easy to reach |
+| **Relatability** | Understand context |
+| **Sustainability** | Community-based |
+| **Cost-effective** | Volunteers |
+
+### Examples
+
+| Group | Topic |
+|:------|:------|
+| **Adolescent girls** | Menstrual hygiene, nutrition |
+| **New mothers** | Breastfeeding support |
+| **Men's groups** | Family planning, MCH support |
+| **Youth** | HIV/AIDS, substance abuse |
+
+---
+
+## 🔄 Participatory Learning Methods
+
+### PLA (Participatory Learning and Action)
+
+| Tool | Use |
+|:-----|:----|
+| **Community mapping** | Identify resources, problems |
+| **Transect walk** | Observe village conditions |
+| **Seasonal calendar** | Disease patterns, activities |
+| **Problem tree** | Analyze cause and effect |
+| **Focus group** | Explore issues in depth |
+
+### Steps in PLA
+
+| Step | Activity |
+|:-----|:---------|
+| 1 | **Build rapport** with community |
+| 2 | **Identify** issues together |
+| 3 | **Analyze** causes and solutions |
+| 4 | **Plan** actions |
+| 5 | **Implement** together |
+| 6 | **Monitor** and adjust |
+
+---
+
+## 📢 Community Mobilization for Health
+
+### Strategies
+
+| Strategy | Example |
+|:---------|:--------|
+| **Health melas** | Awareness camps with services |
+| **Rallies** | Immunization drives |
+| **Street plays** | HIV/AIDS, sanitation |
+| **Wall paintings** | Health messages |
+| **Folk media** | Songs, puppet shows |
+| **Community meetings** | VHND, Gram Sabha |
+
+### Success Factors
+
+| Factor | Description |
+|:-------|:------------|
+| **Local ownership** | Community leads initiatives |
+| **Cultural relevance** | Respect local practices |
+| **Inclusion** | All groups participate |
+| **Sustainability** | Build local capacity |
+| **Recognition** | Acknowledge contributions |
+
+---
+
+## 🎯 Quick Revision Points
+
+:::tip
+**Remember:**
+1. Community participation = Active involvement
+2. Levels: Passive → Consultative → Interactive → Self-mobilization
+3. VHSNC key for village health planning
+4. Peer education by similar age/status
+5. PLA tools: Mapping, transect walk, seasonal calendar
+6. Health melas combine education with services
+7. Success needs local ownership and cultural relevance
+8. Include all community sections, especially marginalized
+:::
+`,
+    contentHi: `
+# 🤝 स्वास्थ्य शिक्षा में सामुदायिक भागीदारी
+
+---
+
+## 📖 सामुदायिक भागीदारी क्या है?
+
+> **सामुदायिक भागीदारी** स्वास्थ्य कार्यक्रमों की योजना, कार्यान्वयन और मूल्यांकन में समुदाय के सदस्यों की सक्रिय भागीदारी है।
+
+---
+
+## 🎯 भागीदारी के स्तर
+
+| स्तर | विवरण | उदाहरण |
+|:-----|:------|:-------|
+| **निष्क्रिय** | जानकारी प्राप्त करें | स्वास्थ्य वार्ता में भाग लें |
+| **परामर्शी** | प्रतिक्रिया दें | सर्वेक्षणों का उत्तर |
+| **संवादात्मक** | निर्णय साझा करें | VHSNC योजना |
+| **स्व-गतिशीलता** | पहल का नेतृत्व | समुदाय-नेतृत्व स्वच्छता |
+
+---
+
+## 👥 मुख्य सामुदायिक हितधारक
+
+| हितधारक | स्वास्थ्य शिक्षा में भूमिका |
+|:---------|:------------------------|
+| **VHSNC** | योजना, निगरानी, गतिशीलता |
+| **PRI सदस्य** | संसाधन आवंटन, वकालत |
+| **ASHA** | सामुदायिक लिंक, गतिशीलता |
+| **AWW** | पोषण शिक्षा, ECCD |
+| **SHG सदस्य** | सहकर्मी शिक्षा, समर्थन |
+| **शिक्षक** | स्कूल स्वास्थ्य शिक्षा |
+| **धार्मिक नेता** | सामुदायिक विश्वासों को प्रभावित |
+| **युवा समूह** | सहकर्मी शिक्षा, अभियान |
+
+---
+
+## 🏥 VHSNC (ग्राम स्वास्थ्य स्वच्छता और पोषण समिति)
+
+### संरचना
+
+| सदस्य | भूमिका |
+|:------|:------|
+| **निर्वाचित प्रतिनिधि** | अध्यक्ष |
+| **ANM** | तकनीकी मार्गदर्शन |
+| **ASHA** | सचिव, गतिशीलता |
+| **AWW** | पोषण फोकस |
+| **समुदाय के सदस्य** | महिलाएं, SC/ST प्रतिनिधि |
+
+### स्वास्थ्य शिक्षा गतिविधियां
+
+| गतिविधि | विवरण |
+|:--------|:------|
+| **मासिक बैठकें** | ग्राम स्वास्थ्य मुद्दों पर चर्चा |
+| **ग्राम स्वास्थ्य योजना** | प्राथमिकताएं पहचानें, गतिविधियां योजना |
+| **VHND योजना** | मासिक स्वास्थ्य दिवस आयोजित |
+| **निगरानी** | स्वास्थ्य संकेतकों को ट्रैक करें |
+| **संसाधन गतिशीलता** | अनटाइड फंड उपयोग |
+
+---
+
+## 🌟 सहकर्मी शिक्षा
+
+### सहकर्मी शिक्षा क्या है?
+
+> **सहकर्मी शिक्षा** समान आयु, स्थिति या पृष्ठभूमि के व्यक्तियों द्वारा शिक्षण है।
+
+### लाभ
+
+| लाभ | विवरण |
+|:----|:------|
+| **विश्वसनीयता** | साथियों के बीच विश्वास |
+| **पहुंच** | आसानी से पहुंचें |
+| **संबंधितता** | संदर्भ समझें |
+| **स्थिरता** | समुदाय-आधारित |
+| **लागत-प्रभावी** | स्वयंसेवक |
+
+### उदाहरण
+
+| समूह | विषय |
+|:-----|:-----|
+| **किशोर लड़कियां** | मासिक धर्म स्वच्छता, पोषण |
+| **नई माताएं** | स्तनपान समर्थन |
+| **पुरुष समूह** | परिवार नियोजन, MCH समर्थन |
+| **युवा** | HIV/AIDS, मादक द्रव्य |
+
+---
+
+## 🔄 सहभागी सीखने की विधियां
+
+### PLA (सहभागी सीखना और कार्रवाई)
+
+| उपकरण | उपयोग |
+|:------|:-----|
+| **सामुदायिक मानचित्रण** | संसाधन, समस्याएं पहचानें |
+| **ट्रांसेक्ट वॉक** | गांव की स्थिति देखें |
+| **मौसमी कैलेंडर** | रोग पैटर्न, गतिविधियां |
+| **समस्या वृक्ष** | कारण और प्रभाव विश्लेषण |
+| **फोकस समूह** | मुद्दों की गहराई से खोज |
+
+### PLA में चरण
+
+| चरण | गतिविधि |
+|:----|:--------|
+| 1 | समुदाय के साथ **तालमेल बनाएं** |
+| 2 | मिलकर मुद्दे **पहचानें** |
+| 3 | कारण और समाधान का **विश्लेषण** |
+| 4 | कार्यों की **योजना** |
+| 5 | मिलकर **कार्यान्वयन** |
+| 6 | **निगरानी** और समायोजन |
+
+---
+
+## 📢 स्वास्थ्य के लिए सामुदायिक गतिशीलता
+
+### रणनीतियां
+
+| रणनीति | उदाहरण |
+|:-------|:-------|
+| **स्वास्थ्य मेले** | सेवाओं के साथ जागरूकता शिविर |
+| **रैलियां** | टीकाकरण अभियान |
+| **नुक्कड़ नाटक** | HIV/AIDS, स्वच्छता |
+| **दीवार पेंटिंग** | स्वास्थ्य संदेश |
+| **लोक मीडिया** | गीत, कठपुतली शो |
+| **सामुदायिक बैठकें** | VHND, ग्राम सभा |
+
+### सफलता कारक
+
+| कारक | विवरण |
+|:-----|:------|
+| **स्थानीय स्वामित्व** | समुदाय पहल का नेतृत्व |
+| **सांस्कृतिक प्रासंगिकता** | स्थानीय प्रथाओं का सम्मान |
+| **समावेशन** | सभी समूह भाग लें |
+| **स्थिरता** | स्थानीय क्षमता बनाएं |
+| **मान्यता** | योगदान को स्वीकार करें |
+
+---
+
+## 🎯 त्वरित संशोधन बिंदु
+
+:::tip
+**याद रखें:**
+1. सामुदायिक भागीदारी = सक्रिय भागीदारी
+2. स्तर: निष्क्रिय → परामर्शी → संवादात्मक → स्व-गतिशीलता
+3. ग्राम स्वास्थ्य योजना के लिए VHSNC मुख्य
+4. समान आयु/स्थिति द्वारा सहकर्मी शिक्षा
+5. PLA उपकरण: मानचित्रण, ट्रांसेक्ट वॉक, मौसमी कैलेंडर
+6. स्वास्थ्य मेले शिक्षा को सेवाओं के साथ जोड़ते हैं
+7. सफलता के लिए स्थानीय स्वामित्व और सांस्कृतिक प्रासंगिकता
+8. सभी सामुदायिक वर्गों को शामिल करें, विशेषकर हाशिए पर
+:::
+`
+  },
+  {
+    id: 10,
+    titleEn: "School Health Education",
+    titleHi: "स्कूल स्वास्थ्य शिक्षा",
+    contentEn: `
+# 🏫 School Health Education
+
+---
+
+## 📖 What is School Health Education?
+
+> **School Health Education** is the systematic provision of health information and skills to students through the school curriculum and activities.
+
+---
+
+## 🎯 Components of School Health Program
+
+:::success
+**Three Pillars:**
+1. **Health Education** - Teaching health topics
+2. **Health Services** - Screening, treatment, referral
+3. **Healthy Environment** - Safe, hygienic school
+:::
+
+---
+
+## 📚 School Health Education Topics
+
+### By Age Group
+
+| Grade | Age | Topics |
+|:------|:----|:-------|
+| **1-2** | 6-8 | Personal hygiene, handwashing, healthy food |
+| **3-5** | 8-11 | Oral health, nutrition, safety, first aid |
+| **6-8** | 11-14 | Puberty, menstrual hygiene, tobacco |
+| **9-12** | 14-18 | Reproductive health, mental health, substance abuse |
+
+### Core Topics
+
+| Topic | Key Messages |
+|:------|:-------------|
+| **Personal Hygiene** | Handwashing, bathing, nail care |
+| **Oral Health** | Brushing, avoiding sweets, dental visits |
+| **Nutrition** | Balanced diet, avoiding junk food |
+| **Physical Activity** | Daily exercise, outdoor play |
+| **Mental Health** | Stress management, seeking help |
+| **Safety** | Road safety, online safety |
+| **WASH** | Safe water, sanitation |
+
+---
+
+## 🩸 Menstrual Hygiene in Schools
+
+### Key Components
+
+| Component | Action |
+|:----------|:-------|
+| **Education** | Teach about menstruation to girls AND boys |
+| **Facilities** | Clean toilets, water, disposal bins |
+| **Products** | Sanitary pads availability |
+| **Support** | Female teacher as contact |
+| **Attendance** | Track and address absenteeism |
+
+### MHM Education Content
+
+| Topic | Points |
+|:------|:-------|
+| **What is menstruation** | Normal biological process |
+| **Managing menstruation** | Pad use, hygiene practices |
+| **Disposal** | Safe disposal methods |
+| **Myths** | Debunk common myths |
+| **When to seek help** | Abnormal symptoms |
+
+---
+
+## 🚭 Substance Abuse Prevention
+
+### Age-Appropriate Messages
+
+| Age | Focus |
+|:----|:------|
+| **Primary** | Saying no to offers, healthy choices |
+| **Middle** | Effects on body and mind, peer pressure |
+| **High School** | Long-term consequences, addiction, laws |
+
+### Life Skills Approach
+
+| Skill | Application |
+|:------|:------------|
+| **Decision making** | Choosing healthy options |
+| **Problem solving** | Dealing with challenges |
+| **Critical thinking** | Evaluating information |
+| **Assertiveness** | Saying no |
+| **Coping with stress** | Healthy alternatives |
+| **Peer resistance** | Handling peer pressure |
+
+---
+
+## 🏥 School Health Services
+
+### Health Checkup Components
+
+| Assessment | Parameters |
+|:-----------|:-----------|
+| **General** | Height, weight, BMI |
+| **Vision** | Snellen chart |
+| **Hearing** | Whisper test |
+| **Dental** | Caries, hygiene |
+| **Skin** | Infections, anemia signs |
+| **Deworming** | Albendazole twice yearly |
+
+### RBSK (Rashtriya Bal Swasthya Karyakram)
+
+| Component | Action |
+|:----------|:-------|
+| **4 D's** | Defects, Deficiencies, Diseases, Development delays |
+| **Screening** | All children 0-18 years |
+| **Treatment** | Free at facility |
+| **Follow-up** | Regular monitoring |
+
+---
+
+## 🌟 School Health Activities
+
+### Classroom Activities
+
+| Activity | Topic |
+|:---------|:------|
+| **Health talks** | Monthly themes |
+| **Demonstrations** | Handwashing, toothbrushing |
+| **Videos** | Health education films |
+| **Games** | Health quiz, puzzles |
+| **Projects** | Health posters, models |
+
+### School-wide Activities
+
+| Activity | Purpose |
+|:---------|:--------|
+| **Health clubs** | Student leadership |
+| **Competitions** | Poster, essay, quiz |
+| **Health weeks** | Focused campaigns |
+| **Morning assembly** | Health messages |
+| **Parent meetings** | Engage families |
+
+---
+
+## 👨‍🏫 Role of Teachers
+
+### Responsibilities
+
+| Role | Activities |
+|:-----|:-----------|
+| **Educator** | Teach health topics |
+| **Role model** | Practice healthy behaviors |
+| **Observer** | Identify health issues |
+| **Facilitator** | Organize health activities |
+| **Link** | Connect with health services |
+
+### Training Needs
+
+| Topic | Content |
+|:------|:--------|
+| **Child health** | Common issues, referral |
+| **First aid** | Basic emergency response |
+| **MHM** | Supporting girls |
+| **Mental health** | Recognizing distress, support |
+| **Teaching methods** | Interactive techniques |
+
+---
+
+## 🎯 Quick Revision Points
+
+:::tip
+**Remember:**
+1. Three pillars: Education, Services, Environment
+2. Topics by age: Hygiene (young) → Puberty (middle) → Reproductive health (senior)
+3. MHM includes education, facilities, products, support
+4. Life skills for substance abuse prevention
+5. RBSK screens for 4 D's: Defects, Deficiencies, Diseases, Development
+6. Teachers are educators, role models, and observers
+7. Health clubs promote student leadership
+8. Engage parents for home reinforcement
+:::
+`,
+    contentHi: `
+# 🏫 स्कूल स्वास्थ्य शिक्षा
+
+---
+
+## 📖 स्कूल स्वास्थ्य शिक्षा क्या है?
+
+> **स्कूल स्वास्थ्य शिक्षा** स्कूल पाठ्यक्रम और गतिविधियों के माध्यम से छात्रों को स्वास्थ्य जानकारी और कौशल का व्यवस्थित प्रावधान है।
+
+---
+
+## 🎯 स्कूल स्वास्थ्य कार्यक्रम के घटक
+
+:::success
+**तीन स्तंभ:**
+1. **स्वास्थ्य शिक्षा** - स्वास्थ्य विषय पढ़ाना
+2. **स्वास्थ्य सेवाएं** - स्क्रीनिंग, उपचार, रेफरल
+3. **स्वस्थ वातावरण** - सुरक्षित, स्वच्छ स्कूल
+:::
+
+---
+
+## 📚 स्कूल स्वास्थ्य शिक्षा विषय
+
+### आयु समूह द्वारा
+
+| कक्षा | आयु | विषय |
+|:------|:----|:-----|
+| **1-2** | 6-8 | व्यक्तिगत स्वच्छता, हाथ धोना, स्वस्थ भोजन |
+| **3-5** | 8-11 | मौखिक स्वास्थ्य, पोषण, सुरक्षा, प्राथमिक चिकित्सा |
+| **6-8** | 11-14 | यौवन, मासिक धर्म स्वच्छता, तंबाकू |
+| **9-12** | 14-18 | प्रजनन स्वास्थ्य, मानसिक स्वास्थ्य, मादक द्रव्य |
+
+### मुख्य विषय
+
+| विषय | मुख्य संदेश |
+|:-----|:----------|
+| **व्यक्तिगत स्वच्छता** | हाथ धोना, नहाना, नाखून देखभाल |
+| **मौखिक स्वास्थ्य** | ब्रश करना, मिठाई से बचना, दंत चिकित्सक |
+| **पोषण** | संतुलित आहार, जंक फूड से बचना |
+| **शारीरिक गतिविधि** | दैनिक व्यायाम, बाहरी खेल |
+| **मानसिक स्वास्थ्य** | तनाव प्रबंधन, मदद मांगना |
+| **सुरक्षा** | सड़क सुरक्षा, ऑनलाइन सुरक्षा |
+
+---
+
+## 🩸 स्कूलों में मासिक धर्म स्वच्छता
+
+### मुख्य घटक
+
+| घटक | कार्य |
+|:----|:-----|
+| **शिक्षा** | लड़कियों और लड़कों को मासिक धर्म के बारे में सिखाएं |
+| **सुविधाएं** | स्वच्छ शौचालय, पानी, निपटान डिब्बे |
+| **उत्पाद** | सैनिटरी पैड उपलब्धता |
+| **समर्थन** | संपर्क के रूप में महिला शिक्षक |
+| **उपस्थिति** | अनुपस्थिति को ट्रैक करें और संबोधित करें |
+
+### MHM शिक्षा सामग्री
+
+| विषय | बिंदु |
+|:-----|:-----|
+| **मासिक धर्म क्या है** | सामान्य जैविक प्रक्रिया |
+| **मासिक धर्म प्रबंधन** | पैड उपयोग, स्वच्छता प्रथाएं |
+| **निपटान** | सुरक्षित निपटान विधियां |
+| **मिथक** | आम मिथकों को दूर करें |
+| **मदद कब लें** | असामान्य लक्षण |
+
+---
+
+## 🚭 मादक द्रव्य दुरुपयोग रोकथाम
+
+### आयु-उपयुक्त संदेश
+
+| आयु | फोकस |
+|:----|:-----|
+| **प्राथमिक** | प्रस्तावों को मना करना, स्वस्थ विकल्प |
+| **मध्य** | शरीर और दिमाग पर प्रभाव, सहकर्मी दबाव |
+| **हाई स्कूल** | दीर्घकालिक परिणाम, लत, कानून |
+
+### जीवन कौशल दृष्टिकोण
+
+| कौशल | अनुप्रयोग |
+|:-----|:---------|
+| **निर्णय लेना** | स्वस्थ विकल्प चुनना |
+| **समस्या समाधान** | चुनौतियों से निपटना |
+| **आलोचनात्मक सोच** | जानकारी का मूल्यांकन |
+| **दृढ़ता** | मना करना |
+| **तनाव से मुकाबला** | स्वस्थ विकल्प |
+| **सहकर्मी प्रतिरोध** | सहकर्मी दबाव संभालना |
+
+---
+
+## 🏥 स्कूल स्वास्थ्य सेवाएं
+
+### स्वास्थ्य जांच घटक
+
+| आकलन | पैरामीटर |
+|:------|:---------|
+| **सामान्य** | ऊंचाई, वजन, BMI |
+| **दृष्टि** | स्नेलन चार्ट |
+| **श्रवण** | व्हिस्पर टेस्ट |
+| **दंत** | क्षय, स्वच्छता |
+| **त्वचा** | संक्रमण, एनीमिया संकेत |
+| **डीवर्मिंग** | वर्ष में दो बार एल्बेंडाजोल |
+
+### RBSK (राष्ट्रीय बाल स्वास्थ्य कार्यक्रम)
+
+| घटक | कार्य |
+|:----|:-----|
+| **4 D** | दोष, कमी, रोग, विकास विलंब |
+| **स्क्रीनिंग** | 0-18 वर्ष के सभी बच्चे |
+| **उपचार** | सुविधा पर मुफ्त |
+| **फॉलो-अप** | नियमित निगरानी |
+
+---
+
+## 🌟 स्कूल स्वास्थ्य गतिविधियां
+
+### कक्षा गतिविधियां
+
+| गतिविधि | विषय |
+|:--------|:-----|
+| **स्वास्थ्य वार्ता** | मासिक थीम |
+| **प्रदर्शन** | हाथ धोना, दांत ब्रश करना |
+| **वीडियो** | स्वास्थ्य शिक्षा फिल्में |
+| **खेल** | स्वास्थ्य क्विज़, पहेलियां |
+| **प्रोजेक्ट** | स्वास्थ्य पोस्टर, मॉडल |
+
+### स्कूल-व्यापी गतिविधियां
+
+| गतिविधि | उद्देश्य |
+|:--------|:--------|
+| **स्वास्थ्य क्लब** | छात्र नेतृत्व |
+| **प्रतियोगिताएं** | पोस्टर, निबंध, क्विज़ |
+| **स्वास्थ्य सप्ताह** | केंद्रित अभियान |
+| **सुबह की सभा** | स्वास्थ्य संदेश |
+| **अभिभावक बैठकें** | परिवारों को शामिल करें |
+
+---
+
+## 👨‍🏫 शिक्षकों की भूमिका
+
+### जिम्मेदारियां
+
+| भूमिका | गतिविधियां |
+|:------|:----------|
+| **शिक्षक** | स्वास्थ्य विषय पढ़ाएं |
+| **रोल मॉडल** | स्वस्थ व्यवहार का अभ्यास |
+| **पर्यवेक्षक** | स्वास्थ्य मुद्दे पहचानें |
+| **सुविधाकर्ता** | स्वास्थ्य गतिविधियां आयोजित |
+| **लिंक** | स्वास्थ्य सेवाओं से जोड़ें |
+
+---
+
+## 🎯 त्वरित संशोधन बिंदु
+
+:::tip
+**याद रखें:**
+1. तीन स्तंभ: शिक्षा, सेवाएं, वातावरण
+2. आयु के अनुसार विषय: स्वच्छता (छोटे) → यौवन (मध्य) → प्रजनन स्वास्थ्य (वरिष्ठ)
+3. MHM में शिक्षा, सुविधाएं, उत्पाद, समर्थन शामिल
+4. मादक द्रव्य रोकथाम के लिए जीवन कौशल
+5. RBSK 4 D के लिए स्क्रीन: दोष, कमी, रोग, विकास
+6. शिक्षक शिक्षक, रोल मॉडल और पर्यवेक्षक हैं
+7. स्वास्थ्य क्लब छात्र नेतृत्व को बढ़ावा देते हैं
+8. घर पर सुदृढ़ीकरण के लिए अभिभावकों को शामिल करें
+:::
+`
+  },
+  {
+    id: 11,
+    titleEn: "Media & Social Marketing in Health",
+    titleHi: "स्वास्थ्य में मीडिया और सोशल मार्केटिंग",
+    contentEn: `
+# 📺 Media & Social Marketing in Health
+
+---
+
+## 📖 Role of Media in Health Education
+
+> **Mass Media** reaches large audiences quickly and repeatedly, making it powerful for health communication.
+
+---
+
+## 📊 Types of Mass Media
+
+### Traditional Media
+
+| Medium | Reach | Best For |
+|:-------|:------|:---------|
+| **Television** | Very wide | Visual messages, demos |
+| **Radio** | Wide, rural | Audio messages, jingles |
+| **Newspapers** | Educated urban | Detailed information |
+| **Posters/Billboards** | Local | Key messages, reminders |
+| **Pamphlets** | Individual | Take-home information |
+
+### Digital Media
+
+| Medium | Reach | Best For |
+|:-------|:------|:---------|
+| **WhatsApp** | Wide | Personal messaging, groups |
+| **Facebook** | Wide | Community engagement |
+| **YouTube** | Wide | Video education |
+| **Instagram** | Youth | Visual content |
+| **Mobile apps** | Targeted | Personalized information |
+
+---
+
+## 🎯 Social Marketing
+
+### Definition
+
+> **Social Marketing** applies commercial marketing principles to promote health behaviors for social good.
+
+### 4 P's of Social Marketing
+
+| P | Meaning | Health Example |
+|:--|:--------|:---------------|
+| **Product** | Behavior/service | Immunization, condom use |
+| **Price** | Cost to adopt | Time, effort, stigma |
+| **Place** | Where available | Health centers, pharmacies |
+| **Promotion** | Communication | Ads, campaigns, counseling |
+
+---
+
+## 📋 Designing Health Messages
+
+### AIDA Model
+
+| Stage | Goal | Example |
+|:------|:-----|:--------|
+| **A**ttention | Grab notice | Striking visual, headline |
+| **I**nterest | Build curiosity | Relevant information |
+| **D**esire | Create want | Benefits of action |
+| **A**ction | Prompt behavior | Call to action |
+
+### Message Guidelines
+
+| Principle | Application |
+|:----------|:------------|
+| **Simple** | One key message |
+| **Clear** | Unambiguous wording |
+| **Memorable** | Easy to recall |
+| **Positive** | Focus on benefits |
+| **Actionable** | Clear next step |
+| **Culturally appropriate** | Local context |
+| **Evidence-based** | Accurate information |
+
+---
+
+## 📺 Health Communication Campaigns in India
+
+### Examples
+
+| Campaign | Focus | Strategy |
+|:---------|:------|:---------|
+| **Pulse Polio** | "Do Boond Zindagi Ki" | TV, radio, mobilization |
+| **Swachh Bharat** | Toilet construction | Celebrity endorsement |
+| **Mission Indradhanush** | Immunization | Multi-media, IPC |
+| **Tobacco control** | Pictorial warnings | Pack warnings, ads |
+| **AIDS awareness** | "Red Ribbon" | Mass media, IPC |
+
+### Celebrity Endorsement
+
+| Advantage | Disadvantage |
+|:----------|:-------------|
+| Attracts attention | Expensive |
+| Builds credibility | Scandal risk |
+| Wide reach | May overshadow message |
+
+---
+
+## 📱 Digital Health Communication
+
+### Social Media Strategies
+
+| Strategy | Application |
+|:---------|:------------|
+| **Hashtag campaigns** | #SwachhBharat, #VaccinesSaveLives |
+| **Video content** | YouTube tutorials, reels |
+| **Influencer partnerships** | Health messages through influencers |
+| **Interactive content** | Polls, quizzes, Q&A |
+| **Targeted ads** | Facebook/Google ads to specific groups |
+
+### WhatsApp Guidelines
+
+| Do | Don't |
+|:---|:------|
+| Share verified information | Forward unverified content |
+| Use simple language | Use technical terms |
+| Include credible source | Share anonymous messages |
+| Keep messages short | Send lengthy texts |
+| Use visuals appropriately | Overload with images |
+
+---
+
+## ⚠️ Addressing Misinformation
+
+### Challenges
+
+| Challenge | Example |
+|:----------|:--------|
+| **Health myths** | "Vaccines cause autism" |
+| **Fake cures** | Unproven COVID treatments |
+| **Rumors** | Disease outbreak panic |
+| **Mistrust** | Government health advice |
+
+### Strategies
+
+| Strategy | Action |
+|:---------|:-------|
+| **Proactive communication** | Regular, transparent updates |
+| **Myth-busting** | Address specific myths |
+| **Trusted messengers** | Health workers, local leaders |
+| **Fact-checking** | Partner with fact-checkers |
+| **Inoculation** | Prebunk before exposure |
+
+---
+
+## 📊 Evaluating Media Campaigns
+
+### Metrics
+
+| Metric | What it Measures |
+|:-------|:-----------------|
+| **Reach** | How many people exposed |
+| **Recall** | How many remember message |
+| **Attitude change** | Shifts in beliefs |
+| **Behavior change** | Adoption of behavior |
+| **Engagement** | Likes, shares, comments |
+| **Cost-effectiveness** | Impact per rupee spent |
+
+---
+
+## 🎯 Quick Revision Points
+
+:::tip
+**Remember:**
+1. Mass media reaches large audiences quickly
+2. TV = visual, Radio = audio, Print = detailed info
+3. Social marketing uses 4 P's: Product, Price, Place, Promotion
+4. AIDA: Attention, Interest, Desire, Action
+5. Messages should be simple, clear, actionable
+6. Digital media needs myth-busting strategies
+7. Use trusted messengers to combat misinformation
+8. Evaluate: Reach, Recall, Attitude, Behavior change
+:::
+`,
+    contentHi: `
+# 📺 स्वास्थ्य में मीडिया और सोशल मार्केटिंग
+
+---
+
+## 📖 स्वास्थ्य शिक्षा में मीडिया की भूमिका
+
+> **जन मीडिया** बड़े दर्शकों तक जल्दी और बार-बार पहुंचता है, जो इसे स्वास्थ्य संचार के लिए शक्तिशाली बनाता है।
+
+---
+
+## 📊 जन मीडिया के प्रकार
+
+### पारंपरिक मीडिया
+
+| माध्यम | पहुंच | के लिए सर्वश्रेष्ठ |
+|:------|:-----|:--------------|
+| **टेलीविजन** | बहुत व्यापक | दृश्य संदेश, प्रदर्शन |
+| **रेडियो** | व्यापक, ग्रामीण | ऑडियो संदेश, जिंगल |
+| **समाचार पत्र** | शिक्षित शहरी | विस्तृत जानकारी |
+| **पोस्टर/बिलबोर्ड** | स्थानीय | मुख्य संदेश, रिमाइंडर |
+| **पैम्फलेट** | व्यक्तिगत | घर ले जाने की जानकारी |
+
+### डिजिटल मीडिया
+
+| माध्यम | पहुंच | के लिए सर्वश्रेष्ठ |
+|:------|:-----|:--------------|
+| **WhatsApp** | व्यापक | व्यक्तिगत संदेश, समूह |
+| **Facebook** | व्यापक | सामुदायिक जुड़ाव |
+| **YouTube** | व्यापक | वीडियो शिक्षा |
+| **Instagram** | युवा | दृश्य सामग्री |
+| **मोबाइल ऐप्स** | लक्षित | व्यक्तिगत जानकारी |
+
+---
+
+## 🎯 सोशल मार्केटिंग
+
+### परिभाषा
+
+> **सोशल मार्केटिंग** सामाजिक भलाई के लिए स्वास्थ्य व्यवहार को बढ़ावा देने के लिए वाणिज्यिक विपणन सिद्धांतों को लागू करती है।
+
+### सोशल मार्केटिंग के 4 P
+
+| P | अर्थ | स्वास्थ्य उदाहरण |
+|:--|:-----|:--------------|
+| **Product** | व्यवहार/सेवा | टीकाकरण, कंडोम उपयोग |
+| **Price** | अपनाने की लागत | समय, प्रयास, कलंक |
+| **Place** | कहां उपलब्ध | स्वास्थ्य केंद्र, फार्मेसी |
+| **Promotion** | संचार | विज्ञापन, अभियान, परामर्श |
+
+---
+
+## 📋 स्वास्थ्य संदेश डिजाइन करना
+
+### AIDA मॉडल
+
+| चरण | लक्ष्य | उदाहरण |
+|:----|:-----|:-------|
+| **A**ttention | ध्यान आकर्षित | आकर्षक दृश्य, शीर्षक |
+| **I**nterest | जिज्ञासा बनाएं | प्रासंगिक जानकारी |
+| **D**esire | चाह पैदा करें | कार्रवाई के लाभ |
+| **A**ction | व्यवहार प्रेरित करें | कार्रवाई का आह्वान |
+
+### संदेश दिशानिर्देश
+
+| सिद्धांत | अनुप्रयोग |
+|:---------|:---------|
+| **सरल** | एक मुख्य संदेश |
+| **स्पष्ट** | अस्पष्ट शब्दावली नहीं |
+| **यादगार** | याद रखने में आसान |
+| **सकारात्मक** | लाभों पर ध्यान |
+| **कार्रवाई योग्य** | स्पष्ट अगला कदम |
+| **सांस्कृतिक रूप से उचित** | स्थानीय संदर्भ |
+| **साक्ष्य-आधारित** | सटीक जानकारी |
+
+---
+
+## 📺 भारत में स्वास्थ्य संचार अभियान
+
+### उदाहरण
+
+| अभियान | फोकस | रणनीति |
+|:-------|:-----|:-------|
+| **पल्स पोलियो** | "दो बूंद जिंदगी की" | TV, रेडियो, गतिशीलता |
+| **स्वच्छ भारत** | शौचालय निर्माण | सेलिब्रिटी समर्थन |
+| **मिशन इंद्रधनुष** | टीकाकरण | मल्टी-मीडिया, IPC |
+| **तंबाकू नियंत्रण** | चित्र चेतावनी | पैक चेतावनी, विज्ञापन |
+| **एड्स जागरूकता** | "रेड रिबन" | जन मीडिया, IPC |
+
+---
+
+## 📱 डिजिटल स्वास्थ्य संचार
+
+### सोशल मीडिया रणनीतियां
+
+| रणनीति | अनुप्रयोग |
+|:-------|:---------|
+| **हैशटैग अभियान** | #SwachhBharat, #VaccinesSaveLives |
+| **वीडियो सामग्री** | YouTube ट्यूटोरियल, रील्स |
+| **इन्फ्लुएंसर साझेदारी** | इन्फ्लुएंसर के माध्यम से स्वास्थ्य संदेश |
+| **इंटरैक्टिव सामग्री** | पोल, क्विज़, Q&A |
+| **लक्षित विज्ञापन** | विशिष्ट समूहों को Facebook/Google विज्ञापन |
+
+### WhatsApp दिशानिर्देश
+
+| करें | न करें |
+|:----|:------|
+| सत्यापित जानकारी साझा करें | असत्यापित सामग्री फॉरवर्ड |
+| सरल भाषा का उपयोग | तकनीकी शब्द |
+| विश्वसनीय स्रोत शामिल करें | अनाम संदेश साझा |
+| संदेश छोटे रखें | लंबे टेक्स्ट भेजें |
+| दृश्यों का उचित उपयोग | छवियों से अधिभार |
+
+---
+
+## ⚠️ गलत सूचना का समाधान
+
+### चुनौतियां
+
+| चुनौती | उदाहरण |
+|:-------|:-------|
+| **स्वास्थ्य मिथक** | "टीके ऑटिज्म का कारण" |
+| **नकली इलाज** | असिद्ध COVID उपचार |
+| **अफवाहें** | रोग प्रकोप घबराहट |
+| **अविश्वास** | सरकारी स्वास्थ्य सलाह |
+
+### रणनीतियां
+
+| रणनीति | कार्य |
+|:-------|:-----|
+| **सक्रिय संचार** | नियमित, पारदर्शी अपडेट |
+| **मिथक-तोड़ना** | विशिष्ट मिथकों को संबोधित |
+| **विश्वसनीय संदेशवाहक** | स्वास्थ्य कार्यकर्ता, स्थानीय नेता |
+| **तथ्य-जांच** | तथ्य-जांचकर्ताओं के साथ साझेदारी |
+| **टीकाकरण** | एक्सपोज़र से पहले प्रीबंक |
+
+---
+
+## 🎯 त्वरित संशोधन बिंदु
+
+:::tip
+**याद रखें:**
+1. जन मीडिया बड़े दर्शकों तक जल्दी पहुंचता है
+2. TV = दृश्य, रेडियो = ऑडियो, प्रिंट = विस्तृत जानकारी
+3. सोशल मार्केटिंग 4 P का उपयोग: Product, Price, Place, Promotion
+4. AIDA: ध्यान, रुचि, इच्छा, कार्रवाई
+5. संदेश सरल, स्पष्ट, कार्रवाई योग्य होने चाहिए
+6. डिजिटल मीडिया को मिथक-तोड़ने की रणनीतियों की जरूरत
+7. गलत सूचना से लड़ने के लिए विश्वसनीय संदेशवाहक
+8. मूल्यांकन: पहुंच, स्मरण, दृष्टिकोण, व्यवहार परिवर्तन
+:::
+`
+  },
+  {
+    id: 12,
+    titleEn: "Health Literacy & Empowerment",
+    titleHi: "स्वास्थ्य साक्षरता और सशक्तिकरण",
+    contentEn: `
+# 💪 Health Literacy & Empowerment
+
+---
+
+## 📖 What is Health Literacy?
+
+> **Health Literacy** is the ability to obtain, process, understand, and use health information to make informed health decisions.
+
+---
+
+## 📊 Levels of Health Literacy
+
+| Level | Description | Example |
+|:------|:------------|:--------|
+| **Functional** | Basic reading/writing for health | Read medicine label |
+| **Interactive** | Extract and apply information | Ask questions to doctor |
+| **Critical** | Analyze and use information | Evaluate health claims |
+
+---
+
+## 🎯 Components of Health Literacy
+
+| Component | Skill |
+|:----------|:------|
+| **Access** | Find health information |
+| **Understand** | Comprehend the information |
+| **Appraise** | Judge quality and relevance |
+| **Apply** | Use information for decisions |
+
+---
+
+## ⚠️ Low Health Literacy Consequences
+
+| Consequence | Impact |
+|:------------|:-------|
+| **Delayed care** | Late recognition of symptoms |
+| **Medication errors** | Wrong dose, timing |
+| **Poor management** | Chronic disease complications |
+| **Increased hospitalization** | Avoidable admissions |
+| **Higher costs** | Emergency care vs prevention |
+| **Poorer outcomes** | Higher morbidity, mortality |
+
+---
+
+## 📋 Assessing Health Literacy
+
+### Indicators of Low Health Literacy
+
+| Behavior | Sign |
+|:---------|:-----|
+| Forms incomplete | Difficulty reading/writing |
+| "I forgot my glasses" | May not be able to read |
+| Missed appointments | Didn't understand scheduling |
+| Non-adherence | Didn't understand instructions |
+| Asking few questions | Embarrassed to admit not understanding |
+
+### Questions to Assess
+
+| Question | Assesses |
+|:---------|:---------|
+| "How often do you have help reading materials?" | Reading ability |
+| "How confident are you filling out forms?" | Writing ability |
+| "How often are health materials hard to understand?" | Comprehension |
+
+---
+
+## ✅ Strategies for Low Health Literacy
+
+### Communication Techniques
+
+| Technique | Application |
+|:----------|:------------|
+| **Plain language** | Avoid medical jargon |
+| **Teach-back** | "Tell me what I told you" |
+| **Show me** | Demonstrate, have them show |
+| **Chunk and check** | Small pieces, check understanding |
+| **Visual aids** | Pictures, diagrams |
+| **Written materials** | Simple, large font |
+
+### Teach-Back Method
+
+| Step | Action |
+|:-----|:-------|
+| 1 | Explain information clearly |
+| 2 | Ask patient to repeat in own words |
+| 3 | Clarify any misunderstandings |
+| 4 | Re-explain if needed |
+| 5 | Check understanding again |
+
+:::success
+**Example:**
+"I want to make sure I explained clearly. Can you tell me how you will take this medicine?"
+:::
+
+---
+
+## 💪 Patient Empowerment
+
+### Definition
+
+> **Patient Empowerment** is enabling patients to take control of their health through knowledge, skills, and confidence.
+
+### Components
+
+| Component | Description |
+|:----------|:------------|
+| **Self-efficacy** | Confidence in own abilities |
+| **Self-management** | Managing own health |
+| **Shared decision-making** | Partner with providers |
+| **Advocacy** | Speak up for needs |
+
+---
+
+## 🔄 Self-Management Support
+
+### Key Elements
+
+| Element | Activities |
+|:--------|:-----------|
+| **Information** | Disease, treatment, lifestyle |
+| **Skills** | Medication, monitoring, diet |
+| **Problem-solving** | Handle challenges |
+| **Goal-setting** | SMART health goals |
+| **Action planning** | Specific steps |
+| **Follow-up** | Regular support |
+
+### Chronic Disease Self-Management
+
+| Area | Self-Management Skills |
+|:-----|:----------------------|
+| **Diabetes** | Blood sugar monitoring, diet, foot care |
+| **Hypertension** | BP monitoring, salt restriction, exercise |
+| **Asthma** | Inhaler technique, trigger avoidance |
+| **TB** | Medication adherence, DOTS |
+
+---
+
+## 👥 Community Empowerment
+
+### Definition
+
+> **Community Empowerment** is communities gaining control over factors affecting their health.
+
+### Levels
+
+| Level | Actions |
+|:------|:--------|
+| **Individual** | Personal health decisions |
+| **Organizational** | Community groups take action |
+| **Community** | Collective action on health issues |
+| **Policy** | Influence health policies |
+
+### Strategies
+
+| Strategy | Example |
+|:---------|:--------|
+| **Capacity building** | Training community health workers |
+| **Resource mobilization** | VHSNC untied funds |
+| **Advocacy** | Demand better services |
+| **Social accountability** | Monitor health programs |
+| **Collective action** | Community-led total sanitation |
+
+---
+
+## 🎯 Quick Revision Points
+
+:::tip
+**Remember:**
+1. Health literacy = Ability to use health information
+2. 3 levels: Functional, Interactive, Critical
+3. Low literacy leads to poor outcomes, higher costs
+4. Teach-back: "Tell me in your own words..."
+5. Use plain language, visuals, chunk and check
+6. Patient empowerment = Control over own health
+7. Self-management key for chronic diseases
+8. Community empowerment = Collective control over health
+:::
+`,
+    contentHi: `
+# 💪 स्वास्थ्य साक्षरता और सशक्तिकरण
+
+---
+
+## 📖 स्वास्थ्य साक्षरता क्या है?
+
+> **स्वास्थ्य साक्षरता** सूचित स्वास्थ्य निर्णय लेने के लिए स्वास्थ्य जानकारी प्राप्त करने, संसाधित करने, समझने और उपयोग करने की क्षमता है।
+
+---
+
+## 📊 स्वास्थ्य साक्षरता के स्तर
+
+| स्तर | विवरण | उदाहरण |
+|:-----|:------|:-------|
+| **कार्यात्मक** | स्वास्थ्य के लिए बुनियादी पढ़ना/लिखना | दवा लेबल पढ़ें |
+| **संवादात्मक** | जानकारी निकालें और लागू करें | डॉक्टर से प्रश्न पूछें |
+| **आलोचनात्मक** | जानकारी का विश्लेषण और उपयोग | स्वास्थ्य दावों का मूल्यांकन |
+
+---
+
+## 🎯 स्वास्थ्य साक्षरता के घटक
+
+| घटक | कौशल |
+|:----|:-----|
+| **पहुंच** | स्वास्थ्य जानकारी खोजें |
+| **समझें** | जानकारी को समझें |
+| **आकलन** | गुणवत्ता और प्रासंगिकता का निर्णय |
+| **लागू करें** | निर्णयों के लिए जानकारी का उपयोग |
+
+---
+
+## ⚠️ कम स्वास्थ्य साक्षरता के परिणाम
+
+| परिणाम | प्रभाव |
+|:-------|:------|
+| **देरी से देखभाल** | लक्षणों की देर से पहचान |
+| **दवा त्रुटियां** | गलत खुराक, समय |
+| **खराब प्रबंधन** | पुरानी बीमारी जटिलताएं |
+| **बढ़ा हुआ अस्पताल में भर्ती** | टालने योग्य प्रवेश |
+| **अधिक लागत** | रोकथाम बनाम आपातकालीन देखभाल |
+| **खराब परिणाम** | अधिक रुग्णता, मृत्यु दर |
+
+---
+
+## 📋 स्वास्थ्य साक्षरता का आकलन
+
+### कम स्वास्थ्य साक्षरता के संकेतक
+
+| व्यवहार | संकेत |
+|:--------|:-----|
+| फॉर्म अधूरे | पढ़ने/लिखने में कठिनाई |
+| "मैं अपना चश्मा भूल गया" | पढ़ने में सक्षम नहीं हो सकता |
+| छूटी हुई अपॉइंटमेंट | शेड्यूलिंग नहीं समझी |
+| गैर-पालन | निर्देश नहीं समझे |
+| कम प्रश्न पूछना | न समझने पर शर्मिंदगी |
+
+### आकलन के लिए प्रश्न
+
+| प्रश्न | आकलन |
+|:------|:------|
+| "आपको सामग्री पढ़ने में कितनी बार मदद चाहिए?" | पढ़ने की क्षमता |
+| "फॉर्म भरने में कितना आत्मविश्वास?" | लिखने की क्षमता |
+| "स्वास्थ्य सामग्री कितनी बार समझने में कठिन?" | समझ |
+
+---
+
+## ✅ कम स्वास्थ्य साक्षरता के लिए रणनीतियां
+
+### संचार तकनीकें
+
+| तकनीक | अनुप्रयोग |
+|:-------|:---------|
+| **सादी भाषा** | चिकित्सा शब्दावली से बचें |
+| **टीच-बैक** | "मुझे बताएं मैंने क्या कहा" |
+| **मुझे दिखाएं** | प्रदर्शित करें, उन्हें दिखाने दें |
+| **टुकड़े और जांच** | छोटे टुकड़े, समझ की जांच |
+| **दृश्य सहायक** | चित्र, आरेख |
+| **लिखित सामग्री** | सरल, बड़ा फॉन्ट |
+
+### टीच-बैक विधि
+
+| चरण | कार्य |
+|:----|:-----|
+| 1 | जानकारी स्पष्ट रूप से समझाएं |
+| 2 | मरीज को अपने शब्दों में दोहराने को कहें |
+| 3 | किसी भी गलतफहमी को स्पष्ट करें |
+| 4 | जरूरत पड़ने पर फिर से समझाएं |
+| 5 | समझ की फिर से जांच करें |
+
+:::success
+**उदाहरण:**
+"मैं सुनिश्चित करना चाहता हूं कि मैंने स्पष्ट रूप से समझाया। क्या आप मुझे बता सकते हैं कि आप यह दवा कैसे लेंगे?"
+:::
+
+---
+
+## 💪 रोगी सशक्तिकरण
+
+### परिभाषा
+
+> **रोगी सशक्तिकरण** ज्ञान, कौशल और आत्मविश्वास के माध्यम से रोगियों को अपने स्वास्थ्य पर नियंत्रण लेने में सक्षम बनाना है।
+
+### घटक
+
+| घटक | विवरण |
+|:----|:------|
+| **आत्म-प्रभावकारिता** | अपनी क्षमताओं में आत्मविश्वास |
+| **आत्म-प्रबंधन** | अपना स्वास्थ्य प्रबंधित करना |
+| **साझा निर्णय लेना** | प्रदाताओं के साथ भागीदार |
+| **वकालत** | जरूरतों के लिए बोलें |
+
+---
+
+## 🔄 आत्म-प्रबंधन समर्थन
+
+### मुख्य तत्व
+
+| तत्व | गतिविधियां |
+|:----|:----------|
+| **जानकारी** | रोग, उपचार, जीवनशैली |
+| **कौशल** | दवा, निगरानी, आहार |
+| **समस्या-समाधान** | चुनौतियों को संभालें |
+| **लक्ष्य-निर्धारण** | SMART स्वास्थ्य लक्ष्य |
+| **कार्य योजना** | विशिष्ट कदम |
+| **फॉलो-अप** | नियमित समर्थन |
+
+### पुरानी बीमारी आत्म-प्रबंधन
+
+| क्षेत्र | आत्म-प्रबंधन कौशल |
+|:------|:-----------------|
+| **मधुमेह** | रक्त शर्करा निगरानी, आहार, पैर देखभाल |
+| **उच्च रक्तचाप** | BP निगरानी, नमक प्रतिबंध, व्यायाम |
+| **अस्थमा** | इनहेलर तकनीक, ट्रिगर से बचाव |
+| **TB** | दवा पालन, DOTS |
+
+---
+
+## 👥 सामुदायिक सशक्तिकरण
+
+### परिभाषा
+
+> **सामुदायिक सशक्तिकरण** समुदायों का अपने स्वास्थ्य को प्रभावित करने वाले कारकों पर नियंत्रण प्राप्त करना है।
+
+### स्तर
+
+| स्तर | कार्य |
+|:-----|:-----|
+| **व्यक्तिगत** | व्यक्तिगत स्वास्थ्य निर्णय |
+| **संगठनात्मक** | सामुदायिक समूह कार्रवाई करें |
+| **समुदाय** | स्वास्थ्य मुद्दों पर सामूहिक कार्रवाई |
+| **नीति** | स्वास्थ्य नीतियों को प्रभावित |
+
+### रणनीतियां
+
+| रणनीति | उदाहरण |
+|:-------|:-------|
+| **क्षमता निर्माण** | सामुदायिक स्वास्थ्य कार्यकर्ताओं का प्रशिक्षण |
+| **संसाधन गतिशीलता** | VHSNC अनटाइड फंड |
+| **वकालत** | बेहतर सेवाओं की मांग |
+| **सामाजिक जवाबदेही** | स्वास्थ्य कार्यक्रमों की निगरानी |
+| **सामूहिक कार्रवाई** | समुदाय-नेतृत्व कुल स्वच्छता |
+
+---
+
+## 🎯 त्वरित संशोधन बिंदु
+
+:::tip
+**याद रखें:**
+1. स्वास्थ्य साक्षरता = स्वास्थ्य जानकारी का उपयोग करने की क्षमता
+2. 3 स्तर: कार्यात्मक, संवादात्मक, आलोचनात्मक
+3. कम साक्षरता से खराब परिणाम, अधिक लागत
+4. टीच-बैक: "अपने शब्दों में मुझे बताएं..."
+5. सादी भाषा, दृश्य, टुकड़े और जांच का उपयोग
+6. रोगी सशक्तिकरण = अपने स्वास्थ्य पर नियंत्रण
+7. पुरानी बीमारियों के लिए आत्म-प्रबंधन महत्वपूर्ण
+8. सामुदायिक सशक्तिकरण = स्वास्थ्य पर सामूहिक नियंत्रण
+:::
+`
   }
 ];

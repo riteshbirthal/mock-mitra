@@ -45,7 +45,7 @@ export default function Pharmacology() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'learn': return <LessonContent lessons={pharmacologyLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} topicId="pharmacology" />;
+      case 'learn': return <LessonContent lessons={pharmacologyLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={pharmQuestions} questionCount={10} title={isHindi ? 'औषध विज्ञान क्विज़' : 'Pharmacology Quiz'} />;
       case 'mocktest': return <MockTestComponent questions={pharmQuestions} testDuration={30} questionCount={10} />;
       case 'resources': return (
