@@ -18,6 +18,8 @@ import { healthEducationLessons } from './healthEducationContent';
 import { infectionControlLessons } from './infectionControlContent';
 import { generalAwarenessLessons } from './generalAwarenessContent';
 import { occupationalHealthLessons } from './occupationalHealthContent';
+import { mathematicsLessons } from './mathematicsContent';
+import { reasoningLessons } from './reasoningContent';
 
 export interface TopicInfo {
   id: string;
@@ -194,6 +196,22 @@ export const allTopics: TopicInfo[] = [
     icon: '🏭',
     color: '#2d3748',
     lessons: occupationalHealthLessons
+  },
+  {
+    id: 'mathematics',
+    nameEn: 'Mathematics',
+    nameHi: 'गणित',
+    icon: '📐',
+    color: '#48bb78',
+    lessons: mathematicsLessons
+  },
+  {
+    id: 'reasoning',
+    nameEn: 'Reasoning',
+    nameHi: 'तर्कशक्ति',
+    icon: '🧩',
+    color: '#ed8936',
+    lessons: reasoningLessons
   }
 ];
 

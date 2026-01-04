@@ -1594,15 +1594,25 @@ A comprehensive life-cycle approach covering all stages of health.
 
 :::tip
 **याद रखें:**
+
 1. JSY: ₹1,400 (ग्रामीण LPS)
+
 2. JSSK = मुफ्त सुविधाएं
+
 3. PMSMA = हर महीने 9 तारीख
+
 4. ANC4 = न्यूनतम 4 विजिट
+
 5. IFA = 180 गोलियां
+
 6. 1 घंटे में स्तनपान
+
 7. RBSK = 4Ds स्क्रीनिंग
+
 8. WIFS = साप्ताहिक IFA
+
 9. IUCD = 10 वर्ष
+
 10. नसबंदी: ₹3,000 (महिला BPL)
 :::
 `
@@ -1797,14 +1807,23 @@ A comprehensive life-cycle approach covering all stages of health.
 
 :::tip
 **Remember:**
+
 1. TB: Cough ≥2 weeks, DOTS, 6 months treatment
+
 2. NIKSHAY = TB tracking portal
+
 3. Malaria: Test before treat, ACT for P. falciparum
+
 4. Dengue: Source reduction is key
+
 5. HIV: Test and Treat (ART for all)
+
 6. Leprosy PB = 6 months MDT
+
 7. Leprosy MB = 12 months MDT
+
 8. IDSP S-Form = Weekly syndrome reporting
+
 9. Report notifiable diseases within 24 hours
 :::
 `,
@@ -1929,13 +1948,21 @@ A comprehensive life-cycle approach covering all stages of health.
 
 :::tip
 **याद रखें:**
+
 1. TB: खांसी ≥2 सप्ताह, DOTS, 6 महीने उपचार
+
 2. NIKSHAY = TB ट्रैकिंग पोर्टल
+
 3. मलेरिया: उपचार से पहले परीक्षण
+
 4. डेंगू: स्रोत कमी महत्वपूर्ण
+
 5. HIV: सभी के लिए ART
+
 6. कुष्ठ PB = 6 महीने MDT
+
 7. कुष्ठ MB = 12 महीने MDT
+
 8. S-फॉर्म = साप्ताहिक सिंड्रोम रिपोर्टिंग
 :::
 `
@@ -2165,15 +2192,25 @@ India has:
 
 :::tip
 **Remember:**
+
 1. NCDs = 63% of deaths in India
+
 2. Screen all adults ≥30 years annually
+
 3. Diabetes: Fasting ≥126 mg/dL
+
 4. Hypertension: ≥140/90 mmHg
+
 5. Salt <5g/day (1 teaspoon)
+
 6. Target BP <140/90 (<130/80 if diabetic)
+
 7. VIA every 5 years (women 30-65)
+
 8. Oral cancer: Look for white/red patches
+
 9. Non-healing ulcer >2 weeks = suspect oral cancer
+
 10. 10-20% have mental health issues
 :::
 `,
@@ -2308,13 +2345,21 @@ India has:
 
 :::tip
 **याद रखें:**
+
 1. NCDs = भारत में 63% मौतें
+
 2. ≥30 वर्ष वार्षिक स्क्रीनिंग
+
 3. मधुमेह: उपवास ≥126 mg/dL
+
 4. उच्च रक्तचाप: ≥140/90 mmHg
+
 5. नमक <5g/दिन (1 चम्मच)
+
 6. VIA हर 5 वर्ष
+
 7. मुंह कैंसर: सफेद/लाल पैच देखें
+
 8. 10-20% में मानसिक स्वास्थ्य समस्याएं
 :::
 `
@@ -2496,15 +2541,25 @@ India has:
 
 :::tip
 **Remember:**
+
 1. Health Promotion > Health Education
+
 2. IEC = One-way, BCC = Two-way
+
 3. 5 stages of behavior change
+
 4. Health talk = 15-20 minutes max
+
 5. 3-5 key messages per talk
+
 6. GATHER technique for counseling
+
 7. Pre-test IEC materials with audience
+
 8. March 24 = World TB Day
+
 9. April 7 = World Health Day
+
 10. December 1 = World AIDS Day
 :::
 `,
@@ -2626,13 +2681,21 @@ India has:
 
 :::tip
 **याद रखें:**
+
 1. स्वास्थ्य संवर्धन > स्वास्थ्य शिक्षा
+
 2. IEC = एक-तरफा, BCC = दो-तरफा
+
 3. व्यवहार परिवर्तन के 5 चरण
+
 4. स्वास्थ्य वार्ता = अधिकतम 15-20 मिनट
+
 5. प्रति वार्ता 3-5 मुख्य संदेश
+
 6. GATHER तकनीक
+
 7. 24 मार्च = विश्व TB दिवस
+
 8. 7 अप्रैल = विश्व स्वास्थ्य दिवस
 :::
 `
@@ -2821,17 +2884,29 @@ India has:
 
 :::tip
 **Remember:**
+
 1. Surveillance = "Information for Action"
+
 2. S-Form = MPHW fills weekly (Monday)
+
 3. P-Form = MO fills
+
 4. L-Form = Lab Tech fills
+
 5. Zero report is also important
+
 6. Notifiable diseases = Report within 24 hours
+
 7. AFP = <15 years, sudden weakness
+
 8. AFP report within 24 hours
+
 9. Stool within 14 days for AFP
+
 10. Outbreak investigation = 9 steps
+
 11. Endemic = constant; Epidemic = unusual increase
+
 12. Epidemic curve = Time; Spot map = Place
 :::
 `,
@@ -2981,14 +3056,23 @@ India has:
 
 :::tip
 **याद रखें:**
+
 1. निगरानी = "कार्रवाई के लिए जानकारी"
+
 2. S-फॉर्म = MPHW साप्ताहिक भरे (सोमवार)
+
 3. शून्य रिपोर्ट भी महत्वपूर्ण
+
 4. सूचनीय रोग = 24 घंटे में रिपोर्ट
+
 5. AFP = <15 वर्ष, अचानक कमजोरी
+
 6. AFP रिपोर्ट 24 घंटे में
+
 7. मल 14 दिन में AFP के लिए
+
 8. प्रकोप जांच = 9 चरण
+
 9. एंडेमिक = निरंतर; एपिडेमिक = असामान्य वृद्धि
 :::
 `
@@ -3231,15 +3315,25 @@ India has:
 
 :::tip
 **Remember:**
+
 1. Planning cycle: Assessment → Prioritization → Planning → Implementation → Monitoring → Evaluation
+
 2. Micro-plan = Due lists + Session plan + Tracking
+
 3. Monitoring = Continuous; Evaluation = Periodic
+
 4. IMR formula = (Infant deaths / Live births) × 1000
+
 5. MMR formula = (Maternal deaths / Live births) × 100,000
+
 6. HMIS data: Complete, Accurate, Timely, Consistent
+
 7. VHSNC gets ₹10,000/year untied funds
+
 8. Submit monthly report by 3rd-5th of month
+
 9. IDSP S-Form every Monday
+
 10. Good planning = Better coverage
 :::
 `,
@@ -3477,15 +3571,25 @@ India has:
 
 :::tip
 **याद रखें:**
+
 1. योजना चक्र: आकलन → प्राथमिकता → योजना → कार्यान्वयन → निगरानी → मूल्यांकन
+
 2. माइक्रो-प्लान = ड्यू लिस्ट + सत्र योजना + ट्रैकिंग
+
 3. निगरानी = निरंतर; मूल्यांकन = आवधिक
+
 4. IMR सूत्र = (शिशु मृत्यु / जीवित जन्म) × 1000
+
 5. MMR सूत्र = (मातृ मृत्यु / जीवित जन्म) × 100,000
+
 6. HMIS डेटा: पूर्ण, सटीक, समय पर, सुसंगत
+
 7. VHSNC को ₹10,000/वर्ष अनटाइड फंड
+
 8. मासिक रिपोर्ट माह की 3-5 तारीख तक
+
 9. IDSP S-फॉर्म हर सोमवार
+
 10. अच्छी योजना = बेहतर कवरेज
 :::
 `
