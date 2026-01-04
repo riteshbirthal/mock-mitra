@@ -457,36 +457,45 @@
 /* Mobile Menu */
 .mobile-menu-btn {
   display: none;
-  padding: 10px;
-  background: transparent;
+  padding: 8px;
+  background: var(--primary);
   border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mobile-menu-btn:hover {
+  background: var(--primary-dark, #5a67d8);
 }
 
 .hamburger {
   display: block;
-  width: 24px;
+  width: 22px;
   height: 2px;
-  background: var(--dark);
+  background: #ffffff;
   position: relative;
   transition: all 0.3s ease;
+  border-radius: 2px;
 }
 
 .hamburger::before,
 .hamburger::after {
   content: '';
   position: absolute;
-  width: 24px;
+  width: 22px;
   height: 2px;
-  background: var(--dark);
+  background: #ffffff;
   transition: all 0.3s ease;
+  border-radius: 2px;
 }
 
 .hamburger::before {
-  top: -7px;
+  top: -6px;
 }
 
 .hamburger::after {
-  top: 7px;
+  top: 6px;
 }
 
 .hamburger.open {
@@ -496,11 +505,13 @@
 .hamburger.open::before {
   top: 0;
   transform: rotate(45deg);
+  background: #ffffff;
 }
 
 .hamburger.open::after {
   top: 0;
   transform: rotate(-45deg);
+  background: #ffffff;
 }
 
 .mobile-overlay {

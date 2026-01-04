@@ -121,6 +121,14 @@
   color: var(--white);
 }
 
+.stat-card.highlight .stat-value {
+  color: var(--white);
+}
+
+.stat-card.highlight .stat-label {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 .stat-card .stat-icon {
   font-size: 2rem;
 }

@@ -200,11 +200,13 @@ const Home = () => {
                   <span className="subject-icon">{subject.icon}</span>
                   <span className="topic-count">{subject.topics.length} Topics</span>
                 </div>
-                <h3>{isHindi ? subject.name.hi : subject.name.en}</h3>
-                <p>{isHindi ? subject.description.hi : subject.description.en}</p>
-                <div className="subject-meta">
-                  <span className="meta-badge">{subject.questions} Qs</span>
-                  <span className="meta-badge">{subject.marks} Marks</span>
+                <div className="subject-card-content">
+                  <h3>{isHindi ? subject.name.hi : subject.name.en}</h3>
+                  <p>{isHindi ? subject.description.hi : subject.description.en}</p>
+                  <div className="subject-meta">
+                    <span className="meta-badge">{subject.questions} Qs</span>
+                    <span className="meta-badge">{subject.marks} Marks</span>
+                  </div>
                 </div>
               </Link>
             ))}

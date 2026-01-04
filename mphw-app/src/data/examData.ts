@@ -134,7 +134,7 @@ export const examSections: ExamSection[] = [
     },
     questions: 70,
     marks: 70,
-    subjects: ['anatomy', 'physiology', 'microbiology', 'public-health', 'health-hygiene', 'first-aid', 'health-education', 'maternal-child-health', 'nutrition', 'immunization', 'mental-health', 'communicable-diseases', 'pharmacology', 'practical-skills'],
+    subjects: ['anatomy', 'physiology', 'microbiology', 'public-health', 'health-hygiene', 'first-aid', 'health-education', 'maternal-child-health', 'nutrition', 'immunization', 'mental-health', 'communicable-diseases', 'pharmacology', 'practical-skills', 'vital-statistics'],
     color: '#e53e3e',
     icon: '🏥',
     weightage: '70%'
@@ -452,6 +452,25 @@ export const subjects: Subject[] = [
       { id: 'iec-materials', name: { en: 'IEC Materials', hi: 'IEC सामग्री' }, description: { en: 'Educational Materials', hi: 'शैक्षिक सामग्री' }, icon: '📚', color: '#667eea', questionsCount: 50, difficulty: 'Easy', weightage: 1 },
       { id: 'bcc', name: { en: 'Behavior Change Communication', hi: 'व्यवहार परिवर्तन संचार' }, description: { en: 'Changing Health Behavior', hi: 'स्वास्थ्य व्यवहार बदलना' }, icon: '🔄', color: '#48bb78', questionsCount: 40, difficulty: 'Medium', weightage: 1 },
       { id: 'av-aids', name: { en: 'Audio-Visual Aids', hi: 'श्रव्य-दृश्य साधन' }, description: { en: 'Teaching Aids', hi: 'शिक्षण सहायक' }, icon: '📽️', color: '#ed8936', questionsCount: 30, difficulty: 'Easy', weightage: 1 }
+    ]
+  },
+  {
+    id: 'vital-statistics',
+    name: { en: 'Vital Statistics', hi: 'महत्वपूर्ण सांख्यिकी' },
+    icon: '📊',
+    color: '#2d3748',
+    description: {
+      en: 'Birth & Death Registration, Vital Rates, Health Indicators',
+      hi: 'जन्म और मृत्यु पंजीकरण, महत्वपूर्ण दरें, स्वास्थ्य संकेतक'
+    },
+    questions: 4,
+    marks: 4,
+    weightage: 4,
+    topics: [
+      { id: 'vital-events', name: { en: 'Vital Events', hi: 'महत्वपूर्ण घटनाएं' }, description: { en: 'Birth, Death, Registration', hi: 'जन्म, मृत्यु, पंजीकरण' }, icon: '📋', color: '#2d3748', questionsCount: 50, difficulty: 'Medium', weightage: 1 },
+      { id: 'birth-registration', name: { en: 'Birth Registration', hi: 'जन्म पंजीकरण' }, description: { en: 'Process & Forms', hi: 'प्रक्रिया और फॉर्म' }, icon: '👶', color: '#48bb78', questionsCount: 40, difficulty: 'Easy', weightage: 1 },
+      { id: 'death-registration', name: { en: 'Death Registration', hi: 'मृत्यु पंजीकरण' }, description: { en: 'MCCD, Process', hi: 'MCCD, प्रक्रिया' }, icon: '⚰️', color: '#718096', questionsCount: 40, difficulty: 'Medium', weightage: 1 },
+      { id: 'vital-rates', name: { en: 'Vital Rates', hi: 'महत्वपूर्ण दरें' }, description: { en: 'IMR, MMR, CBR, CDR', hi: 'IMR, MMR, CBR, CDR' }, icon: '📈', color: '#e53e3e', questionsCount: 60, difficulty: 'Medium', weightage: 1 }
     ]
   }
 ];

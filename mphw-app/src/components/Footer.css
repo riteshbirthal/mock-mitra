@@ -137,15 +137,31 @@
 
 @media (max-width: 480px) {
   .footer {
-    padding: 40px 0 20px;
+    padding: 20px 0 15px;
   }
 
-  .footer-links {
-    grid-template-columns: 1fr;
-    gap: 24px;
+  /* Hide footer-content (brand, stats, links) on mobile */
+  .footer-content {
+    display: none;
   }
 
-  .footer-stats {
-    gap: 20px;
+  .footer-bottom {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
+    margin: 8px 0;
+  }
+
+  .made-with {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .heart {
+    font-size: 1rem;
   }
 }

@@ -331,6 +331,181 @@
   }
 }
 
+/* Mobile Compact Cards - 480px and below */
+@media (max-width: 480px) {
+  .syllabus-header {
+    padding: 24px 0;
+    margin-bottom: 24px;
+  }
+
+  .syllabus-header h1 {
+    font-size: 1.3rem;
+    gap: 8px;
+  }
+
+  .header-icon {
+    font-size: 1.8rem;
+  }
+
+  .syllabus-header > p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .quick-info-item {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .syllabus-section {
+    margin-bottom: 20px;
+    border-radius: 12px;
+  }
+
+  .section-header {
+    padding: 16px;
+    gap: 10px;
+  }
+
+  .section-icon {
+    font-size: 1.8rem;
+  }
+
+  .section-info h2 {
+    font-size: 1.1rem;
+  }
+
+  .section-info p {
+    font-size: 0.8rem;
+  }
+
+  .section-weightage {
+    font-size: 1.1rem;
+    padding: 6px 14px;
+  }
+
+  /* Compact Horizontal Subject Rows */
+  .subjects-list {
+    padding: 8px;
+  }
+
+  .subject-row {
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    text-align: left;
+    border-radius: 10px;
+    border-left: 3px solid var(--subject-color, var(--primary));
+    margin-bottom: 6px;
+  }
+
+  .subject-row:hover {
+    background: var(--light);
+    transform: translateX(4px);
+  }
+
+  .subject-main {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .subject-row .subject-icon {
+    font-size: 1.4rem;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 10px;
+    background: var(--light);
+  }
+
+  .subject-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .subject-info h3 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+  }
+
+  .subject-info p {
+    font-size: 0.7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .subject-stats {
+    display: none;
+  }
+
+  .subject-arrow {
+    display: block;
+    font-size: 1rem;
+    color: var(--gray-light);
+    margin-left: auto;
+  }
+
+  /* Compact Tip Cards */
+  .study-tips {
+    margin-top: 30px;
+  }
+
+  .study-tips h2 {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .tip-card {
+    padding: 14px 10px;
+    border-radius: 10px;
+  }
+
+  .tip-icon {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+
+  .tip-card h3 {
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+  }
+
+  .tip-card p {
+    font-size: 0.7rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .syllabus-cta {
+    margin-top: 30px;
+    gap: 10px;
+  }
+
+  .syllabus-cta .btn {
+    font-size: 0.85rem;
+    padding: 10px 16px;
+  }
+}
+
 /* Quick Topics Section */
 .quick-topics-section {
   margin: 50px 0;

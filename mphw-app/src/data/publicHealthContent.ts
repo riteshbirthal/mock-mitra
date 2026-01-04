@@ -65,10 +65,15 @@ export const publicHealthLessons: Lesson[] = [
 
 :::tip
 **Remember:**
+
 1. Public Health = Population focus
+
 2. Prevention > Cure
+
 3. 3 Core functions: Assessment, Policy, Assurance
+
 4. Incidence = New cases
+
 5. Prevalence = Total cases
 :::
 `,
@@ -124,10 +129,15 @@ export const publicHealthLessons: Lesson[] = [
 
 :::tip
 **याद रखें:**
+
 1. सार्वजनिक स्वास्थ्य = जनसंख्या फोकस
+
 2. रोकथाम > इलाज
+
 3. 3 मुख्य कार्य: आकलन, नीति, आश्वासन
+
 4. घटना = नए मामले
+
 5. प्रसार = कुल मामले
 :::
 `
@@ -210,10 +220,15 @@ export const publicHealthLessons: Lesson[] = [
 
 :::tip
 **Remember:**
+
 1. Primary = Prevent disease (vaccination)
+
 2. Secondary = Early detection (screening)
+
 3. Tertiary = Reduce disability (rehabilitation)
+
 4. Prevention is better than cure
+
 5. Most cost-effective = Primary prevention
 :::
 `,
@@ -279,10 +294,15 @@ export const publicHealthLessons: Lesson[] = [
 
 :::tip
 **याद रखें:**
+
 1. प्राथमिक = रोग रोकें (टीकाकरण)
+
 2. द्वितीयक = प्रारंभिक पहचान (स्क्रीनिंग)
+
 3. तृतीयक = विकलांगता कम करें (पुनर्वास)
+
 4. रोकथाम इलाज से बेहतर
+
 5. सबसे किफायती = प्राथमिक रोकथाम
 :::
 `
@@ -367,11 +387,17 @@ export const publicHealthLessons: Lesson[] = [
 
 :::tip
 **Remember:**
+
 1. NTEP = TB elimination by 2025
+
 2. NVBDCP = Vector-borne diseases
+
 3. NACP = HIV/AIDS control
+
 4. RMNCH+A = Mother and child health
+
 5. DOTS = TB treatment strategy
+
 6. Nikshay = TB tracking portal
 :::
 `,
@@ -448,10 +474,15 @@ export const publicHealthLessons: Lesson[] = [
 
 :::tip
 **याद रखें:**
+
 1. NTEP = 2025 तक TB उन्मूलन
+
 2. NVBDCP = वेक्टर-जनित रोग
+
 3. NACP = HIV/AIDS नियंत्रण
+
 4. RMNCH+A = माता और शिशु स्वास्थ्य
+
 5. DOTS = TB उपचार रणनीति
 :::
 `
@@ -538,11 +569,17 @@ Attack Rate = Cases / Exposed × 100
 
 :::tip
 **Remember:**
+
 1. Incidence = New cases
+
 2. Prevalence = Total cases
+
 3. Endemic = constant, Epidemic = unusual increase
+
 4. Pandemic = worldwide
+
 5. Cohort = follow over time
+
 6. Case-control = compare cases vs controls
 :::
 `,
@@ -611,9 +648,13 @@ Attack Rate = Cases / Exposed × 100
 
 :::tip
 **याद रखें:**
+
 1. घटना = नए मामले
+
 2. प्रसार = कुल मामले
+
 3. एंडेमिक = निरंतर, एपिडेमिक = असामान्य वृद्धि
+
 4. पैंडेमिक = विश्वव्यापी
 :::
 `
@@ -707,11 +748,17 @@ Attack Rate = Cases / Exposed × 100
 
 :::tip
 **Remember:**
+
 1. SC population: 5000 (plain), 3000 (hilly)
+
 2. PHC population: 30000 (plain), 20000 (hilly)
+
 3. CHC population: 120000 (plain), 80000 (hilly)
+
 4. CHC = 30 beds, 4 specialists
+
 5. ASHA = Community link worker
+
 6. ANM = MCH services at Sub-centre
 :::
 `,
@@ -793,10 +840,15 @@ Attack Rate = Cases / Exposed × 100
 
 :::tip
 **याद रखें:**
+
 1. SC जनसंख्या: 5000 (मैदान), 3000 (पहाड़ी)
+
 2. PHC जनसंख्या: 30000 (मैदान), 20000 (पहाड़ी)
+
 3. CHC जनसंख्या: 120000 (मैदान), 80000 (पहाड़ी)
+
 4. CHC = 30 बेड, 4 विशेषज्ञ
+
 5. ASHA = सामुदायिक लिंक कार्यकर्ता
 :::
 `
@@ -968,13 +1020,21 @@ Attack Rate = Cases / Exposed × 100
 
 :::tip
 **Remember:**
+
 1. NHM = NRHM (rural) + NUHM (urban)
+
 2. ASHA covers 1,000 population
+
 3. 10 lakh ASHAs in India
+
 4. VHSNC gets ₹10,000/year untied funds
+
 5. Ayushman Bharat = HWC + PM-JAY
+
 6. PM-JAY = ₹5 lakh coverage
+
 7. NHM Goals: MMR <70, IMR <25, TFR 2.1
+
 8. PMSMA = 9th of every month ANC
 :::
 `,
@@ -1098,13 +1158,21 @@ Attack Rate = Cases / Exposed × 100
 
 :::tip
 **याद रखें:**
+
 1. NHM = NRHM (ग्रामीण) + NUHM (शहरी)
+
 2. ASHA 1,000 जनसंख्या कवर करती है
+
 3. भारत में 10 लाख ASHAs
+
 4. VHSNC को ₹10,000/वर्ष अनबंधित निधि
+
 5. आयुष्मान भारत = HWC + PM-JAY
+
 6. PM-JAY = ₹5 लाख कवरेज
+
 7. NHM लक्ष्य: MMR <70, IMR <25, TFR 2.1
+
 8. PMSMA = हर महीने 9 तारीख ANC
 :::
 `
@@ -1346,15 +1414,25 @@ A comprehensive life-cycle approach covering all stages of health.
 
 :::tip
 **Remember:**
+
 1. JSY: ₹1,400 (rural LPS), ₹1,000 (urban LPS)
+
 2. JSSK = Free entitlements (delivery, drugs, transport)
+
 3. PMSMA = 9th of every month
+
 4. ANC4 = Minimum 4 antenatal visits
+
 5. IFA = 180 tablets during pregnancy
+
 6. Breastfeeding within 1 hour of birth
+
 7. RBSK = 4Ds screening
+
 8. WIFS = Weekly IFA for adolescents
+
 9. IUCD = 10 years duration
+
 10. Sterilization: ₹3,000 (female BPL), ₹2,000 (male BPL)
 :::
 `,

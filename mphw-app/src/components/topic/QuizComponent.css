@@ -193,18 +193,18 @@
 }
 
 .difficulty-badge.easy {
-  background: #c6f6d5;
-  color: #276749;
+  background: #38a169;
+  color: #ffffff;
 }
 
 .difficulty-badge.medium {
-  background: #fef3c7;
-  color: #92400e;
+  background: #dd6b20;
+  color: #ffffff;
 }
 
 .difficulty-badge.hard {
-  background: #fed7d7;
-  color: #c53030;
+  background: #e53e3e;
+  color: #ffffff;
 }
 
 .toggle-lang-btn {
@@ -260,13 +260,15 @@
 }
 
 .option-btn.correct {
-  border-color: #48bb78;
-  background: #c6f6d5;
+  border-color: #38a169;
+  background: #38a169;
+  color: #ffffff;
 }
 
 .option-btn.wrong {
-  border-color: #f56565;
-  background: #fed7d7;
+  border-color: #e53e3e;
+  background: #e53e3e;
+  color: #ffffff;
 }
 
 .option-letter {
@@ -283,13 +285,13 @@
 }
 
 .option-btn.correct .option-letter {
-  background: #48bb78;
-  color: white;
+  background: #ffffff;
+  color: #38a169;
 }
 
 .option-btn.wrong .option-letter {
-  background: #f56565;
-  color: white;
+  background: #ffffff;
+  color: #e53e3e;
 }
 
 .option-text {
@@ -297,9 +299,14 @@
   color: #2d3748;
 }
 
+.option-btn.correct .option-text,
+.option-btn.wrong .option-text {
+  color: #ffffff;
+}
+
 .check-icon {
   font-size: 1.2rem;
-  color: #48bb78;
+  color: #ffffff;
 }
 
 .explanation {
@@ -321,13 +328,15 @@
 }
 
 .explanation.correct {
-  background: #c6f6d5;
-  border: 1px solid #48bb78;
+  background: #38a169;
+  border: 1px solid #2f855a;
+  color: #ffffff;
 }
 
 .explanation.wrong {
-  background: #fed7d7;
-  border: 1px solid #f56565;
+  background: #e53e3e;
+  border: 1px solid #c53030;
+  color: #ffffff;
 }
 
 .explanation-header {
@@ -337,16 +346,17 @@
 }
 
 .explanation.correct .explanation-header {
-  color: #276749;
+  color: #ffffff;
 }
 
 .explanation.wrong .explanation-header {
-  color: #c53030;
+  color: #ffffff;
 }
 
 .explanation p {
-  color: #4a5568;
+  color: #ffffff;
   line-height: 1.5;
+  opacity: 0.95;
 }
 
 .quiz-footer {
@@ -467,8 +477,54 @@
 }
 
 @media (max-width: 600px) {
+  .quiz-start {
+    padding: 40px 15px;
+    min-height: 400px;
+  }
+
+  .quiz-icon {
+    font-size: 3rem;
+  }
+
+  .quiz-start h2 {
+    font-size: 1.4rem;
+  }
+
+  .quiz-start p {
+    font-size: 0.85rem;
+  }
+
+  .quiz-info {
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .info-label {
+    font-size: 0.75rem;
+  }
+
+  .info-value {
+    font-size: 1rem;
+  }
+
+  .difficulty-selector label,
+  .language-selector label {
+    font-size: 0.8rem;
+  }
+
+  .diff-btn,
+  .lang-btn {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+
+  .start-quiz-btn {
+    font-size: 0.9rem;
+    padding: 12px 20px;
+  }
+
   .quiz-container {
-    padding: 20px;
+    padding: 15px;
   }
 
   .quiz-header {
@@ -481,15 +537,136 @@
     max-width: 100%;
   }
 
+  .progress-text {
+    font-size: 0.8rem;
+  }
+
+  .quiz-score {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    text-align: center;
+  }
+
   .question-card {
-    padding: 20px;
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  .difficulty-badge {
+    font-size: 0.7rem;
+    padding: 3px 10px;
+  }
+
+  .toggle-lang-btn {
+    font-size: 0.75rem;
+    padding: 4px 10px;
   }
 
   .question-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+
+  .options-list {
+    gap: 10px;
   }
 
   .option-btn {
-    padding: 12px 16px;
+    padding: 12px 14px;
+    font-size: 0.9rem;
+    gap: 10px;
+    border-radius: 10px;
+  }
+
+  .option-letter {
+    width: 28px;
+    height: 28px;
+    font-size: 0.85rem;
+    border-radius: 6px;
+  }
+
+  .option-text {
+    font-size: 0.9rem;
+  }
+
+  .check-icon {
+    font-size: 1rem;
+  }
+
+  .explanation {
+    padding: 15px;
+    margin-top: 16px;
+    border-radius: 10px;
+  }
+
+  .explanation-header {
+    font-size: 0.95rem;
+  }
+
+  .explanation p {
+    font-size: 0.85rem;
+  }
+
+  .quiz-footer .btn {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+
+  .quiz-result {
+    padding: 40px 15px;
+    min-height: 400px;
+  }
+
+  .result-card {
+    padding: 25px;
+    border-radius: 16px;
+  }
+
+  .result-icon {
+    font-size: 3rem;
+  }
+
+  .result-card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+  }
+
+  .score-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .score-value {
+    font-size: 2rem;
+  }
+
+  .score-total {
+    font-size: 1rem;
+  }
+
+  .score-percentage {
+    font-size: 1.2rem;
+  }
+
+  .result-stats {
+    gap: 30px;
+    margin-bottom: 24px;
+  }
+
+  .stat-value {
+    font-size: 1.2rem;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+  }
+
+  .result-actions {
+    gap: 10px;
+  }
+
+  .result-actions .btn {
+    font-size: 0.9rem;
+    padding: 10px 16px;
   }
 }

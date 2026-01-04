@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
-import { Question, getQuestionsByDifficulty } from '../../data/questionBanks/types';
+import { Question, ShuffledQuestion, getQuestionsByDifficulty } from '../../data/questionBanks/types';
 import './MockTestComponent.css';
 
 interface MockTestComponentProps {
@@ -19,7 +19,7 @@ export default function MockTestComponent({
   const { isHindi } = useLanguage();
   const [testStarted, setTestStarted] = useState(false);
   const [testCompleted, setTestCompleted] = useState(false);
-  const [testQuestions, setTestQuestions] = useState<Question[]>([]);
+  const [testQuestions, setTestQuestions] = useState<ShuffledQuestion[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [timeLeft, setTimeLeft] = useState(testDuration * 60);
@@ -75,7 +75,8 @@ export default function MockTestComponent({
   const submitTest = () => {
     setTestCompleted(true);
     const finalScore = answers.reduce((acc: number, answer, index) => {
-      if (answer === testQuestions[index]?.correctAnswer) {
+      // Use shuffledCorrectAnswer for comparison
+      if (answer === testQuestions[index]?.shuffledCorrectAnswer) {
         return acc + 1;
       }
       return acc;
@@ -172,7 +173,7 @@ export default function MockTestComponent({
 
   if (testCompleted) {
     const score = answers.reduce((acc: number, answer, index) => {
-      if (answer === testQuestions[index]?.correctAnswer) return acc + 1;
+      if (answer === testQuestions[index]?.shuffledCorrectAnswer) return acc + 1;
       return acc;
     }, 0);
     const percentage = testQuestions.length > 0 ? Math.round((score / testQuestions.length) * 100) : 0;
@@ -191,8 +192,9 @@ export default function MockTestComponent({
           <div className="review-questions">
             {testQuestions.map((question, index) => {
               const userAnswer = answers[index];
-              const isCorrect = userAnswer === question.correctAnswer;
-              const options = displayHindi ? question.optionsHi : question.optionsEn;
+              const isCorrect = userAnswer === question.shuffledCorrectAnswer;
+              // Use shuffled options for review
+              const options = displayHindi ? question.shuffledOptionsHi : question.shuffledOptionsEn;
               
               return (
                 <div key={index} className={`review-question ${isCorrect ? 'correct' : 'wrong'}`}>
@@ -210,13 +212,13 @@ export default function MockTestComponent({
                       <div 
                         key={optIndex}
                         className={`review-option ${
-                          optIndex === question.correctAnswer ? 'correct-answer' : ''
-                        } ${userAnswer === optIndex && optIndex !== question.correctAnswer ? 'user-wrong' : ''}`}
+                          optIndex === question.shuffledCorrectAnswer ? 'correct-answer' : ''
+                        } ${userAnswer === optIndex && optIndex !== question.shuffledCorrectAnswer ? 'user-wrong' : ''}`}
                       >
                         <span className="opt-letter">{String.fromCharCode(65 + optIndex)}</span>
                         {option}
-                        {optIndex === question.correctAnswer && <span className="correct-mark">✓</span>}
-                        {userAnswer === optIndex && optIndex !== question.correctAnswer && (
+                        {optIndex === question.shuffledCorrectAnswer && <span className="correct-mark">✓</span>}
+                        {userAnswer === optIndex && optIndex !== question.shuffledCorrectAnswer && (
                           <span className="wrong-mark">✗</span>
                         )}
                       </div>
@@ -309,7 +311,8 @@ export default function MockTestComponent({
   }
 
   const question = testQuestions[currentQuestion];
-  const options = displayHindi ? question.optionsHi : question.optionsEn;
+  // Use shuffled options for display
+  const options = displayHindi ? question.shuffledOptionsHi : question.shuffledOptionsEn;
 
   return (
     <div className="mock-test">

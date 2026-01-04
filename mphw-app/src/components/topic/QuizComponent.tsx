@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
-import { Question, getRandomQuestions, getQuestionsByDifficulty } from '../../data/questionBanks/types';
+import { Question, ShuffledQuestion, getRandomQuestions, getQuestionsByDifficulty } from '../../data/questionBanks/types';
 import './QuizComponent.css';
 
 interface QuizComponentProps {
@@ -27,13 +27,13 @@ export default function QuizComponent({
   const [score, setScore] = useState(0);
   const [answered, setAnswered] = useState<number[]>([]);
   const [quizCompleted, setQuizCompleted] = useState(false);
-  const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
+  const [quizQuestions, setQuizQuestions] = useState<ShuffledQuestion[]>([]);
   const [quizStarted, setQuizStarted] = useState(false);
   const [questionLang, setQuestionLang] = useState<'en' | 'hi' | 'app'>('app');
   const [selectedDifficulty, setSelectedDifficulty] = useState<'easy' | 'medium' | 'hard' | 'mixed'>(difficulty);
 
   const startQuiz = () => {
-    let selectedQuestions: Question[];
+    let selectedQuestions: ShuffledQuestion[];
     
     if (balancedDifficulty) {
       const easyCount = Math.ceil(questionCount * 0.4);
@@ -47,6 +47,8 @@ export default function QuizComponent({
     setQuizQuestions(selectedQuestions);
     setQuizStarted(true);
     setCurrentQuestion(0);
+    setSelectedAnswer(null);
+    setShowExplanation(false);
     setScore(0);
     setAnswered([]);
     setQuizCompleted(false);
@@ -59,7 +61,8 @@ export default function QuizComponent({
     setShowExplanation(true);
     setAnswered([...answered, currentQuestion]);
     
-    if (answerIndex === quizQuestions[currentQuestion].correctAnswer) {
+    // Use shuffledCorrectAnswer for comparison
+    if (answerIndex === quizQuestions[currentQuestion].shuffledCorrectAnswer) {
       setScore(score + 1);
     }
   };
@@ -216,7 +219,8 @@ export default function QuizComponent({
   }
 
   const question = quizQuestions[currentQuestion];
-  const options = displayHindi ? question.optionsHi : question.optionsEn;
+  // Use shuffled options
+  const options = displayHindi ? question.shuffledOptionsHi : question.shuffledOptionsEn;
 
   return (
     <div className="quiz-container">
@@ -264,10 +268,10 @@ export default function QuizComponent({
               key={index}
               className={`option-btn ${
                 selectedAnswer === index 
-                  ? index === question.correctAnswer 
+                  ? index === question.shuffledCorrectAnswer 
                     ? 'correct' 
                     : 'wrong'
-                  : showExplanation && index === question.correctAnswer
+                  : showExplanation && index === question.shuffledCorrectAnswer
                     ? 'correct'
                     : ''
               }`}
@@ -276,7 +280,7 @@ export default function QuizComponent({
             >
               <span className="option-letter">{String.fromCharCode(65 + index)}</span>
               <span className="option-text">{option}</span>
-              {showExplanation && index === question.correctAnswer && (
+              {showExplanation && index === question.shuffledCorrectAnswer && (
                 <span className="check-icon">✓</span>
               )}
             </button>
@@ -284,9 +288,9 @@ export default function QuizComponent({
         </div>
 
         {showExplanation && (
-          <div className={`explanation ${selectedAnswer === question.correctAnswer ? 'correct' : 'wrong'}`}>
+          <div className={`explanation ${selectedAnswer === question.shuffledCorrectAnswer ? 'correct' : 'wrong'}`}>
             <div className="explanation-header">
-              {selectedAnswer === question.correctAnswer 
+              {selectedAnswer === question.shuffledCorrectAnswer 
                 ? (isHindi ? '✓ सही उत्तर!' : '✓ Correct!') 
                 : (isHindi ? '✗ गलत उत्तर' : '✗ Incorrect')}
             </div>

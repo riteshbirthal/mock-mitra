@@ -74,10 +74,15 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **Remember:**
+
 1. Records help in planning and evaluation
+
 2. Individual records = MCH card, immunization card
+
 3. Community records = Registers
+
 4. Good records: Accurate, Complete, Timely
+
 5. Maintain confidentiality always
 :::
 `,
@@ -142,10 +147,15 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **याद रखें:**
+
 1. रिकॉर्ड योजना और मूल्यांकन में मदद
+
 2. व्यक्तिगत रिकॉर्ड = MCH कार्ड
+
 3. सामुदायिक रिकॉर्ड = रजिस्टर
+
 4. अच्छे रिकॉर्ड: सटीक, पूर्ण, समय पर
+
 5. हमेशा गोपनीयता बनाए रखें
 :::
 `
@@ -236,10 +246,15 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **Remember:**
+
 1. EC Register = Eligible couples, FP methods
+
 2. ANC Register = Pregnancy tracking
+
 3. Immunization Register = Child vaccines
+
 4. Birth/Death Register = Vital events
+
 5. All registers must be updated regularly
 :::
 `,
@@ -321,10 +336,15 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **याद रखें:**
+
 1. EC रजिस्टर = पात्र दंपति, FP विधियां
+
 2. ANC रजिस्टर = गर्भावस्था ट्रैकिंग
+
 3. टीकाकरण रजिस्टर = बच्चों के टीके
+
 4. जन्म/मृत्यु रजिस्टर = महत्वपूर्ण घटनाएं
+
 5. सभी रजिस्टर नियमित अपडेट करें
 :::
 `
@@ -406,10 +426,15 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **Remember:**
+
 1. Monthly reports = Most common
+
 2. HMIS = Health data reporting
+
 3. Submit to PHC by 5th of month
+
 4. Reports flow: SC → PHC → Block → District
+
 5. Accurate, complete, timely data
 :::
 `,
@@ -474,10 +499,15 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **याद रखें:**
+
 1. मासिक रिपोर्ट = सबसे आम
+
 2. HMIS = स्वास्थ्य डेटा रिपोर्टिंग
+
 3. महीने की 5 तारीख तक PHC को जमा
+
 4. प्रवाह: SC → PHC → ब्लॉक → जिला
+
 5. सटीक, पूर्ण, समय पर डेटा
 :::
 `
@@ -556,11 +586,17 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **Remember:**
+
 1. Surveillance = Continuous data collection for action
+
 2. IDSP = Disease surveillance program
+
 3. S form = Sub-centre (syndromic)
+
 4. P form = PHC (presumptive)
+
 5. L form = Lab (confirmed)
+
 6. Nikshay = TB tracking portal
 :::
 `,
@@ -620,11 +656,17 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **याद रखें:**
+
 1. निगरानी = कार्रवाई के लिए निरंतर डेटा संग्रह
+
 2. IDSP = रोग निगरानी कार्यक्रम
+
 3. S फॉर्म = उप-केंद्र (सिंड्रोमिक)
+
 4. P फॉर्म = PHC (प्रिज़म्प्टिव)
+
 5. L फॉर्म = लैब (पुष्ट)
+
 6. निक्षय = TB ट्रैकिंग पोर्टल
 :::
 `
@@ -708,11 +750,17 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **Remember:**
+
 1. Percentage = (Part/Total) × 100
+
 2. Bar chart = Compare categories
+
 3. Line graph = Show trends
+
 4. Data → Analysis → Action
+
 5. Always check data quality
+
 6. Compare with targets
 :::
 `,
@@ -791,10 +839,15 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **याद रखें:**
+
 1. प्रतिशत = (भाग/कुल) × 100
+
 2. बार चार्ट = श्रेणियों की तुलना
+
 3. लाइन ग्राफ = प्रवृत्ति दिखाएं
+
 4. डेटा → विश्लेषण → कार्रवाई
+
 5. हमेशा डेटा गुणवत्ता जांचें
 :::
 `
@@ -901,11 +954,17 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **Remember:**
+
 1. MCH card tracks mother + child from pregnancy to 5 years
+
 2. Red sticker = High risk pregnancy
+
 3. Enter data in RCH portal within 48 hours of delivery
+
 4. ANC: Track weight, BP, Hb, urine
+
 5. Child: Track immunization + growth
+
 6. MCTS generates due lists and SMS reminders
 :::
 `,
@@ -1005,11 +1064,17 @@ export const recordKeepingLessons: Lesson[] = [
 
 :::tip
 **याद रखें:**
+
 1. MCH कार्ड गर्भावस्था से 5 वर्ष तक माता + बच्चे को ट्रैक करता है
+
 2. लाल स्टिकर = उच्च जोखिम गर्भावस्था
+
 3. प्रसव के 48 घंटों के भीतर RCH पोर्टल में डेटा दर्ज करें
+
 4. ANC: वजन, BP, Hb, मूत्र ट्रैक करें
+
 5. बच्चा: टीकाकरण + विकास ट्रैक करें
+
 6. MCTS ड्यू लिस्ट और SMS रिमाइंडर जनरेट करता है
 :::
 `
@@ -1147,12 +1212,19 @@ Reorder Level = Minimum Stock + Buffer Stock
 
 :::tip
 **Remember:**
+
 1. FEFO = First Expiry First Out
+
 2. ABC Analysis: A = High value, tight control
+
 3. Reorder when stock reaches reorder level
+
 4. Monthly physical verification
+
 5. Update stock register after every transaction
+
 6. Check expiry dates regularly
+
 7. Store vaccines at +2°C to +8°C
 :::
 `,
@@ -1272,12 +1344,19 @@ Reorder Level = Minimum Stock + Buffer Stock
 
 :::tip
 **याद रखें:**
+
 1. FEFO = पहले एक्सपायरी पहले बाहर
+
 2. ABC विश्लेषण: A = उच्च मूल्य, कड़ा नियंत्रण
+
 3. रीऑर्डर लेवल पर पहुंचने पर रीऑर्डर करें
+
 4. मासिक भौतिक सत्यापन
+
 5. हर लेनदेन के बाद स्टॉक रजिस्टर अपडेट
+
 6. नियमित रूप से एक्सपायरी तिथियां जांचें
+
 7. टीके +2°C से +8°C पर स्टोर करें
 :::
 `
@@ -1388,12 +1467,19 @@ Reorder Level = Minimum Stock + Buffer Stock
 
 :::tip
 **Remember:**
+
 1. HMIS = National health data system
+
 2. Monthly data entry for HMIS
+
 3. Real-time entry for RCH portal
+
 4. Key indicators: ANC, delivery, immunization
+
 5. Verify data before portal entry
+
 6. Meet reporting deadlines
+
 7. Track both numerator and denominator
 :::
 `,
@@ -1485,11 +1571,17 @@ Reorder Level = Minimum Stock + Buffer Stock
 
 :::tip
 **याद रखें:**
+
 1. HMIS = राष्ट्रीय स्वास्थ्य डेटा प्रणाली
+
 2. HMIS के लिए मासिक डेटा प्रविष्टि
+
 3. RCH पोर्टल के लिए रियल-टाइम प्रविष्टि
+
 4. प्रमुख संकेतक: ANC, प्रसव, टीकाकरण
+
 5. पोर्टल प्रविष्टि से पहले डेटा सत्यापित करें
+
 6. रिपोर्टिंग समय सीमा पूरी करें
 :::
 `
@@ -1621,13 +1713,21 @@ Reorder Level = Minimum Stock + Buffer Stock
 
 :::tip
 **Remember:**
+
 1. Referral slip must have complete patient details
+
 2. Always stabilize before referral
+
 3. Communicate with receiving facility
+
 4. Arrange transport and escort
+
 5. Document in referral register
+
 6. Track referral outcome
+
 7. Back referral ensures continuity
+
 8. Emergency referrals = Maternal bleeding, eclampsia, severe dehydration
 :::
 `,
@@ -1754,12 +1854,19 @@ Reorder Level = Minimum Stock + Buffer Stock
 
 :::tip
 **याद रखें:**
+
 1. रेफरल स्लिप में पूर्ण रोगी विवरण होना चाहिए
+
 2. रेफरल से पहले हमेशा स्थिर करें
+
 3. प्राप्त करने वाली सुविधा से संवाद करें
+
 4. परिवहन और अनुरक्षण की व्यवस्था करें
+
 5. रेफरल रजिस्टर में दस्तावेज़ करें
+
 6. रेफरल परिणाम ट्रैक करें
+
 7. बैक रेफरल निरंतरता सुनिश्चित करता है
 :::
 `
@@ -1905,13 +2012,21 @@ Medical records are legal documents that can be used in:
 
 :::tip
 **Remember:**
+
 1. Birth registration within 21 days
+
 2. Death registration within 21 days
+
 3. Medical records are legal documents
+
 4. Maintain confidentiality always
+
 5. MLC for injuries, assault, poisoning
+
 6. Inform police for medico-legal cases
+
 7. Keep records safe and accessible
+
 8. After 1 year - court order for birth/death registration
 :::
 `,
@@ -2043,13 +2158,21 @@ Medical records are legal documents that can be used in:
 
 :::tip
 **याद रखें:**
+
 1. 21 दिनों के भीतर जन्म पंजीकरण
+
 2. 21 दिनों के भीतर मृत्यु पंजीकरण
+
 3. चिकित्सा रिकॉर्ड कानूनी दस्तावेज़ हैं
+
 4. हमेशा गोपनीयता बनाए रखें
+
 5. चोट, हमला, विषाक्तता के लिए MLC
+
 6. मेडिको-लीगल मामलों के लिए पुलिस सूचित करें
+
 7. रिकॉर्ड सुरक्षित और सुलभ रखें
+
 8. 1 वर्ष के बाद - जन्म/मृत्यु पंजीकरण के लिए अदालत आदेश
 :::
 `
@@ -2179,13 +2302,21 @@ Medical records are legal documents that can be used in:
 
 :::tip
 **Remember:**
+
 1. ABDM = Ayushman Bharat Digital Mission
+
 2. Health ID = 14-digit unique identifier
+
 3. RCH Portal = MCH tracking
+
 4. eVIN = Vaccine stock and cold chain
+
 5. Nikshay = TB surveillance
+
 6. IHIP = Disease surveillance
+
 7. Always maintain data security
+
 8. Enter data timely and accurately
 :::
 `,
@@ -2310,13 +2441,21 @@ Medical records are legal documents that can be used in:
 
 :::tip
 **याद रखें:**
+
 1. ABDM = आयुष्मान भारत डिजिटल मिशन
+
 2. स्वास्थ्य ID = 14-अंकीय अद्वितीय पहचानकर्ता
+
 3. RCH पोर्टल = MCH ट्रैकिंग
+
 4. eVIN = वैक्सीन स्टॉक और कोल्ड चेन
+
 5. निक्षय = TB निगरानी
+
 6. IHIP = रोग निगरानी
+
 7. हमेशा डेटा सुरक्षा बनाए रखें
+
 8. समय पर और सटीक डेटा दर्ज करें
 :::
 `
@@ -2462,13 +2601,21 @@ Poor quality records lead to:
 
 :::tip
 **Remember:**
+
 1. Quality = Accuracy + Completeness + Timeliness
+
 2. Common errors: Omission, commission, duplication
+
 3. PDCA cycle: Plan-Do-Check-Act
+
 4. Monthly quality review essential
+
 5. Data audit helps identify gaps
+
 6. Training improves quality
+
 7. Peer review catches errors
+
 8. Target >95% completeness, <5% errors
 :::
 `,
@@ -2609,13 +2756,21 @@ Poor quality records lead to:
 
 :::tip
 **याद रखें:**
+
 1. गुणवत्ता = सटीकता + पूर्णता + समयबद्धता
+
 2. सामान्य त्रुटियां: चूक, कमीशन, दोहराव
+
 3. PDCA चक्र: योजना-करें-जांचें-कार्य
+
 4. मासिक गुणवत्ता समीक्षा आवश्यक
+
 5. डेटा ऑडिट अंतराल पहचानने में मदद करता है
+
 6. प्रशिक्षण गुणवत्ता में सुधार करता है
+
 7. सहकर्मी समीक्षा त्रुटियां पकड़ती है
+
 8. लक्ष्य >95% पूर्णता, <5% त्रुटियां
 :::
 `

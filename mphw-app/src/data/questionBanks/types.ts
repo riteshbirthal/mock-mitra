@@ -13,6 +13,13 @@ export interface Question {
   tags?: string[];
 }
 
+// Question with shuffled options for quiz display
+export interface ShuffledQuestion extends Question {
+  shuffledOptionsEn: string[];
+  shuffledOptionsHi: string[];
+  shuffledCorrectAnswer: number;
+}
+
 export interface QuestionBank {
   topicId: string;
   topicNameEn: string;
@@ -37,11 +44,32 @@ export const shuffleArray = <T>(array: T[]): T[] => {
   return shuffled;
 };
 
+// Shuffle options and track new correct answer index
+export const shuffleQuestionOptions = (question: Question): ShuffledQuestion => {
+  // Create indices array [0, 1, 2, 3]
+  const indices = question.optionsEn.map((_, i) => i);
+  const shuffledIndices = shuffleArray(indices);
+  
+  // Rearrange options based on shuffled indices
+  const shuffledOptionsEn = shuffledIndices.map(i => question.optionsEn[i]);
+  const shuffledOptionsHi = shuffledIndices.map(i => question.optionsHi[i]);
+  
+  // Find new position of correct answer
+  const shuffledCorrectAnswer = shuffledIndices.indexOf(question.correctAnswer);
+  
+  return {
+    ...question,
+    shuffledOptionsEn,
+    shuffledOptionsHi,
+    shuffledCorrectAnswer
+  };
+};
+
 export const getRandomQuestions = (
   questions: Question[],
   count: number,
   config?: Partial<QuizConfig>
-): Question[] => {
+): ShuffledQuestion[] => {
   let filtered = [...questions];
 
   if (config?.difficulty && config.difficulty !== 'mixed') {
@@ -54,8 +82,12 @@ export const getRandomQuestions = (
     );
   }
 
+  // Shuffle questions and take required count
   const shuffled = shuffleArray(filtered);
-  return shuffled.slice(0, Math.min(count, shuffled.length));
+  const selected = shuffled.slice(0, Math.min(count, shuffled.length));
+  
+  // Shuffle options for each selected question
+  return selected.map(q => shuffleQuestionOptions(q));
 };
 
 export const getQuestionsByDifficulty = (
@@ -63,10 +95,13 @@ export const getQuestionsByDifficulty = (
   easyCount: number,
   mediumCount: number,
   hardCount: number
-): Question[] => {
+): ShuffledQuestion[] => {
   const easy = shuffleArray(questions.filter(q => q.difficulty === 'easy')).slice(0, easyCount);
   const medium = shuffleArray(questions.filter(q => q.difficulty === 'medium')).slice(0, mediumCount);
   const hard = shuffleArray(questions.filter(q => q.difficulty === 'hard')).slice(0, hardCount);
   
-  return shuffleArray([...easy, ...medium, ...hard]);
+  const combined = shuffleArray([...easy, ...medium, ...hard]);
+  
+  // Shuffle options for each question
+  return combined.map(q => shuffleQuestionOptions(q));
 };
