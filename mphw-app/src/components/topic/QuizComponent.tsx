@@ -87,6 +87,20 @@ export default function QuizComponent({
 
   const displayHindi = getDisplayLanguage();
 
+  // Calculate question counts by difficulty
+  const easyCount = questions.filter(q => q.difficulty === 'easy').length;
+  const mediumCount = questions.filter(q => q.difficulty === 'medium').length;
+  const hardCount = questions.filter(q => q.difficulty === 'hard').length;
+
+  // Get available count for selected difficulty
+  const getAvailableCount = () => {
+    if (selectedDifficulty === 'mixed') return questions.length;
+    if (selectedDifficulty === 'easy') return easyCount;
+    if (selectedDifficulty === 'medium') return mediumCount;
+    if (selectedDifficulty === 'hard') return hardCount;
+    return questions.length;
+  };
+
   if (!quizStarted) {
     return (
       <div className="quiz-start">
@@ -98,7 +112,7 @@ export default function QuizComponent({
           <div className="quiz-info">
             <div className="info-item">
               <span className="info-label">{isHindi ? 'प्रश्न' : 'Questions'}</span>
-              <span className="info-value">{Math.min(questionCount, questions.length)}</span>
+              <span className="info-value">{Math.min(questionCount, getAvailableCount())}</span>
             </div>
             <div className="info-item">
               <span className="info-label">{isHindi ? 'समय' : 'Time'}</span>
@@ -110,28 +124,31 @@ export default function QuizComponent({
             <label>{isHindi ? 'कठिनाई स्तर:' : 'Difficulty Level:'}</label>
             <div className="diff-options">
               <button 
-                className={`diff-btn easy ${selectedDifficulty === 'easy' ? 'active' : ''}`}
-                onClick={() => setSelectedDifficulty('easy')}
+                className={`diff-btn easy ${selectedDifficulty === 'easy' ? 'active' : ''} ${easyCount === 0 ? 'disabled' : ''}`}
+                onClick={() => easyCount > 0 && setSelectedDifficulty('easy')}
+                disabled={easyCount === 0}
               >
-                {isHindi ? 'आसान' : 'Easy'}
+                {isHindi ? 'आसान' : 'Easy'} ({easyCount})
               </button>
               <button 
-                className={`diff-btn medium ${selectedDifficulty === 'medium' ? 'active' : ''}`}
-                onClick={() => setSelectedDifficulty('medium')}
+                className={`diff-btn medium ${selectedDifficulty === 'medium' ? 'active' : ''} ${mediumCount === 0 ? 'disabled' : ''}`}
+                onClick={() => mediumCount > 0 && setSelectedDifficulty('medium')}
+                disabled={mediumCount === 0}
               >
-                {isHindi ? 'मध्यम' : 'Medium'}
+                {isHindi ? 'मध्यम' : 'Medium'} ({mediumCount})
               </button>
               <button 
-                className={`diff-btn hard ${selectedDifficulty === 'hard' ? 'active' : ''}`}
-                onClick={() => setSelectedDifficulty('hard')}
+                className={`diff-btn hard ${selectedDifficulty === 'hard' ? 'active' : ''} ${hardCount === 0 ? 'disabled' : ''}`}
+                onClick={() => hardCount > 0 && setSelectedDifficulty('hard')}
+                disabled={hardCount === 0}
               >
-                {isHindi ? 'कठिन' : 'Hard'}
+                {isHindi ? 'कठिन' : 'Hard'} ({hardCount})
               </button>
               <button 
                 className={`diff-btn mixed ${selectedDifficulty === 'mixed' ? 'active' : ''}`}
                 onClick={() => setSelectedDifficulty('mixed')}
               >
-                {isHindi ? 'मिश्रित' : 'Mixed'}
+                {isHindi ? 'मिश्रित' : 'Mixed'} ({questions.length})
               </button>
             </div>
           </div>
@@ -213,6 +230,22 @@ export default function QuizComponent({
               {isHindi ? 'वापस जाएं' : 'Go Back'}
             </button>
           </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Guard against empty questions array
+  if (quizQuestions.length === 0) {
+    return (
+      <div className="quiz-start">
+        <div className="quiz-start-content">
+          <div className="quiz-icon">⚠️</div>
+          <h2>{isHindi ? 'कोई प्रश्न उपलब्ध नहीं' : 'No Questions Available'}</h2>
+          <p>{isHindi ? 'इस कठिनाई स्तर के लिए कोई प्रश्न नहीं मिला।' : 'No questions found for this difficulty level.'}</p>
+          <button className="btn btn-primary" onClick={() => setQuizStarted(false)}>
+            {isHindi ? 'वापस जाएं' : 'Go Back'}
+          </button>
         </div>
       </div>
     );

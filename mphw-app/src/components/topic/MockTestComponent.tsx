@@ -310,6 +310,22 @@ export default function MockTestComponent({
     );
   }
 
+  // Guard against empty questions array
+  if (testQuestions.length === 0) {
+    return (
+      <div className="mock-test-start">
+        <div className="test-start-content">
+          <div className="test-icon">⚠️</div>
+          <h2>{isHindi ? 'कोई प्रश्न उपलब्ध नहीं' : 'No Questions Available'}</h2>
+          <p>{isHindi ? 'इस विषय के लिए पर्याप्त प्रश्न नहीं हैं।' : 'Not enough questions available for this topic.'}</p>
+          <button className="btn btn-primary" onClick={() => setTestStarted(false)}>
+            {isHindi ? 'वापस जाएं' : 'Go Back'}
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   const question = testQuestions[currentQuestion];
   // Use shuffled options for display
   const options = displayHindi ? question.shuffledOptionsHi : question.shuffledOptionsEn;

@@ -1,70 +1,75 @@
-// Export all question banks
+// Export types
 export * from './types';
-export * from './computerKnowledge';
-export * from './anatomy';
-export * from './physiology';
-export * from './microbiology';
-export * from './firstAid';
-export * from './immunization';
-export * from './nutrition';
-export * from './mch';
-export * from './publicHealth';
-export * from './communicableDiseases';
-export * from './healthHygiene';
-export * from './mentalHealth';
-export * from './pharmacology';
-export * from './practicalSkills';
-export * from './recordKeeping';
-export * from './infectionControl';
-export * from './communicationSkills';
-export * from './healthEducation';
-export * from './generalAwareness';
-export * from './occupationalHealth';
+
+// Export all question banks
+export { anatomyQuestions, anatomyQuestionBank } from './anatomy';
+export { physiologyQuestions, physiologyQuestionBank } from './physiology';
+export { microbiologyQuestions, microbiologyQuestionBank } from './microbiology';
+export { firstAidQuestions, firstAidQuestionBank } from './firstAid';
+export { healthHygieneQuestions, healthHygieneQuestionBank } from './healthHygiene';
+export { nutritionQuestions, nutritionQuestionBank } from './nutrition';
+export { immunizationQuestions, immunizationQuestionBank } from './immunization';
+export { mchQuestions, mchQuestionBank } from './mch';
+export { communicableDiseasesQuestions, communicableDiseasesQuestionBank } from './communicableDiseases';
+export { publicHealthQuestions, publicHealthQuestionBank } from './publicHealth';
+export { mentalHealthQuestions, mentalHealthQuestionBank } from './mentalHealth';
+export { pharmacologyQuestions, pharmacologyQuestionBank } from './pharmacology';
+export { practicalSkillsQuestions, practicalSkillsQuestionBank } from './practicalSkills';
+export { communicationSkillsQuestions, communicationSkillsQuestionBank } from './communicationSkills';
+export { healthEducationQuestions, healthEducationQuestionBank } from './healthEducation';
+export { infectionControlQuestions, infectionControlQuestionBank } from './infectionControl';
+export { computerKnowledgeQuestions, computerKnowledgeQuestionBank } from './computerKnowledge';
+export { generalAwarenessQuestions, generalAwarenessQuestionBank } from './generalAwareness';
+export { occupationalHealthQuestions, occupationalHealthQuestionBank } from './occupationalHealth';
+export { mathematicsQuestions, mathematicsQuestionBank } from './mathematics';
+export { reasoningQuestions, reasoningQuestionBank } from './reasoning';
 
 // Import question banks for aggregation
-import { computerKnowledgeBank } from './computerKnowledge';
 import { anatomyQuestionBank } from './anatomy';
 import { physiologyQuestionBank } from './physiology';
 import { microbiologyQuestionBank } from './microbiology';
 import { firstAidQuestionBank } from './firstAid';
-import { immunizationQuestionBank } from './immunization';
-import { nutritionQuestionBank } from './nutrition';
-import { mchQuestionBank } from './mch';
-import { publicHealthQuestionBank } from './publicHealth';
-import { communicableDiseasesQuestionBank } from './communicableDiseases';
 import { healthHygieneQuestionBank } from './healthHygiene';
+import { nutritionQuestionBank } from './nutrition';
+import { immunizationQuestionBank } from './immunization';
+import { mchQuestionBank } from './mch';
+import { communicableDiseasesQuestionBank } from './communicableDiseases';
+import { publicHealthQuestionBank } from './publicHealth';
 import { mentalHealthQuestionBank } from './mentalHealth';
 import { pharmacologyQuestionBank } from './pharmacology';
 import { practicalSkillsQuestionBank } from './practicalSkills';
-import { recordKeepingQuestionBank } from './recordKeeping';
-import { infectionControlQuestionBank } from './infectionControl';
 import { communicationSkillsQuestionBank } from './communicationSkills';
 import { healthEducationQuestionBank } from './healthEducation';
+import { infectionControlQuestionBank } from './infectionControl';
+import { computerKnowledgeQuestionBank } from './computerKnowledge';
 import { generalAwarenessQuestionBank } from './generalAwareness';
 import { occupationalHealthQuestionBank } from './occupationalHealth';
+import { mathematicsQuestionBank } from './mathematics';
+import { reasoningQuestionBank } from './reasoning';
 
 // All question banks
 export const allQuestionBanks = [
-  computerKnowledgeBank,
   anatomyQuestionBank,
   physiologyQuestionBank,
   microbiologyQuestionBank,
   firstAidQuestionBank,
-  immunizationQuestionBank,
-  nutritionQuestionBank,
-  mchQuestionBank,
-  publicHealthQuestionBank,
-  communicableDiseasesQuestionBank,
   healthHygieneQuestionBank,
+  nutritionQuestionBank,
+  immunizationQuestionBank,
+  mchQuestionBank,
+  communicableDiseasesQuestionBank,
+  publicHealthQuestionBank,
   mentalHealthQuestionBank,
   pharmacologyQuestionBank,
   practicalSkillsQuestionBank,
-  recordKeepingQuestionBank,
-  infectionControlQuestionBank,
   communicationSkillsQuestionBank,
   healthEducationQuestionBank,
+  infectionControlQuestionBank,
+  computerKnowledgeQuestionBank,
   generalAwarenessQuestionBank,
   occupationalHealthQuestionBank,
+  mathematicsQuestionBank,
+  reasoningQuestionBank,
 ];
 
 // Get question bank by topic ID

@@ -5,6 +5,7 @@ import LessonContent from '../../components/topic/LessonContent';
 import QuizComponent from '../../components/topic/QuizComponent';
 import MockTestComponent from '../../components/topic/MockTestComponent';
 import { reasoningLessons } from '../../data/reasoningContent';
+import { reasoningQuestions } from '../../data/questionBanks/reasoning';
 
 const STORAGE_KEYS = { COMPLETED_LESSONS: 'reasoning_completedLessons', ACTIVE_TAB: 'reasoning_activeTab' };
 const tabs = [
@@ -12,19 +13,6 @@ const tabs = [
   { id: 'quiz', labelEn: 'Quiz', labelHi: 'क्विज़', icon: '📝' },
   { id: 'mocktest', labelEn: 'Mock Test', labelHi: 'मॉक टेस्ट', icon: '📋' },
   { id: 'resources', labelEn: 'Resources', labelHi: 'संसाधन', icon: '📁' },
-];
-
-const reasoningQuestions = [
-  { id: "r_1", questionEn: "Find the next number: 2, 5, 8, 11, 14, ?", questionHi: "अगली संख्या ज्ञात करें: 2, 5, 8, 11, 14, ?", optionsEn: ["17", "15", "16", "18"], optionsHi: ["17", "15", "16", "18"], correctAnswer: 0, explanationEn: "Pattern: +3. Next = 14 + 3 = 17", explanationHi: "पैटर्न: +3। अगला = 14 + 3 = 17", difficulty: 'easy' as const, topic: "reasoning" },
-  { id: "r_2", questionEn: "Find the next: A, C, E, G, ?", questionHi: "अगला ज्ञात करें: A, C, E, G, ?", optionsEn: ["I", "H", "J", "K"], optionsHi: ["I", "H", "J", "K"], correctAnswer: 0, explanationEn: "Pattern: Skip 1 letter. After G, skip H = I", explanationHi: "पैटर्न: 1 अक्षर छोड़ें। G के बाद, H छोड़ें = I", difficulty: 'easy' as const, topic: "reasoning" },
-  { id: "r_3", questionEn: "If BOOK = CPPN, then LOOK = ?", questionHi: "यदि BOOK = CPPN, तो LOOK = ?", optionsEn: ["MPPN", "NQQO", "LPPL", "MOOO"], optionsHi: ["MPPN", "NQQO", "LPPL", "MOOO"], correctAnswer: 0, explanationEn: "Each letter +1. L→M, O→P, O→P, K→N = MPPN", explanationHi: "प्रत्येक अक्षर +1। L→M, O→P, O→P, K→N = MPPN", difficulty: 'easy' as const, topic: "reasoning" },
-  { id: "r_4", questionEn: "Pointing to a man, Seema said 'He is my mother's only son's son'. How is the man related to Seema?", questionHi: "एक व्यक्ति की ओर इशारा करते हुए सीमा ने कहा 'वह मेरी माँ के इकलौते पुत्र का पुत्र है'। वह व्यक्ति सीमा से कैसे संबंधित है?", optionsEn: ["Nephew", "Son", "Brother", "Uncle"], optionsHi: ["भतीजा", "पुत्र", "भाई", "चाचा"], correctAnswer: 0, explanationEn: "Mother's only son = Seema's brother. His son = Seema's nephew", explanationHi: "माँ का इकलौता पुत्र = सीमा का भाई। उसका पुत्र = सीमा का भतीजा", difficulty: 'medium' as const, topic: "reasoning" },
-  { id: "r_5", questionEn: "A walks 5km East, turns left walks 3km. Which direction is he from start?", questionHi: "A 5km पूर्व चलता है, बाएं मुड़ता है 3km चलता है। वह शुरुआत से किस दिशा में है?", optionsEn: ["North-East", "South-East", "North-West", "South-West"], optionsHi: ["उत्तर-पूर्व", "दक्षिण-पूर्व", "उत्तर-पश्चिम", "दक्षिण-पश्चिम"], correctAnswer: 0, explanationEn: "East + Left(North) = North-East from start", explanationHi: "पूर्व + बाएं(उत्तर) = शुरुआत से उत्तर-पूर्व", difficulty: 'easy' as const, topic: "reasoning" },
-  { id: "r_6", questionEn: "Doctor : Patient :: Teacher : ?", questionHi: "डॉक्टर : मरीज :: शिक्षक : ?", optionsEn: ["Student", "School", "Book", "Principal"], optionsHi: ["छात्र", "स्कूल", "पुस्तक", "प्रधानाचार्य"], correctAnswer: 0, explanationEn: "Doctor serves Patient, Teacher serves Student", explanationHi: "डॉक्टर मरीज की सेवा करता है, शिक्षक छात्र की सेवा करता है", difficulty: 'easy' as const, topic: "reasoning" },
-  { id: "r_7", questionEn: "Find the next: 2, 6, 18, 54, ?", questionHi: "अगला ज्ञात करें: 2, 6, 18, 54, ?", optionsEn: ["162", "108", "72", "216"], optionsHi: ["162", "108", "72", "216"], correctAnswer: 0, explanationEn: "Pattern: ×3. Next = 54 × 3 = 162", explanationHi: "पैटर्न: ×3। अगला = 54 × 3 = 162", difficulty: 'easy' as const, topic: "reasoning" },
-  { id: "r_8", questionEn: "Find odd one: 3, 5, 7, 9, 11", questionHi: "विषम ज्ञात करें: 3, 5, 7, 9, 11", optionsEn: ["9", "3", "5", "11"], optionsHi: ["9", "3", "5", "11"], correctAnswer: 0, explanationEn: "All except 9 are prime numbers. 9 = 3×3", explanationHi: "9 को छोड़कर सभी अभाज्य संख्याएं हैं। 9 = 3×3", difficulty: 'medium' as const, topic: "reasoning" },
-  { id: "r_9", questionEn: "If Monday = 1, then Friday = ?", questionHi: "यदि सोमवार = 1, तो शुक्रवार = ?", optionsEn: ["5", "4", "6", "7"], optionsHi: ["5", "4", "6", "7"], correctAnswer: 0, explanationEn: "Mon=1, Tue=2, Wed=3, Thu=4, Fri=5", explanationHi: "सोम=1, मंगल=2, बुध=3, गुरु=4, शुक्र=5", difficulty: 'easy' as const, topic: "reasoning" },
-  { id: "r_10", questionEn: "Find next: 1, 4, 9, 16, 25, ?", questionHi: "अगला ज्ञात करें: 1, 4, 9, 16, 25, ?", optionsEn: ["36", "30", "35", "49"], optionsHi: ["36", "30", "35", "49"], correctAnswer: 0, explanationEn: "Pattern: 1², 2², 3², 4², 5², 6² = 36", explanationHi: "पैटर्न: 1², 2², 3², 4², 5², 6² = 36", difficulty: 'easy' as const, topic: "reasoning" }
 ];
 
 export default function Reasoning() {
@@ -47,7 +35,7 @@ export default function Reasoning() {
     switch (activeTab) {
       case 'learn': return <LessonContent lessons={reasoningLessons} completedLessons={completedLessons} onLessonComplete={handleLessonComplete} />;
       case 'quiz': return <QuizComponent questions={reasoningQuestions} questionCount={10} title={isHindi ? 'तर्कशक्ति क्विज़' : 'Reasoning Quiz'} />;
-      case 'mocktest': return <MockTestComponent questions={reasoningQuestions} testDuration={30} questionCount={10} />;
+      case 'mocktest': return <MockTestComponent questions={reasoningQuestions} testDuration={30} questionCount={20} />;
       case 'resources': return (
         <div className="resources-content">
           <div className="resources-grid">

@@ -6,6 +6,7 @@ import QuizComponent from '../../components/topic/QuizComponent';
 import MockTestComponent from '../../components/topic/MockTestComponent';
 import { physiologyLessons } from '../../data/physiologyContent';
 import './Physiology.css';
+import { physiologyQuestions } from '../../data/questionBanks/physiology';
 
 const STORAGE_KEYS = {
   COMPLETED_LESSONS: 'physiology_completedLessons',
@@ -19,128 +20,6 @@ const tabs = [
   { id: 'resources', labelEn: 'Resources', labelHi: 'संसाधन', icon: '📁' },
 ];
 
-const physiologyQuestions = [
-  {
-    id: "phys_1",
-    questionEn: "What is homeostasis?",
-    questionHi: "होमियोस्टेसिस क्या है?",
-    optionsEn: ["Maintaining stable internal environment", "Increasing body temperature", "Decreasing heart rate", "Muscle contraction"],
-    optionsHi: ["स्थिर आंतरिक वातावरण बनाए रखना", "शरीर का तापमान बढ़ाना", "हृदय गति कम करना", "मांसपेशी संकुचन"],
-    correctAnswer: 0,
-    explanationEn: "Homeostasis is the maintenance of a stable internal environment despite external changes.",
-    explanationHi: "होमियोस्टेसिस बाहरी परिवर्तनों के बावजूद स्थिर आंतरिक वातावरण बनाए रखना है।",
-    difficulty: 'easy' as const,
-    topic: "physiology"
-  },
-  {
-    id: "phys_2",
-    questionEn: "What is the normal blood pH range?",
-    questionHi: "सामान्य रक्त pH सीमा क्या है?",
-    optionsEn: ["7.35-7.45", "6.5-7.0", "8.0-8.5", "7.0-7.2"],
-    optionsHi: ["7.35-7.45", "6.5-7.0", "8.0-8.5", "7.0-7.2"],
-    correctAnswer: 0,
-    explanationEn: "Normal blood pH is 7.35-7.45, slightly alkaline.",
-    explanationHi: "सामान्य रक्त pH 7.35-7.45 है, थोड़ा क्षारीय।",
-    difficulty: 'easy' as const,
-    topic: "physiology"
-  },
-  {
-    id: "phys_3",
-    questionEn: "What is the lifespan of RBCs?",
-    questionHi: "RBC का जीवनकाल क्या है?",
-    optionsEn: ["120 days", "30 days", "7 days", "1 year"],
-    optionsHi: ["120 दिन", "30 दिन", "7 दिन", "1 वर्ष"],
-    correctAnswer: 0,
-    explanationEn: "Red blood cells live for approximately 120 days before being recycled.",
-    explanationHi: "लाल रक्त कोशिकाएं पुनर्नवीनीकरण से पहले लगभग 120 दिन जीवित रहती हैं।",
-    difficulty: 'easy' as const,
-    topic: "physiology"
-  },
-  {
-    id: "phys_4",
-    questionEn: "Which hormone increases blood glucose?",
-    questionHi: "कौन सा हार्मोन रक्त शर्करा बढ़ाता है?",
-    optionsEn: ["Glucagon", "Insulin", "Calcitonin", "ADH"],
-    optionsHi: ["ग्लूकागन", "इंसुलिन", "कैल्सिटोनिन", "ADH"],
-    correctAnswer: 0,
-    explanationEn: "Glucagon increases blood glucose by breaking down glycogen in the liver.",
-    explanationHi: "ग्लूकागन यकृत में ग्लाइकोजन को तोड़कर रक्त शर्करा बढ़ाता है।",
-    difficulty: 'medium' as const,
-    topic: "physiology"
-  },
-  {
-    id: "phys_5",
-    questionEn: "What is the normal GFR?",
-    questionHi: "सामान्य GFR क्या है?",
-    optionsEn: ["120-125 mL/min", "50-60 mL/min", "200-250 mL/min", "10-20 mL/min"],
-    optionsHi: ["120-125 mL/min", "50-60 mL/min", "200-250 mL/min", "10-20 mL/min"],
-    correctAnswer: 0,
-    explanationEn: "Normal glomerular filtration rate is 120-125 mL/min.",
-    explanationHi: "सामान्य ग्लोमेरुलर निस्यंदन दर 120-125 mL/min है।",
-    difficulty: 'medium' as const,
-    topic: "physiology"
-  },
-  {
-    id: "phys_6",
-    questionEn: "What percentage of oxygen is carried by hemoglobin?",
-    questionHi: "हीमोग्लोबिन द्वारा कितने प्रतिशत ऑक्सीजन ले जाई जाती है?",
-    optionsEn: ["98.5%", "70%", "50%", "25%"],
-    optionsHi: ["98.5%", "70%", "50%", "25%"],
-    correctAnswer: 0,
-    explanationEn: "About 98.5% of oxygen is carried bound to hemoglobin.",
-    explanationHi: "लगभग 98.5% ऑक्सीजन हीमोग्लोबिन से बंधकर ले जाई जाती है।",
-    difficulty: 'easy' as const,
-    topic: "physiology"
-  },
-  {
-    id: "phys_7",
-    questionEn: "Which is the primary pacemaker of the heart?",
-    questionHi: "हृदय का प्राथमिक पेसमेकर कौन सा है?",
-    optionsEn: ["SA Node", "AV Node", "Bundle of His", "Purkinje fibers"],
-    optionsHi: ["SA Node", "AV Node", "बंडल ऑफ हिस", "पर्किंजे फाइबर"],
-    correctAnswer: 0,
-    explanationEn: "The SA (sinoatrial) node is the primary pacemaker with a rate of 60-100 bpm.",
-    explanationHi: "SA (साइनोएट्रियल) नोड 60-100 bpm की दर के साथ प्राथमिक पेसमेकर है।",
-    difficulty: 'easy' as const,
-    topic: "physiology"
-  },
-  {
-    id: "phys_8",
-    questionEn: "What does ADH hormone do?",
-    questionHi: "ADH हार्मोन क्या करता है?",
-    optionsEn: ["Increases water reabsorption", "Decreases water reabsorption", "Increases glucose", "Decreases calcium"],
-    optionsHi: ["जल पुनःअवशोषण बढ़ाता है", "जल पुनःअवशोषण घटाता है", "ग्लूकोज बढ़ाता है", "कैल्शियम घटाता है"],
-    correctAnswer: 0,
-    explanationEn: "ADH (antidiuretic hormone) increases water reabsorption in kidneys.",
-    explanationHi: "ADH वृक्क में जल पुनःअवशोषण बढ़ाता है।",
-    difficulty: 'medium' as const,
-    topic: "physiology"
-  },
-  {
-    id: "phys_9",
-    questionEn: "Negative feedback mechanism:",
-    questionHi: "नेगेटिव फीडबैक तंत्र:",
-    optionsEn: ["Reverses the change", "Amplifies the change", "Has no effect", "Only works in brain"],
-    optionsHi: ["परिवर्तन को उलटता है", "परिवर्तन को बढ़ाता है", "कोई प्रभाव नहीं", "केवल मस्तिष्क में काम करता है"],
-    correctAnswer: 0,
-    explanationEn: "Negative feedback reverses changes to maintain homeostasis.",
-    explanationHi: "नेगेटिव फीडबैक होमियोस्टेसिस बनाए रखने के लिए परिवर्तनों को उलटता है।",
-    difficulty: 'easy' as const,
-    topic: "physiology"
-  },
-  {
-    id: "phys_10",
-    questionEn: "Which enzyme digests protein in stomach?",
-    questionHi: "आमाशय में प्रोटीन को कौन सा एंजाइम पचाता है?",
-    optionsEn: ["Pepsin", "Amylase", "Lipase", "Trypsin"],
-    optionsHi: ["पेप्सिन", "एमाइलेज", "लाइपेज", "ट्रिप्सिन"],
-    correctAnswer: 0,
-    explanationEn: "Pepsin digests proteins in the acidic environment of the stomach.",
-    explanationHi: "पेप्सिन आमाशय के अम्लीय वातावरण में प्रोटीन को पचाता है।",
-    difficulty: 'easy' as const,
-    topic: "physiology"
-  }
-];
 
 export default function Physiology() {
   const { isHindi } = useLanguage();
