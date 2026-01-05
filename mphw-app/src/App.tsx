@@ -33,6 +33,7 @@ import Mathematics from './pages/topics/Mathematics';
 import Reasoning from './pages/topics/Reasoning';
 
 import AllLessons from './pages/AllLessons';
+import SubtopicPractice from './pages/SubtopicPractice';
 import './App.css';
 
 function App() {
@@ -48,6 +49,9 @@ function App() {
             <Route path="/topic/:subjectId/:topicId" element={<TopicDetail />} />
             <Route path="/practice" element={<Practice />} />
             <Route path="/practice/:topicId" element={<Practice />} />
+            <Route path="/subtopic-practice" element={<SubtopicPractice />} />
+            <Route path="/subtopic-practice/:subjectId" element={<SubtopicPractice />} />
+            <Route path="/subtopic-practice/:subjectId/:topicId" element={<SubtopicPractice />} />
             <Route path="/mock-test" element={<MockTest />} />
             <Route path="/topics/computer-knowledge" element={<ComputerKnowledge />} />
             <Route path="/topics/anatomy" element={<Anatomy />} />

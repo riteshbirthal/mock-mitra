@@ -96,6 +96,13 @@
 .diff-btn.mixed { border-color: #667eea; color: #667eea; }
 .diff-btn.mixed.active { background: #667eea; color: white; }
 
+.diff-btn:disabled,
+.diff-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
 .language-selector {
   margin-bottom: 24px;
 }

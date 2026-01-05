@@ -32,6 +32,7 @@
 .topic-header-info h1 {
   font-size: 1.6rem;
   margin-bottom: 8px;
+  color: var(--dark);
 }
 
 .topic-header-info p {

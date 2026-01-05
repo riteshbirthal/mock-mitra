@@ -2,33 +2,65 @@ import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { useProgress } from '../context/ProgressContext';
-import { subjects, getAllTopics } from '../data/examData';
+import { subjects } from '../data/examData';
 import './Practice.css';
 
+const subjectRouteMap: Record<string, string> = {
+  'anatomy': '/topics/anatomy',
+  'physiology': '/topics/physiology',
+  'microbiology': '/topics/microbiology',
+  'first-aid': '/topics/first-aid',
+  'health-hygiene': '/topics/health-hygiene',
+  'nutrition': '/topics/nutrition',
+  'immunization': '/topics/immunization',
+  'maternal-child-health': '/topics/maternal-child-health',
+  'communicable-diseases': '/topics/communicable-diseases',
+  'public-health': '/topics/public-health',
+  'mental-health': '/topics/mental-health',
+  'pharmacology': '/topics/pharmacology',
+  'practical-skills': '/topics/practical-skills',
+  'communication-skills': '/topics/communication-skills',
+  'health-education': '/topics/health-education',
+  'infection-control': '/topics/infection-control',
+  'computer-knowledge': '/topics/computer-knowledge',
+  'general-awareness': '/topics/general-awareness',
+  'occupational-health': '/topics/occupational-health',
+  'mathematics': '/topics/mathematics',
+  'reasoning': '/topics/reasoning',
+  'vital-statistics': '/topics/record-keeping',
+};
+
 const Practice = () => {
-  const { topicId: paramTopicId } = useParams<{ topicId: string }>();
+  useParams<{ topicId: string }>();
   const { t, isHindi } = useLanguage();
   const { progress } = useProgress();
   
-  const [selectedSubject, setSelectedSubject] = useState<string | null>(paramTopicId || null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState<'all' | 'health' | 'general'>('all');
 
-  const allTopics = getAllTopics();
-
-  const filteredTopics = allTopics.filter(({ subject, topic }) => {
-    const subjectMatch = !selectedSubject || subject.id === selectedSubject;
+  const filteredSubjects = subjects.filter(subject => {
     const searchMatch = !searchQuery || 
-      (isHindi ? topic.name.hi : topic.name.en).toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (isHindi ? subject.name.hi : subject.name.en).toLowerCase().includes(searchQuery.toLowerCase());
-    return subjectMatch && searchMatch;
+      (isHindi ? subject.name.hi : subject.name.en).toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (isHindi ? subject.description.hi : subject.description.en).toLowerCase().includes(searchQuery.toLowerCase());
+    
+    const categoryMatch = selectedCategory === 'all' || 
+      (selectedCategory === 'health' && ['anatomy', 'physiology', 'microbiology', 'first-aid', 'health-hygiene', 'nutrition', 'immunization', 'maternal-child-health', 'communicable-diseases', 'public-health', 'mental-health', 'pharmacology', 'practical-skills', 'health-education', 'infection-control', 'occupational-health', 'vital-statistics'].includes(subject.id)) ||
+      (selectedCategory === 'general' && ['general-awareness', 'reasoning', 'mathematics', 'computer-knowledge', 'communication-skills'].includes(subject.id));
+    
+    return searchMatch && categoryMatch;
   });
 
-  const getTopicStatus = (subjectId: string, topicId: string) => {
-    const topicProgress = progress.topics[`${subjectId}-${topicId}`];
-    if (!topicProgress) return 'new';
-    if (topicProgress.completed) return 'completed';
-    if (topicProgress.questionsAttempted > 0) return 'in-progress';
-    return 'new';
+  const getSubjectProgress = (subjectId: string) => {
+    let attempted = 0;
+    let correct = 0;
+    subjects.find(s => s.id === subjectId)?.topics.forEach(topic => {
+      const topicProgress = progress.topics[`${subjectId}-${topic.id}`];
+      if (topicProgress) {
+        attempted += topicProgress.questionsAttempted;
+        correct += topicProgress.correctAnswers;
+      }
+    });
+    return { attempted, correct, accuracy: attempted > 0 ? Math.round((correct / attempted) * 100) : 0 };
   };
 
   return (
@@ -86,7 +118,7 @@ const Practice = () => {
             <span className="search-icon">🔍</span>
             <input
               type="text"
-              placeholder={isHindi ? 'टॉपिक खोजें...' : 'Search topics...'}
+              placeholder={isHindi ? 'विषय खोजें...' : 'Search subjects...'}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
@@ -94,82 +126,69 @@ const Practice = () => {
 
           <div className="subject-filters">
             <button
-              className={`filter-btn ${!selectedSubject ? 'active' : ''}`}
-              onClick={() => setSelectedSubject(null)}
+              className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}
+              onClick={() => setSelectedCategory('all')}
             >
               {isHindi ? 'सभी' : 'All'}
             </button>
-            {subjects.slice(0, 6).map(subject => (
-              <button
-                key={subject.id}
-                className={`filter-btn ${selectedSubject === subject.id ? 'active' : ''}`}
-                onClick={() => setSelectedSubject(subject.id)}
-              >
-                {subject.icon} {isHindi ? subject.name.hi : subject.name.en}
-              </button>
-            ))}
-            <Link to="/syllabus" className="filter-btn more">
-              {isHindi ? 'और देखें' : 'More'} →
-            </Link>
+            <button
+              className={`filter-btn ${selectedCategory === 'health' ? 'active' : ''}`}
+              onClick={() => setSelectedCategory('health')}
+            >
+              🏥 {isHindi ? 'स्वास्थ्य विषय' : 'Health Topics'}
+            </button>
+            <button
+              className={`filter-btn ${selectedCategory === 'general' ? 'active' : ''}`}
+              onClick={() => setSelectedCategory('general')}
+            >
+              📚 {isHindi ? 'सामान्य विषय' : 'General Topics'}
+            </button>
           </div>
         </div>
 
-        {/* Topics Grid */}
+        {/* Subjects Grid */}
         <div className="practice-topics">
           <h2>
-            {isHindi ? 'टॉपिक्स चुनें' : 'Choose a Topic'} ({filteredTopics.length})
+            {isHindi ? 'विषय चुनें' : 'Choose a Subject'} ({filteredSubjects.length})
           </h2>
 
           <div className="topics-grid">
-            {filteredTopics.map(({ subject, topic }) => {
-              const status = getTopicStatus(subject.id, topic.id);
-              const topicProgress = progress.topics[`${subject.id}-${topic.id}`];
+            {filteredSubjects.map(subject => {
+              const subjectProgress = getSubjectProgress(subject.id);
+              const route = subjectRouteMap[subject.id] || `/topics/${subject.id}`;
               
               return (
                 <Link
-                  key={`${subject.id}-${topic.id}`}
-                  to={`/topic/${subject.id}/${topic.id}`}
-                  className={`practice-topic-card ${status}`}
-                  style={{ '--topic-color': topic.color } as React.CSSProperties}
+                  key={subject.id}
+                  to={route}
+                  className={`practice-topic-card ${subjectProgress.attempted > 0 ? 'in-progress' : 'new'}`}
+                  style={{ '--topic-color': subject.color } as React.CSSProperties}
                 >
                   <div className="topic-card-header">
-                    <span className="topic-icon">{topic.icon}</span>
-                    <span className={`status-badge ${status}`}>
-                      {status === 'completed' && '✓'}
-                      {status === 'in-progress' && '○'}
-                      {status === 'new' && '●'}
-                    </span>
+                    <span className="topic-icon">{subject.icon}</span>
+                    <span className="questions-badge">{subject.questions} Qs</span>
                   </div>
 
-                  <h3>{isHindi ? topic.name.hi : topic.name.en}</h3>
-                  <p className="subject-name">
-                    {subject.icon} {isHindi ? subject.name.hi : subject.name.en}
+                  <h3>{isHindi ? subject.name.hi : subject.name.en}</h3>
+                  <p className="subject-description">
+                    {isHindi ? subject.description.hi : subject.description.en}
                   </p>
 
                   <div className="topic-card-meta">
-                    <span className={`difficulty ${topic.difficulty.toLowerCase()}`}>
-                      {isHindi 
-                        ? topic.difficulty === 'Easy' ? 'आसान' : topic.difficulty === 'Medium' ? 'मध्यम' : 'कठिन'
-                        : topic.difficulty}
+                    <span className="topics-count">
+                      {subject.topics.length} {isHindi ? 'उप-विषय' : 'subtopics'}
                     </span>
-                    <span className="questions-count">
-                      {topic.questionsCount} Qs
+                    <span className="weightage">
+                      {subject.weightage}% {isHindi ? 'वेटेज' : 'weightage'}
                     </span>
                   </div>
 
-                  {topicProgress && topicProgress.questionsAttempted > 0 && (
+                  {subjectProgress.attempted > 0 && (
                     <div className="topic-card-progress">
-                      <div className="progress-bar">
-                        <div 
-                          className="progress-bar-fill"
-                          style={{ 
-                            width: `${Math.min(100, (topicProgress.questionsAttempted / topic.questionsCount) * 100)}%` 
-                          }}
-                        />
+                      <div className="progress-stats">
+                        <span>{subjectProgress.attempted} {isHindi ? 'प्रयास' : 'attempted'}</span>
+                        <span>{subjectProgress.accuracy}% {isHindi ? 'सटीकता' : 'accuracy'}</span>
                       </div>
-                      <span className="progress-text">
-                        {topicProgress.questionsAttempted}/{topic.questionsCount}
-                      </span>
                     </div>
                   )}
                 </Link>
@@ -177,16 +196,24 @@ const Practice = () => {
             })}
           </div>
 
-          {filteredTopics.length === 0 && (
+          {filteredSubjects.length === 0 && (
             <div className="no-results">
               <span className="no-results-icon">🔍</span>
-              <p>{isHindi ? 'कोई टॉपिक नहीं मिला' : 'No topics found'}</p>
+              <p>{isHindi ? 'कोई विषय नहीं मिला' : 'No subjects found'}</p>
             </div>
           )}
         </div>
 
         {/* Quick Actions */}
         <div className="quick-actions">
+          <Link to="/subtopic-practice" className="action-card">
+            <span className="action-icon">🎯</span>
+            <div className="action-info">
+              <h3>{isHindi ? 'विषय-वार अभ्यास' : 'Topic-wise Practice'}</h3>
+              <p>{isHindi ? 'उप-विषय के अनुसार अभ्यास करें' : 'Practice by subtopic'}</p>
+            </div>
+            <span className="action-arrow">→</span>
+          </Link>
           <Link to="/mock-test" className="action-card">
             <span className="action-icon">📝</span>
             <div className="action-info">

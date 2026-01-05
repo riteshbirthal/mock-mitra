@@ -63,6 +63,7 @@
   border-color: #c3d4f7;
   transform: translateX(4px);
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+  color: #667eea;
 }
 
 .lesson-item.active {
@@ -70,6 +71,11 @@
   color: white;
   box-shadow: 0 6px 20px rgba(102, 126, 234, 0.35);
   transform: translateX(4px);
+}
+
+.lesson-item.active:hover {
+  background: linear-gradient(135deg, #5a67d8 0%, #4c51bf 100%);
+  color: white;
 }
 
 .lesson-item.completed .lesson-number {

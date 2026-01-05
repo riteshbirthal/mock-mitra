@@ -2,7 +2,7 @@
   padding: 20px 0;
 }
 
-.topic-header {
+.topic-layout .topic-header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 20px;
   padding: 30px;
@@ -15,13 +15,13 @@
   flex-wrap: wrap;
 }
 
-.topic-header-content {
+.topic-layout .topic-header-content {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.topic-icon {
+.topic-layout .topic-icon {
   width: 70px;
   height: 70px;
   background: rgba(255, 255, 255, 0.2);
@@ -32,47 +32,49 @@
   font-size: 2.5rem;
 }
 
-.topic-title {
+.topic-layout .topic-title {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 8px;
+  color: white;
 }
 
-.topic-description {
+.topic-layout .topic-description {
   opacity: 0.9;
   font-size: 1rem;
   max-width: 500px;
+  color: white;
 }
 
-.topic-progress {
+.topic-layout .topic-progress {
   min-width: 200px;
   background: rgba(255, 255, 255, 0.15);
   padding: 15px 20px;
   border-radius: 12px;
 }
 
-.progress-label {
+.topic-layout .progress-label {
   display: flex;
   justify-content: space-between;
   font-size: 0.9rem;
   margin-bottom: 8px;
 }
 
-.topic-progress .progress-bar {
+.topic-layout .topic-progress .progress-bar {
   height: 8px;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.topic-progress .progress-bar-fill {
+.topic-layout .topic-progress .progress-bar-fill {
   height: 100%;
   background: #48bb78;
   border-radius: 4px;
   transition: width 0.3s ease;
 }
 
-.topic-tabs {
+.topic-layout .topic-tabs {
   display: flex;
   gap: 8px;
   background: #f7fafc;
@@ -82,7 +84,7 @@
   overflow-x: auto;
 }
 
-.topic-tab {
+.topic-layout .topic-tab {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -98,21 +100,21 @@
   white-space: nowrap;
 }
 
-.topic-tab:hover {
+.topic-layout .topic-tab:hover {
   background: #edf2f7;
 }
 
-.topic-tab.active {
+.topic-layout .topic-tab.active {
   background: white;
   color: #667eea;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tab-icon {
+.topic-layout .tab-icon {
   font-size: 1.2rem;
 }
 
-.topic-content {
+.topic-layout .topic-content {
   background: white;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -124,89 +126,91 @@
     padding: 10px 0;
   }
 
-  .topic-header {
+  .topic-layout .topic-header {
     flex-direction: column;
     padding: 20px;
     border-radius: 16px;
     margin-bottom: 16px;
   }
 
-  .topic-header-content {
+  .topic-layout .topic-header-content {
     flex-direction: column;
     text-align: center;
   }
 
-  .topic-icon {
+  .topic-layout .topic-icon {
     width: 60px;
     height: 60px;
     font-size: 2rem;
   }
 
-  .topic-progress {
+  .topic-layout .topic-progress {
     width: 100%;
   }
 
-  .topic-title {
+  .topic-layout .topic-title {
     font-size: 1.3rem;
+    color: white;
   }
 
-  .topic-description {
+  .topic-layout .topic-description {
     font-size: 0.9rem;
   }
 
-  .topic-tabs {
+  .topic-layout .topic-tabs {
     padding: 6px;
     margin-bottom: 16px;
     border-radius: 10px;
     gap: 6px;
   }
 
-  .topic-tab {
+  .topic-layout .topic-tab {
     padding: 10px 14px;
     font-size: 0.8rem;
     border-radius: 6px;
   }
 
-  .tab-icon {
+  .topic-layout .tab-icon {
     font-size: 1rem;
   }
 
-  .tab-label {
+  .topic-layout .tab-label {
     display: none;
   }
 
-  .topic-content {
+  .topic-layout .topic-content {
     border-radius: 12px;
   }
 }
 
 @media (max-width: 480px) {
-  .topic-header {
+  .topic-layout .topic-header {
     padding: 16px;
   }
 
-  .topic-icon {
+  .topic-layout .topic-icon {
     width: 50px;
     height: 50px;
     font-size: 1.6rem;
     border-radius: 12px;
   }
 
-  .topic-title {
+  .topic-layout .topic-title {
     font-size: 1.1rem;
+    color: white;
   }
 
-  .topic-tabs {
+  .topic-layout .topic-tabs {
     padding: 4px;
   }
 
-  .topic-tab {
+  .topic-layout .topic-tab {
     padding: 10px 12px;
     flex: 1;
     justify-content: center;
   }
 
-  .tab-icon {
+  .topic-layout .tab-icon {
     font-size: 1.1rem;
   }
 }

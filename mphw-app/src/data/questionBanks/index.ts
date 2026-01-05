@@ -23,6 +23,7 @@ export { generalAwarenessQuestions, generalAwarenessQuestionBank } from './gener
 export { occupationalHealthQuestions, occupationalHealthQuestionBank } from './occupationalHealth';
 export { mathematicsQuestions, mathematicsQuestionBank } from './mathematics';
 export { reasoningQuestions, reasoningQuestionBank } from './reasoning';
+export { recordKeepingQuestions, recordKeepingQuestionBank } from './recordKeeping';
 
 // Import question banks for aggregation
 import { anatomyQuestionBank } from './anatomy';
@@ -46,6 +47,7 @@ import { generalAwarenessQuestionBank } from './generalAwareness';
 import { occupationalHealthQuestionBank } from './occupationalHealth';
 import { mathematicsQuestionBank } from './mathematics';
 import { reasoningQuestionBank } from './reasoning';
+import { recordKeepingQuestionBank } from './recordKeeping';
 
 // All question banks
 export const allQuestionBanks = [
@@ -70,6 +72,7 @@ export const allQuestionBanks = [
   occupationalHealthQuestionBank,
   mathematicsQuestionBank,
   reasoningQuestionBank,
+  recordKeepingQuestionBank,
 ];
 
 // Get question bank by topic ID
