@@ -5,7 +5,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-001",
     "questionEn": "Homeostasis refers to:",
-    "questionHi": "Homeostasis refers to:",
+    "questionHi": "होमियोस्टेसिस का अर्थ है:",
     "optionsEn": [
       "Constant body temperature",
       "Maintenance of stable internal environment",
@@ -13,14 +13,14 @@ export const physiologyQuestions: Question[] = [
       "Nerve impulse transmission"
     ],
     "optionsHi": [
-      "Constant body temperature",
-      "Maintenance of stable internal environment",
-      "Blood circulation",
-      "Nerve impulse transmission"
+      "स्थिर शरीर का तापमान",
+      "स्थिर आंतरिक वातावरण का रखरखाव",
+      "रक्त परिसंचरण",
+      "तंत्रिका आवेग संचरण"
     ],
     "correctAnswer": 1,
     "explanationEn": "Homeostasis is the maintenance of a stable internal environment despite external changes.",
-    "explanationHi": "Homeostasis is the maintenance of a stable internal environment despite external changes.",
+    "explanationHi": "होमियोस्टेसिस बाहरी परिवर्तनों के बावजूद स्थिर आंतरिक वातावरण का रखरखाव है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "1",
@@ -31,7 +31,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-002",
     "questionEn": "The basic unit of life is:",
-    "questionHi": "The basic unit of life is:",
+    "questionHi": "जीवन की मूल इकाई है:",
     "optionsEn": [
       "Atom",
       "Molecule",
@@ -39,14 +39,14 @@ export const physiologyQuestions: Question[] = [
       "Tissue"
     ],
     "optionsHi": [
-      "Atom",
-      "Molecule",
-      "Cell",
-      "Tissue"
+      "परमाणु",
+      "अणु",
+      "कोशिका",
+      "ऊतक"
     ],
     "correctAnswer": 2,
     "explanationEn": "The cell is the basic structural and functional unit of life.",
-    "explanationHi": "The cell is the basic structural and functional unit of life.",
+    "explanationHi": "कोशिका जीवन की मूल संरचनात्मक और कार्यात्मक इकाई है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "1",
@@ -57,7 +57,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-003",
     "questionEn": "Mitochondria is called the powerhouse of the cell because it:",
-    "questionHi": "Mitochondria is called the powerhouse of the cell because it:",
+    "questionHi": "माइटोकॉन्ड्रिया को कोशिका का पावरहाउस क्यों कहा जाता है:",
     "optionsEn": [
       "Stores DNA",
       "Produces ATP",
@@ -65,14 +65,14 @@ export const physiologyQuestions: Question[] = [
       "Controls cell division"
     ],
     "optionsHi": [
-      "Stores DNA",
-      "Produces ATP",
-      "Synthesizes proteins",
-      "Controls cell division"
+      "DNA संग्रहित करता है",
+      "ATP उत्पन्न करता है",
+      "प्रोटीन संश्लेषण करता है",
+      "कोशिका विभाजन नियंत्रित करता है"
     ],
     "correctAnswer": 1,
     "explanationEn": "Mitochondria produce ATP (adenosine triphosphate), the cell's energy currency.",
-    "explanationHi": "Mitochondria produce ATP (adenosine triphosphate), the cell's energy currency.",
+    "explanationHi": "माइटोकॉन्ड्रिया ATP (एडेनोसिन ट्राइफॉस्फेट) उत्पन्न करता है, जो कोशिका की ऊर्जा मुद्रा है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "1",
@@ -83,7 +83,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-004",
     "questionEn": "Osmosis is the movement of:",
-    "questionHi": "Osmosis is the movement of:",
+    "questionHi": "परासरण (Osmosis) किसकी गति है:",
     "optionsEn": [
       "Solute from high to low concentration",
       "Water across a semipermeable membrane",
@@ -91,14 +91,14 @@ export const physiologyQuestions: Question[] = [
       "Ions against gradient"
     ],
     "optionsHi": [
-      "Solute from high to low concentration",
-      "Water across a semipermeable membrane",
-      "Gases across membrane",
-      "Ions against gradient"
+      "उच्च से निम्न सांद्रता में विलेय",
+      "अर्धपारगम्य झिल्ली के पार पानी",
+      "झिल्ली के पार गैसें",
+      "प्रवणता के विरुद्ध आयन"
     ],
     "correctAnswer": 1,
     "explanationEn": "Osmosis is the movement of water across a semipermeable membrane from low to high solute concentration.",
-    "explanationHi": "Osmosis is the movement of water across a semipermeable membrane from low to high solute concentration.",
+    "explanationHi": "परासरण अर्धपारगम्य झिल्ली के पार पानी की गति है, निम्न से उच्च विलेय सांद्रता की ओर।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "1",
@@ -109,7 +109,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-005",
     "questionEn": "Total body water in adult males is approximately:",
-    "questionHi": "Total body water in adult males is approximately:",
+    "questionHi": "वयस्क पुरुषों में कुल शरीर का पानी लगभग कितना होता है:",
     "optionsEn": [
       "40%",
       "50%",
@@ -124,7 +124,7 @@ export const physiologyQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "Total body water is approximately 60% of body weight in adult males.",
-    "explanationHi": "Total body water is approximately 60% of body weight in adult males.",
+    "explanationHi": "वयस्क पुरुषों में कुल शरीर का पानी शरीर के वजन का लगभग 60% होता है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "1",
@@ -135,7 +135,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-006",
     "questionEn": "Intracellular fluid (ICF) accounts for what percentage of body weight?",
-    "questionHi": "Intracellular fluid (ICF) accounts for what percentage of body weight?",
+    "questionHi": "अंतःकोशिकीय द्रव (ICF) शरीर के वजन का कितना प्रतिशत है?",
     "optionsEn": [
       "20%",
       "30%",
@@ -150,7 +150,7 @@ export const physiologyQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "ICF accounts for about 40% of body weight (2/3 of total body water).",
-    "explanationHi": "ICF accounts for about 40% of body weight (2/3 of total body water).",
+    "explanationHi": "ICF शरीर के वजन का लगभग 40% है (कुल शरीर के पानी का 2/3)।",
     "difficulty": "medium",
     "topic": "physiology",
     "subtopic": "1",
@@ -161,7 +161,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-007",
     "questionEn": "Which type of feedback mechanism maintains most body functions?",
-    "questionHi": "Which type of feedback mechanism maintains most body functions?",
+    "questionHi": "किस प्रकार की फीडबैक प्रणाली अधिकांश शारीरिक कार्यों को बनाए रखती है?",
     "optionsEn": [
       "Positive feedback",
       "Negative feedback",
@@ -169,14 +169,14 @@ export const physiologyQuestions: Question[] = [
       "Random feedback"
     ],
     "optionsHi": [
-      "Positive feedback",
-      "Negative feedback",
-      "No feedback",
-      "Random feedback"
+      "सकारात्मक फीडबैक",
+      "नकारात्मक फीडबैक",
+      "कोई फीडबैक नहीं",
+      "यादृच्छिक फीडबैक"
     ],
     "correctAnswer": 1,
     "explanationEn": "Negative feedback is the most common mechanism, reversing changes to maintain homeostasis.",
-    "explanationHi": "Negative feedback is the most common mechanism, reversing changes to maintain homeostasis.",
+    "explanationHi": "नकारात्मक फीडबैक सबसे आम तंत्र है, जो होमियोस्टेसिस बनाए रखने के लिए परिवर्तनों को उलट देता है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "1",
@@ -187,7 +187,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-008",
     "questionEn": "Active transport requires:",
-    "questionHi": "Active transport requires:",
+    "questionHi": "सक्रिय परिवहन में क्या आवश्यक है:",
     "optionsEn": [
       "No energy",
       "ATP energy",
@@ -195,14 +195,14 @@ export const physiologyQuestions: Question[] = [
       "Osmotic pressure"
     ],
     "optionsHi": [
-      "No energy",
-      "ATP energy",
-      "Only diffusion",
-      "Osmotic pressure"
+      "कोई ऊर्जा नहीं",
+      "ATP ऊर्जा",
+      "केवल विसरण",
+      "परासरण दाब"
     ],
     "correctAnswer": 1,
     "explanationEn": "Active transport requires energy (ATP) to move substances against concentration gradient.",
-    "explanationHi": "Active transport requires energy (ATP) to move substances against concentration gradient.",
+    "explanationHi": "सक्रिय परिवहन में पदार्थों को सांद्रता प्रवणता के विरुद्ध ले जाने के लिए ऊर्जा (ATP) की आवश्यकता होती है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "1",
@@ -213,7 +213,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-009",
     "questionEn": "The four basic tissue types are:",
-    "questionHi": "The four basic tissue types are:",
+    "questionHi": "चार मूल ऊतक प्रकार हैं:",
     "optionsEn": [
       "Blood, bone, muscle, nerve",
       "Epithelial, connective, muscle, nervous",
@@ -221,14 +221,14 @@ export const physiologyQuestions: Question[] = [
       "Red, white, yellow, brown"
     ],
     "optionsHi": [
-      "Blood, bone, muscle, nerve",
-      "Epithelial, connective, muscle, nervous",
-      "Skin, bone, muscle, nerve",
-      "Red, white, yellow, brown"
+      "रक्त, हड्डी, पेशी, तंत्रिका",
+      "उपकला, संयोजी, पेशी, तंत्रिका",
+      "त्वचा, हड्डी, पेशी, तंत्रिका",
+      "लाल, सफेद, पीला, भूरा"
     ],
     "correctAnswer": 1,
     "explanationEn": "The four basic tissue types are epithelial, connective, muscle, and nervous tissue.",
-    "explanationHi": "The four basic tissue types are epithelial, connective, muscle, and nervous tissue.",
+    "explanationHi": "चार मूल ऊतक प्रकार उपकला, संयोजी, पेशी और तंत्रिका ऊतक हैं।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "1",
@@ -239,7 +239,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-010",
     "questionEn": "Which tissue type covers body surfaces and lines cavities?",
-    "questionHi": "Which tissue type covers body surfaces and lines cavities?",
+    "questionHi": "कौन सा ऊतक प्रकार शरीर की सतहों को ढकता है और गुहाओं को अस्तर देता है?",
     "optionsEn": [
       "Connective",
       "Muscle",
@@ -247,14 +247,14 @@ export const physiologyQuestions: Question[] = [
       "Nervous"
     ],
     "optionsHi": [
-      "Connective",
-      "Muscle",
-      "Epithelial",
-      "Nervous"
+      "संयोजी",
+      "पेशी",
+      "उपकला",
+      "तंत्रिका"
     ],
     "correctAnswer": 2,
     "explanationEn": "Epithelial tissue covers body surfaces and lines body cavities.",
-    "explanationHi": "Epithelial tissue covers body surfaces and lines body cavities.",
+    "explanationHi": "उपकला ऊतक शरीर की सतहों को ढकता है और शारीरिक गुहाओं को अस्तर देता है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "1",
@@ -265,7 +265,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-011",
     "questionEn": "Normal hemoglobin level in adult males is:",
-    "questionHi": "Normal hemoglobin level in adult males is:",
+    "questionHi": "वयस्क पुरुषों में सामान्य हीमोग्लोबिन स्तर है:",
     "optionsEn": [
       "10-12 g/dL",
       "12-14 g/dL",
@@ -280,7 +280,7 @@ export const physiologyQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "Normal hemoglobin in adult males is 14-18 g/dL.",
-    "explanationHi": "Normal hemoglobin in adult males is 14-18 g/dL.",
+    "explanationHi": "वयस्क पुरुषों में सामान्य हीमोग्लोबिन 14-18 g/dL है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -291,7 +291,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-012",
     "questionEn": "The lifespan of red blood cells is approximately:",
-    "questionHi": "The lifespan of red blood cells is approximately:",
+    "questionHi": "लाल रक्त कोशिकाओं का जीवनकाल लगभग कितना होता है:",
     "optionsEn": [
       "30 days",
       "60 days",
@@ -299,14 +299,14 @@ export const physiologyQuestions: Question[] = [
       "120 days"
     ],
     "optionsHi": [
-      "30 days",
-      "60 days",
-      "90 days",
-      "120 days"
+      "30 दिन",
+      "60 दिन",
+      "90 दिन",
+      "120 दिन"
     ],
     "correctAnswer": 3,
     "explanationEn": "RBCs live for approximately 120 days before being destroyed.",
-    "explanationHi": "RBCs live for approximately 120 days before being destroyed.",
+    "explanationHi": "RBCs नष्ट होने से पहले लगभग 120 दिन जीवित रहती हैं।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -317,7 +317,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-013",
     "questionEn": "Which blood group is called the universal donor?",
-    "questionHi": "Which blood group is called the universal donor?",
+    "questionHi": "किस रक्त समूह को सार्वभौमिक दाता कहा जाता है?",
     "optionsEn": [
       "A",
       "B",
@@ -332,7 +332,7 @@ export const physiologyQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "O negative is the universal donor as it has no A, B, or Rh antigens.",
-    "explanationHi": "O negative is the universal donor as it has no A, B, or Rh antigens.",
+    "explanationHi": "O नेगेटिव सार्वभौमिक दाता है क्योंकि इसमें A, B, या Rh एंटीजन नहीं होते।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -343,7 +343,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-014",
     "questionEn": "Which blood group is the universal recipient?",
-    "questionHi": "Which blood group is the universal recipient?",
+    "questionHi": "किस रक्त समूह को सार्वभौमिक प्राप्तकर्ता कहा जाता है?",
     "optionsEn": [
       "A",
       "B",
@@ -358,7 +358,7 @@ export const physiologyQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "AB positive is the universal recipient as it has no antibodies against A, B, or Rh.",
-    "explanationHi": "AB positive is the universal recipient as it has no antibodies against A, B, or Rh.",
+    "explanationHi": "AB पॉजिटिव सार्वभौमिक प्राप्तकर्ता है क्योंकि इसमें A, B, या Rh के विरुद्ध एंटीबॉडी नहीं होते।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -369,7 +369,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-015",
     "questionEn": "Platelets are important for:",
-    "questionHi": "Platelets are important for:",
+    "questionHi": "प्लेटलेट्स किसके लिए महत्वपूर्ण हैं:",
     "optionsEn": [
       "Oxygen transport",
       "Fighting infections",
@@ -377,14 +377,14 @@ export const physiologyQuestions: Question[] = [
       "Hormone transport"
     ],
     "optionsHi": [
-      "Oxygen transport",
-      "Fighting infections",
-      "Blood clotting",
-      "Hormone transport"
+      "ऑक्सीजन परिवहन",
+      "संक्रमण से लड़ना",
+      "रक्त का थक्का जमना",
+      "हार्मोन परिवहन"
     ],
     "correctAnswer": 2,
     "explanationEn": "Platelets (thrombocytes) are essential for blood clotting.",
-    "explanationHi": "Platelets (thrombocytes) are essential for blood clotting.",
+    "explanationHi": "प्लेटलेट्स (थ्रोम्बोसाइट्स) रक्त के थक्के जमने के लिए आवश्यक हैं।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -395,7 +395,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-016",
     "questionEn": "Normal platelet count is:",
-    "questionHi": "Normal platelet count is:",
+    "questionHi": "सामान्य प्लेटलेट गणना कितनी होती है:",
     "optionsEn": [
       "50,000-100,000/μL",
       "150,000-400,000/μL",
@@ -410,7 +410,7 @@ export const physiologyQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "Normal platelet count is 1.5-4 lakh (150,000-400,000) per microliter.",
-    "explanationHi": "Normal platelet count is 1.5-4 lakh (150,000-400,000) per microliter.",
+    "explanationHi": "सामान्य प्लेटलेट गणना 1.5-4 लाख (150,000-400,000) प्रति माइक्रोलीटर है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -421,7 +421,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-017",
     "questionEn": "Which type of WBC is most abundant?",
-    "questionHi": "Which type of WBC is most abundant?",
+    "questionHi": "कौन सी WBC सबसे अधिक मात्रा में होती है?",
     "optionsEn": [
       "Lymphocytes",
       "Monocytes",
@@ -429,14 +429,14 @@ export const physiologyQuestions: Question[] = [
       "Eosinophils"
     ],
     "optionsHi": [
-      "Lymphocytes",
-      "Monocytes",
-      "Neutrophils",
-      "Eosinophils"
+      "लिम्फोसाइट्स",
+      "मोनोसाइट्स",
+      "न्यूट्रोफिल्स",
+      "इओसिनोफिल्स"
     ],
     "correctAnswer": 2,
     "explanationEn": "Neutrophils are the most abundant WBCs (60-70%).",
-    "explanationHi": "Neutrophils are the most abundant WBCs (60-70%).",
+    "explanationHi": "न्यूट्रोफिल्स सबसे अधिक मात्रा में WBCs होती हैं (60-70%)।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -447,7 +447,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-018",
     "questionEn": "Hemoglobin contains which metal?",
-    "questionHi": "Hemoglobin contains which metal?",
+    "questionHi": "हीमोग्लोबिन में कौन सी धातु होती है?",
     "optionsEn": [
       "Copper",
       "Iron",
@@ -455,14 +455,14 @@ export const physiologyQuestions: Question[] = [
       "Calcium"
     ],
     "optionsHi": [
-      "Copper",
-      "Iron",
-      "Zinc",
-      "Calcium"
+      "तांबा",
+      "लोहा",
+      "जस्ता",
+      "कैल्शियम"
     ],
     "correctAnswer": 1,
     "explanationEn": "Hemoglobin contains iron, which binds oxygen.",
-    "explanationHi": "Hemoglobin contains iron, which binds oxygen.",
+    "explanationHi": "हीमोग्लोबिन में लोहा होता है, जो ऑक्सीजन से जुड़ता है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -473,7 +473,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-019",
     "questionEn": "Anemia is defined as:",
-    "questionHi": "Anemia is defined as:",
+    "questionHi": "एनीमिया की परिभाषा है:",
     "optionsEn": [
       "High WBC count",
       "Low RBC or hemoglobin",
@@ -481,14 +481,14 @@ export const physiologyQuestions: Question[] = [
       "Low blood volume"
     ],
     "optionsHi": [
-      "High WBC count",
-      "Low RBC or hemoglobin",
-      "High platelet count",
-      "Low blood volume"
+      "उच्च WBC गणना",
+      "कम RBC या हीमोग्लोबिन",
+      "उच्च प्लेटलेट गणना",
+      "कम रक्त मात्रा"
     ],
     "correctAnswer": 1,
     "explanationEn": "Anemia is reduced hemoglobin or RBC count below normal.",
-    "explanationHi": "Anemia is reduced hemoglobin or RBC count below normal.",
+    "explanationHi": "एनीमिया सामान्य से कम हीमोग्लोबिन या RBC गणना है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -499,7 +499,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-020",
     "questionEn": "Rh incompatibility in pregnancy occurs when:",
-    "questionHi": "Rh incompatibility in pregnancy occurs when:",
+    "questionHi": "गर्भावस्था में Rh असंगतता कब होती है:",
     "optionsEn": [
       "Mother is Rh+, baby is Rh-",
       "Mother is Rh-, baby is Rh+",
@@ -507,14 +507,14 @@ export const physiologyQuestions: Question[] = [
       "Both are Rh-"
     ],
     "optionsHi": [
-      "Mother is Rh+, baby is Rh-",
-      "Mother is Rh-, baby is Rh+",
-      "Both are Rh+",
-      "Both are Rh-"
+      "माँ Rh+, बच्चा Rh-",
+      "माँ Rh-, बच्चा Rh+",
+      "दोनों Rh+",
+      "दोनों Rh-"
     ],
     "correctAnswer": 1,
     "explanationEn": "Rh incompatibility occurs when Rh- mother carries Rh+ baby.",
-    "explanationHi": "Rh incompatibility occurs when Rh- mother carries Rh+ baby.",
+    "explanationHi": "Rh असंगतता तब होती है जब Rh- माँ Rh+ बच्चे को गर्भ में धारण करती है।",
     "difficulty": "medium",
     "topic": "physiology",
     "subtopic": "2",
@@ -525,7 +525,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-021",
     "questionEn": "Plasma makes up what percentage of blood?",
-    "questionHi": "Plasma makes up what percentage of blood?",
+    "questionHi": "प्लाज्मा रक्त का कितना प्रतिशत होता है?",
     "optionsEn": [
       "45%",
       "55%",
@@ -540,7 +540,7 @@ export const physiologyQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "Plasma constitutes about 55% of blood volume.",
-    "explanationHi": "Plasma constitutes about 55% of blood volume.",
+    "explanationHi": "प्लाज्मा रक्त की मात्रा का लगभग 55% होता है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -551,7 +551,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-022",
     "questionEn": "Intrinsic factor is needed for absorption of:",
-    "questionHi": "Intrinsic factor is needed for absorption of:",
+    "questionHi": "इंट्रिंसिक फैक्टर किसके अवशोषण के लिए आवश्यक है:",
     "optionsEn": [
       "Vitamin A",
       "Vitamin B12",
@@ -559,14 +559,14 @@ export const physiologyQuestions: Question[] = [
       "Vitamin D"
     ],
     "optionsHi": [
-      "Vitamin A",
-      "Vitamin B12",
-      "Vitamin C",
-      "Vitamin D"
+      "विटामिन A",
+      "विटामिन B12",
+      "विटामिन C",
+      "विटामिन D"
     ],
     "correctAnswer": 1,
     "explanationEn": "Intrinsic factor from stomach is needed for Vitamin B12 absorption.",
-    "explanationHi": "Intrinsic factor from stomach is needed for Vitamin B12 absorption.",
+    "explanationHi": "विटामिन B12 के अवशोषण के लिए पेट से इंट्रिंसिक फैक्टर आवश्यक है।",
     "difficulty": "medium",
     "topic": "physiology",
     "subtopic": "2",
@@ -577,7 +577,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-023",
     "questionEn": "ESR stands for:",
-    "questionHi": "ESR stands for:",
+    "questionHi": "ESR का पूर्ण रूप है:",
     "optionsEn": [
       "Erythrocyte Sedimentation Rate",
       "Essential Serum Response",
@@ -585,14 +585,14 @@ export const physiologyQuestions: Question[] = [
       "Erythrocyte Serum Ratio"
     ],
     "optionsHi": [
-      "Erythrocyte Sedimentation Rate",
-      "Essential Serum Response",
-      "Emergency Serum Reading",
-      "Erythrocyte Serum Ratio"
+      "एरिथ्रोसाइट सेडिमेंटेशन रेट",
+      "एसेंशियल सीरम रिस्पॉन्स",
+      "इमरजेंसी सीरम रीडिंग",
+      "एरिथ्रोसाइट सीरम रेशियो"
     ],
     "correctAnswer": 0,
     "explanationEn": "ESR is Erythrocyte Sedimentation Rate, a marker of inflammation.",
-    "explanationHi": "ESR is Erythrocyte Sedimentation Rate, a marker of inflammation.",
+    "explanationHi": "ESR एरिथ्रोसाइट सेडिमेंटेशन रेट है, जो सूजन का एक मार्कर है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -603,7 +603,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-024",
     "questionEn": "Which clotting factor is also called fibrinogen?",
-    "questionHi": "Which clotting factor is also called fibrinogen?",
+    "questionHi": "कौन सा थक्का जमाने वाला कारक फाइब्रिनोजेन भी कहलाता है?",
     "optionsEn": [
       "Factor I",
       "Factor II",
@@ -611,14 +611,14 @@ export const physiologyQuestions: Question[] = [
       "Factor X"
     ],
     "optionsHi": [
-      "Factor I",
-      "Factor II",
-      "Factor VII",
-      "Factor X"
+      "फैक्टर I",
+      "फैक्टर II",
+      "फैक्टर VII",
+      "फैक्टर X"
     ],
     "correctAnswer": 0,
     "explanationEn": "Factor I is fibrinogen, which is converted to fibrin during clotting.",
-    "explanationHi": "Factor I is fibrinogen, which is converted to fibrin during clotting.",
+    "explanationHi": "फैक्टर I फाइब्रिनोजेन है, जो थक्का जमने के दौरान फाइब्रिन में बदल जाता है।",
     "difficulty": "medium",
     "topic": "physiology",
     "subtopic": "2",
@@ -629,7 +629,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-025",
     "questionEn": "Vitamin K is essential for:",
-    "questionHi": "Vitamin K is essential for:",
+    "questionHi": "विटामिन K किसके लिए आवश्यक है:",
     "optionsEn": [
       "Vision",
       "Bone formation",
@@ -637,14 +637,14 @@ export const physiologyQuestions: Question[] = [
       "Immunity"
     ],
     "optionsHi": [
-      "Vision",
-      "Bone formation",
-      "Blood clotting",
-      "Immunity"
+      "दृष्टि",
+      "हड्डियों का निर्माण",
+      "रक्त का थक्का जमना",
+      "प्रतिरक्षा"
     ],
     "correctAnswer": 2,
     "explanationEn": "Vitamin K is required for synthesis of several clotting factors.",
-    "explanationHi": "Vitamin K is required for synthesis of several clotting factors.",
+    "explanationHi": "विटामिन K कई थक्का जमाने वाले कारकों के संश्लेषण के लिए आवश्यक है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "2",
@@ -655,7 +655,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-026",
     "questionEn": "Normal resting heart rate in adults is:",
-    "questionHi": "Normal resting heart rate in adults is:",
+    "questionHi": "वयस्कों में सामान्य विश्राम हृदय गति है:",
     "optionsEn": [
       "40-60/min",
       "60-100/min",
@@ -663,14 +663,14 @@ export const physiologyQuestions: Question[] = [
       "120-150/min"
     ],
     "optionsHi": [
-      "40-60/min",
-      "60-100/min",
-      "100-120/min",
-      "120-150/min"
+      "40-60/मिनट",
+      "60-100/मिनट",
+      "100-120/मिनट",
+      "120-150/मिनट"
     ],
     "correctAnswer": 1,
     "explanationEn": "Normal resting heart rate in adults is 60-100 beats per minute.",
-    "explanationHi": "Normal resting heart rate in adults is 60-100 beats per minute.",
+    "explanationHi": "वयस्कों में सामान्य विश्राम हृदय गति 60-100 धड़कन प्रति मिनट है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -681,7 +681,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-027",
     "questionEn": "The pacemaker of the heart is:",
-    "questionHi": "The pacemaker of the heart is:",
+    "questionHi": "हृदय का पेसमेकर है:",
     "optionsEn": [
       "AV node",
       "SA node",
@@ -689,14 +689,14 @@ export const physiologyQuestions: Question[] = [
       "Purkinje fibers"
     ],
     "optionsHi": [
-      "AV node",
-      "SA node",
-      "Bundle of His",
-      "Purkinje fibers"
+      "AV नोड",
+      "SA नोड",
+      "हिज का बंडल",
+      "पर्किंजे तंतु"
     ],
     "correctAnswer": 1,
     "explanationEn": "SA (sinoatrial) node is the natural pacemaker, setting heart rhythm.",
-    "explanationHi": "SA (sinoatrial) node is the natural pacemaker, setting heart rhythm.",
+    "explanationHi": "SA (सिनोएट्रियल) नोड प्राकृतिक पेसमेकर है, जो हृदय की लय निर्धारित करता है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -707,7 +707,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-028",
     "questionEn": "The first heart sound (S1) is caused by:",
-    "questionHi": "The first heart sound (S1) is caused by:",
+    "questionHi": "पहली हृदय ध्वनि (S1) किसके कारण होती है:",
     "optionsEn": [
       "Opening of AV valves",
       "Closing of AV valves",
@@ -715,14 +715,14 @@ export const physiologyQuestions: Question[] = [
       "Closing of semilunar valves"
     ],
     "optionsHi": [
-      "Opening of AV valves",
-      "Closing of AV valves",
-      "Opening of semilunar valves",
-      "Closing of semilunar valves"
+      "AV वाल्व का खुलना",
+      "AV वाल्व का बंद होना",
+      "सेमीलुनर वाल्व का खुलना",
+      "सेमीलुनर वाल्व का बंद होना"
     ],
     "correctAnswer": 1,
     "explanationEn": "S1 (lub) is caused by closure of AV valves (mitral and tricuspid).",
-    "explanationHi": "S1 (lub) is caused by closure of AV valves (mitral and tricuspid).",
+    "explanationHi": "S1 (लब) AV वाल्व (माइट्रल और ट्राइकस्पिड) के बंद होने से होती है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -733,7 +733,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-029",
     "questionEn": "Normal blood pressure in adults is:",
-    "questionHi": "Normal blood pressure in adults is:",
+    "questionHi": "वयस्कों में सामान्य रक्तचाप है:",
     "optionsEn": [
       "100/60 mmHg",
       "120/80 mmHg",
@@ -748,7 +748,7 @@ export const physiologyQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "Normal blood pressure is around 120/80 mmHg.",
-    "explanationHi": "Normal blood pressure is around 120/80 mmHg.",
+    "explanationHi": "सामान्य रक्तचाप लगभग 120/80 mmHg होता है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -759,7 +759,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-030",
     "questionEn": "Cardiac output equals:",
-    "questionHi": "Cardiac output equals:",
+    "questionHi": "कार्डियक आउटपुट बराबर होता है:",
     "optionsEn": [
       "Heart rate + Stroke volume",
       "Heart rate × Stroke volume",
@@ -767,14 +767,14 @@ export const physiologyQuestions: Question[] = [
       "Heart rate ÷ Stroke volume"
     ],
     "optionsHi": [
-      "Heart rate + Stroke volume",
-      "Heart rate × Stroke volume",
-      "Heart rate - Stroke volume",
-      "Heart rate ÷ Stroke volume"
+      "हृदय गति + स्ट्रोक वॉल्यूम",
+      "हृदय गति × स्ट्रोक वॉल्यूम",
+      "हृदय गति - स्ट्रोक वॉल्यूम",
+      "हृदय गति ÷ स्ट्रोक वॉल्यूम"
     ],
     "correctAnswer": 1,
     "explanationEn": "Cardiac Output = Heart Rate × Stroke Volume.",
-    "explanationHi": "Cardiac Output = Heart Rate × Stroke Volume.",
+    "explanationHi": "कार्डियक आउटपुट = हृदय गति × स्ट्रोक वॉल्यूम।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -785,7 +785,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-031",
     "questionEn": "Normal cardiac output at rest is approximately:",
-    "questionHi": "Normal cardiac output at rest is approximately:",
+    "questionHi": "विश्राम में सामान्य कार्डियक आउटपुट लगभग कितना होता है:",
     "optionsEn": [
       "2 L/min",
       "5 L/min",
@@ -793,14 +793,14 @@ export const physiologyQuestions: Question[] = [
       "10 L/min"
     ],
     "optionsHi": [
-      "2 L/min",
-      "5 L/min",
-      "8 L/min",
-      "10 L/min"
+      "2 लीटर/मिनट",
+      "5 लीटर/मिनट",
+      "8 लीटर/मिनट",
+      "10 लीटर/मिनट"
     ],
     "correctAnswer": 1,
     "explanationEn": "Normal cardiac output is about 5 liters per minute at rest.",
-    "explanationHi": "Normal cardiac output is about 5 liters per minute at rest.",
+    "explanationHi": "विश्राम में सामान्य कार्डियक आउटपुट लगभग 5 लीटर प्रति मिनट होता है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -811,7 +811,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-032",
     "questionEn": "Systolic blood pressure measures pressure during:",
-    "questionHi": "Systolic blood pressure measures pressure during:",
+    "questionHi": "सिस्टोलिक रक्तचाप किस दौरान दबाव मापता है:",
     "optionsEn": [
       "Heart relaxation",
       "Heart contraction",
@@ -819,14 +819,14 @@ export const physiologyQuestions: Question[] = [
       "Rest"
     ],
     "optionsHi": [
-      "Heart relaxation",
-      "Heart contraction",
-      "Diastole",
-      "Rest"
+      "हृदय शिथिलन",
+      "हृदय संकुचन",
+      "डायस्टोल",
+      "विश्राम"
     ],
     "correctAnswer": 1,
     "explanationEn": "Systolic BP is the pressure during ventricular contraction.",
-    "explanationHi": "Systolic BP is the pressure during ventricular contraction.",
+    "explanationHi": "सिस्टोलिक BP वेंट्रिकुलर संकुचन के दौरान का दबाव है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -837,7 +837,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-033",
     "questionEn": "Pulse pressure is calculated as:",
-    "questionHi": "Pulse pressure is calculated as:",
+    "questionHi": "पल्स प्रेशर की गणना कैसे होती है:",
     "optionsEn": [
       "Systolic + Diastolic",
       "Systolic - Diastolic",
@@ -845,14 +845,14 @@ export const physiologyQuestions: Question[] = [
       "Systolic ÷ Diastolic"
     ],
     "optionsHi": [
-      "Systolic + Diastolic",
-      "Systolic - Diastolic",
-      "Systolic × Diastolic",
-      "Systolic ÷ Diastolic"
+      "सिस्टोलिक + डायस्टोलिक",
+      "सिस्टोलिक - डायस्टोलिक",
+      "सिस्टोलिक × डायस्टोलिक",
+      "सिस्टोलिक ÷ डायस्टोलिक"
     ],
     "correctAnswer": 1,
     "explanationEn": "Pulse pressure = Systolic BP - Diastolic BP.",
-    "explanationHi": "Pulse pressure = Systolic BP - Diastolic BP.",
+    "explanationHi": "पल्स प्रेशर = सिस्टोलिक BP - डायस्टोलिक BP।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -863,7 +863,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-034",
     "questionEn": "Bradycardia is defined as heart rate:",
-    "questionHi": "Bradycardia is defined as heart rate:",
+    "questionHi": "ब्रैडीकार्डिया की परिभाषा है हृदय गति:",
     "optionsEn": [
       "<40/min",
       "<60/min",
@@ -871,14 +871,14 @@ export const physiologyQuestions: Question[] = [
       "<100/min"
     ],
     "optionsHi": [
-      "<40/min",
-      "<60/min",
-      "<80/min",
-      "<100/min"
+      "<40/मिनट",
+      "<60/मिनट",
+      "<80/मिनट",
+      "<100/मिनट"
     ],
     "correctAnswer": 1,
     "explanationEn": "Bradycardia is heart rate below 60 beats per minute.",
-    "explanationHi": "Bradycardia is heart rate below 60 beats per minute.",
+    "explanationHi": "ब्रैडीकार्डिया 60 धड़कन प्रति मिनट से कम हृदय गति है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -889,7 +889,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-035",
     "questionEn": "Tachycardia is defined as heart rate:",
-    "questionHi": "Tachycardia is defined as heart rate:",
+    "questionHi": "टैकीकार्डिया की परिभाषा है हृदय गति:",
     "optionsEn": [
       ">60/min",
       ">80/min",
@@ -897,14 +897,14 @@ export const physiologyQuestions: Question[] = [
       ">120/min"
     ],
     "optionsHi": [
-      ">60/min",
-      ">80/min",
-      ">100/min",
-      ">120/min"
+      ">60/मिनट",
+      ">80/मिनट",
+      ">100/मिनट",
+      ">120/मिनट"
     ],
     "correctAnswer": 2,
     "explanationEn": "Tachycardia is heart rate above 100 beats per minute.",
-    "explanationHi": "Tachycardia is heart rate above 100 beats per minute.",
+    "explanationHi": "टैकीकार्डिया 100 धड़कन प्रति मिनट से अधिक हृदय गति है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -915,7 +915,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-036",
     "questionEn": "The radial pulse is felt at:",
-    "questionHi": "The radial pulse is felt at:",
+    "questionHi": "रेडियल पल्स कहां महसूस होती है:",
     "optionsEn": [
       "Neck",
       "Wrist",
@@ -923,14 +923,14 @@ export const physiologyQuestions: Question[] = [
       "Ankle"
     ],
     "optionsHi": [
-      "Neck",
-      "Wrist",
-      "Groin",
-      "Ankle"
+      "गर्दन",
+      "कलाई",
+      "जांघ का जोड़",
+      "टखना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Radial pulse is palpated at the wrist (thumb side).",
-    "explanationHi": "Radial pulse is palpated at the wrist (thumb side).",
+    "explanationHi": "रेडियल पल्स कलाई पर (अंगूठे की तरफ) महसूस होती है।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",

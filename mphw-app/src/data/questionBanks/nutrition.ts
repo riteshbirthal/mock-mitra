@@ -5,7 +5,7 @@ export const nutritionQuestions: Question[] = [
   {
     "id": "NUTRITION-001",
     "questionEn": "Nutrition is the science of:",
-    "questionHi": "Nutrition is the science of:",
+    "questionHi": "पोषण किसका विज्ञान है:",
     "optionsEn": [
       "Cooking",
       "Food and its relationship to health",
@@ -13,14 +13,14 @@ export const nutritionQuestions: Question[] = [
       "Food storage"
     ],
     "optionsHi": [
-      "Cooking",
-      "Food and its relationship to health",
-      "Agriculture",
-      "Food storage"
+      "खाना पकाना",
+      "भोजन और स्वास्थ्य से इसका संबंध",
+      "कृषि",
+      "भोजन भंडारण"
     ],
     "correctAnswer": 1,
     "explanationEn": "Nutrition deals with food and its effects on health.",
-    "explanationHi": "Nutrition deals with food and its effects on health.",
+    "explanationHi": "पोषण भोजन और स्वास्थ्य पर इसके प्रभावों से संबंधित है।",
     "difficulty": "easy",
     "topic": "nutrition",
     "subtopic": "1",
@@ -31,7 +31,7 @@ export const nutritionQuestions: Question[] = [
   {
     "id": "NUTRITION-002",
     "questionEn": "Nutrients that are required in large amounts are called:",
-    "questionHi": "Nutrients that are required in large amounts are called:",
+    "questionHi": "बड़ी मात्रा में आवश्यक पोषक तत्वों को क्या कहते हैं:",
     "optionsEn": [
       "Micronutrients",
       "Macronutrients",
@@ -39,14 +39,14 @@ export const nutritionQuestions: Question[] = [
       "Vitamins"
     ],
     "optionsHi": [
-      "Micronutrients",
-      "Macronutrients",
-      "Trace elements",
-      "Vitamins"
+      "सूक्ष्म पोषक तत्व",
+      "स्थूल पोषक तत्व",
+      "ट्रेस तत्व",
+      "विटामिन"
     ],
     "correctAnswer": 1,
     "explanationEn": "Macronutrients include carbohydrates, proteins, and fats.",
-    "explanationHi": "Macronutrients include carbohydrates, proteins, and fats.",
+    "explanationHi": "स्थूल पोषक तत्वों में कार्बोहाइड्रेट, प्रोटीन और वसा शामिल हैं।",
     "difficulty": "easy",
     "topic": "nutrition",
     "subtopic": "1",
@@ -57,7 +57,7 @@ export const nutritionQuestions: Question[] = [
   {
     "id": "NUTRITION-003",
     "questionEn": "Which are macronutrients?",
-    "questionHi": "Which are macronutrients?",
+    "questionHi": "स्थूल पोषक तत्व कौन से हैं?",
     "optionsEn": [
       "Vitamins and minerals",
       "Carbohydrates, proteins, fats",
@@ -65,14 +65,14 @@ export const nutritionQuestions: Question[] = [
       "Only fiber"
     ],
     "optionsHi": [
-      "Vitamins and minerals",
-      "Carbohydrates, proteins, fats",
-      "Only water",
-      "Only fiber"
+      "विटामिन और खनिज",
+      "कार्बोहाइड्रेट, प्रोटीन, वसा",
+      "केवल पानी",
+      "केवल फाइबर"
     ],
     "correctAnswer": 1,
     "explanationEn": "Macronutrients are carbohydrates, proteins, and fats.",
-    "explanationHi": "Macronutrients are carbohydrates, proteins, and fats.",
+    "explanationHi": "स्थूल पोषक तत्व कार्बोहाइड्रेट, प्रोटीन और वसा हैं।",
     "difficulty": "easy",
     "topic": "nutrition",
     "subtopic": "1",
@@ -83,7 +83,7 @@ export const nutritionQuestions: Question[] = [
   {
     "id": "NUTRITION-004",
     "questionEn": "Micronutrients include:",
-    "questionHi": "Micronutrients include:",
+    "questionHi": "सूक्ष्म पोषक तत्वों में शामिल हैं:",
     "optionsEn": [
       "Carbohydrates and fats",
       "Vitamins and minerals",
@@ -91,14 +91,14 @@ export const nutritionQuestions: Question[] = [
       "Water only"
     ],
     "optionsHi": [
-      "Carbohydrates and fats",
-      "Vitamins and minerals",
-      "Proteins only",
-      "Water only"
+      "कार्बोहाइड्रेट और वसा",
+      "विटामिन और खनिज",
+      "केवल प्रोटीन",
+      "केवल पानी"
     ],
     "correctAnswer": 1,
     "explanationEn": "Vitamins and minerals are micronutrients.",
-    "explanationHi": "Vitamins and minerals are micronutrients.",
+    "explanationHi": "विटामिन और खनिज सूक्ष्म पोषक तत्व हैं।",
     "difficulty": "easy",
     "topic": "nutrition",
     "subtopic": "1",
@@ -109,7 +109,7 @@ export const nutritionQuestions: Question[] = [
   {
     "id": "NUTRITION-005",
     "questionEn": "Energy-giving function is mainly provided by:",
-    "questionHi": "Energy-giving function is mainly provided by:",
+    "questionHi": "ऊर्जा देने का कार्य मुख्य रूप से किसके द्वारा होता है:",
     "optionsEn": [
       "Vitamins",
       "Minerals",
@@ -117,14 +117,14 @@ export const nutritionQuestions: Question[] = [
       "Water"
     ],
     "optionsHi": [
-      "Vitamins",
-      "Minerals",
-      "Carbohydrates and fats",
-      "Water"
+      "विटामिन",
+      "खनिज",
+      "कार्बोहाइड्रेट और वसा",
+      "पानी"
     ],
     "correctAnswer": 2,
     "explanationEn": "Carbohydrates and fats are main energy sources.",
-    "explanationHi": "Carbohydrates and fats are main energy sources.",
+    "explanationHi": "कार्बोहाइड्रेट और वसा मुख्य ऊर्जा स्रोत हैं।",
     "difficulty": "easy",
     "topic": "nutrition",
     "subtopic": "1",
@@ -135,7 +135,7 @@ export const nutritionQuestions: Question[] = [
   {
     "id": "NUTRITION-006",
     "questionEn": "Body-building function is mainly provided by:",
-    "questionHi": "Body-building function is mainly provided by:",
+    "questionHi": "शरीर निर्माण का कार्य मुख्य रूप से किसके द्वारा होता है:",
     "optionsEn": [
       "Carbohydrates",
       "Fats",
@@ -143,14 +143,14 @@ export const nutritionQuestions: Question[] = [
       "Vitamins"
     ],
     "optionsHi": [
-      "Carbohydrates",
-      "Fats",
-      "Proteins",
-      "Vitamins"
+      "कार्बोहाइड्रेट",
+      "वसा",
+      "प्रोटीन",
+      "विटामिन"
     ],
     "correctAnswer": 2,
     "explanationEn": "Proteins are essential for growth and repair.",
-    "explanationHi": "Proteins are essential for growth and repair.",
+    "explanationHi": "प्रोटीन वृद्धि और मरम्मत के लिए आवश्यक हैं।",
     "difficulty": "easy",
     "topic": "nutrition",
     "subtopic": "1",
@@ -161,7 +161,7 @@ export const nutritionQuestions: Question[] = [
   {
     "id": "NUTRITION-007",
     "questionEn": "Protective function is mainly provided by:",
-    "questionHi": "Protective function is mainly provided by:",
+    "questionHi": "सुरक्षात्मक कार्य मुख्य रूप से किसके द्वारा होता है:",
     "optionsEn": [
       "Carbohydrates",
       "Fats",
@@ -169,14 +169,14 @@ export const nutritionQuestions: Question[] = [
       "Vitamins and minerals"
     ],
     "optionsHi": [
-      "Carbohydrates",
-      "Fats",
-      "Proteins",
-      "Vitamins and minerals"
+      "कार्बोहाइड्रेट",
+      "वसा",
+      "प्रोटीन",
+      "विटामिन और खनिज"
     ],
     "correctAnswer": 3,
     "explanationEn": "Vitamins and minerals have protective functions.",
-    "explanationHi": "Vitamins and minerals have protective functions.",
+    "explanationHi": "विटामिन और खनिज सुरक्षात्मक कार्य करते हैं।",
     "difficulty": "easy",
     "topic": "nutrition",
     "subtopic": "1",

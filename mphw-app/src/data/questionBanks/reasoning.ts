@@ -2605,7 +2605,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-101",
     "questionEn": "Doctor : Hospital :: Teacher : ?",
-    "questionHi": "Doctor : Hospital :: Teacher : ?",
+    "questionHi": "डॉक्टर : अस्पताल :: शिक्षक : ?",
     "optionsEn": [
       "Clinic",
       "School",
@@ -2613,14 +2613,14 @@ export const reasoningQuestions: Question[] = [
       "College"
     ],
     "optionsHi": [
-      "Clinic",
-      "School",
-      "Office",
-      "College"
+      "क्लिनिक",
+      "स्कूल",
+      "कार्यालय",
+      "कॉलेज"
     ],
     "correctAnswer": 1,
     "explanationEn": "Doctor works in hospital, Teacher works in school",
-    "explanationHi": "Doctor works in hospital, Teacher works in school",
+    "explanationHi": "डॉक्टर अस्पताल में काम करता है, शिक्षक स्कूल में काम करता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2631,7 +2631,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-102",
     "questionEn": "Bird : Nest :: Human : ?",
-    "questionHi": "Bird : Nest :: Human : ?",
+    "questionHi": "पक्षी : घोंसला :: मनुष्य : ?",
     "optionsEn": [
       "Cave",
       "House",
@@ -2639,14 +2639,14 @@ export const reasoningQuestions: Question[] = [
       "Building"
     ],
     "optionsHi": [
-      "Cave",
-      "House",
-      "Tree",
-      "Building"
+      "गुफा",
+      "घर",
+      "पेड़",
+      "इमारत"
     ],
     "correctAnswer": 1,
     "explanationEn": "Bird lives in nest, Human lives in house",
-    "explanationHi": "Bird lives in nest, Human lives in house",
+    "explanationHi": "पक्षी घोंसले में रहता है, मनुष्य घर में रहता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2657,7 +2657,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-103",
     "questionEn": "Pen : Write :: Knife : ?",
-    "questionHi": "Pen : Write :: Knife : ?",
+    "questionHi": "कलम : लिखना :: चाकू : ?",
     "optionsEn": [
       "Injure",
       "Cut",
@@ -2665,14 +2665,14 @@ export const reasoningQuestions: Question[] = [
       "Chop"
     ],
     "optionsHi": [
-      "Injure",
-      "Cut",
-      "Peel",
-      "Chop"
+      "घायल करना",
+      "काटना",
+      "छीलना",
+      "टुकड़े करना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Pen is used to write, Knife is used to cut",
-    "explanationHi": "Pen is used to write, Knife is used to cut",
+    "explanationHi": "कलम लिखने के लिए उपयोग होती है, चाकू काटने के लिए उपयोग होता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2683,7 +2683,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-104",
     "questionEn": "Cow : Calf :: Dog : ?",
-    "questionHi": "Cow : Calf :: Dog : ?",
+    "questionHi": "गाय : बछड़ा :: कुत्ता : ?",
     "optionsEn": [
       "Kitten",
       "Puppy",
@@ -2691,14 +2691,14 @@ export const reasoningQuestions: Question[] = [
       "Fawn"
     ],
     "optionsHi": [
-      "Kitten",
-      "Puppy",
-      "Cub",
-      "Fawn"
+      "बिल्ली का बच्चा",
+      "पिल्ला",
+      "शावक",
+      "हिरण का बच्चा"
     ],
     "correctAnswer": 1,
     "explanationEn": "Calf is baby of cow, Puppy is baby of dog",
-    "explanationHi": "Calf is baby of cow, Puppy is baby of dog",
+    "explanationHi": "बछड़ा गाय का बच्चा है, पिल्ला कुत्ते का बच्चा है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2709,7 +2709,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-105",
     "questionEn": "Sailor : Ship :: Pilot : ?",
-    "questionHi": "Sailor : Ship :: Pilot : ?",
+    "questionHi": "नाविक : जहाज :: पायलट : ?",
     "optionsEn": [
       "Car",
       "Train",
@@ -2717,14 +2717,14 @@ export const reasoningQuestions: Question[] = [
       "Boat"
     ],
     "optionsHi": [
-      "Car",
-      "Train",
-      "Aeroplane",
-      "Boat"
+      "कार",
+      "ट्रेन",
+      "हवाई जहाज",
+      "नाव"
     ],
     "correctAnswer": 2,
     "explanationEn": "Sailor operates ship, Pilot operates aeroplane",
-    "explanationHi": "Sailor operates ship, Pilot operates aeroplane",
+    "explanationHi": "नाविक जहाज चलाता है, पायलट हवाई जहाज चलाता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2735,7 +2735,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-106",
     "questionEn": "Fish : Water :: Bird : ?",
-    "questionHi": "Fish : Water :: Bird : ?",
+    "questionHi": "मछली : पानी :: पक्षी : ?",
     "optionsEn": [
       "Land",
       "Sky",
@@ -2743,14 +2743,14 @@ export const reasoningQuestions: Question[] = [
       "Nest"
     ],
     "optionsHi": [
-      "Land",
-      "Sky",
-      "Tree",
-      "Nest"
+      "जमीन",
+      "आकाश",
+      "पेड़",
+      "घोंसला"
     ],
     "correctAnswer": 1,
     "explanationEn": "Fish lives in water, Bird lives in sky",
-    "explanationHi": "Fish lives in water, Bird lives in sky",
+    "explanationHi": "मछली पानी में रहती है, पक्षी आकाश में रहता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2761,7 +2761,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-107",
     "questionEn": "Chapter : Book :: Room : ?",
-    "questionHi": "Chapter : Book :: Room : ?",
+    "questionHi": "अध्याय : पुस्तक :: कमरा : ?",
     "optionsEn": [
       "Building",
       "Kitchen",
@@ -2769,14 +2769,14 @@ export const reasoningQuestions: Question[] = [
       "Window"
     ],
     "optionsHi": [
-      "Building",
-      "Kitchen",
-      "Door",
-      "Window"
+      "इमारत",
+      "रसोई",
+      "दरवाजा",
+      "खिड़की"
     ],
     "correctAnswer": 0,
     "explanationEn": "Chapter is part of book, Room is part of building",
-    "explanationHi": "Chapter is part of book, Room is part of building",
+    "explanationHi": "अध्याय पुस्तक का हिस्सा है, कमरा इमारत का हिस्सा है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2787,7 +2787,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-108",
     "questionEn": "Eye : See :: Ear : ?",
-    "questionHi": "Eye : See :: Ear : ?",
+    "questionHi": "आँख : देखना :: कान : ?",
     "optionsEn": [
       "Sound",
       "Hear",
@@ -2795,14 +2795,14 @@ export const reasoningQuestions: Question[] = [
       "Taste"
     ],
     "optionsHi": [
-      "Sound",
-      "Hear",
-      "Smell",
-      "Taste"
+      "ध्वनि",
+      "सुनना",
+      "सूंघना",
+      "स्वाद"
     ],
     "correctAnswer": 1,
     "explanationEn": "Eye is used to see, Ear is used to hear",
-    "explanationHi": "Eye is used to see, Ear is used to hear",
+    "explanationHi": "आँख देखने के लिए उपयोग होती है, कान सुनने के लिए उपयोग होता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2813,7 +2813,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-109",
     "questionEn": "Cobbler : Shoes :: Tailor : ?",
-    "questionHi": "Cobbler : Shoes :: Tailor : ?",
+    "questionHi": "मोची : जूते :: दर्जी : ?",
     "optionsEn": [
       "Leather",
       "Needle",
@@ -2821,14 +2821,14 @@ export const reasoningQuestions: Question[] = [
       "Machine"
     ],
     "optionsHi": [
-      "Leather",
-      "Needle",
-      "Clothes",
-      "Machine"
+      "चमड़ा",
+      "सुई",
+      "कपड़े",
+      "मशीन"
     ],
     "correctAnswer": 2,
     "explanationEn": "Cobbler makes shoes, Tailor makes clothes",
-    "explanationHi": "Cobbler makes shoes, Tailor makes clothes",
+    "explanationHi": "मोची जूते बनाता है, दर्जी कपड़े बनाता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2839,7 +2839,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-110",
     "questionEn": "Milk : Butter :: Grapes : ?",
-    "questionHi": "Milk : Butter :: Grapes : ?",
+    "questionHi": "दूध : मक्खन :: अंगूर : ?",
     "optionsEn": [
       "Juice",
       "Wine",
@@ -2847,14 +2847,14 @@ export const reasoningQuestions: Question[] = [
       "Jelly"
     ],
     "optionsHi": [
-      "Juice",
-      "Wine",
-      "Raisins",
-      "Jelly"
+      "जूस",
+      "शराब",
+      "किशमिश",
+      "जेली"
     ],
     "correctAnswer": 1,
     "explanationEn": "Butter is made from milk, Wine is made from grapes",
-    "explanationHi": "Butter is made from milk, Wine is made from grapes",
+    "explanationHi": "मक्खन दूध से बनता है, शराब अंगूर से बनती है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2865,7 +2865,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-111",
     "questionEn": "Clock : Time :: Thermometer : ?",
-    "questionHi": "Clock : Time :: Thermometer : ?",
+    "questionHi": "घड़ी : समय :: थर्मामीटर : ?",
     "optionsEn": [
       "Heat",
       "Temperature",
@@ -2873,14 +2873,14 @@ export const reasoningQuestions: Question[] = [
       "Cold"
     ],
     "optionsHi": [
-      "Heat",
-      "Temperature",
-      "Fever",
-      "Cold"
+      "गर्मी",
+      "तापमान",
+      "बुखार",
+      "ठंड"
     ],
     "correctAnswer": 1,
     "explanationEn": "Clock measures time, Thermometer measures temperature",
-    "explanationHi": "Clock measures time, Thermometer measures temperature",
+    "explanationHi": "घड़ी समय मापती है, थर्मामीटर तापमान मापता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2891,7 +2891,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-112",
     "questionEn": "Mountain : Climb :: River : ?",
-    "questionHi": "Mountain : Climb :: River : ?",
+    "questionHi": "पहाड़ : चढ़ना :: नदी : ?",
     "optionsEn": [
       "Flow",
       "Swim",
@@ -2899,14 +2899,14 @@ export const reasoningQuestions: Question[] = [
       "Drown"
     ],
     "optionsHi": [
-      "Flow",
-      "Swim",
-      "Cross",
-      "Drown"
+      "बहना",
+      "तैरना",
+      "पार करना",
+      "डूबना"
     ],
     "correctAnswer": 2,
     "explanationEn": "You climb a mountain, You cross a river",
-    "explanationHi": "You climb a mountain, You cross a river",
+    "explanationHi": "आप पहाड़ पर चढ़ते हैं, आप नदी पार करते हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2917,7 +2917,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-113",
     "questionEn": "Lawyer : Court :: Chef : ?",
-    "questionHi": "Lawyer : Court :: Chef : ?",
+    "questionHi": "वकील : अदालत :: रसोइया : ?",
     "optionsEn": [
       "Restaurant",
       "Kitchen",
@@ -2925,14 +2925,14 @@ export const reasoningQuestions: Question[] = [
       "Food"
     ],
     "optionsHi": [
-      "Restaurant",
-      "Kitchen",
-      "Hotel",
-      "Food"
+      "रेस्टोरेंट",
+      "रसोई",
+      "होटल",
+      "भोजन"
     ],
     "correctAnswer": 1,
     "explanationEn": "Lawyer works in court, Chef works in kitchen",
-    "explanationHi": "Lawyer works in court, Chef works in kitchen",
+    "explanationHi": "वकील अदालत में काम करता है, रसोइया रसोई में काम करता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2943,7 +2943,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-114",
     "questionEn": "Lion : Roar :: Snake : ?",
-    "questionHi": "Lion : Roar :: Snake : ?",
+    "questionHi": "शेर : दहाड़ :: सांप : ?",
     "optionsEn": [
       "Bite",
       "Hiss",
@@ -2951,14 +2951,14 @@ export const reasoningQuestions: Question[] = [
       "Slither"
     ],
     "optionsHi": [
-      "Bite",
-      "Hiss",
-      "Crawl",
-      "Slither"
+      "काटना",
+      "फुफकारना",
+      "रेंगना",
+      "सरकना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Lion's sound is roar, Snake's sound is hiss",
-    "explanationHi": "Lion's sound is roar, Snake's sound is hiss",
+    "explanationHi": "शेर की आवाज दहाड़ है, सांप की आवाज फुफकार है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -2969,7 +2969,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-115",
     "questionEn": "Oxygen : Lungs :: Blood : ?",
-    "questionHi": "Oxygen : Lungs :: Blood : ?",
+    "questionHi": "ऑक्सीजन : फेफड़े :: रक्त : ?",
     "optionsEn": [
       "Veins",
       "Heart",
@@ -2977,14 +2977,14 @@ export const reasoningQuestions: Question[] = [
       "Arteries"
     ],
     "optionsHi": [
-      "Veins",
-      "Heart",
-      "Body",
-      "Arteries"
+      "नसें",
+      "हृदय",
+      "शरीर",
+      "धमनियां"
     ],
     "correctAnswer": 1,
     "explanationEn": "Lungs process oxygen, Heart pumps blood",
-    "explanationHi": "Lungs process oxygen, Heart pumps blood",
+    "explanationHi": "फेफड़े ऑक्सीजन को संसाधित करते हैं, हृदय रक्त को पंप करता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Word Analogy",
@@ -3515,7 +3515,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-136",
     "questionEn": "Odd one out: Apple, Mango, Potato, Orange",
-    "questionHi": "Odd one out: Apple, Mango, Potato, Orange",
+    "questionHi": "बेमेल छांटें: सेब, आम, आलू, संतरा",
     "optionsEn": [
       "Apple",
       "Mango",
@@ -3523,14 +3523,14 @@ export const reasoningQuestions: Question[] = [
       "Orange"
     ],
     "optionsHi": [
-      "Apple",
-      "Mango",
-      "Potato",
-      "Orange"
+      "सेब",
+      "आम",
+      "आलू",
+      "संतरा"
     ],
     "correctAnswer": 2,
     "explanationEn": "Potato is vegetable, others are fruits",
-    "explanationHi": "Potato is vegetable, others are fruits",
+    "explanationHi": "आलू सब्जी है, बाकी सभी फल हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -3541,7 +3541,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-137",
     "questionEn": "Odd one out: Chair, Table, Bed, Telephone",
-    "questionHi": "Odd one out: Chair, Table, Bed, Telephone",
+    "questionHi": "बेमेल छांटें: कुर्सी, मेज, बिस्तर, टेलीफोन",
     "optionsEn": [
       "Chair",
       "Table",
@@ -3549,14 +3549,14 @@ export const reasoningQuestions: Question[] = [
       "Telephone"
     ],
     "optionsHi": [
-      "Chair",
-      "Table",
-      "Bed",
-      "Telephone"
+      "कुर्सी",
+      "मेज",
+      "बिस्तर",
+      "टेलीफोन"
     ],
     "correctAnswer": 3,
     "explanationEn": "Telephone is not furniture",
-    "explanationHi": "Telephone is not furniture",
+    "explanationHi": "टेलीफोन फर्नीचर नहीं है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -3567,7 +3567,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-138",
     "questionEn": "Odd one out: Mercury, Venus, Moon, Mars",
-    "questionHi": "Odd one out: Mercury, Venus, Moon, Mars",
+    "questionHi": "बेमेल छांटें: बुध, शुक्र, चंद्रमा, मंगल",
     "optionsEn": [
       "Mercury",
       "Venus",
@@ -3575,14 +3575,14 @@ export const reasoningQuestions: Question[] = [
       "Mars"
     ],
     "optionsHi": [
-      "Mercury",
-      "Venus",
-      "Moon",
-      "Mars"
+      "बुध",
+      "शुक्र",
+      "चंद्रमा",
+      "मंगल"
     ],
     "correctAnswer": 2,
     "explanationEn": "Moon is satellite, others are planets",
-    "explanationHi": "Moon is satellite, others are planets",
+    "explanationHi": "चंद्रमा उपग्रह है, बाकी सभी ग्रह हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -3593,7 +3593,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-139",
     "questionEn": "Odd one out: Pen, Pencil, Eraser, Knife",
-    "questionHi": "Odd one out: Pen, Pencil, Eraser, Knife",
+    "questionHi": "बेमेल छांटें: कलम, पेंसिल, रबड़, चाकू",
     "optionsEn": [
       "Pen",
       "Pencil",
@@ -3601,14 +3601,14 @@ export const reasoningQuestions: Question[] = [
       "Knife"
     ],
     "optionsHi": [
-      "Pen",
-      "Pencil",
-      "Eraser",
-      "Knife"
+      "कलम",
+      "पेंसिल",
+      "रबड़",
+      "चाकू"
     ],
     "correctAnswer": 3,
     "explanationEn": "Knife is not stationery",
-    "explanationHi": "Knife is not stationery",
+    "explanationHi": "चाकू स्टेशनरी नहीं है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -3645,7 +3645,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-141",
     "questionEn": "Odd one out: Cricket, Football, Hockey, Chess",
-    "questionHi": "Odd one out: Cricket, Football, Hockey, Chess",
+    "questionHi": "बेमेल छांटें: क्रिकेट, फुटबॉल, हॉकी, शतरंज",
     "optionsEn": [
       "Cricket",
       "Football",
@@ -3653,14 +3653,14 @@ export const reasoningQuestions: Question[] = [
       "Chess"
     ],
     "optionsHi": [
-      "Cricket",
-      "Football",
-      "Hockey",
-      "Chess"
+      "क्रिकेट",
+      "फुटबॉल",
+      "हॉकी",
+      "शतरंज"
     ],
     "correctAnswer": 3,
     "explanationEn": "Chess is indoor, others outdoor games",
-    "explanationHi": "Chess is indoor, others outdoor games",
+    "explanationHi": "शतरंज इनडोर खेल है, बाकी आउटडोर खेल हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -3671,7 +3671,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-142",
     "questionEn": "Odd one out: Dog, Cat, Cow, Hen",
-    "questionHi": "Odd one out: Dog, Cat, Cow, Hen",
+    "questionHi": "बेमेल छांटें: कुत्ता, बिल्ली, गाय, मुर्गी",
     "optionsEn": [
       "Dog",
       "Cat",
@@ -3679,14 +3679,14 @@ export const reasoningQuestions: Question[] = [
       "Hen"
     ],
     "optionsHi": [
-      "Dog",
-      "Cat",
-      "Cow",
-      "Hen"
+      "कुत्ता",
+      "बिल्ली",
+      "गाय",
+      "मुर्गी"
     ],
     "correctAnswer": 3,
     "explanationEn": "Hen is bird, others are mammals",
-    "explanationHi": "Hen is bird, others are mammals",
+    "explanationHi": "मुर्गी पक्षी है, बाकी सभी स्तनधारी हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -3697,7 +3697,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-143",
     "questionEn": "Odd one out: Delhi, Mumbai, Chennai, Agra",
-    "questionHi": "Odd one out: Delhi, Mumbai, Chennai, Agra",
+    "questionHi": "बेमेल छांटें: दिल्ली, मुंबई, चेन्नई, आगरा",
     "optionsEn": [
       "Delhi",
       "Mumbai",
@@ -3705,14 +3705,14 @@ export const reasoningQuestions: Question[] = [
       "Agra"
     ],
     "optionsHi": [
-      "Delhi",
-      "Mumbai",
-      "Chennai",
-      "Agra"
+      "दिल्ली",
+      "मुंबई",
+      "चेन्नई",
+      "आगरा"
     ],
     "correctAnswer": 3,
     "explanationEn": "Agra is not a state capital",
-    "explanationHi": "Agra is not a state capital",
+    "explanationHi": "आगरा राज्य की राजधानी नहीं है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -3723,7 +3723,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-144",
     "questionEn": "Odd one out: January, February, April, March",
-    "questionHi": "Odd one out: January, February, April, March",
+    "questionHi": "बेमेल छांटें: जनवरी, फरवरी, अप्रैल, मार्च",
     "optionsEn": [
       "January",
       "February",
@@ -3731,14 +3731,14 @@ export const reasoningQuestions: Question[] = [
       "March"
     ],
     "optionsHi": [
-      "January",
-      "February",
-      "April",
-      "March"
+      "जनवरी",
+      "फरवरी",
+      "अप्रैल",
+      "मार्च"
     ],
     "correctAnswer": 1,
     "explanationEn": "February has fewer days",
-    "explanationHi": "February has fewer days",
+    "explanationHi": "फरवरी में कम दिन होते हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -3749,7 +3749,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-145",
     "questionEn": "Odd one out: Carpenter, Blacksmith, Goldsmith, Tailor",
-    "questionHi": "Odd one out: Carpenter, Blacksmith, Goldsmith, Tailor",
+    "questionHi": "बेमेल छांटें: बढ़ई, लोहार, सुनार, दर्जी",
     "optionsEn": [
       "Carpenter",
       "Blacksmith",
@@ -3757,14 +3757,14 @@ export const reasoningQuestions: Question[] = [
       "Tailor"
     ],
     "optionsHi": [
-      "Carpenter",
-      "Blacksmith",
-      "Goldsmith",
-      "Tailor"
+      "बढ़ई",
+      "लोहार",
+      "सुनार",
+      "दर्जी"
     ],
     "correctAnswer": 3,
     "explanationEn": "Tailor works with cloth, others with hard materials",
-    "explanationHi": "Tailor works with cloth, others with hard materials",
+    "explanationHi": "दर्जी कपड़े के साथ काम करता है, बाकी कठोर सामग्री के साथ",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -4035,7 +4035,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-156",
     "questionEn": "Medicine : Patient :: Food : ?",
-    "questionHi": "Medicine : Patient :: Food : ?",
+    "questionHi": "दवा : मरीज :: भोजन : ?",
     "optionsEn": [
       "Cook",
       "Hunger",
@@ -4043,14 +4043,14 @@ export const reasoningQuestions: Question[] = [
       "Hungry"
     ],
     "optionsHi": [
-      "Cook",
-      "Hunger",
-      "Eating",
-      "Hungry"
+      "रसोइया",
+      "भूख",
+      "खाना",
+      "भूखा"
     ],
     "correctAnswer": 3,
     "explanationEn": "Medicine is for patient, Food is for hungry",
-    "explanationHi": "Medicine is for patient, Food is for hungry",
+    "explanationHi": "दवा मरीज के लिए है, भोजन भूखे के लिए है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Semantic Analogy",
@@ -4061,7 +4061,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-157",
     "questionEn": "Light : Darkness :: Knowledge : ?",
-    "questionHi": "Light : Darkness :: Knowledge : ?",
+    "questionHi": "प्रकाश : अंधकार :: ज्ञान : ?",
     "optionsEn": [
       "Ignorance",
       "Study",
@@ -4069,14 +4069,14 @@ export const reasoningQuestions: Question[] = [
       "Wisdom"
     ],
     "optionsHi": [
-      "Ignorance",
-      "Study",
-      "Books",
-      "Wisdom"
+      "अज्ञान",
+      "अध्ययन",
+      "पुस्तकें",
+      "बुद्धि"
     ],
     "correctAnswer": 0,
     "explanationEn": "Light removes darkness, Knowledge removes ignorance",
-    "explanationHi": "Light removes darkness, Knowledge removes ignorance",
+    "explanationHi": "प्रकाश अंधकार दूर करता है, ज्ञान अज्ञान दूर करता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Semantic Analogy",
@@ -4087,7 +4087,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-158",
     "questionEn": "Fire : Ash :: Earthquake : ?",
-    "questionHi": "Fire : Ash :: Earthquake : ?",
+    "questionHi": "आग : राख :: भूकंप : ?",
     "optionsEn": [
       "Debris",
       "Shock",
@@ -4095,14 +4095,14 @@ export const reasoningQuestions: Question[] = [
       "Tremor"
     ],
     "optionsHi": [
-      "Debris",
-      "Shock",
-      "Building",
-      "Tremor"
+      "मलबा",
+      "झटका",
+      "इमारत",
+      "कंपन"
     ],
     "correctAnswer": 0,
     "explanationEn": "Fire leaves ash, Earthquake leaves debris",
-    "explanationHi": "Fire leaves ash, Earthquake leaves debris",
+    "explanationHi": "आग राख छोड़ती है, भूकंप मलबा छोड़ता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Semantic Analogy",
@@ -4113,7 +4113,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-159",
     "questionEn": "Rain : Flood :: Drought : ?",
-    "questionHi": "Rain : Flood :: Drought : ?",
+    "questionHi": "बारिश : बाढ़ :: सूखा : ?",
     "optionsEn": [
       "Desert",
       "Famine",
@@ -4121,14 +4121,14 @@ export const reasoningQuestions: Question[] = [
       "Summer"
     ],
     "optionsHi": [
-      "Desert",
-      "Famine",
-      "Heat",
-      "Summer"
+      "रेगिस्तान",
+      "अकाल",
+      "गर्मी",
+      "ग्रीष्म"
     ],
     "correctAnswer": 1,
     "explanationEn": "Excess rain causes flood, Drought causes famine",
-    "explanationHi": "Excess rain causes flood, Drought causes famine",
+    "explanationHi": "अधिक बारिश से बाढ़ आती है, सूखे से अकाल आता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Semantic Analogy",
@@ -7024,8 +7024,8 @@ export const reasoningQuestions: Question[] = [
   },
   {
     "id": "REASONING-271",
-    "questionEn": "VEIL is coded as TXGJ. How is HELP coded?",
-    "questionHi": "VEIL is coded as TXGJ. How is HELP coded?",
+    "questionEn": "VEIL is coded as TCGJ. How is HELP coded?",
+    "questionHi": "VEIL is coded as TCGJ. How is HELP coded?",
     "optionsEn": [
       "FCJN",
       "FCJM",
@@ -7128,23 +7128,23 @@ export const reasoningQuestions: Question[] = [
   },
   {
     "id": "REASONING-275",
-    "questionEn": "LAIR is coded as 5765, RAIL coded as:",
-    "questionHi": "LAIR is coded as 5765, RAIL coded as:",
+    "questionEn": "LAIR is coded as 5769, RAIL coded as:",
+    "questionHi": "LAIR को 5769 कोड किया गया है, RAIL का कोड क्या होगा:",
     "optionsEn": [
-      "7655",
-      "7565",
-      "7556",
-      "6575"
+      "9675",
+      "9765",
+      "7569",
+      "6579"
     ],
     "optionsHi": [
-      "7655",
-      "7565",
-      "7556",
-      "6575"
+      "9675",
+      "9765",
+      "7569",
+      "6579"
     ],
     "correctAnswer": 1,
-    "explanationEn": "L=5,A=7,I=6,R=5. RAIL=R(5)A(7)I(6)L(5)=5765. Wait, that gives same. Let me check: LAIR=5765 means L=5,A=7,I=6,R=5. RAIL=5765 backward? R=5,A=7,I=6,L=5 → 5765",
-    "explanationHi": "L=5,A=7,I=6,R=5. RAIL=R(5)A(7)I(6)L(5)=5765. Wait, that gives same. Let me check: LAIR=5765 means L=5,A=7,I=6,R=5. RAIL=5765 backward? R=5,A=7,I=6,L=5 → 5765",
+    "explanationEn": "LAIR=5769 means L=5, A=7, I=6, R=9. So RAIL = R(9)A(7)I(6)L(5) = 9765",
+    "explanationHi": "LAIR=5769 का मतलब L=5, A=7, I=6, R=9। तो RAIL = R(9)A(7)I(6)L(5) = 9765",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Complex Coding",
@@ -7805,7 +7805,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-301",
     "questionEn": "A is father of B. B is son of A. What is B to A?",
-    "questionHi": "A is father of B. B is son of A. What is B to A?",
+    "questionHi": "A, B का पिता है। B, A का पुत्र है। B, A का क्या लगता है?",
     "optionsEn": [
       "Father",
       "Son",
@@ -7813,14 +7813,14 @@ export const reasoningQuestions: Question[] = [
       "Uncle"
     ],
     "optionsHi": [
-      "Father",
-      "Son",
-      "Brother",
-      "Uncle"
+      "पिता",
+      "पुत्र",
+      "भाई",
+      "चाचा"
     ],
     "correctAnswer": 1,
     "explanationEn": "B is son of A",
-    "explanationHi": "B is son of A",
+    "explanationHi": "B, A का पुत्र है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Blood Relations Basic",
@@ -7831,7 +7831,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-302",
     "questionEn": "Pointing to a man, Rekha said 'He is the son of my mother's only daughter.' Who is the man?",
-    "questionHi": "Pointing to a man, Rekha said 'He is the son of my mother's only daughter.' Who is the man?",
+    "questionHi": "एक आदमी की ओर इशारा करते हुए रेखा ने कहा 'वह मेरी माँ की इकलौती बेटी का बेटा है।' वह आदमी कौन है?",
     "optionsEn": [
       "Brother",
       "Son",
@@ -7839,14 +7839,14 @@ export const reasoningQuestions: Question[] = [
       "Nephew"
     ],
     "optionsHi": [
-      "Brother",
-      "Son",
-      "Father",
-      "Nephew"
+      "भाई",
+      "बेटा",
+      "पिता",
+      "भतीजा"
     ],
     "correctAnswer": 1,
     "explanationEn": "Mother's only daughter = Rekha. Son of Rekha = Her son",
-    "explanationHi": "Mother's only daughter = Rekha. Son of Rekha = Her son",
+    "explanationHi": "माँ की इकलौती बेटी = रेखा। रेखा का बेटा = उसका बेटा",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Blood Relations Basic",
@@ -7857,7 +7857,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-303",
     "questionEn": "A is B's brother. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
-    "questionHi": "A is B's brother. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+    "questionHi": "A, B का भाई है। C, B की माँ है। D, C का पिता है। E, D की माँ है। A, D से कैसे संबंधित है?",
     "optionsEn": [
       "Grandson",
       "Great grandson",
@@ -7865,14 +7865,14 @@ export const reasoningQuestions: Question[] = [
       "Son"
     ],
     "optionsHi": [
-      "Grandson",
-      "Great grandson",
-      "Grandfather",
-      "Son"
+      "पोता",
+      "परपोता",
+      "दादा",
+      "बेटा"
     ],
     "correctAnswer": 0,
     "explanationEn": "D is C's father (grandfather of B/A). A is grandson of D",
-    "explanationHi": "D is C's father (grandfather of B/A). A is grandson of D",
+    "explanationHi": "D, C का पिता है (B/A का दादा)। A, D का पोता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Blood Relations Basic",
@@ -7909,7 +7909,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-305",
     "questionEn": "Introducing a man, a woman said 'His wife is the only daughter of my father.' How is man related to woman?",
-    "questionHi": "Introducing a man, a woman said 'His wife is the only daughter of my father.' How is man related to woman?",
+    "questionHi": "एक आदमी का परिचय देते हुए एक महिला ने कहा 'उसकी पत्नी मेरे पिता की इकलौती बेटी है।' वह आदमी महिला से कैसे संबंधित है?",
     "optionsEn": [
       "Brother",
       "Father",
@@ -7917,14 +7917,14 @@ export const reasoningQuestions: Question[] = [
       "Uncle"
     ],
     "optionsHi": [
-      "Brother",
-      "Father",
-      "Husband",
-      "Uncle"
+      "भाई",
+      "पिता",
+      "पति",
+      "चाचा"
     ],
     "correctAnswer": 2,
     "explanationEn": "Only daughter of father = the woman. Man's wife = the woman. So man is husband",
-    "explanationHi": "Only daughter of father = the woman. Man's wife = the woman. So man is husband",
+    "explanationHi": "पिता की इकलौती बेटी = वह महिला। आदमी की पत्नी = वह महिला। इसलिए आदमी पति है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Blood Relations Basic",

@@ -5,7 +5,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-001",
     "questionEn": "Health education is primarily aimed at:",
-    "questionHi": "Health education is primarily aimed at:",
+    "questionHi": "स्वास्थ्य शिक्षा का मुख्य उद्देश्य है:",
     "optionsEn": [
       "Treating diseases",
       "Helping people make informed health decisions",
@@ -13,14 +13,14 @@ export const healthEducationQuestions: Question[] = [
       "Building hospitals"
     ],
     "optionsHi": [
-      "Treating diseases",
-      "Helping people make informed health decisions",
-      "Providing medicines",
-      "Building hospitals"
+      "रोगों का उपचार करना",
+      "लोगों को स्वास्थ्य संबंधी सूचित निर्णय लेने में मदद करना",
+      "दवाइयां प्रदान करना",
+      "अस्पताल बनाना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Health education helps people make informed decisions about health.",
-    "explanationHi": "Health education helps people make informed decisions about health.",
+    "explanationHi": "स्वास्थ्य शिक्षा लोगों को स्वास्थ्य के बारे में सूचित निर्णय लेने में मदद करती है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -31,7 +31,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-002",
     "questionEn": "The ultimate goal of health education is:",
-    "questionHi": "The ultimate goal of health education is:",
+    "questionHi": "स्वास्थ्य शिक्षा का अंतिम लक्ष्य है:",
     "optionsEn": [
       "Increase knowledge only",
       "Improvement in health status",
@@ -39,14 +39,14 @@ export const healthEducationQuestions: Question[] = [
       "Conducting meetings"
     ],
     "optionsHi": [
-      "Increase knowledge only",
-      "Improvement in health status",
-      "Distribution of materials",
-      "Conducting meetings"
+      "केवल ज्ञान बढ़ाना",
+      "स्वास्थ्य स्थिति में सुधार",
+      "सामग्री का वितरण",
+      "बैठकें आयोजित करना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Ultimate goal is improved health of individuals and communities.",
-    "explanationHi": "Ultimate goal is improved health of individuals and communities.",
+    "explanationHi": "अंतिम लक्ष्य व्यक्तियों और समुदायों के स्वास्थ्य में सुधार है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -57,7 +57,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-003",
     "questionEn": "Health literacy refers to:",
-    "questionHi": "Health literacy refers to:",
+    "questionHi": "स्वास्थ्य साक्षरता का अर्थ है:",
     "optionsEn": [
       "Ability to read medical books",
       "Ability to obtain, process, and understand basic health information",
@@ -65,14 +65,14 @@ export const healthEducationQuestions: Question[] = [
       "Having medical degree"
     ],
     "optionsHi": [
-      "Ability to read medical books",
-      "Ability to obtain, process, and understand basic health information",
-      "Knowing medical terminology",
-      "Having medical degree"
+      "चिकित्सा पुस्तकें पढ़ने की क्षमता",
+      "बुनियादी स्वास्थ्य जानकारी प्राप्त करने, प्रोसेस करने और समझने की क्षमता",
+      "चिकित्सा शब्दावली जानना",
+      "चिकित्सा डिग्री होना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Health literacy enables informed health decisions.",
-    "explanationHi": "Health literacy enables informed health decisions.",
+    "explanationHi": "स्वास्थ्य साक्षरता सूचित स्वास्थ्य निर्णय लेने में सक्षम बनाती है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -83,7 +83,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-004",
     "questionEn": "Difference between health education and health information is:",
-    "questionHi": "Difference between health education and health information is:",
+    "questionHi": "स्वास्थ्य शिक्षा और स्वास्थ्य सूचना में अंतर है:",
     "optionsEn": [
       "No difference",
       "Education is interactive, information is one-way",
@@ -91,14 +91,14 @@ export const healthEducationQuestions: Question[] = [
       "Education is only in schools"
     ],
     "optionsHi": [
-      "No difference",
-      "Education is interactive, information is one-way",
-      "Information is better",
-      "Education is only in schools"
+      "कोई अंतर नहीं",
+      "शिक्षा परस्पर-संवादी है, सूचना एकतरफा है",
+      "सूचना बेहतर है",
+      "शिक्षा केवल स्कूलों में होती है"
     ],
     "correctAnswer": 1,
     "explanationEn": "Education involves interaction and aims for behavior change.",
-    "explanationHi": "Education involves interaction and aims for behavior change.",
+    "explanationHi": "शिक्षा में परस्पर संवाद शामिल है और व्यवहार परिवर्तन का लक्ष्य है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -109,7 +109,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-005",
     "questionEn": "Health promotion is:",
-    "questionHi": "Health promotion is:",
+    "questionHi": "स्वास्थ्य संवर्धन है:",
     "optionsEn": [
       "Same as health education",
       "Broader than health education including policy and environment",
@@ -117,14 +117,14 @@ export const healthEducationQuestions: Question[] = [
       "Only for sick people"
     ],
     "optionsHi": [
-      "Same as health education",
-      "Broader than health education including policy and environment",
-      "Only medical treatment",
-      "Only for sick people"
+      "स्वास्थ्य शिक्षा के समान",
+      "स्वास्थ्य शिक्षा से व्यापक जिसमें नीति और पर्यावरण शामिल",
+      "केवल चिकित्सा उपचार",
+      "केवल बीमार लोगों के लिए"
     ],
     "correctAnswer": 1,
     "explanationEn": "Health promotion includes education, policy, and environment.",
-    "explanationHi": "Health promotion includes education, policy, and environment.",
+    "explanationHi": "स्वास्थ्य संवर्धन में शिक्षा, नीति और पर्यावरण शामिल हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -135,7 +135,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-006",
     "questionEn": "Cognitive objectives in health education relate to:",
-    "questionHi": "Cognitive objectives in health education relate to:",
+    "questionHi": "स्वास्थ्य शिक्षा में संज्ञानात्मक उद्देश्य किससे संबंधित हैं:",
     "optionsEn": [
       "Skills",
       "Knowledge",
@@ -143,14 +143,14 @@ export const healthEducationQuestions: Question[] = [
       "Behavior"
     ],
     "optionsHi": [
-      "Skills",
-      "Knowledge",
-      "Attitudes",
-      "Behavior"
+      "कौशल",
+      "ज्ञान",
+      "दृष्टिकोण",
+      "व्यवहार"
     ],
     "correctAnswer": 1,
     "explanationEn": "Cognitive = knowledge domain.",
-    "explanationHi": "Cognitive = knowledge domain.",
+    "explanationHi": "संज्ञानात्मक = ज्ञान क्षेत्र।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -161,7 +161,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-007",
     "questionEn": "Affective objectives in health education relate to:",
-    "questionHi": "Affective objectives in health education relate to:",
+    "questionHi": "स्वास्थ्य शिक्षा में भावात्मक उद्देश्य किससे संबंधित हैं:",
     "optionsEn": [
       "Knowledge",
       "Skills",
@@ -169,14 +169,14 @@ export const healthEducationQuestions: Question[] = [
       "Practices"
     ],
     "optionsHi": [
-      "Knowledge",
-      "Skills",
-      "Attitudes and values",
-      "Practices"
+      "ज्ञान",
+      "कौशल",
+      "दृष्टिकोण और मूल्य",
+      "अभ्यास"
     ],
     "correctAnswer": 2,
     "explanationEn": "Affective = attitudes and feelings.",
-    "explanationHi": "Affective = attitudes and feelings.",
+    "explanationHi": "भावात्मक = दृष्टिकोण और भावनाएं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -187,7 +187,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-008",
     "questionEn": "Psychomotor objectives in health education relate to:",
-    "questionHi": "Psychomotor objectives in health education relate to:",
+    "questionHi": "स्वास्थ्य शिक्षा में मनोचालक उद्देश्य किससे संबंधित हैं:",
     "optionsEn": [
       "Knowledge",
       "Attitudes",
@@ -195,14 +195,14 @@ export const healthEducationQuestions: Question[] = [
       "Emotions"
     ],
     "optionsHi": [
-      "Knowledge",
-      "Attitudes",
-      "Skills and practices",
-      "Emotions"
+      "ज्ञान",
+      "दृष्टिकोण",
+      "कौशल और अभ्यास",
+      "भावनाएं"
     ],
     "correctAnswer": 2,
     "explanationEn": "Psychomotor = skills and actions.",
-    "explanationHi": "Psychomotor = skills and actions.",
+    "explanationHi": "मनोचालक = कौशल और क्रियाएं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -213,7 +213,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-009",
     "questionEn": "SMART objectives are:",
-    "questionHi": "SMART objectives are:",
+    "questionHi": "SMART उद्देश्य क्या हैं:",
     "optionsEn": [
       "Only for smart people",
       "Specific, Measurable, Achievable, Relevant, Time-bound",
@@ -221,14 +221,14 @@ export const healthEducationQuestions: Question[] = [
       "Standard, Medical, Accurate, Rapid, Technical"
     ],
     "optionsHi": [
-      "Only for smart people",
-      "Specific, Measurable, Achievable, Relevant, Time-bound",
-      "Simple, Modern, Active, Reliable, Tested",
-      "Standard, Medical, Accurate, Rapid, Technical"
+      "केवल बुद्धिमान लोगों के लिए",
+      "विशिष्ट, मापने योग्य, प्राप्य, प्रासंगिक, समयबद्ध",
+      "सरल, आधुनिक, सक्रिय, विश्वसनीय, परीक्षित",
+      "मानक, चिकित्सा, सटीक, तेज, तकनीकी"
     ],
     "correctAnswer": 1,
     "explanationEn": "SMART criteria for good objectives.",
-    "explanationHi": "SMART criteria for good objectives.",
+    "explanationHi": "अच्छे उद्देश्यों के लिए SMART मानदंड।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -239,7 +239,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-010",
     "questionEn": "Principle of 'known to unknown' means:",
-    "questionHi": "Principle of 'known to unknown' means:",
+    "questionHi": "'ज्ञात से अज्ञात' के सिद्धांत का अर्थ है:",
     "optionsEn": [
       "Teaching unknown things first",
       "Building on existing knowledge",
@@ -247,14 +247,14 @@ export const healthEducationQuestions: Question[] = [
       "Avoiding familiar topics"
     ],
     "optionsHi": [
-      "Teaching unknown things first",
-      "Building on existing knowledge",
-      "Only teaching new information",
-      "Avoiding familiar topics"
+      "पहले अज्ञात चीजें सिखाना",
+      "मौजूदा ज्ञान पर निर्माण करना",
+      "केवल नई जानकारी सिखाना",
+      "परिचित विषयों से बचना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Start from what people already know.",
-    "explanationHi": "Start from what people already know.",
+    "explanationHi": "लोग जो पहले से जानते हैं उससे शुरू करें।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -265,7 +265,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-011",
     "questionEn": "Learning by doing principle emphasizes:",
-    "questionHi": "Learning by doing principle emphasizes:",
+    "questionHi": "'करके सीखना' सिद्धांत किस पर जोर देता है:",
     "optionsEn": [
       "Lectures only",
       "Practical hands-on experience",
@@ -273,14 +273,14 @@ export const healthEducationQuestions: Question[] = [
       "Memorization"
     ],
     "optionsHi": [
-      "Lectures only",
-      "Practical hands-on experience",
-      "Reading only",
-      "Memorization"
+      "केवल व्याख्यान",
+      "व्यावहारिक अनुभव",
+      "केवल पढ़ना",
+      "रटना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Hands-on experience enhances learning.",
-    "explanationHi": "Hands-on experience enhances learning.",
+    "explanationHi": "व्यावहारिक अनुभव सीखने को बढ़ाता है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -291,7 +291,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-012",
     "questionEn": "Cultural sensitivity in health education means:",
-    "questionHi": "Cultural sensitivity in health education means:",
+    "questionHi": "स्वास्थ्य शिक्षा में सांस्कृतिक संवेदनशीलता का अर्थ है:",
     "optionsEn": [
       "Ignoring culture",
       "Respecting and adapting to local customs",
@@ -299,14 +299,14 @@ export const healthEducationQuestions: Question[] = [
       "Only Western methods"
     ],
     "optionsHi": [
-      "Ignoring culture",
-      "Respecting and adapting to local customs",
-      "Imposing new culture",
-      "Only Western methods"
+      "संस्कृति को नजरअंदाज करना",
+      "स्थानीय रीति-रिवाजों का सम्मान करना और अपनाना",
+      "नई संस्कृति थोपना",
+      "केवल पश्चिमी तरीके"
     ],
     "correctAnswer": 1,
     "explanationEn": "Respect cultural context in education.",
-    "explanationHi": "Respect cultural context in education.",
+    "explanationHi": "शिक्षा में सांस्कृतिक संदर्भ का सम्मान करें।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -317,7 +317,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-013",
     "questionEn": "Health worker's role in health education includes being:",
-    "questionHi": "Health worker's role in health education includes being:",
+    "questionHi": "स्वास्थ्य शिक्षा में स्वास्थ्य कार्यकर्ता की भूमिका में शामिल है:",
     "optionsEn": [
       "Only medicine distributor",
       "Educator, counselor, motivator, facilitator",
@@ -325,14 +325,14 @@ export const healthEducationQuestions: Question[] = [
       "Only supervisor"
     ],
     "optionsHi": [
-      "Only medicine distributor",
-      "Educator, counselor, motivator, facilitator",
-      "Only record keeper",
-      "Only supervisor"
+      "केवल दवाई वितरक",
+      "शिक्षक, परामर्शदाता, प्रेरक, सुविधाकर्ता",
+      "केवल रिकॉर्ड रखने वाला",
+      "केवल पर्यवेक्षक"
     ],
     "correctAnswer": 1,
     "explanationEn": "Health workers have multiple educational roles.",
-    "explanationHi": "Health workers have multiple educational roles.",
+    "explanationHi": "स्वास्थ्य कार्यकर्ताओं की कई शैक्षिक भूमिकाएं होती हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -343,7 +343,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-014",
     "questionEn": "Settings for health education include:",
-    "questionHi": "Settings for health education include:",
+    "questionHi": "स्वास्थ्य शिक्षा के स्थान में शामिल हैं:",
     "optionsEn": [
       "Only hospitals",
       "Home, facility, community, schools, workplaces",
@@ -351,14 +351,14 @@ export const healthEducationQuestions: Question[] = [
       "Only offices"
     ],
     "optionsHi": [
-      "Only hospitals",
-      "Home, facility, community, schools, workplaces",
-      "Only schools",
-      "Only offices"
+      "केवल अस्पताल",
+      "घर, सुविधा केंद्र, समुदाय, स्कूल, कार्यस्थल",
+      "केवल स्कूल",
+      "केवल कार्यालय"
     ],
     "correctAnswer": 1,
     "explanationEn": "Health education in multiple settings.",
-    "explanationHi": "Health education in multiple settings.",
+    "explanationHi": "स्वास्थ्य शिक्षा कई स्थानों में दी जाती है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "1",
@@ -369,7 +369,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-015",
     "questionEn": "Communication is defined as:",
-    "questionHi": "Communication is defined as:",
+    "questionHi": "संचार की परिभाषा है:",
     "optionsEn": [
       "Only speaking",
       "Exchange of information between individuals or groups",
@@ -377,14 +377,14 @@ export const healthEducationQuestions: Question[] = [
       "Only listening"
     ],
     "optionsHi": [
-      "Only speaking",
-      "Exchange of information between individuals or groups",
-      "Only writing",
-      "Only listening"
+      "केवल बोलना",
+      "व्यक्तियों या समूहों के बीच सूचना का आदान-प्रदान",
+      "केवल लिखना",
+      "केवल सुनना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Communication involves exchange of information.",
-    "explanationHi": "Communication involves exchange of information.",
+    "explanationHi": "संचार में सूचना का आदान-प्रदान शामिल है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -395,7 +395,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-016",
     "questionEn": "Elements of communication include:",
-    "questionHi": "Elements of communication include:",
+    "questionHi": "संचार के तत्वों में शामिल हैं:",
     "optionsEn": [
       "Only sender and receiver",
       "Sender, message, channel, receiver, feedback",
@@ -403,14 +403,14 @@ export const healthEducationQuestions: Question[] = [
       "Only feedback"
     ],
     "optionsHi": [
-      "Only sender and receiver",
-      "Sender, message, channel, receiver, feedback",
-      "Only message",
-      "Only feedback"
+      "केवल प्रेषक और प्राप्तकर्ता",
+      "प्रेषक, संदेश, माध्यम, प्राप्तकर्ता, प्रतिक्रिया",
+      "केवल संदेश",
+      "केवल प्रतिक्रिया"
     ],
     "correctAnswer": 1,
     "explanationEn": "Complete communication process has multiple elements.",
-    "explanationHi": "Complete communication process has multiple elements.",
+    "explanationHi": "पूर्ण संचार प्रक्रिया में कई तत्व होते हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -421,7 +421,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-017",
     "questionEn": "SMCR model stands for:",
-    "questionHi": "SMCR model stands for:",
+    "questionHi": "SMCR मॉडल का पूर्ण रूप है:",
     "optionsEn": [
       "Simple Message Communication Response",
       "Source, Message, Channel, Receiver",
@@ -429,14 +429,14 @@ export const healthEducationQuestions: Question[] = [
       "Standard Medical Communication Rules"
     ],
     "optionsHi": [
-      "Simple Message Communication Response",
-      "Source, Message, Channel, Receiver",
-      "Sender, Medium, Content, Result",
-      "Standard Medical Communication Rules"
+      "सरल संदेश संचार प्रतिक्रिया",
+      "स्रोत, संदेश, माध्यम, प्राप्तकर्ता",
+      "प्रेषक, माध्यम, सामग्री, परिणाम",
+      "मानक चिकित्सा संचार नियम"
     ],
     "correctAnswer": 1,
     "explanationEn": "SMCR: Source, Message, Channel, Receiver.",
-    "explanationHi": "SMCR: Source, Message, Channel, Receiver.",
+    "explanationHi": "SMCR: स्रोत, संदेश, माध्यम, प्राप्तकर्ता।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -447,7 +447,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-018",
     "questionEn": "One-way communication means:",
-    "questionHi": "One-way communication means:",
+    "questionHi": "एकतरफा संचार का अर्थ है:",
     "optionsEn": [
       "Interactive exchange",
       "Information flows in one direction without feedback",
@@ -455,14 +455,14 @@ export const healthEducationQuestions: Question[] = [
       "Two people talking"
     ],
     "optionsHi": [
-      "Interactive exchange",
-      "Information flows in one direction without feedback",
-      "Only feedback",
-      "Two people talking"
+      "परस्पर संवादात्मक आदान-प्रदान",
+      "सूचना एक दिशा में बहती है बिना प्रतिक्रिया के",
+      "केवल प्रतिक्रिया",
+      "दो लोगों की बातचीत"
     ],
     "correctAnswer": 1,
     "explanationEn": "One-way: no immediate feedback.",
-    "explanationHi": "One-way: no immediate feedback.",
+    "explanationHi": "एकतरफा: कोई तत्काल प्रतिक्रिया नहीं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -473,7 +473,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-019",
     "questionEn": "Two-way communication allows for:",
-    "questionHi": "Two-way communication allows for:",
+    "questionHi": "द्विपक्षीय संचार में क्या संभव है:",
     "optionsEn": [
       "No feedback",
       "Interactive exchange with immediate feedback",
@@ -481,14 +481,14 @@ export const healthEducationQuestions: Question[] = [
       "Only visual messages"
     ],
     "optionsHi": [
-      "No feedback",
-      "Interactive exchange with immediate feedback",
-      "Only written messages",
-      "Only visual messages"
+      "कोई प्रतिक्रिया नहीं",
+      "तत्काल प्रतिक्रिया के साथ परस्पर आदान-प्रदान",
+      "केवल लिखित संदेश",
+      "केवल दृश्य संदेश"
     ],
     "correctAnswer": 1,
     "explanationEn": "Two-way allows feedback and interaction.",
-    "explanationHi": "Two-way allows feedback and interaction.",
+    "explanationHi": "द्विपक्षीय में प्रतिक्रिया और परस्पर संवाद संभव है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -499,7 +499,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-020",
     "questionEn": "Non-verbal communication includes:",
-    "questionHi": "Non-verbal communication includes:",
+    "questionHi": "गैर-मौखिक संचार में शामिल है:",
     "optionsEn": [
       "Only words",
       "Body language, gestures, facial expressions",
@@ -507,14 +507,14 @@ export const healthEducationQuestions: Question[] = [
       "Only spoken words"
     ],
     "optionsHi": [
-      "Only words",
-      "Body language, gestures, facial expressions",
-      "Only written text",
-      "Only spoken words"
+      "केवल शब्द",
+      "शारीरिक भाषा, हावभाव, चेहरे के भाव",
+      "केवल लिखित पाठ",
+      "केवल बोले गए शब्द"
     ],
     "correctAnswer": 1,
     "explanationEn": "Non-verbal: communication without words.",
-    "explanationHi": "Non-verbal: communication without words.",
+    "explanationHi": "गैर-मौखिक: बिना शब्दों के संचार।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -525,7 +525,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-021",
     "questionEn": "Interpersonal communication is:",
-    "questionHi": "Interpersonal communication is:",
+    "questionHi": "अंतर-व्यक्तिगत संचार है:",
     "optionsEn": [
       "Mass media",
       "Face-to-face between two people",
@@ -533,14 +533,14 @@ export const healthEducationQuestions: Question[] = [
       "Radio program"
     ],
     "optionsHi": [
-      "Mass media",
-      "Face-to-face between two people",
-      "Television broadcast",
-      "Radio program"
+      "जनसंचार माध्यम",
+      "दो लोगों के बीच आमने-सामने",
+      "टेलीविजन प्रसारण",
+      "रेडियो कार्यक्रम"
     ],
     "correctAnswer": 1,
     "explanationEn": "Interpersonal: direct person-to-person.",
-    "explanationHi": "Interpersonal: direct person-to-person.",
+    "explanationHi": "अंतर-व्यक्तिगत: सीधा व्यक्ति-से-व्यक्ति संचार।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -551,7 +551,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-022",
     "questionEn": "Most effective communication for behavior change is:",
-    "questionHi": "Most effective communication for behavior change is:",
+    "questionHi": "व्यवहार परिवर्तन के लिए सबसे प्रभावी संचार है:",
     "optionsEn": [
       "Mass media",
       "Interpersonal communication",
@@ -559,14 +559,14 @@ export const healthEducationQuestions: Question[] = [
       "Radio"
     ],
     "optionsHi": [
-      "Mass media",
-      "Interpersonal communication",
-      "Posters",
-      "Radio"
+      "जनसंचार माध्यम",
+      "अंतर-व्यक्तिगत संचार",
+      "पोस्टर",
+      "रेडियो"
     ],
     "correctAnswer": 1,
     "explanationEn": "IPC most effective for behavior change.",
-    "explanationHi": "IPC most effective for behavior change.",
+    "explanationHi": "व्यवहार परिवर्तन के लिए IPC सबसे प्रभावी है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -577,7 +577,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-023",
     "questionEn": "Physical barriers to communication include:",
-    "questionHi": "Physical barriers to communication include:",
+    "questionHi": "संचार में भौतिक बाधाओं में शामिल हैं:",
     "optionsEn": [
       "Negative attitudes",
       "Noise, distance, poor lighting",
@@ -585,14 +585,14 @@ export const healthEducationQuestions: Question[] = [
       "Cultural beliefs"
     ],
     "optionsHi": [
-      "Negative attitudes",
-      "Noise, distance, poor lighting",
-      "Language differences",
-      "Cultural beliefs"
+      "नकारात्मक दृष्टिकोण",
+      "शोर, दूरी, खराब रोशनी",
+      "भाषा का अंतर",
+      "सांस्कृतिक मान्यताएं"
     ],
     "correctAnswer": 1,
     "explanationEn": "Physical barriers: environmental factors.",
-    "explanationHi": "Physical barriers: environmental factors.",
+    "explanationHi": "भौतिक बाधाएं: पर्यावरणीय कारक।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -603,7 +603,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-024",
     "questionEn": "Language barriers include:",
-    "questionHi": "Language barriers include:",
+    "questionHi": "भाषा संबंधी बाधाओं में शामिल हैं:",
     "optionsEn": [
       "Noise",
       "Different languages, jargon, unfamiliar terms",
@@ -611,14 +611,14 @@ export const healthEducationQuestions: Question[] = [
       "Poor lighting"
     ],
     "optionsHi": [
-      "Noise",
-      "Different languages, jargon, unfamiliar terms",
-      "Distance",
-      "Poor lighting"
+      "शोर",
+      "अलग-अलग भाषाएं, तकनीकी शब्द, अपरिचित शब्दावली",
+      "दूरी",
+      "खराब रोशनी"
     ],
     "correctAnswer": 1,
     "explanationEn": "Language barriers affect understanding.",
-    "explanationHi": "Language barriers affect understanding.",
+    "explanationHi": "भाषा संबंधी बाधाएं समझ को प्रभावित करती हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -629,7 +629,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-025",
     "questionEn": "Psychological barriers to communication include:",
-    "questionHi": "Psychological barriers to communication include:",
+    "questionHi": "संचार में मनोवैज्ञानिक बाधाओं में शामिल हैं:",
     "optionsEn": [
       "Noise",
       "Distance",
@@ -637,14 +637,14 @@ export const healthEducationQuestions: Question[] = [
       "Different language"
     ],
     "optionsHi": [
-      "Noise",
-      "Distance",
-      "Fear, anxiety, mistrust",
-      "Different language"
+      "शोर",
+      "दूरी",
+      "डर, चिंता, अविश्वास",
+      "अलग भाषा"
     ],
     "correctAnswer": 2,
     "explanationEn": "Psychological: mental/emotional barriers.",
-    "explanationHi": "Psychological: mental/emotional barriers.",
+    "explanationHi": "मनोवैज्ञानिक: मानसिक/भावनात्मक बाधाएं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -655,7 +655,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-026",
     "questionEn": "Cultural barriers affect communication through:",
-    "questionHi": "Cultural barriers affect communication through:",
+    "questionHi": "सांस्कृतिक बाधाएं संचार को किस माध्यम से प्रभावित करती हैं:",
     "optionsEn": [
       "Only language",
       "Different beliefs, taboos, gender issues",
@@ -663,14 +663,14 @@ export const healthEducationQuestions: Question[] = [
       "Only timing"
     ],
     "optionsHi": [
-      "Only language",
-      "Different beliefs, taboos, gender issues",
-      "Only physical distance",
-      "Only timing"
+      "केवल भाषा",
+      "अलग-अलग मान्यताएं, वर्जनाएं, लैंगिक मुद्दे",
+      "केवल भौतिक दूरी",
+      "केवल समय"
     ],
     "correctAnswer": 1,
     "explanationEn": "Culture influences communication.",
-    "explanationHi": "Culture influences communication.",
+    "explanationHi": "संस्कृति संचार को प्रभावित करती है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -681,7 +681,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-027",
     "questionEn": "To overcome communication barriers, one should:",
-    "questionHi": "To overcome communication barriers, one should:",
+    "questionHi": "संचार बाधाओं को दूर करने के लिए क्या करना चाहिए:",
     "optionsEn": [
       "Use complex language",
       "Use simple language, know audience, seek feedback",
@@ -689,14 +689,14 @@ export const healthEducationQuestions: Question[] = [
       "Avoid visual aids"
     ],
     "optionsHi": [
-      "Use complex language",
-      "Use simple language, know audience, seek feedback",
-      "Speak quickly",
-      "Avoid visual aids"
+      "जटिल भाषा का उपयोग करें",
+      "सरल भाषा का उपयोग करें, श्रोताओं को जानें, प्रतिक्रिया लें",
+      "तेज बोलें",
+      "दृश्य सामग्री से बचें"
     ],
     "correctAnswer": 1,
     "explanationEn": "Multiple strategies to overcome barriers.",
-    "explanationHi": "Multiple strategies to overcome barriers.",
+    "explanationHi": "बाधाओं को दूर करने के लिए कई रणनीतियां।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -707,7 +707,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-028",
     "questionEn": "Active listening involves:",
-    "questionHi": "Active listening involves:",
+    "questionHi": "सक्रिय सुनने में शामिल है:",
     "optionsEn": [
       "Thinking about what to say next",
       "Paying full attention, not interrupting, showing interest",
@@ -715,14 +715,14 @@ export const healthEducationQuestions: Question[] = [
       "Looking away"
     ],
     "optionsHi": [
-      "Thinking about what to say next",
-      "Paying full attention, not interrupting, showing interest",
-      "Interrupting frequently",
-      "Looking away"
+      "आगे क्या कहना है इसके बारे में सोचना",
+      "पूरा ध्यान देना, बाधित न करना, रुचि दिखाना",
+      "बार-बार बाधित करना",
+      "दूर देखना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Active listening requires full attention.",
-    "explanationHi": "Active listening requires full attention.",
+    "explanationHi": "सक्रिय सुनने के लिए पूरा ध्यान आवश्यक है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -733,7 +733,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-029",
     "questionEn": "Open-ended questions:",
-    "questionHi": "Open-ended questions:",
+    "questionHi": "खुले प्रश्न:",
     "optionsEn": [
       "Can be answered yes/no",
       "Encourage detailed responses",
@@ -741,14 +741,14 @@ export const healthEducationQuestions: Question[] = [
       "Have one word answers"
     ],
     "optionsHi": [
-      "Can be answered yes/no",
-      "Encourage detailed responses",
-      "Are leading questions",
-      "Have one word answers"
+      "हां/नहीं में उत्तर दिए जा सकते हैं",
+      "विस्तृत उत्तरों को प्रोत्साहित करते हैं",
+      "प्रेरक प्रश्न होते हैं",
+      "एक शब्द के उत्तर होते हैं"
     ],
     "correctAnswer": 1,
     "explanationEn": "Open-ended questions invite elaboration.",
-    "explanationHi": "Open-ended questions invite elaboration.",
+    "explanationHi": "खुले प्रश्न विस्तार से बताने के लिए आमंत्रित करते हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -759,7 +759,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-030",
     "questionEn": "Closed questions:",
-    "questionHi": "Closed questions:",
+    "questionHi": "बंद प्रश्न:",
     "optionsEn": [
       "Require detailed answers",
       "Can be answered with yes/no or brief response",
@@ -767,14 +767,14 @@ export const healthEducationQuestions: Question[] = [
       "Should be avoided"
     ],
     "optionsHi": [
-      "Require detailed answers",
-      "Can be answered with yes/no or brief response",
-      "Are always inappropriate",
-      "Should be avoided"
+      "विस्तृत उत्तर चाहिए",
+      "हां/नहीं या संक्षिप्त उत्तर से जवाब दिए जा सकते हैं",
+      "हमेशा अनुचित होते हैं",
+      "इनसे बचना चाहिए"
     ],
     "correctAnswer": 1,
     "explanationEn": "Closed questions get specific brief answers.",
-    "explanationHi": "Closed questions get specific brief answers.",
+    "explanationHi": "बंद प्रश्नों से विशिष्ट संक्षिप्त उत्तर मिलते हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -785,7 +785,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-031",
     "questionEn": "Leading questions should be avoided because:",
-    "questionHi": "Leading questions should be avoided because:",
+    "questionHi": "प्रेरक प्रश्नों से बचना चाहिए क्योंकि:",
     "optionsEn": [
       "They are too long",
       "They suggest the expected answer",
@@ -793,14 +793,14 @@ export const healthEducationQuestions: Question[] = [
       "They are unclear"
     ],
     "optionsHi": [
-      "They are too long",
-      "They suggest the expected answer",
-      "They are too short",
-      "They are unclear"
+      "ये बहुत लंबे होते हैं",
+      "ये अपेक्षित उत्तर का संकेत देते हैं",
+      "ये बहुत छोटे होते हैं",
+      "ये अस्पष्ट होते हैं"
     ],
     "correctAnswer": 1,
     "explanationEn": "Leading questions bias responses.",
-    "explanationHi": "Leading questions bias responses.",
+    "explanationHi": "प्रेरक प्रश्न उत्तरों को पक्षपाती बनाते हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -811,7 +811,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-032",
     "questionEn": "GATHER approach is used for:",
-    "questionHi": "GATHER approach is used for:",
+    "questionHi": "GATHER दृष्टिकोण किसके लिए उपयोग होता है:",
     "optionsEn": [
       "Data collection",
       "Effective counseling",
@@ -819,14 +819,14 @@ export const healthEducationQuestions: Question[] = [
       "Report writing"
     ],
     "optionsHi": [
-      "Data collection",
-      "Effective counseling",
-      "Material development",
-      "Report writing"
+      "डेटा संग्रह",
+      "प्रभावी परामर्श",
+      "सामग्री विकास",
+      "रिपोर्ट लेखन"
     ],
     "correctAnswer": 1,
     "explanationEn": "GATHER guides counseling process.",
-    "explanationHi": "GATHER guides counseling process.",
+    "explanationHi": "GATHER परामर्श प्रक्रिया का मार्गदर्शन करता है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -837,7 +837,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-033",
     "questionEn": "G in GATHER stands for:",
-    "questionHi": "G in GATHER stands for:",
+    "questionHi": "GATHER में G का अर्थ है:",
     "optionsEn": [
       "Give information",
       "Greet",
@@ -845,14 +845,14 @@ export const healthEducationQuestions: Question[] = [
       "Gather data"
     ],
     "optionsHi": [
-      "Give information",
-      "Greet",
-      "Guide",
-      "Gather data"
+      "जानकारी देना",
+      "अभिवादन करना",
+      "मार्गदर्शन करना",
+      "डेटा एकत्र करना"
     ],
     "correctAnswer": 1,
     "explanationEn": "G = Greet warmly.",
-    "explanationHi": "G = Greet warmly.",
+    "explanationHi": "G = गर्मजोशी से अभिवादन करना।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -863,7 +863,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-034",
     "questionEn": "A in GATHER stands for:",
-    "questionHi": "A in GATHER stands for:",
+    "questionHi": "GATHER में A का अर्थ है:",
     "optionsEn": [
       "Advise",
       "Ask",
@@ -871,14 +871,14 @@ export const healthEducationQuestions: Question[] = [
       "Assess"
     ],
     "optionsHi": [
-      "Advise",
-      "Ask",
-      "Arrange",
-      "Assess"
+      "सलाह देना",
+      "पूछना",
+      "व्यवस्था करना",
+      "मूल्यांकन करना"
     ],
     "correctAnswer": 1,
     "explanationEn": "A = Ask to understand needs.",
-    "explanationHi": "A = Ask to understand needs.",
+    "explanationHi": "A = जरूरतों को समझने के लिए पूछना।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -889,7 +889,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-035",
     "questionEn": "T in GATHER stands for:",
-    "questionHi": "T in GATHER stands for:",
+    "questionHi": "GATHER में T का अर्थ है:",
     "optionsEn": [
       "Track",
       "Tell",
@@ -897,14 +897,14 @@ export const healthEducationQuestions: Question[] = [
       "Train"
     ],
     "optionsHi": [
-      "Track",
-      "Tell",
-      "Test",
-      "Train"
+      "ट्रैक करना",
+      "बताना",
+      "परीक्षण करना",
+      "प्रशिक्षित करना"
     ],
     "correctAnswer": 1,
     "explanationEn": "T = Tell/provide information.",
-    "explanationHi": "T = Tell/provide information.",
+    "explanationHi": "T = बताना/जानकारी प्रदान करना।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -915,7 +915,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-036",
     "questionEn": "H in GATHER stands for:",
-    "questionHi": "H in GATHER stands for:",
+    "questionHi": "GATHER में H का अर्थ है:",
     "optionsEn": [
       "Hear",
       "Help",
@@ -923,14 +923,14 @@ export const healthEducationQuestions: Question[] = [
       "Handle"
     ],
     "optionsHi": [
-      "Hear",
-      "Help",
-      "Hold",
-      "Handle"
+      "सुनना",
+      "मदद करना",
+      "रोकना",
+      "संभालना"
     ],
     "correctAnswer": 1,
     "explanationEn": "H = Help in decision-making.",
-    "explanationHi": "H = Help in decision-making.",
+    "explanationHi": "H = निर्णय लेने में मदद करना।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -941,7 +941,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-037",
     "questionEn": "E in GATHER stands for:",
-    "questionHi": "E in GATHER stands for:",
+    "questionHi": "GATHER में E का अर्थ है:",
     "optionsEn": [
       "End",
       "Evaluate",
@@ -949,14 +949,14 @@ export const healthEducationQuestions: Question[] = [
       "Examine"
     ],
     "optionsHi": [
-      "End",
-      "Evaluate",
-      "Explain",
-      "Examine"
+      "समाप्त करना",
+      "मूल्यांकन करना",
+      "समझाना",
+      "जांच करना"
     ],
     "correctAnswer": 2,
     "explanationEn": "E = Explain and clarify.",
-    "explanationHi": "E = Explain and clarify.",
+    "explanationHi": "E = समझाना और स्पष्ट करना।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -967,7 +967,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-038",
     "questionEn": "R in GATHER stands for:",
-    "questionHi": "R in GATHER stands for:",
+    "questionHi": "GATHER में R का अर्थ है:",
     "optionsEn": [
       "Record",
       "Return/Refer",
@@ -975,14 +975,14 @@ export const healthEducationQuestions: Question[] = [
       "Remind"
     ],
     "optionsHi": [
-      "Record",
-      "Return/Refer",
-      "Review",
-      "Remind"
+      "रिकॉर्ड करना",
+      "वापसी/रेफर करना",
+      "समीक्षा करना",
+      "याद दिलाना"
     ],
     "correctAnswer": 1,
     "explanationEn": "R = Return visit or Refer.",
-    "explanationHi": "R = Return visit or Refer.",
+    "explanationHi": "R = पुनः आगमन या रेफर करना।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "2",
@@ -993,7 +993,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-039",
     "questionEn": "BCC stands for:",
-    "questionHi": "BCC stands for:",
+    "questionHi": "BCC का पूर्ण रूप है:",
     "optionsEn": [
       "Basic Communication Course",
       "Behavior Change Communication",
@@ -1001,14 +1001,14 @@ export const healthEducationQuestions: Question[] = [
       "Biological Control Center"
     ],
     "optionsHi": [
-      "Basic Communication Course",
-      "Behavior Change Communication",
-      "Better Community Care",
-      "Biological Control Center"
+      "बेसिक कम्युनिकेशन कोर्स",
+      "व्यवहार परिवर्तन संचार",
+      "बेहतर सामुदायिक देखभाल",
+      "जैविक नियंत्रण केंद्र"
     ],
     "correctAnswer": 1,
     "explanationEn": "BCC: Behavior Change Communication.",
-    "explanationHi": "BCC: Behavior Change Communication.",
+    "explanationHi": "BCC: व्यवहार परिवर्तन संचार।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1019,7 +1019,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-040",
     "questionEn": "SBCC stands for:",
-    "questionHi": "SBCC stands for:",
+    "questionHi": "SBCC का पूर्ण रूप है:",
     "optionsEn": [
       "Simple Behavior Change Communication",
       "Social and Behavior Change Communication",
@@ -1027,14 +1027,14 @@ export const healthEducationQuestions: Question[] = [
       "Special Basic Communication Course"
     ],
     "optionsHi": [
-      "Simple Behavior Change Communication",
-      "Social and Behavior Change Communication",
-      "Standard Behavior Control Committee",
-      "Special Basic Communication Course"
+      "सिंपल बिहेवियर चेंज कम्युनिकेशन",
+      "सामाजिक और व्यवहार परिवर्तन संचार",
+      "स्टैंडर्ड बिहेवियर कंट्रोल कमिटी",
+      "स्पेशल बेसिक कम्युनिकेशन कोर्स"
     ],
     "correctAnswer": 1,
     "explanationEn": "SBCC includes social change.",
-    "explanationHi": "SBCC includes social change.",
+    "explanationHi": "SBCC में सामाजिक परिवर्तन शामिल है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1045,7 +1045,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-041",
     "questionEn": "Health behavior is influenced by:",
-    "questionHi": "Health behavior is influenced by:",
+    "questionHi": "स्वास्थ्य व्यवहार किससे प्रभावित होता है:",
     "optionsEn": [
       "Only individual factors",
       "Individual, interpersonal, community, structural factors",
@@ -1053,14 +1053,14 @@ export const healthEducationQuestions: Question[] = [
       "Only government policies"
     ],
     "optionsHi": [
-      "Only individual factors",
-      "Individual, interpersonal, community, structural factors",
-      "Only community factors",
-      "Only government policies"
+      "केवल व्यक्तिगत कारक",
+      "व्यक्तिगत, अंतर-व्यक्तिगत, सामुदायिक, संरचनात्मक कारक",
+      "केवल सामुदायिक कारक",
+      "केवल सरकारी नीतियां"
     ],
     "correctAnswer": 1,
     "explanationEn": "Multiple levels influence behavior.",
-    "explanationHi": "Multiple levels influence behavior.",
+    "explanationHi": "कई स्तर व्यवहार को प्रभावित करते हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1071,7 +1071,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-042",
     "questionEn": "Health-promoting behaviors include:",
-    "questionHi": "Health-promoting behaviors include:",
+    "questionHi": "स्वास्थ्य-संवर्धक व्यवहारों में शामिल हैं:",
     "optionsEn": [
       "Smoking",
       "Exercise, balanced diet, adequate sleep",
@@ -1079,14 +1079,14 @@ export const healthEducationQuestions: Question[] = [
       "Skipping meals"
     ],
     "optionsHi": [
-      "Smoking",
-      "Exercise, balanced diet, adequate sleep",
-      "Alcohol abuse",
-      "Skipping meals"
+      "धूम्रपान",
+      "व्यायाम, संतुलित आहार, पर्याप्त नींद",
+      "शराब का दुरुपयोग",
+      "भोजन छोड़ना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Health-promoting behaviors improve health.",
-    "explanationHi": "Health-promoting behaviors improve health.",
+    "explanationHi": "स्वास्थ्य-संवर्धक व्यवहार स्वास्थ्य में सुधार करते हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1097,7 +1097,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-043",
     "questionEn": "Health Belief Model suggests people act based on:",
-    "questionHi": "Health Belief Model suggests people act based on:",
+    "questionHi": "स्वास्थ्य विश्वास मॉडल बताता है कि लोग किस आधार पर कार्य करते हैं:",
     "optionsEn": [
       "Only income",
       "Perceived susceptibility, severity, benefits, barriers",
@@ -1105,14 +1105,14 @@ export const healthEducationQuestions: Question[] = [
       "Only age"
     ],
     "optionsHi": [
-      "Only income",
-      "Perceived susceptibility, severity, benefits, barriers",
-      "Only education",
-      "Only age"
+      "केवल आय",
+      "अनुभूत संवेदनशीलता, गंभीरता, लाभ, बाधाएं",
+      "केवल शिक्षा",
+      "केवल उम्र"
     ],
     "correctAnswer": 1,
     "explanationEn": "HBM: perceptions drive health action.",
-    "explanationHi": "HBM: perceptions drive health action.",
+    "explanationHi": "HBM: धारणाएं स्वास्थ्य कार्रवाई को प्रेरित करती हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1123,7 +1123,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-044",
     "questionEn": "Perceived susceptibility in HBM means:",
-    "questionHi": "Perceived susceptibility in HBM means:",
+    "questionHi": "HBM में अनुभूत संवेदनशीलता का अर्थ है:",
     "optionsEn": [
       "How serious the disease is",
       "Belief about personal risk",
@@ -1131,14 +1131,14 @@ export const healthEducationQuestions: Question[] = [
       "Barriers to action"
     ],
     "optionsHi": [
-      "How serious the disease is",
-      "Belief about personal risk",
-      "Benefits of action",
-      "Barriers to action"
+      "रोग कितना गंभीर है",
+      "व्यक्तिगत जोखिम के बारे में विश्वास",
+      "कार्रवाई के लाभ",
+      "कार्रवाई में बाधाएं"
     ],
     "correctAnswer": 1,
     "explanationEn": "Susceptibility: 'Am I at risk?'",
-    "explanationHi": "Susceptibility: 'Am I at risk?'",
+    "explanationHi": "संवेदनशीलता: 'क्या मुझे जोखिम है?'",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1149,7 +1149,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-045",
     "questionEn": "Perceived severity in HBM means:",
-    "questionHi": "Perceived severity in HBM means:",
+    "questionHi": "HBM में अनुभूत गंभीरता का अर्थ है:",
     "optionsEn": [
       "Personal risk",
       "Belief about how serious the condition is",
@@ -1157,14 +1157,14 @@ export const healthEducationQuestions: Question[] = [
       "Ability to change"
     ],
     "optionsHi": [
-      "Personal risk",
-      "Belief about how serious the condition is",
-      "Benefits of action",
-      "Ability to change"
+      "व्यक्तिगत जोखिम",
+      "स्थिति कितनी गंभीर है इसके बारे में विश्वास",
+      "कार्रवाई के लाभ",
+      "बदलने की क्षमता"
     ],
     "correctAnswer": 1,
     "explanationEn": "Severity: 'How serious is it?'",
-    "explanationHi": "Severity: 'How serious is it?'",
+    "explanationHi": "गंभीरता: 'यह कितना गंभीर है?'",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1175,7 +1175,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-046",
     "questionEn": "Self-efficacy refers to:",
-    "questionHi": "Self-efficacy refers to:",
+    "questionHi": "आत्म-प्रभावकारिता का अर्थ है:",
     "optionsEn": [
       "Perceived susceptibility",
       "Confidence in ability to perform behavior",
@@ -1183,14 +1183,14 @@ export const healthEducationQuestions: Question[] = [
       "Cues to action"
     ],
     "optionsHi": [
-      "Perceived susceptibility",
-      "Confidence in ability to perform behavior",
-      "Perceived barriers",
-      "Cues to action"
+      "अनुभूत संवेदनशीलता",
+      "व्यवहार करने की क्षमता में आत्मविश्वास",
+      "अनुभूत बाधाएं",
+      "कार्रवाई के संकेत"
     ],
     "correctAnswer": 1,
     "explanationEn": "Self-efficacy: 'Can I do it?'",
-    "explanationHi": "Self-efficacy: 'Can I do it?'",
+    "explanationHi": "आत्म-प्रभावकारिता: 'क्या मैं यह कर सकता हूं?'",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1201,7 +1201,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-047",
     "questionEn": "Cues to action in HBM are:",
-    "questionHi": "Cues to action in HBM are:",
+    "questionHi": "HBM में कार्रवाई के संकेत हैं:",
     "optionsEn": [
       "Perceived risks",
       "Triggers that prompt behavior",
@@ -1209,14 +1209,14 @@ export const healthEducationQuestions: Question[] = [
       "Benefits of action"
     ],
     "optionsHi": [
-      "Perceived risks",
-      "Triggers that prompt behavior",
-      "Barriers to change",
-      "Benefits of action"
+      "अनुभूत जोखिम",
+      "व्यवहार को प्रेरित करने वाले ट्रिगर",
+      "परिवर्तन में बाधाएं",
+      "कार्रवाई के लाभ"
     ],
     "correctAnswer": 1,
     "explanationEn": "Cues trigger the health action.",
-    "explanationHi": "Cues trigger the health action.",
+    "explanationHi": "संकेत स्वास्थ्य कार्रवाई को ट्रिगर करते हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1227,7 +1227,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-048",
     "questionEn": "Stages of Change Model is also called:",
-    "questionHi": "Stages of Change Model is also called:",
+    "questionHi": "परिवर्तन के चरण मॉडल को यह भी कहा जाता है:",
     "optionsEn": [
       "Health Belief Model",
       "Transtheoretical Model",
@@ -1235,14 +1235,14 @@ export const healthEducationQuestions: Question[] = [
       "Diffusion of Innovations"
     ],
     "optionsHi": [
-      "Health Belief Model",
-      "Transtheoretical Model",
-      "Social Cognitive Theory",
-      "Diffusion of Innovations"
+      "स्वास्थ्य विश्वास मॉडल",
+      "ट्रांसथियोरेटिकल मॉडल",
+      "सामाजिक संज्ञानात्मक सिद्धांत",
+      "नवाचारों का प्रसार"
     ],
     "correctAnswer": 1,
     "explanationEn": "Transtheoretical Model = Stages of Change.",
-    "explanationHi": "Transtheoretical Model = Stages of Change.",
+    "explanationHi": "ट्रांसथियोरेटिकल मॉडल = परिवर्तन के चरण।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",

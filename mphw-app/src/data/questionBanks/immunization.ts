@@ -5,7 +5,7 @@ export const immunizationQuestions: Question[] = [
   {
     "id": "IMMUNIZATION-001",
     "questionEn": "What is the definition of immunization?",
-    "questionHi": "What is the definition of immunization?",
+    "questionHi": "प्रतिरक्षण (टीकाकरण) की परिभाषा क्या है?",
     "optionsEn": [
       "Treatment of disease",
       "Process of making a person immune to an infection",
@@ -13,14 +13,14 @@ export const immunizationQuestions: Question[] = [
       "Diagnosis of disease"
     ],
     "optionsHi": [
-      "Treatment of disease",
-      "Process of making a person immune to an infection",
-      "Surgery for infection",
-      "Diagnosis of disease"
+      "रोग का उपचार",
+      "व्यक्ति को संक्रमण से प्रतिरक्षित बनाने की प्रक्रिया",
+      "संक्रमण के लिए शल्य चिकित्सा",
+      "रोग का निदान"
     ],
     "correctAnswer": 1,
     "explanationEn": "Immunization is the process of making a person immune to an infectious disease, typically through vaccination.",
-    "explanationHi": "Immunization is the process of making a person immune to an infectious disease, typically through vaccination.",
+    "explanationHi": "प्रतिरक्षण एक व्यक्ति को संक्रामक रोग से प्रतिरक्षित बनाने की प्रक्रिया है, आमतौर पर टीकाकरण के माध्यम से।",
     "difficulty": "easy",
     "topic": "immunization",
     "subtopic": "1",
@@ -31,7 +31,7 @@ export const immunizationQuestions: Question[] = [
   {
     "id": "IMMUNIZATION-002",
     "questionEn": "Active immunity is produced when:",
-    "questionHi": "Active immunity is produced when:",
+    "questionHi": "सक्रिय प्रतिरक्षा कब उत्पन्न होती है:",
     "optionsEn": [
       "Antibodies are injected",
       "The body produces its own antibodies",
@@ -39,14 +39,14 @@ export const immunizationQuestions: Question[] = [
       "Blood transfusion is given"
     ],
     "optionsHi": [
-      "Antibodies are injected",
-      "The body produces its own antibodies",
-      "Mother passes antibodies to fetus",
-      "Blood transfusion is given"
+      "एंटीबॉडी इंजेक्ट की जाती हैं",
+      "शरीर अपनी खुद की एंटीबॉडी बनाता है",
+      "माँ भ्रूण को एंटीबॉडी देती है",
+      "रक्त आधान दिया जाता है"
     ],
     "correctAnswer": 1,
     "explanationEn": "Active immunity develops when the body's immune system produces its own antibodies in response to an antigen.",
-    "explanationHi": "Active immunity develops when the body's immune system produces its own antibodies in response to an antigen.",
+    "explanationHi": "सक्रिय प्रतिरक्षा तब विकसित होती है जब शरीर की प्रतिरक्षा प्रणाली एंटीजन के जवाब में अपनी खुद की एंटीबॉडी बनाती है।",
     "difficulty": "easy",
     "topic": "immunization",
     "subtopic": "1",
@@ -57,7 +57,7 @@ export const immunizationQuestions: Question[] = [
   {
     "id": "IMMUNIZATION-003",
     "questionEn": "Passive immunity is characterized by:",
-    "questionHi": "Passive immunity is characterized by:",
+    "questionHi": "निष्क्रिय प्रतिरक्षा की विशेषता है:",
     "optionsEn": [
       "Long-lasting protection",
       "Immediate but temporary protection",
@@ -65,14 +65,14 @@ export const immunizationQuestions: Question[] = [
       "Takes weeks to develop"
     ],
     "optionsHi": [
-      "Long-lasting protection",
-      "Immediate but temporary protection",
-      "Requires booster doses",
-      "Takes weeks to develop"
+      "लंबे समय तक चलने वाली सुरक्षा",
+      "तत्काल लेकिन अस्थायी सुरक्षा",
+      "बूस्टर खुराक की आवश्यकता",
+      "विकसित होने में सप्ताह लगते हैं"
     ],
     "correctAnswer": 1,
     "explanationEn": "Passive immunity provides immediate protection as ready-made antibodies are given, but it is temporary as the body does not produce its own antibodies.",
-    "explanationHi": "Passive immunity provides immediate protection as ready-made antibodies are given, but it is temporary as the body does not produce its own antibodies.",
+    "explanationHi": "निष्क्रिय प्रतिरक्षा तत्काल सुरक्षा प्रदान करती है क्योंकि तैयार एंटीबॉडी दी जाती हैं, लेकिन यह अस्थायी है क्योंकि शरीर अपनी एंटीबॉडी नहीं बनाता।",
     "difficulty": "easy",
     "topic": "immunization",
     "subtopic": "1",
@@ -83,7 +83,7 @@ export const immunizationQuestions: Question[] = [
   {
     "id": "IMMUNIZATION-004",
     "questionEn": "Herd immunity threshold for measles is approximately:",
-    "questionHi": "Herd immunity threshold for measles is approximately:",
+    "questionHi": "खसरे के लिए सामूहिक प्रतिरक्षा सीमा लगभग कितनी है:",
     "optionsEn": [
       "50-60%",
       "70-75%",
@@ -98,7 +98,7 @@ export const immunizationQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "Measles requires 93-95% coverage for herd immunity due to its high transmissibility (R0 of 12-18).",
-    "explanationHi": "Measles requires 93-95% coverage for herd immunity due to its high transmissibility (R0 of 12-18).",
+    "explanationHi": "खसरे को उच्च संचारण क्षमता (R0 12-18) के कारण सामूहिक प्रतिरक्षा के लिए 93-95% कवरेज की आवश्यकता होती है।",
     "difficulty": "medium",
     "topic": "immunization",
     "subtopic": "1",
@@ -109,7 +109,7 @@ export const immunizationQuestions: Question[] = [
   {
     "id": "IMMUNIZATION-005",
     "questionEn": "The Universal Immunization Programme (UIP) was launched in India in:",
-    "questionHi": "The Universal Immunization Programme (UIP) was launched in India in:",
+    "questionHi": "भारत में सार्वभौमिक टीकाकरण कार्यक्रम (UIP) कब शुरू किया गया:",
     "optionsEn": [
       "1978",
       "1985",
@@ -124,7 +124,7 @@ export const immunizationQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "UIP was launched in 1985 to provide free vaccination to all children against six vaccine-preventable diseases.",
-    "explanationHi": "UIP was launched in 1985 to provide free vaccination to all children against six vaccine-preventable diseases.",
+    "explanationHi": "UIP 1985 में छह टीका-रोकथाम योग्य बीमारियों के खिलाफ सभी बच्चों को मुफ्त टीकाकरण प्रदान करने के लिए शुरू किया गया था।",
     "difficulty": "medium",
     "topic": "immunization",
     "subtopic": "1",

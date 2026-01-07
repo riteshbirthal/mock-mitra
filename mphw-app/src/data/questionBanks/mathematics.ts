@@ -2125,8 +2125,8 @@ export const mathematicsQuestions: Question[] = [
       "13000"
     ],
     "correctAnswer": 1,
-    "explanationEn": "Valid = 90%, 90% of Total = 9900/0.55, Total = 11000",
-    "explanationHi": "वैध = 90%, कुल का 90% = 9900/0.55, कुल = 11000",
+    "explanationEn": "Valid votes = 90% of total. If 90% = 9900, then Total = 9900/0.9 = 11000",
+    "explanationHi": "वैध वोट = कुल का 90%। यदि 90% = 9900, तो कुल = 9900/0.9 = 11000",
     "difficulty": "medium",
     "topic": "mathematics",
     "subtopic": "Election Problems",
@@ -3060,9 +3060,9 @@ export const mathematicsQuestions: Question[] = [
       "Inverse",
       "Continued"
     ],
-    "correctAnswer": 2,
-    "explanationEn": "This is direct proportion",
-    "explanationHi": "This is direct proportion",
+    "correctAnswer": 1,
+    "explanationEn": "This is direct proportion (2/3 = 4/6)",
+    "explanationHi": "यह समानुपात है (2/3 = 4/6)",
     "difficulty": "medium",
     "topic": "mathematics",
     "subtopic": "Proportion",
@@ -3099,7 +3099,7 @@ export const mathematicsQuestions: Question[] = [
   {
     "id": "MATHEMATICS-120",
     "questionEn": "15 men can do work in 20 days. In how many days can 25 men do it?",
-    "questionHi": "15 men can do work in 20 days. In how many days can 25 men do it?",
+    "questionHi": "15 आदमी किसी काम को 20 दिनों में कर सकते हैं। 25 आदमी इसे कितने दिनों में करेंगे?",
     "optionsEn": [
       "10",
       "12",
@@ -3114,7 +3114,7 @@ export const mathematicsQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "15×20 = 25×x, x = 12 days",
-    "explanationHi": "15×20 = 25×x, x = 12 days",
+    "explanationHi": "15×20 = 25×x, x = 12 दिन",
     "difficulty": "medium",
     "topic": "mathematics",
     "subtopic": "Proportion",
@@ -3125,7 +3125,7 @@ export const mathematicsQuestions: Question[] = [
   {
     "id": "MATHEMATICS-121",
     "questionEn": "Average of 5, 10, 15, 20, 25 is:",
-    "questionHi": "Average of 5, 10, 15, 20, 25 is:",
+    "questionHi": "5, 10, 15, 20, 25 का औसत है:",
     "optionsEn": [
       "12",
       "13",
@@ -4074,9 +4074,9 @@ export const mathematicsQuestions: Question[] = [
       "12 days",
       "14 days"
     ],
-    "correctAnswer": 2,
-    "explanationEn": "A works 6 days = 6/12 = 1/2. B works 4 days = 1/2, B = 8 days. Rechecking: A works 6 days = 1/2, remaining = 1/2. B's 4 days work = 1/2, B alone = 8 days. Answer should be 0.",
-    "explanationHi": "A works 6 days = 6/12 = 1/2. B works 4 days = 1/2, B = 8 days. Rechecking: A works 6 days = 1/2, remaining = 1/2. B's 4 days work = 1/2, B alone = 8 days. Answer should be 0.",
+    "correctAnswer": 0,
+    "explanationEn": "A works 6 days = 6/12 = 1/2. Remaining 1/2 work done by B in 4 days. B alone = 8 days",
+    "explanationHi": "A 6 दिन काम करता है = 6/12 = 1/2। शेष 1/2 काम B 4 दिन में करता है। B अकेले = 8 दिन",
     "difficulty": "medium",
     "topic": "mathematics",
     "subtopic": "Work Ratio",
@@ -4126,9 +4126,9 @@ export const mathematicsQuestions: Question[] = [
       "6 days",
       "8 days"
     ],
-    "correctAnswer": 3,
-    "explanationEn": "6 days work = 6×(1/15+1/20) = 6×7/60 = 7/10. Remaining = 3/10. B finishes in (3/10)/(1/20) = 6 days. Rechecking: 6×7/60 = 42/60 = 7/10. Rem = 3/10. B's rate = 1/20. Days = (3/10)×20 = 6 days. Answer = 2.",
-    "explanationHi": "6 days work = 6×(1/15+1/20) = 6×7/60 = 7/10. Remaining = 3/10. B finishes in (3/10)/(1/20) = 6 days. Rechecking: 6×7/60 = 42/60 = 7/10. Rem = 3/10. B's rate = 1/20. Days = (3/10)×20 = 6 days. Answer = 2.",
+    "correctAnswer": 2,
+    "explanationEn": "6 days work = 6×(1/15+1/20) = 6×7/60 = 7/10. Remaining = 3/10. B's rate = 1/20. Days = (3/10)×20 = 6 days",
+    "explanationHi": "6 दिन का काम = 6×(1/15+1/20) = 7/10। शेष = 3/10। B की दर = 1/20। दिन = (3/10)×20 = 6 दिन",
     "difficulty": "medium",
     "topic": "mathematics",
     "subtopic": "Work Ratio",

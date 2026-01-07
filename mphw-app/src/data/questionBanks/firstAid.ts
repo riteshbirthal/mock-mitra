@@ -5,7 +5,7 @@ export const firstAidQuestions: Question[] = [
   {
     "id": "FIRST-AID-001",
     "questionEn": "What are the three aims of first aid?",
-    "questionHi": "प्राथमिक उपचार (First Aid) की परिभाषा क्या है?",
+    "questionHi": "प्राथमिक उपचार के तीन उद्देश्य क्या हैं?",
     "optionsEn": [
       "Diagnose, Treat, Cure",
       "Preserve life, Prevent deterioration, Promote recovery",
@@ -13,14 +13,14 @@ export const firstAidQuestions: Question[] = [
       "Clean wound, Apply bandage, Give injection"
     ],
     "optionsHi": [
-      "अंतिम उपचार",
-      "चिकित्सक के आने से पहले दी जाने वाली तत्काल सहायता",
-      "केवल दवाई देना",
-      "कुछ नहीं"
+      "निदान करना, उपचार करना, ठीक करना",
+      "जीवन बचाना, स्थिति बिगड़ने से रोकना, रिकवरी को बढ़ावा देना",
+      "रक्तस्राव रोकना, दवाई देना, डॉक्टर को बुलाना",
+      "घाव साफ करना, पट्टी लगाना, इंजेक्शन देना"
     ],
     "correctAnswer": 1,
     "explanationEn": "The three Ps of first aid: Preserve life (keep alive), Prevent deterioration (stop getting worse), Promote recovery (help healing).",
-    "explanationHi": "First aid definition।",
+    "explanationHi": "प्राथमिक उपचार के तीन P: जीवन बचाना (जीवित रखना), स्थिति बिगड़ने से रोकना (खराब होने से रोकना), रिकवरी को बढ़ावा देना (उपचार में मदद)।",
     "difficulty": "easy",
     "topic": "first-aid",
     "subtopic": "Principles of First Aid",
@@ -31,7 +31,7 @@ export const firstAidQuestions: Question[] = [
   {
     "id": "FIRST-AID-002",
     "questionEn": "What is the first thing to do at any emergency scene?",
-    "questionHi": "प्राथमिक उपचार का मुख्य उद्देश्य क्या है?",
+    "questionHi": "किसी भी आपातकालीन स्थल पर सबसे पहले क्या करना चाहिए?",
     "optionsEn": [
       "Start CPR",
       "Call ambulance",
@@ -39,14 +39,14 @@ export const firstAidQuestions: Question[] = [
       "Apply bandage"
     ],
     "optionsHi": [
-      "रोग ठीक करना",
-      "जीवन बचाना, स्थिति बिगड़ने से रोकना, रिकवरी में मदद",
-      "केवल पट्टी बांधना",
-      "कुछ नहीं"
+      "CPR शुरू करना",
+      "एम्बुलेंस बुलाना",
+      "खतरे की जांच करना",
+      "पट्टी लगाना"
     ],
     "correctAnswer": 2,
     "explanationEn": "Always ensure scene safety first. An injured rescuer cannot help anyone and may become another victim.",
-    "explanationHi": "3 aims of first aid।",
+    "explanationHi": "हमेशा पहले स्थल की सुरक्षा सुनिश्चित करें। एक घायल बचावकर्ता किसी की मदद नहीं कर सकता और खुद एक और पीड़ित बन सकता है।",
     "difficulty": "easy",
     "topic": "first-aid",
     "subtopic": "Principles of First Aid",
@@ -57,7 +57,7 @@ export const firstAidQuestions: Question[] = [
   {
     "id": "FIRST-AID-003",
     "questionEn": "DRABC stands for:",
-    "questionHi": "प्राथमिक उपचार के तीन P क्या हैं?",
+    "questionHi": "DRABC का पूर्ण रूप क्या है:",
     "optionsEn": [
       "Danger, Response, Airway, Breathing, Circulation",
       "Doctor, Respiration, Ambulance, Blood, Care",
@@ -65,14 +65,14 @@ export const firstAidQuestions: Question[] = [
       "Danger, Rescue, Alert, Blood, Compress"
     ],
     "optionsHi": [
-      "Pain, Pressure, Pulse",
-      "Preserve life, Prevent deterioration, Promote recovery",
-      "Push, Pull, Press",
-      "कुछ नहीं"
+      "खतरा, प्रतिक्रिया, वायुमार्ग, श्वसन, परिसंचरण",
+      "डॉक्टर, श्वसन, एम्बुलेंस, रक्त, देखभाल",
+      "निदान, बचाव, सहायता, पट्टी, कॉल",
+      "खतरा, बचाव, सतर्क, रक्त, दबाव"
     ],
     "correctAnswer": 0,
     "explanationEn": "DRABC is the primary survey sequence for assessing an emergency patient systematically.",
-    "explanationHi": "3 Ps of first aid।",
+    "explanationHi": "DRABC आपातकालीन रोगी का व्यवस्थित रूप से मूल्यांकन करने के लिए प्राथमिक सर्वेक्षण क्रम है।",
     "difficulty": "medium",
     "topic": "first-aid",
     "subtopic": "Principles of First Aid",
@@ -83,7 +83,7 @@ export const firstAidQuestions: Question[] = [
   {
     "id": "FIRST-AID-004",
     "questionEn": "The technique to open airway in an unconscious person is:",
-    "questionHi": "Golden Hour क्या है?",
+    "questionHi": "बेहोश व्यक्ति में वायुमार्ग खोलने की तकनीक क्या है:",
     "optionsEn": [
       "Turn head to side",
       "Head tilt-chin lift",
@@ -91,14 +91,14 @@ export const firstAidQuestions: Question[] = [
       "Slap the back"
     ],
     "optionsHi": [
-      "सुबह का समय",
-      "गंभीर चोट के बाद पहला 1 घंटा जब उपचार सबसे प्रभावी",
-      "शाम का समय",
-      "कुछ नहीं"
+      "सिर को एक तरफ मोड़ना",
+      "सिर पीछे झुकाना-ठुड्डी उठाना",
+      "पेट पर दबाव देना",
+      "पीठ पर थपथपाना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Head tilt-chin lift moves the tongue away from the back of the throat, opening the airway.",
-    "explanationHi": "Golden hour concept।",
+    "explanationHi": "सिर पीछे झुकाना-ठुड्डी उठाना तकनीक जीभ को गले के पीछे से हटाती है, जिससे वायुमार्ग खुल जाता है।",
     "difficulty": "medium",
     "topic": "first-aid",
     "subtopic": "Principles of First Aid",
@@ -109,7 +109,7 @@ export const firstAidQuestions: Question[] = [
   {
     "id": "FIRST-AID-005",
     "questionEn": "To check if an unconscious person is breathing, you should:",
-    "questionHi": "प्राथमिक उपचारकर्ता की पहली प्राथमिकता क्या होनी चाहिए?",
+    "questionHi": "यह जांचने के लिए कि बेहोश व्यक्ति सांस ले रहा है या नहीं, आपको क्या करना चाहिए:",
     "optionsEn": [
       "Feel the pulse only",
       "Look, Listen, and Feel for 10 seconds",
@@ -117,14 +117,14 @@ export const firstAidQuestions: Question[] = [
       "Put mirror near nose"
     ],
     "optionsHi": [
-      "पीड़ित को उठाना",
-      "अपनी सुरक्षा सुनिश्चित करना",
-      "भीड़ हटाना",
-      "एम्बुलेंस बुलाना"
+      "केवल नाड़ी महसूस करना",
+      "10 सेकंड के लिए देखना, सुनना और महसूस करना",
+      "उन्हें जोर से हिलाना",
+      "नाक के पास शीशा रखना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Look at chest movement, listen for breath sounds, feel air on your cheek - for up to 10 seconds.",
-    "explanationHi": "Safety first।",
+    "explanationHi": "छाती की गति देखें, सांस की आवाज सुनें, अपने गाल पर हवा महसूस करें - 10 सेकंड तक।",
     "difficulty": "medium",
     "topic": "first-aid",
     "subtopic": "Principles of First Aid",
@@ -135,7 +135,7 @@ export const firstAidQuestions: Question[] = [
   {
     "id": "FIRST-AID-006",
     "questionEn": "Which color in triage indicates 'immediate priority' (life-threatening but survivable)?",
-    "questionHi": "आपातकालीन स्थिति में सबसे पहले क्या करना चाहिए?",
+    "questionHi": "ट्राइएज में कौन सा रंग 'तत्काल प्राथमिकता' (जानलेवा लेकिन बचाव योग्य) दर्शाता है?",
     "optionsEn": [
       "Green",
       "Yellow",
@@ -143,14 +143,14 @@ export const firstAidQuestions: Question[] = [
       "Black"
     ],
     "optionsHi": [
-      "दौड़ना",
-      "स्थिति का आकलन (Scene Assessment)",
-      "चिल्लाना",
-      "कुछ नहीं"
+      "हरा",
+      "पीला",
+      "लाल",
+      "काला"
     ],
     "correctAnswer": 2,
     "explanationEn": "Red = Immediate (P1), Yellow = Delayed (P2), Green = Minor (P3), Black = Dead/Dying (P0).",
-    "explanationHi": "Assess the scene first।",
+    "explanationHi": "लाल = तत्काल (P1), पीला = विलंबित (P2), हरा = मामूली (P3), काला = मृत/मरणासन्न (P0)।",
     "difficulty": "medium",
     "topic": "first-aid",
     "subtopic": "Principles of First Aid",
