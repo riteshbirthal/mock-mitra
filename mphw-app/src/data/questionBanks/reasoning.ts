@@ -655,7 +655,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-026",
     "questionEn": "A, C, E, G, I, ?",
-    "questionHi": "121, 144, 169, 196, ?",
+    "questionHi": "A, C, E, G, I, ?",
     "optionsEn": [
       "J",
       "K",
@@ -663,14 +663,14 @@ export const reasoningQuestions: Question[] = [
       "M"
     ],
     "optionsHi": [
-      "216",
-      "220",
-      "225",
-      "230"
+      "J",
+      "K",
+      "L",
+      "M"
     ],
     "correctAnswer": 1,
     "explanationEn": "Skip one letter each time. Next = K",
-    "explanationHi": "11²,12²,13²,14²,15² = 225",
+    "explanationHi": "एक अक्षर छोड़कर। अगला = K",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -681,7 +681,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-027",
     "questionEn": "Z, X, V, T, R, ?",
-    "questionHi": "0.5, 0.55, 0.65, 0.8, ?",
+    "questionHi": "Z, X, V, T, R, ?",
     "optionsEn": [
       "O",
       "P",
@@ -689,14 +689,14 @@ export const reasoningQuestions: Question[] = [
       "S"
     ],
     "optionsHi": [
-      "0.9",
-      "0.95",
-      "1.0",
-      "1.05"
+      "O",
+      "P",
+      "Q",
+      "S"
     ],
     "correctAnswer": 1,
     "explanationEn": "Skip one backward. Next = P",
-    "explanationHi": "+0.05,+0.10,+0.15,+0.20। 0.8+0.2 = 1.0",
+    "explanationHi": "एक छोड़कर पीछे की ओर। अगला = P",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -707,7 +707,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-028",
     "questionEn": "B, D, G, K, P, ?",
-    "questionHi": "1/2, 2/3, 3/4, 4/5, ?",
+    "questionHi": "B, D, G, K, P, ?",
     "optionsEn": [
       "T",
       "U",
@@ -715,14 +715,14 @@ export const reasoningQuestions: Question[] = [
       "W"
     ],
     "optionsHi": [
-      "5/6",
-      "6/7",
-      "5/7",
-      "4/6"
+      "T",
+      "U",
+      "V",
+      "W"
     ],
     "correctAnswer": 2,
     "explanationEn": "+2,+3,+4,+5,+6. P+6 = V",
-    "explanationHi": "n/(n+1) पैटर्न। 5/6",
+    "explanationHi": "+2,+3,+4,+5,+6। P+6 = V",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -733,7 +733,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-029",
     "questionEn": "A, B, D, G, K, ?",
-    "questionHi": "198, 194, 185, 169, ?",
+    "questionHi": "A, B, D, G, K, ?",
     "optionsEn": [
       "N",
       "O",
@@ -741,14 +741,14 @@ export const reasoningQuestions: Question[] = [
       "Q"
     ],
     "optionsHi": [
-      "140",
-      "144",
-      "148",
-      "152"
+      "N",
+      "O",
+      "P",
+      "Q"
     ],
     "correctAnswer": 2,
     "explanationEn": "+1,+2,+3,+4,+5. K+5 = P",
-    "explanationHi": "-4,-9,-16,-25। 169-25 = 144",
+    "explanationHi": "+1,+2,+3,+4,+5। K+5 = P",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -759,7 +759,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-030",
     "questionEn": "A, Z, B, Y, C, X, ?",
-    "questionHi": "4, 6, 12, 14, 28, 30, ?",
+    "questionHi": "A, Z, B, Y, C, X, ?",
     "optionsEn": [
       "D",
       "W",
@@ -767,14 +767,14 @@ export const reasoningQuestions: Question[] = [
       "V"
     ],
     "optionsHi": [
-      "32",
-      "60",
-      "62",
-      "64"
+      "D",
+      "W",
+      "E",
+      "V"
     ],
     "correctAnswer": 0,
     "explanationEn": "Two series: A,B,C,D and Z,Y,X. Next = D",
-    "explanationHi": "+2,×2 बारी-बारी। 30×2 = 60",
+    "explanationHi": "दो श्रृंखलाएं: A,B,C,D और Z,Y,X। अगला = D",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -785,7 +785,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-031",
     "questionEn": "M, N, O, L, M, N, K, ?",
-    "questionHi": "3, 7, 15, 31, 63, ?",
+    "questionHi": "M, N, O, L, M, N, K, ?",
     "optionsEn": [
       "J",
       "L",
@@ -793,14 +793,14 @@ export const reasoningQuestions: Question[] = [
       "N"
     ],
     "optionsHi": [
-      "125",
-      "127",
-      "129",
-      "131"
+      "J",
+      "L",
+      "M",
+      "N"
     ],
     "correctAnswer": 1,
     "explanationEn": "Pattern: MNO, LMN, KLM. Next = L",
-    "explanationHi": "2ⁿ-1: 4-1,8-1,16-1,32-1,64-1,128-1 = 127",
+    "explanationHi": "पैटर्न: MNO, LMN, KLM। अगला = L",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -811,7 +811,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-032",
     "questionEn": "AZ, BY, CX, DW, ?",
-    "questionHi": "6, 11, 21, 36, 56, ?",
+    "questionHi": "AZ, BY, CX, DW, ?",
     "optionsEn": [
       "EU",
       "EV",
@@ -819,14 +819,14 @@ export const reasoningQuestions: Question[] = [
       "FU"
     ],
     "optionsHi": [
-      "78",
-      "81",
-      "84",
-      "87"
+      "EU",
+      "EV",
+      "FV",
+      "FU"
     ],
     "correctAnswer": 1,
     "explanationEn": "A+1,Z-1 pattern. EV",
-    "explanationHi": "अंतर: 5,10,15,20,25। 56+25 = 81",
+    "explanationHi": "A+1,Z-1 पैटर्न। EV",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -837,7 +837,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-033",
     "questionEn": "ACE, BDF, CEG, ?",
-    "questionHi": "2, 5, 11, 23, 47, ?",
+    "questionHi": "ACE, BDF, CEG, ?",
     "optionsEn": [
       "DFG",
       "DFH",
@@ -845,14 +845,14 @@ export const reasoningQuestions: Question[] = [
       "EGI"
     ],
     "optionsHi": [
-      "91",
-      "93",
-      "95",
-      "97"
+      "DFG",
+      "DFH",
+      "DEF",
+      "EGI"
     ],
     "correctAnswer": 1,
     "explanationEn": "Each letter +1. DFH",
-    "explanationHi": "×2+1। 47×2+1 = 95",
+    "explanationHi": "प्रत्येक अक्षर +1। DFH",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -863,7 +863,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-034",
     "questionEn": "AB, DE, GH, JK, ?",
-    "questionHi": "विषम ज्ञात करें: 8, 27, 64, 100, 125",
+    "questionHi": "AB, DE, GH, JK, ?",
     "optionsEn": [
       "LM",
       "MN",
@@ -871,14 +871,14 @@ export const reasoningQuestions: Question[] = [
       "OP"
     ],
     "optionsHi": [
-      "27",
-      "64",
-      "100",
-      "125"
+      "LM",
+      "MN",
+      "NO",
+      "OP"
     ],
     "correctAnswer": 1,
     "explanationEn": "Skip one pair. MN",
-    "explanationHi": "सभी घन हैं, 100 घन नहीं",
+    "explanationHi": "एक जोड़ी छोड़कर। MN",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -889,7 +889,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-035",
     "questionEn": "ABC, BCD, CDE, DEF, ?",
-    "questionHi": "विषम ज्ञात करें: 1, 4, 9, 16, 23, 25",
+    "questionHi": "ABC, BCD, CDE, DEF, ?",
     "optionsEn": [
       "EFG",
       "FGH",
@@ -897,14 +897,14 @@ export const reasoningQuestions: Question[] = [
       "HIJ"
     ],
     "optionsHi": [
-      "9",
-      "16",
-      "23",
-      "25"
+      "EFG",
+      "FGH",
+      "GHI",
+      "HIJ"
     ],
     "correctAnswer": 0,
     "explanationEn": "Each shifts by 1. EFG",
-    "explanationHi": "सभी पूर्ण वर्ग, 23 नहीं",
+    "explanationHi": "प्रत्येक 1 से शिफ्ट। EFG",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabet Series",
@@ -915,7 +915,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-036",
     "questionEn": "A1, B2, C3, D4, ?",
-    "questionHi": "विषम ज्ञात करें: 3, 6, 9, 12, 14, 18",
+    "questionHi": "A1, B2, C3, D4, ?",
     "optionsEn": [
       "E5",
       "F5",
@@ -923,14 +923,14 @@ export const reasoningQuestions: Question[] = [
       "F6"
     ],
     "optionsHi": [
-      "6",
-      "12",
-      "14",
-      "18"
+      "E5",
+      "F5",
+      "E6",
+      "F6"
     ],
     "correctAnswer": 0,
     "explanationEn": "Letter +1, Number +1. E5",
-    "explanationHi": "3 के गुणज, 14 नहीं",
+    "explanationHi": "अक्षर +1, संख्या +1। E5",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alpha-Numeric",
@@ -941,7 +941,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-037",
     "questionEn": "Z1, Y2, X3, W4, ?",
-    "questionHi": "पहचानें: 2, 6, 18, 54, 162",
+    "questionHi": "Z1, Y2, X3, W4, ?",
     "optionsEn": [
       "V5",
       "U5",
@@ -949,14 +949,14 @@ export const reasoningQuestions: Question[] = [
       "U4"
     ],
     "optionsHi": [
-      "AP",
-      "GP",
-      "HP",
-      "कोई नहीं"
+      "V5",
+      "U5",
+      "V4",
+      "U4"
     ],
     "correctAnswer": 0,
     "explanationEn": "Letter -1, Number +1. V5",
-    "explanationHi": "GP जहां r = 3",
+    "explanationHi": "अक्षर -1, संख्या +1। V5",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alpha-Numeric",
@@ -967,7 +967,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-038",
     "questionEn": "A2, C4, E6, G8, ?",
-    "questionHi": "पहचानें: 1, 3, 5, 7, 9",
+    "questionHi": "A2, C4, E6, G8, ?",
     "optionsEn": [
       "H10",
       "I10",
@@ -975,14 +975,14 @@ export const reasoningQuestions: Question[] = [
       "K10"
     ],
     "optionsHi": [
-      "AP",
-      "GP",
-      "HP",
-      "कोई नहीं"
+      "H10",
+      "I10",
+      "J10",
+      "K10"
     ],
     "correctAnswer": 1,
     "explanationEn": "Letter +2, Number +2. I10",
-    "explanationHi": "AP जहां d = 2",
+    "explanationHi": "अक्षर +2, संख्या +2। I10",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alpha-Numeric",
@@ -993,7 +993,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-039",
     "questionEn": "B1, D4, F9, H16, ?",
-    "questionHi": "पहचानें: 1, 4, 9, 16, 25",
+    "questionHi": "B1, D4, F9, H16, ?",
     "optionsEn": [
       "I25",
       "J25",
@@ -1001,14 +1001,14 @@ export const reasoningQuestions: Question[] = [
       "L25"
     ],
     "optionsHi": [
-      "AP",
-      "वर्ग",
-      "घन",
-      "GP"
+      "I25",
+      "J25",
+      "K25",
+      "L25"
     ],
     "correctAnswer": 1,
     "explanationEn": "Letter +2, Number = squares. J25",
-    "explanationHi": "पूर्ण वर्ग",
+    "explanationHi": "अक्षर +2, संख्या = वर्ग। J25",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alpha-Numeric",
@@ -1019,7 +1019,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-040",
     "questionEn": "P5, R7, T9, V11, ?",
-    "questionHi": "पहचानें: 1, 3, 6, 10, 15, 21",
+    "questionHi": "P5, R7, T9, V11, ?",
     "optionsEn": [
       "W13",
       "X13",
@@ -1027,14 +1027,14 @@ export const reasoningQuestions: Question[] = [
       "Z13"
     ],
     "optionsHi": [
-      "त्रिभुजीय",
-      "वर्ग",
-      "पंचभुजीय",
-      "अभाज्य"
+      "W13",
+      "X13",
+      "Y13",
+      "Z13"
     ],
     "correctAnswer": 1,
     "explanationEn": "Letter +2, Number +2. X13",
-    "explanationHi": "त्रिभुजीय संख्याएं: n(n+1)/2",
+    "explanationHi": "अक्षर +2, संख्या +2। X13",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alpha-Numeric",
@@ -1045,7 +1045,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-041",
     "questionEn": "2, A, 4, C, 8, E, 16, ?",
-    "questionHi": "पहले 50 प्राकृतिक संख्याओं का योग:",
+    "questionHi": "2, A, 4, C, 8, E, 16, ?",
     "optionsEn": [
       "F",
       "G",
@@ -1053,14 +1053,14 @@ export const reasoningQuestions: Question[] = [
       "I"
     ],
     "optionsHi": [
-      "1225",
-      "1250",
-      "1275",
-      "1300"
+      "F",
+      "G",
+      "H",
+      "I"
     ],
     "correctAnswer": 1,
     "explanationEn": "Numbers ×2, Letters skip 1. G",
-    "explanationHi": "योग = n(n+1)/2 = 50×51/2 = 1275",
+    "explanationHi": "संख्याएं ×2, अक्षर 1 छोड़कर। G",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Mixed Series",
@@ -1071,7 +1071,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-042",
     "questionEn": "1Z, 2Y, 3X, 4W, ?",
-    "questionHi": "AP: 3, 7, 11, 15... का 10वां पद:",
+    "questionHi": "1Z, 2Y, 3X, 4W, ?",
     "optionsEn": [
       "5U",
       "5V",
@@ -1079,14 +1079,14 @@ export const reasoningQuestions: Question[] = [
       "6U"
     ],
     "optionsHi": [
-      "35",
-      "37",
-      "39",
-      "41"
+      "5U",
+      "5V",
+      "6V",
+      "6U"
     ],
     "correctAnswer": 1,
     "explanationEn": "Number +1, Letter -1. 5V",
-    "explanationHi": "a = 3, d = 4। T₁₀ = 3 + 9×4 = 39",
+    "explanationHi": "संख्या +1, अक्षर -1। 5V",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Mixed Series",
@@ -1097,7 +1097,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-043",
     "questionEn": "A1C, B2D, C3E, D4F, ?",
-    "questionHi": "AP: 2, 5, 8... के पहले 10 पदों का योग:",
+    "questionHi": "A1C, B2D, C3E, D4F, ?",
     "optionsEn": [
       "E5F",
       "E5G",
@@ -1105,14 +1105,14 @@ export const reasoningQuestions: Question[] = [
       "F6G"
     ],
     "optionsHi": [
-      "150",
-      "155",
-      "160",
-      "165"
+      "E5F",
+      "E5G",
+      "F5G",
+      "F6G"
     ],
     "correctAnswer": 1,
     "explanationEn": "Each component +1. E5G",
-    "explanationHi": "S = n/2[2a + (n-1)d] = 5[4 + 27] = 155",
+    "explanationHi": "प्रत्येक घटक +1। E5G",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Mixed Series",
@@ -1123,7 +1123,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-044",
     "questionEn": "2B, 4D, 8F, 16H, ?",
-    "questionHi": "GP: 3, 6, 12, 24... का 5वां पद:",
+    "questionHi": "2B, 4D, 8F, 16H, ?",
     "optionsEn": [
       "24J",
       "32J",
@@ -1131,14 +1131,14 @@ export const reasoningQuestions: Question[] = [
       "24K"
     ],
     "optionsHi": [
-      "36",
-      "42",
-      "48",
-      "54"
+      "24J",
+      "32J",
+      "32K",
+      "24K"
     ],
     "correctAnswer": 1,
     "explanationEn": "Number ×2, Letter +2. 32J",
-    "explanationHi": "a = 3, r = 2। T₅ = 3×2⁴ = 48",
+    "explanationHi": "संख्या ×2, अक्षर +2। 32J",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Mixed Series",
@@ -1149,7 +1149,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-045",
     "questionEn": "P3Q, R5S, T7U, ?",
-    "questionHi": "GP: 4, 12, 36, 108 का सार्व अनुपात:",
+    "questionHi": "P3Q, R5S, T7U, ?",
     "optionsEn": [
       "V9W",
       "U9V",
@@ -1157,14 +1157,14 @@ export const reasoningQuestions: Question[] = [
       "X9Y"
     ],
     "optionsHi": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "V9W",
+      "U9V",
+      "W9X",
+      "X9Y"
     ],
     "correctAnswer": 0,
     "explanationEn": "Letters +2 each, Number +2. V9W",
-    "explanationHi": "r = 12/4 = 3",
+    "explanationHi": "अक्षर प्रत्येक +2, संख्या +2। V9W",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Mixed Series",
@@ -1175,7 +1175,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-046",
     "questionEn": "EJOTY: Position values 5,10,15,20,25. Next?",
-    "questionHi": "वर्ष: 1990,1995,2000,2005। अगला पैटर्न:",
+    "questionHi": "EJOTY: स्थिति मान 5,10,15,20,25। अगला?",
     "optionsEn": [
       "Z (26)",
       "A (1)",
@@ -1183,14 +1183,14 @@ export const reasoningQuestions: Question[] = [
       "None"
     ],
     "optionsHi": [
-      "2008",
-      "2010",
-      "2012",
-      "2020"
+      "Z (26)",
+      "A (1)",
+      "W (23)",
+      "कोई नहीं"
     ],
     "correctAnswer": 0,
     "explanationEn": "Position +5 each. 25+5 = 30, but Z=26 is max. Pattern breaks",
-    "explanationHi": "+5 पैटर्न से 2010",
+    "explanationHi": "स्थिति +5 प्रत्येक। 25+5 = 30, लेकिन Z=26 अधिकतम है। पैटर्न टूटता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Position Series",
@@ -1201,7 +1201,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-047",
     "questionEn": "If A=1, B=2... then ACE = ?",
-    "questionHi": "दिन: सोम,बुध,शुक्र,रवि। अगला:",
+    "questionHi": "यदि A=1, B=2... तो ACE = ?",
     "optionsEn": [
       "9",
       "15",
@@ -1209,14 +1209,14 @@ export const reasoningQuestions: Question[] = [
       "18"
     ],
     "optionsHi": [
-      "सोम",
-      "मंगल",
-      "बुध",
-      "गुरु"
+      "9",
+      "15",
+      "12",
+      "18"
     ],
     "correctAnswer": 0,
     "explanationEn": "1+3+5 = 9",
-    "explanationHi": "+2 दिन। रवि+2 = मंगल",
+    "explanationHi": "1+3+5 = 9",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Position Series",
@@ -1227,7 +1227,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-048",
     "questionEn": "Sum of positions in DELHI:",
-    "questionHi": "महीने: जनवरी,मार्च,मई,जुलाई। अगला:",
+    "questionHi": "DELHI में स्थितियों का योग:",
     "optionsEn": [
       "38",
       "40",
@@ -1235,14 +1235,14 @@ export const reasoningQuestions: Question[] = [
       "44"
     ],
     "optionsHi": [
-      "अगस्त",
-      "सितंबर",
-      "अक्टूबर",
-      "नवंबर"
+      "38",
+      "40",
+      "42",
+      "44"
     ],
     "correctAnswer": 2,
     "explanationEn": "4+5+12+8+9 = 38. Hmm let me recalc: D=4,E=5,L=12,H=8,I=9. 4+5+12+8+9=38",
-    "explanationHi": "एक महीना छोड़ें। जुलाई→सितंबर",
+    "explanationHi": "D=4,E=5,L=12,H=8,I=9। 4+5+12+8+9=38",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Position Series",
@@ -1253,7 +1253,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-049",
     "questionEn": "Opposite of A is Z, B is Y. Opposite of M?",
-    "questionHi": "जनसंख्या: 100,200,400,800। वर्ष 5 में:",
+    "questionHi": "A का विपरीत Z है, B का Y। M का विपरीत?",
     "optionsEn": [
       "L",
       "M",
@@ -1261,14 +1261,14 @@ export const reasoningQuestions: Question[] = [
       "O"
     ],
     "optionsHi": [
-      "1200",
-      "1400",
-      "1600",
-      "2000"
+      "L",
+      "M",
+      "N",
+      "O"
     ],
     "correctAnswer": 2,
     "explanationEn": "M=13, Opposite = 27-13 = 14 = N",
-    "explanationHi": "दोगुना: 800×2 = 1600",
+    "explanationHi": "M=13, विपरीत = 27-13 = 14 = N",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Position Series",
@@ -1279,7 +1279,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-050",
     "questionEn": "If APPLE = 50, then MANGO = ?",
-    "questionHi": "समय: 1:00,1:30,2:15,3:15। अगला:",
+    "questionHi": "यदि APPLE = 50, तो MANGO = ?",
     "optionsEn": [
       "55",
       "57",
@@ -1287,14 +1287,14 @@ export const reasoningQuestions: Question[] = [
       "61"
     ],
     "optionsHi": [
-      "4:15",
-      "4:30",
-      "4:45",
-      "5:00"
+      "55",
+      "57",
+      "59",
+      "61"
     ],
     "correctAnswer": 2,
     "explanationEn": "M=13,A=1,N=14,G=7,O=15. Sum = 50. Hmm APPLE = 1+16+16+12+5 = 50. MANGO = 13+1+14+7+15 = 50. Not 59. Need verification",
-    "explanationHi": "+30,+45,+60,+75 मिनट। 3:15+75मिनट = 4:30",
+    "explanationHi": "M=13,A=1,N=14,G=7,O=15। योग = 50। APPLE = 1+16+16+12+5 = 50। MANGO = 13+1+14+7+15 = 50।",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Position Series",
@@ -1305,7 +1305,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-051",
     "questionEn": "Find missing: A_CD_FG_IJ",
-    "questionHi": "Find missing: A_CD_FG_IJ",
+    "questionHi": "लुप्त खोजें: A_CD_FG_IJ",
     "optionsEn": [
       "B,E,H",
       "B,D,H",
@@ -1320,7 +1320,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "B, E, H complete the alphabet sequence",
-    "explanationHi": "B, E, H complete the alphabet sequence",
+    "explanationHi": "B, E, H वर्णमाला क्रम को पूरा करते हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Series",
@@ -1331,7 +1331,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-052",
     "questionEn": "Find missing: _BC_EFG_IJK",
-    "questionHi": "Find missing: _BC_EFG_IJK",
+    "questionHi": "लुप्त खोजें: _BC_EFG_IJK",
     "optionsEn": [
       "A,D,H",
       "A,E,H",
@@ -1346,7 +1346,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "A, D, H complete groups of 3,4",
-    "explanationHi": "A, D, H complete groups of 3,4",
+    "explanationHi": "A, D, H, 3,4 के समूहों को पूरा करते हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Series",
@@ -1357,7 +1357,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-053",
     "questionEn": "Complete: ZY_WV_TS_QP",
-    "questionHi": "Complete: ZY_WV_TS_QP",
+    "questionHi": "पूर्ण करें: ZY_WV_TS_QP",
     "optionsEn": [
       "X,U,R",
       "A,B,C",
@@ -1383,7 +1383,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-054",
     "questionEn": "Find pattern: AB_AB_AB_",
-    "questionHi": "Find pattern: AB_AB_AB_",
+    "questionHi": "पैटर्न खोजें: AB_AB_AB_",
     "optionsEn": [
       "C,C,C",
       "A,A,A",
@@ -1398,7 +1398,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "ABC, ABC, ABC. Missing C,C,C",
-    "explanationHi": "ABC, ABC, ABC. Missing C,C,C",
+    "explanationHi": "ABC, ABC, ABC। लुप्त C,C,C",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Series",
@@ -1409,7 +1409,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-055",
     "questionEn": "Complete: A_B_A_B_A",
-    "questionHi": "Complete: A_B_A_B_A",
+    "questionHi": "पूर्ण करें: A_B_A_B_A",
     "optionsEn": [
       "A,A,A,B",
       "B,A,B,A",
@@ -1424,7 +1424,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "ABAB pattern: A B, B A, A B, B A",
-    "explanationHi": "ABAB pattern: A B, B A, A B, B A",
+    "explanationHi": "ABAB पैटर्न: A B, B A, A B, B A",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Series",
@@ -1435,7 +1435,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-056",
     "questionEn": "Sum of first n odd numbers formula:",
-    "questionHi": "Sum of first n odd numbers formula:",
+    "questionHi": "पहले n विषम संख्याओं का योग सूत्र:",
     "optionsEn": [
       "n",
       "n²",
@@ -1450,7 +1450,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "Sum of first n odd numbers = n²",
-    "explanationHi": "Sum of first n odd numbers = n²",
+    "explanationHi": "पहले n विषम संख्याओं का योग = n²",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Arithmetic Series",
@@ -1461,7 +1461,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-057",
     "questionEn": "100th term of 5,8,11,14...:",
-    "questionHi": "100th term of 5,8,11,14...:",
+    "questionHi": "5,8,11,14... का 100वां पद:",
     "optionsEn": [
       "299",
       "302",
@@ -1487,7 +1487,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-058",
     "questionEn": "How many terms in 7,12,17,...97?",
-    "questionHi": "How many terms in 7,12,17,...97?",
+    "questionHi": "7,12,17,...97 में कितने पद हैं?",
     "optionsEn": [
       "17",
       "18",
@@ -1513,7 +1513,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-059",
     "questionEn": "Middle term of 3,7,11,15,19,23,27:",
-    "questionHi": "Middle term of 3,7,11,15,19,23,27:",
+    "questionHi": "3,7,11,15,19,23,27 का मध्य पद:",
     "optionsEn": [
       "11",
       "15",
@@ -1528,7 +1528,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "7 terms, middle = 4th = 15",
-    "explanationHi": "7 terms, middle = 4th = 15",
+    "explanationHi": "7 पद, मध्य = 4वां = 15",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Arithmetic Series",
@@ -1539,7 +1539,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-060",
     "questionEn": "If 5th term is 19 and 9th term is 35, first term:",
-    "questionHi": "If 5th term is 19 and 9th term is 35, first term:",
+    "questionHi": "यदि 5वां पद 19 है और 9वां पद 35 है, पहला पद:",
     "optionsEn": [
       "1",
       "2",
@@ -2085,7 +2085,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-081",
     "questionEn": "Find odd: 8, 27, 64, 100, 125",
-    "questionHi": "Find odd: 8, 27, 64, 100, 125",
+    "questionHi": "विषम खोजें: 8, 27, 64, 100, 125",
     "optionsEn": [
       "27",
       "64",
@@ -2100,7 +2100,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "All cubes except 100 (not a cube)",
-    "explanationHi": "All cubes except 100 (not a cube)",
+    "explanationHi": "सभी घन हैं सिवाय 100 (घन नहीं)",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Odd One Out",
@@ -2111,7 +2111,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-082",
     "questionEn": "Find odd: 2, 5, 10, 17, 26, 37, 50, 64",
-    "questionHi": "Find odd: 2, 5, 10, 17, 26, 37, 50, 64",
+    "questionHi": "विषम खोजें: 2, 5, 10, 17, 26, 37, 50, 64",
     "optionsEn": [
       "26",
       "37",
@@ -2126,7 +2126,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "n²+1 series. 64 should be 65",
-    "explanationHi": "n²+1 series. 64 should be 65",
+    "explanationHi": "n²+1 श्रृंखला। 64 को 65 होना चाहिए",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Odd One Out",
@@ -2137,7 +2137,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-083",
     "questionEn": "Find odd: 1, 4, 9, 16, 23, 25",
-    "questionHi": "Find odd: 1, 4, 9, 16, 23, 25",
+    "questionHi": "विषम खोजें: 1, 4, 9, 16, 23, 25",
     "optionsEn": [
       "9",
       "16",
@@ -2152,7 +2152,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "All perfect squares except 23",
-    "explanationHi": "All perfect squares except 23",
+    "explanationHi": "सभी पूर्ण वर्ग हैं सिवाय 23",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Odd One Out",
@@ -2163,7 +2163,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-084",
     "questionEn": "Find odd: 3, 6, 9, 12, 14, 18",
-    "questionHi": "Find odd: 3, 6, 9, 12, 14, 18",
+    "questionHi": "विषम खोजें: 3, 6, 9, 12, 14, 18",
     "optionsEn": [
       "6",
       "12",
@@ -2178,7 +2178,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "Multiples of 3 except 14",
-    "explanationHi": "Multiples of 3 except 14",
+    "explanationHi": "3 के गुणज सिवाय 14",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Odd One Out",
@@ -2189,7 +2189,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-085",
     "questionEn": "Find odd: 1, 8, 27, 64, 127, 216",
-    "questionHi": "Find odd: 1, 8, 27, 64, 127, 216",
+    "questionHi": "विषम खोजें: 1, 8, 27, 64, 127, 216",
     "optionsEn": [
       "8",
       "64",
@@ -2215,7 +2215,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-086",
     "questionEn": "3×3 grid rows sum 15. Missing: 8,1,?|3,5,?|4,?,2",
-    "questionHi": "3×3 grid rows sum 15. Missing: 8,1,?|3,5,?|4,?,2",
+    "questionHi": "3×3 ग्रिड पंक्तियों का योग 15। लुप्त: 8,1,?|3,5,?|4,?,2",
     "optionsEn": [
       "6,7,9",
       "6,9,7",
@@ -2267,7 +2267,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-088",
     "questionEn": "Rows: 1,2,3|4,5,6|7,8,?. Column sums equal?",
-    "questionHi": "Rows: 1,2,3|4,5,6|7,8,?. Column sums equal?",
+    "questionHi": "पंक्तियाँ: 1,2,3|4,5,6|7,8,?। स्तंभ योग बराबर?",
     "optionsEn": [
       "7",
       "8",
@@ -3619,7 +3619,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-140",
     "questionEn": "Odd one out: 27, 37, 47, 57",
-    "questionHi": "Odd one out: 27, 37, 47, 57",
+    "questionHi": "बेमेल छांटें: 27, 37, 47, 57",
     "optionsEn": [
       "27",
       "37",
@@ -3634,7 +3634,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "27 is not prime, others are prime",
-    "explanationHi": "27 is not prime, others are prime",
+    "explanationHi": "27 अभाज्य नहीं है, बाकी अभाज्य हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Classification",
@@ -3775,7 +3775,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-146",
     "questionEn": "Odd one: 1, 8, 27, 65, 125",
-    "questionHi": "Odd one: 1, 8, 27, 65, 125",
+    "questionHi": "बेमेल छांटें: 1, 8, 27, 65, 125",
     "optionsEn": [
       "1",
       "8",
@@ -3790,7 +3790,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "65 is not a perfect cube",
-    "explanationHi": "65 is not a perfect cube",
+    "explanationHi": "65 पूर्ण घन नहीं है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Number Classification",
@@ -3801,7 +3801,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-147",
     "questionEn": "Odd one: 121, 144, 169, __(196)__, __(225)__",
-    "questionHi": "Odd one: 121, 144, 169, __(196)__, __(225)__",
+    "questionHi": "बेमेल छांटें: 121, 144, 169, __(196)__, __(225)__",
     "optionsEn": [
       "121",
       "144",
@@ -3816,7 +3816,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "All perfect squares. No odd one. 169=13²",
-    "explanationHi": "All perfect squares. No odd one. 169=13²",
+    "explanationHi": "सभी पूर्ण वर्ग हैं। कोई बेमेल नहीं। 169=13²",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Number Classification",
@@ -3827,7 +3827,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-148",
     "questionEn": "Odd one: 2, 3, 5, 7, 9, 11",
-    "questionHi": "Odd one: 2, 3, 5, 7, 9, 11",
+    "questionHi": "बेमेल छांटें: 2, 3, 5, 7, 9, 11",
     "optionsEn": [
       "2",
       "5",
@@ -3842,7 +3842,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "9 is not prime",
-    "explanationHi": "9 is not prime",
+    "explanationHi": "9 अभाज्य नहीं है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Number Classification",
@@ -3853,7 +3853,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-149",
     "questionEn": "Odd one: 14, 21, 28, 35, 44",
-    "questionHi": "Odd one: 14, 21, 28, 35, 44",
+    "questionHi": "बेमेल छांटें: 14, 21, 28, 35, 44",
     "optionsEn": [
       "14",
       "21",
@@ -3868,7 +3868,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "44 is not multiple of 7",
-    "explanationHi": "44 is not multiple of 7",
+    "explanationHi": "44, 7 का गुणज नहीं है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Number Classification",
@@ -3879,7 +3879,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-150",
     "questionEn": "Odd one: 11, 13, 17, 19, 21",
-    "questionHi": "Odd one: 11, 13, 17, 19, 21",
+    "questionHi": "बेमेल छांटें: 11, 13, 17, 19, 21",
     "optionsEn": [
       "11",
       "13",
@@ -3894,7 +3894,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "21 is not prime",
-    "explanationHi": "21 is not prime",
+    "explanationHi": "21 अभाज्य नहीं है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Number Classification",
@@ -3905,7 +3905,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-151",
     "questionEn": "Odd one: AEI, BFJ, CGK, DHL, EJM",
-    "questionHi": "Odd one: AEI, BFJ, CGK, DHL, EJM",
+    "questionHi": "बेमेल छांटें: AEI, BFJ, CGK, DHL, EJM",
     "optionsEn": [
       "AEI",
       "BFJ",
@@ -3920,7 +3920,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "EJM breaks +4 pattern",
-    "explanationHi": "EJM breaks +4 pattern",
+    "explanationHi": "EJM, +4 पैटर्न तोड़ता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Classification",
@@ -3931,7 +3931,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-152",
     "questionEn": "Odd one: BD, CE, DF, EH",
-    "questionHi": "Odd one: BD, CE, DF, EH",
+    "questionHi": "बेमेल छांटें: BD, CE, DF, EH",
     "optionsEn": [
       "BD",
       "CE",
@@ -3946,7 +3946,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "EH has gap of 3, others 2",
-    "explanationHi": "EH has gap of 3, others 2",
+    "explanationHi": "EH में 3 का अंतर है, अन्य में 2",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Classification",
@@ -3957,7 +3957,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-153",
     "questionEn": "Odd one: AB, CD, EF, GI",
-    "questionHi": "Odd one: AB, CD, EF, GI",
+    "questionHi": "बेमेल छांटें: AB, CD, EF, GI",
     "optionsEn": [
       "AB",
       "CD",
@@ -3983,7 +3983,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-154",
     "questionEn": "Odd one: AEIOU, BFJPV, CGKQW, DHLRX",
-    "questionHi": "Odd one: AEIOU, BFJPV, CGKQW, DHLRX",
+    "questionHi": "बेमेल छांटें: AEIOU, BFJPV, CGKQW, DHLRX",
     "optionsEn": [
       "AEIOU",
       "BFJPV",
@@ -3998,7 +3998,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "AEIOU are vowels, others follow +5 pattern with consonants",
-    "explanationHi": "AEIOU are vowels, others follow +5 pattern with consonants",
+    "explanationHi": "AEIOU स्वर हैं, अन्य व्यंजनों के साथ +5 पैटर्न का पालन करते हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Classification",
@@ -4009,7 +4009,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-155",
     "questionEn": "Odd one: RST, UVW, XYZ, ABC",
-    "questionHi": "Odd one: RST, UVW, XYZ, ABC",
+    "questionHi": "बेमेल छांटें: RST, UVW, XYZ, ABC",
     "optionsEn": [
       "RST",
       "UVW",
@@ -4024,7 +4024,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "ABC starts from beginning",
-    "explanationHi": "ABC starts from beginning",
+    "explanationHi": "ABC शुरुआत से शुरू होता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Classification",
@@ -4815,7 +4815,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-186",
     "questionEn": "Group: Rose, Lotus, Jasmine, Lily",
-    "questionHi": "Group: Rose, Lotus, Jasmine, Lily",
+    "questionHi": "समूह: गुलाब, कमल, चमेली, लिली",
     "optionsEn": [
       "Trees",
       "Flowers",
@@ -4841,7 +4841,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-187",
     "questionEn": "Group: Rupee, Dollar, Yen, Pound",
-    "questionHi": "Group: Rupee, Dollar, Yen, Pound",
+    "questionHi": "समूह: रुपया, डॉलर, येन, पाउंड",
     "optionsEn": [
       "Banks",
       "Countries",
@@ -4867,7 +4867,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-188",
     "questionEn": "Group: Square, Rectangle, Triangle, Circle",
-    "questionHi": "Group: Square, Rectangle, Triangle, Circle",
+    "questionHi": "समूह: वर्ग, आयत, त्रिभुज, वृत्त",
     "optionsEn": [
       "Angles",
       "Shapes",
@@ -4893,7 +4893,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-189",
     "questionEn": "Group: Hindi, English, Tamil, Bengali",
-    "questionHi": "Group: Hindi, English, Tamil, Bengali",
+    "questionHi": "समूह: हिंदी, अंग्रेजी, तमिल, बंगाली",
     "optionsEn": [
       "Countries",
       "Languages",
@@ -4919,7 +4919,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-190",
     "questionEn": "Group: Kidney, Heart, Liver, Lungs",
-    "questionHi": "Group: Kidney, Heart, Liver, Lungs",
+    "questionHi": "समूह: गुर्दा, हृदय, यकृत, फेफड़े",
     "optionsEn": [
       "Body parts",
       "Organs",
@@ -5205,7 +5205,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-201",
     "questionEn": "If APPLE is coded as ELPPA, then MANGO is:",
-    "questionHi": "If APPLE is coded as ELPPA, then MANGO is:",
+    "questionHi": "यदि APPLE को ELPPA कोड किया जाता है, तो MANGO है:",
     "optionsEn": [
       "OGNAM",
       "ONAGM",
@@ -5220,7 +5220,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "Reverse the word. MANGO → OGNAM",
-    "explanationHi": "Reverse the word. MANGO → OGNAM",
+    "explanationHi": "शब्द को उल्टा करें। MANGO → OGNAM",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5231,7 +5231,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-202",
     "questionEn": "If CAT is coded as DBU, then DOG is:",
-    "questionHi": "If CAT is coded as DBU, then DOG is:",
+    "questionHi": "यदि CAT को DBU कोड किया जाता है, तो DOG है:",
     "optionsEn": [
       "EPH",
       "FOH",
@@ -5246,7 +5246,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "Each letter +1. DOG → EPH",
-    "explanationHi": "Each letter +1. DOG → EPH",
+    "explanationHi": "प्रत्येक अक्षर +1। DOG → EPH",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5257,7 +5257,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-203",
     "questionEn": "If GIRL is coded as HISO, then BOYS is:",
-    "questionHi": "If GIRL is coded as HISO, then BOYS is:",
+    "questionHi": "यदि GIRL को HISO कोड किया जाता है, तो BOYS है:",
     "optionsEn": [
       "CPZT",
       "COZS",
@@ -5272,7 +5272,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "G+1=H, I+0=I, R+1=S, L+3=O. Pattern: +1,0,+1,+3. BOYS → CPZT",
-    "explanationHi": "G+1=H, I+0=I, R+1=S, L+3=O. Pattern: +1,0,+1,+3. BOYS → CPZT",
+    "explanationHi": "G+1=H, I+0=I, R+1=S, L+3=O। पैटर्न: +1,0,+1,+3। BOYS → CPZT",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5283,7 +5283,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-204",
     "questionEn": "If TRAIN is coded as GIZRM, then PLANE is:",
-    "questionHi": "If TRAIN is coded as GIZRM, then PLANE is:",
+    "questionHi": "यदि TRAIN को GIZRM कोड किया जाता है, तो PLANE है:",
     "optionsEn": [
       "KOZMV",
       "LOZMV",
@@ -5298,7 +5298,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "Opposite letters (A=Z, B=Y...). PLANE → KOZMV",
-    "explanationHi": "Opposite letters (A=Z, B=Y...). PLANE → KOZMV",
+    "explanationHi": "विपरीत अक्षर (A=Z, B=Y...)। PLANE → KOZMV",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5309,7 +5309,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-205",
     "questionEn": "If COMPUTER is coded as RFUVQNPC, then PRINTER is:",
-    "questionHi": "If COMPUTER is coded as RFUVQNPC, then PRINTER is:",
+    "questionHi": "यदि COMPUTER को RFUVQNPC कोड किया जाता है, तो PRINTER है:",
     "optionsEn": [
       "QSHOUFS",
       "QSJOUFS",
@@ -5324,7 +5324,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "Each +1 with reversal. PRINTER → QSJOUFS",
-    "explanationHi": "Each +1 with reversal. PRINTER → QSJOUFS",
+    "explanationHi": "प्रत्येक +1 उलटे के साथ। PRINTER → QSJOUFS",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5335,7 +5335,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-206",
     "questionEn": "If DELHI is coded as 73541, then 17453 is:",
-    "questionHi": "If DELHI is coded as 73541, then 17453 is:",
+    "questionHi": "यदि DELHI को 73541 कोड किया जाता है, तो 17453 है:",
     "optionsEn": [
       "LIDHE",
       "LDHIE",
@@ -5350,7 +5350,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "D=7,E=3,L=5,H=4,I=1. 17453 = ILDHE",
-    "explanationHi": "D=7,E=3,L=5,H=4,I=1. 17453 = ILDHE",
+    "explanationHi": "D=7,E=3,L=5,H=4,I=1। 17453 = ILDHE",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5361,7 +5361,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-207",
     "questionEn": "If ZEBRA is coded as 26521811, then HORSE is:",
-    "questionHi": "If ZEBRA is coded as 26521811, then HORSE is:",
+    "questionHi": "यदि ZEBRA को 26521811 कोड किया जाता है, तो HORSE है:",
     "optionsEn": [
       "81518195",
       "815181195",
@@ -5376,7 +5376,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "Position values: H=8,O=15,R=18,S=19,E=5 → 81518195",
-    "explanationHi": "Position values: H=8,O=15,R=18,S=19,E=5 → 81518195",
+    "explanationHi": "स्थिति मान: H=8,O=15,R=18,S=19,E=5 → 81518195",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5387,7 +5387,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-208",
     "questionEn": "If ROSE is coded as TQUG, then LILY is:",
-    "questionHi": "If ROSE is coded as TQUG, then LILY is:",
+    "questionHi": "यदि ROSE को TQUG कोड किया जाता है, तो LILY है:",
     "optionsEn": [
       "NKNK",
       "NKNA",
@@ -5402,7 +5402,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "+2,-1,+2,-1 pattern. LILY → NKNK",
-    "explanationHi": "+2,-1,+2,-1 pattern. LILY → NKNK",
+    "explanationHi": "+2,-1,+2,-1 पैटर्न। LILY → NKNK",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5413,7 +5413,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-209",
     "questionEn": "If SUN is coded as NUS, then MOON is:",
-    "questionHi": "If SUN is coded as NUS, then MOON is:",
+    "questionHi": "यदि SUN को NUS कोड किया जाता है, तो MOON है:",
     "optionsEn": [
       "NOOM",
       "ONOM",
@@ -5428,7 +5428,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "Reverse. MOON → NOOM",
-    "explanationHi": "Reverse. MOON → NOOM",
+    "explanationHi": "उल्टा। MOON → NOOM",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5439,7 +5439,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-210",
     "questionEn": "If FRIEND is coded as HUMJTF, then ENEMY is:",
-    "questionHi": "If FRIEND is coded as HUMJTF, then ENEMY is:",
+    "questionHi": "यदि FRIEND को HUMJTF कोड किया जाता है, तो ENEMY है:",
     "optionsEn": [
       "GPGOA",
       "GOFNZ",
@@ -5454,7 +5454,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 0,
     "explanationEn": "+2 for each. ENEMY → GPGOA",
-    "explanationHi": "+2 for each. ENEMY → GPGOA",
+    "explanationHi": "प्रत्येक के लिए +2। ENEMY → GPGOA",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Coding",
@@ -5465,7 +5465,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-211",
     "questionEn": "If 1=A, 2=B...26=Z, then 8,5,1,12,20,8 =",
-    "questionHi": "If 1=A, 2=B...26=Z, then 8,5,1,12,20,8 =",
+    "questionHi": "यदि 1=A, 2=B...26=Z, तो 8,5,1,12,20,8 =",
     "optionsEn": [
       "HEALTH",
       "WEALTH",
@@ -6947,7 +6947,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-268",
     "questionEn": "If Monday=1, Tuesday=2, then Sunday=",
-    "questionHi": "If Monday=1, Tuesday=2, then Sunday=",
+    "questionHi": "यदि सोमवार=1, मंगलवार=2, तो रविवार=",
     "optionsEn": [
       "0",
       "6",
@@ -6962,7 +6962,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "Sequential numbering. Sunday=7",
-    "explanationHi": "Sequential numbering. Sunday=7",
+    "explanationHi": "क्रमिक संख्या। रविवार=7",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Clock Coding",
@@ -7155,7 +7155,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-276",
     "questionEn": "Find odd: AD(15), BE(27), CF(39), DH(412)",
-    "questionHi": "Find odd: AD(15), BE(27), CF(39), DH(412)",
+    "questionHi": "बेमेल खोजें: AD(15), BE(27), CF(39), DH(412)",
     "optionsEn": [
       "AD",
       "BE",
@@ -7170,7 +7170,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "Pattern: A=1,D=4→14. B=2,E=5→25. C=3,F=6→36. D=4,H=8→48. DH breaks pattern (should be DG=47)",
-    "explanationHi": "Pattern: A=1,D=4→14. B=2,E=5→25. C=3,F=6→36. D=4,H=8→48. DH breaks pattern (should be DG=47)",
+    "explanationHi": "पैटर्न: A=1,D=4→14। B=2,E=5→25। C=3,F=6→36। D=4,H=8→48। DH पैटर्न तोड़ता है (DG=47 होना चाहिए)",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Odd Code Out",
@@ -7181,7 +7181,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-277",
     "questionEn": "Find odd: AB-3, CD-7, EF-11, GH-14",
-    "questionHi": "Find odd: AB-3, CD-7, EF-11, GH-14",
+    "questionHi": "बेमेल खोजें: AB-3, CD-7, EF-11, GH-14",
     "optionsEn": [
       "AB-3",
       "CD-7",
@@ -7196,7 +7196,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "1+2=3, 3+4=7, 5+6=11, 7+8=15 not 14",
-    "explanationHi": "1+2=3, 3+4=7, 5+6=11, 7+8=15 not 14",
+    "explanationHi": "1+2=3, 3+4=7, 5+6=11, 7+8=15, 14 नहीं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Odd Code Out",
@@ -7207,7 +7207,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-278",
     "questionEn": "Find odd: CAT-24, DOG-26, PIG-32, COW-43",
-    "questionHi": "Find odd: CAT-24, DOG-26, PIG-32, COW-43",
+    "questionHi": "बेमेल खोजें: CAT-24, DOG-26, PIG-32, COW-43",
     "optionsEn": [
       "CAT",
       "DOG",
@@ -7222,7 +7222,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "Sum of letters: CAT=24✓, DOG=26✓, PIG=32✓, COW=3+15+23=41≠43",
-    "explanationHi": "Sum of letters: CAT=24✓, DOG=26✓, PIG=32✓, COW=3+15+23=41≠43",
+    "explanationHi": "अक्षरों का योग: CAT=24✓, DOG=26✓, PIG=32✓, COW=3+15+23=41≠43",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Odd Code Out",
@@ -7233,7 +7233,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-279",
     "questionEn": "Find odd: AZ-27, BY-28, CX-29, DW-31",
-    "questionHi": "Find odd: AZ-27, BY-28, CX-29, DW-31",
+    "questionHi": "बेमेल खोजें: AZ-27, BY-28, CX-29, DW-31",
     "optionsEn": [
       "AZ",
       "BY",
@@ -7623,7 +7623,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-294",
     "questionEn": "3rd to left of 10th from right in EXAMINATION:",
-    "questionHi": "3rd to left of 10th from right in EXAMINATION:",
+    "questionHi": "EXAMINATION में दायें से 10वें के बायें से तीसरा:",
     "optionsEn": [
       "I",
       "N",
@@ -7638,7 +7638,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "11 letters. 10th from right=2nd from left=X. 3rd to left of X=? Need position check",
-    "explanationHi": "11 letters. 10th from right=2nd from left=X. 3rd to left of X=? Need position check",
+    "explanationHi": "11 अक्षर। दायें से 10वां=बायें से 2रा=X। X के बायें से 3रा=? स्थिति जांच आवश्यक",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Letter Position",
@@ -7649,7 +7649,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-295",
     "questionEn": "In COMPUTER, position of T from left:",
-    "questionHi": "In COMPUTER, position of T from left:",
+    "questionHi": "COMPUTER में, T की बायें से स्थिति:",
     "optionsEn": [
       "5",
       "6",
@@ -7935,7 +7935,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-306",
     "questionEn": "Arun said 'This girl is wife of grandson of my mother.' Who is Arun to the girl?",
-    "questionHi": "Arun said 'This girl is wife of grandson of my mother.' Who is Arun to the girl?",
+    "questionHi": "अरुण ने कहा 'यह लड़की मेरी माँ के पोते की पत्नी है।' अरुण लड़की से कैसे संबंधित है?",
     "optionsEn": [
       "Father",
       "Father-in-law",
@@ -7943,14 +7943,14 @@ export const reasoningQuestions: Question[] = [
       "Husband"
     ],
     "optionsHi": [
-      "Father",
-      "Father-in-law",
-      "Grandfather",
-      "Husband"
+      "पिता",
+      "ससुर",
+      "दादा",
+      "पति"
     ],
     "correctAnswer": 1,
     "explanationEn": "Grandson of mother = Arun's son or nephew's son. Wife of grandson = daughter-in-law. Arun is father-in-law",
-    "explanationHi": "Grandson of mother = Arun's son or nephew's son. Wife of grandson = daughter-in-law. Arun is father-in-law",
+    "explanationHi": "माँ का पोता = अरुण का बेटा। पोते की पत्नी = बहू। अरुण ससुर है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Blood Relations Basic",
@@ -7961,7 +7961,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-307",
     "questionEn": "Pointing to a photograph, Ram said 'She is the daughter of my grandfather's only son.' How is Ram related to the girl?",
-    "questionHi": "Pointing to a photograph, Ram said 'She is the daughter of my grandfather's only son.' How is Ram related to the girl?",
+    "questionHi": "एक फोटो की ओर इशारा करते हुए, राम ने कहा 'वह मेरे दादा के इकलौते बेटे की बेटी है।' राम लड़की से कैसे संबंधित है?",
     "optionsEn": [
       "Father",
       "Brother",
@@ -7969,14 +7969,14 @@ export const reasoningQuestions: Question[] = [
       "Uncle"
     ],
     "optionsHi": [
-      "Father",
-      "Brother",
-      "Cousin",
-      "Uncle"
+      "पिता",
+      "भाई",
+      "चचेरा भाई/बहन",
+      "चाचा"
     ],
     "correctAnswer": 1,
     "explanationEn": "Grandfather's only son = Ram's father. Daughter of father = sister. Ram is brother",
-    "explanationHi": "Grandfather's only son = Ram's father. Daughter of father = sister. Ram is brother",
+    "explanationHi": "दादा का इकलौता बेटा = राम के पिता। पिता की बेटी = बहन। राम भाई है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Blood Relations Basic",
@@ -7987,7 +7987,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-308",
     "questionEn": "Pointing to a boy, Meena said 'He is the son of the only son of my mother-in-law.' How is Meena related to the boy?",
-    "questionHi": "Pointing to a boy, Meena said 'He is the son of the only son of my mother-in-law.' How is Meena related to the boy?",
+    "questionHi": "एक लड़के की ओर इशारा करते हुए, मीना ने कहा 'वह मेरी सास के इकलौते बेटे का बेटा है।' मीना लड़के से कैसे संबंधित है?",
     "optionsEn": [
       "Mother",
       "Aunt",
@@ -7995,14 +7995,14 @@ export const reasoningQuestions: Question[] = [
       "Grandmother"
     ],
     "optionsHi": [
-      "Mother",
-      "Aunt",
-      "Sister",
-      "Grandmother"
+      "माता",
+      "चाची",
+      "बहन",
+      "दादी"
     ],
     "correctAnswer": 0,
     "explanationEn": "Only son of mother-in-law = husband. Son of husband = Meena's son. Meena is mother",
-    "explanationHi": "Only son of mother-in-law = husband. Son of husband = Meena's son. Meena is mother",
+    "explanationHi": "सास का इकलौता बेटा = पति। पति का बेटा = मीना का बेटा। मीना माता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Blood Relations Basic",
@@ -8013,7 +8013,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-309",
     "questionEn": "A is the son of B. B is the son of C. C is the father of D. How is D related to A?",
-    "questionHi": "A is the son of B. B is the son of C. C is the father of D. How is D related to A?",
+    "questionHi": "A, B का बेटा है। B, C का बेटा है। C, D का पिता है। D, A से कैसे संबंधित है?",
     "optionsEn": [
       "Uncle",
       "Father",
@@ -8021,14 +8021,14 @@ export const reasoningQuestions: Question[] = [
       "Cannot say"
     ],
     "optionsHi": [
-      "Uncle",
-      "Father",
-      "Grandfather",
-      "Cannot say"
+      "चाचा",
+      "पिता",
+      "दादा",
+      "नहीं कह सकते"
     ],
     "correctAnswer": 3,
     "explanationEn": "D could be uncle/aunt depending on gender. Cannot determine without more info",
-    "explanationHi": "D could be uncle/aunt depending on gender. Cannot determine without more info",
+    "explanationHi": "D चाचा/चाची हो सकता है लिंग के आधार पर। अधिक जानकारी के बिना निर्धारित नहीं कर सकते",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Blood Relations Basic",
@@ -8039,7 +8039,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-310",
     "questionEn": "P is father of Q and R is son of S. T is brother of P. Q is sister of R. How is S related to T?",
-    "questionHi": "P is father of Q and R is son of S. T is brother of P. Q is sister of R. How is S related to T?",
+    "questionHi": "P, Q का पिता है और R, S का बेटा है। T, P का भाई है। Q, R की बहन है। S, T से कैसे संबंधित है?",
     "optionsEn": [
       "Brother",
       "Sister-in-law",
@@ -8047,14 +8047,14 @@ export const reasoningQuestions: Question[] = [
       "Daughter"
     ],
     "optionsHi": [
-      "Brother",
-      "Sister-in-law",
-      "Sister",
-      "Daughter"
+      "भाई",
+      "भाभी",
+      "बहन",
+      "बेटी"
     ],
     "correctAnswer": 1,
     "explanationEn": "Q is daughter of P and sister of R (son of S). So P married S. T is brother of P. S is sister-in-law of T",
-    "explanationHi": "Q is daughter of P and sister of R (son of S). So P married S. T is brother of P. S is sister-in-law of T",
+    "explanationHi": "Q, P की बेटी और R की बहन है (S का बेटा)। तो P ने S से शादी की। T, P का भाई है। S, T की भाभी है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Blood Relations Basic",
@@ -8065,7 +8065,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-311",
     "questionEn": "If A+B means A is mother of B, A-B means A is father of B, A×B means A is brother of B. What is P+Q-R×S?",
-    "questionHi": "If A+B means A is mother of B, A-B means A is father of B, A×B means A is brother of B. What is P+Q-R×S?",
+    "questionHi": "यदि A+B का अर्थ A, B की माँ है, A-B का अर्थ A, B का पिता है, A×B का अर्थ A, B का भाई है। P+Q-R×S क्या है?",
     "optionsEn": [
       "P is grandmother of S",
       "S is brother of R",
@@ -8073,14 +8073,14 @@ export const reasoningQuestions: Question[] = [
       "P is mother of Q"
     ],
     "optionsHi": [
-      "P is grandmother of S",
-      "S is brother of R",
-      "R is father of S",
-      "P is mother of Q"
+      "P, S की दादी है",
+      "S, R का भाई है",
+      "R, S का पिता है",
+      "P, Q की माँ है"
     ],
     "correctAnswer": 0,
     "explanationEn": "P is mother of Q, Q is father of R, R is brother of S. P is grandmother of S",
-    "explanationHi": "P is mother of Q, Q is father of R, R is brother of S. P is grandmother of S",
+    "explanationHi": "P, Q की माँ है, Q, R का पिता है, R, S का भाई है। P, S की दादी है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Coded Relations",
@@ -8091,7 +8091,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-312",
     "questionEn": "If A$B means A is father of B, A#B means A is mother of B, A@B means A is brother of B. In P$Q#R@S, what is P to S?",
-    "questionHi": "If A$B means A is father of B, A#B means A is mother of B, A@B means A is brother of B. In P$Q#R@S, what is P to S?",
+    "questionHi": "यदि A$B का अर्थ A, B का पिता है, A#B का अर्थ A, B की माँ है, A@B का अर्थ A, B का भाई है। P$Q#R@S में, P, S से क्या है?",
     "optionsEn": [
       "Grandfather",
       "Grandmother",
@@ -8585,7 +8585,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-331",
     "questionEn": "A man faces North, turns 90° clockwise. Which direction now?",
-    "questionHi": "A man faces North, turns 90° clockwise. Which direction now?",
+    "questionHi": "एक व्यक्ति उत्तर की ओर है, 90° दक्षिणावर्त मुड़ता है। अब कौन सी दिशा?",
     "optionsEn": [
       "South",
       "East",
@@ -8593,14 +8593,14 @@ export const reasoningQuestions: Question[] = [
       "North"
     ],
     "optionsHi": [
-      "South",
-      "East",
-      "West",
-      "North"
+      "दक्षिण",
+      "पूर्व",
+      "पश्चिम",
+      "उत्तर"
     ],
     "correctAnswer": 1,
     "explanationEn": "North → 90° clockwise → East",
-    "explanationHi": "North → 90° clockwise → East",
+    "explanationHi": "उत्तर → 90° दक्षिणावर्त → पूर्व",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Direction Basic",
@@ -8611,7 +8611,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-332",
     "questionEn": "A man faces South, turns 180°. Which direction now?",
-    "questionHi": "A man faces South, turns 180°. Which direction now?",
+    "questionHi": "एक व्यक्ति दक्षिण की ओर है, 180° मुड़ता है। अब कौन सी दिशा?",
     "optionsEn": [
       "South",
       "East",
@@ -8619,10 +8619,10 @@ export const reasoningQuestions: Question[] = [
       "North"
     ],
     "optionsHi": [
-      "South",
-      "East",
-      "West",
-      "North"
+      "दक्षिण",
+      "पूर्व",
+      "पश्चिम",
+      "उत्तर"
     ],
     "correctAnswer": 3,
     "explanationEn": "South → 180° → North",
@@ -8715,7 +8715,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-336",
     "questionEn": "A man walks 5 km North, then turns left and walks 3 km. Which direction is he from start?",
-    "questionHi": "A man walks 5 km North, then turns left and walks 3 km. Which direction is he from start?",
+    "questionHi": "एक व्यक्ति 5 किमी उत्तर की ओर चलता है, फिर बाएं मुड़ता है और 3 किमी चलता है। वह शुरुआत से किस दिशा में है?",
     "optionsEn": [
       "North-East",
       "North-West",
@@ -8723,14 +8723,14 @@ export const reasoningQuestions: Question[] = [
       "South-West"
     ],
     "optionsHi": [
-      "North-East",
-      "North-West",
-      "South-East",
-      "South-West"
+      "उत्तर-पूर्व",
+      "उत्तर-पश्चिम",
+      "दक्षिण-पूर्व",
+      "दक्षिण-पश्चिम"
     ],
     "correctAnswer": 1,
     "explanationEn": "North 5km, then West 3km. He is in North-West from start",
-    "explanationHi": "North 5km, then West 3km. He is in North-West from start",
+    "explanationHi": "उत्तर 5 किमी, फिर पश्चिम 3 किमी। वह शुरुआत से उत्तर-पश्चिम में है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Direction Basic",
@@ -8741,7 +8741,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-337",
     "questionEn": "A man walks East 10m, South 10m, West 10m, North 10m. Where is he?",
-    "questionHi": "A man walks East 10m, South 10m, West 10m, North 10m. Where is he?",
+    "questionHi": "एक व्यक्ति पूर्व 10 मी, दक्षिण 10 मी, पश्चिम 10 मी, उत्तर 10 मी चलता है। वह कहां है?",
     "optionsEn": [
       "10m East",
       "10m North",
@@ -8749,14 +8749,14 @@ export const reasoningQuestions: Question[] = [
       "10m South"
     ],
     "optionsHi": [
-      "10m East",
-      "10m North",
-      "Starting point",
-      "10m South"
+      "10 मी पूर्व",
+      "10 मी उत्तर",
+      "शुरुआती बिंदु",
+      "10 मी दक्षिण"
     ],
     "correctAnswer": 2,
     "explanationEn": "Complete square, returns to start",
-    "explanationHi": "Complete square, returns to start",
+    "explanationHi": "पूर्ण वर्ग, शुरुआत पर वापस आता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Direction Basic",
@@ -8767,7 +8767,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-338",
     "questionEn": "If you face sunrise, your left hand points to:",
-    "questionHi": "If you face sunrise, your left hand points to:",
+    "questionHi": "यदि आप सूर्योदय की ओर मुख करते हैं, तो आपका बायां हाथ किधर इशारा करता है:",
     "optionsEn": [
       "South",
       "North",
@@ -8775,14 +8775,14 @@ export const reasoningQuestions: Question[] = [
       "East"
     ],
     "optionsHi": [
-      "South",
-      "North",
-      "West",
-      "East"
+      "दक्षिण",
+      "उत्तर",
+      "पश्चिम",
+      "पूर्व"
     ],
     "correctAnswer": 1,
     "explanationEn": "Facing East (sunrise), left = North",
-    "explanationHi": "Facing East (sunrise), left = North",
+    "explanationHi": "पूर्व की ओर मुख (सूर्योदय), बाएं = उत्तर",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Direction Basic",
@@ -8793,7 +8793,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-339",
     "questionEn": "A man walks 6 km East, 4 km North. Shortest distance from start:",
-    "questionHi": "A man walks 6 km East, 4 km North. Shortest distance from start:",
+    "questionHi": "एक व्यक्ति 6 किमी पूर्व, 4 किमी उत्तर चलता है। शुरुआत से न्यूनतम दूरी:",
     "optionsEn": [
       "√52 km",
       "10 km",
@@ -8801,14 +8801,14 @@ export const reasoningQuestions: Question[] = [
       "2√13 km"
     ],
     "optionsHi": [
-      "√52 km",
-      "10 km",
-      "8 km",
-      "2√13 km"
+      "√52 किमी",
+      "10 किमी",
+      "8 किमी",
+      "2√13 किमी"
     ],
     "correctAnswer": 0,
     "explanationEn": "√(6² + 4²) = √52 km = 2√13 km",
-    "explanationHi": "√(6² + 4²) = √52 km = 2√13 km",
+    "explanationHi": "√(6² + 4²) = √52 किमी = 2√13 किमी",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Direction Basic",
@@ -9287,7 +9287,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-358",
     "questionEn": "At 4 PM, if you face your shadow, you face:",
-    "questionHi": "At 4 PM, if you face your shadow, you face:",
+    "questionHi": "शाम 4 बजे, यदि आप अपनी छाया की ओर मुंह करते हैं, तो आप किस दिशा में हैं:",
     "optionsEn": [
       "East",
       "West",
@@ -9295,14 +9295,14 @@ export const reasoningQuestions: Question[] = [
       "South"
     ],
     "optionsHi": [
-      "East",
-      "West",
-      "North",
-      "South"
+      "पूर्व",
+      "पश्चिम",
+      "उत्तर",
+      "दक्षिण"
     ],
     "correctAnswer": 0,
     "explanationEn": "Sun in West, shadow in East. Facing shadow = facing East",
-    "explanationHi": "Sun in West, shadow in East. Facing shadow = facing East",
+    "explanationHi": "सूर्य पश्चिम में, छाया पूर्व में। छाया की ओर मुंह = पूर्व की ओर मुंह",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Shadow Direction",
@@ -9313,7 +9313,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-359",
     "questionEn": "A man's shadow falls to his right at 6 AM. He is facing:",
-    "questionHi": "A man's shadow falls to his right at 6 AM. He is facing:",
+    "questionHi": "सुबह 6 बजे एक व्यक्ति की छाया उसके दाईं ओर पड़ती है। वह किस दिशा में मुंह किए है:",
     "optionsEn": [
       "North",
       "South",
@@ -9321,14 +9321,14 @@ export const reasoningQuestions: Question[] = [
       "West"
     ],
     "optionsHi": [
-      "North",
-      "South",
-      "East",
-      "West"
+      "उत्तर",
+      "दक्षिण",
+      "पूर्व",
+      "पश्चिम"
     ],
     "correctAnswer": 0,
     "explanationEn": "Sun in East (6 AM), shadow to right means facing North",
-    "explanationHi": "Sun in East (6 AM), shadow to right means facing North",
+    "explanationHi": "सूर्य पूर्व में (सुबह 6), छाया दायें = उत्तर की ओर मुंह",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Shadow Direction",
@@ -9339,7 +9339,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-360",
     "questionEn": "At 3 PM, shadow falls behind a person. He faces:",
-    "questionHi": "At 3 PM, shadow falls behind a person. He faces:",
+    "questionHi": "दोपहर 3 बजे, एक व्यक्ति के पीछे छाया पड़ती है। वह किस दिशा में मुंह किए है:",
     "optionsEn": [
       "North",
       "South",
@@ -9347,14 +9347,14 @@ export const reasoningQuestions: Question[] = [
       "West"
     ],
     "optionsHi": [
-      "North",
-      "South",
-      "East",
-      "West"
+      "उत्तर",
+      "दक्षिण",
+      "पूर्व",
+      "पश्चिम"
     ],
     "correctAnswer": 3,
     "explanationEn": "Sun in West (afternoon), shadow behind = facing West",
-    "explanationHi": "Sun in West (afternoon), shadow behind = facing West",
+    "explanationHi": "सूर्य पश्चिम में (दोपहर), छाया पीछे = पश्चिम की ओर मुंह",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Shadow Direction",
@@ -9365,7 +9365,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-361",
     "questionEn": "A starts from B, walks 5 km East, turns right, walks 3 km, turns left, walks 5 km. Direction of A from B:",
-    "questionHi": "A starts from B, walks 5 km East, turns right, walks 3 km, turns left, walks 5 km. Direction of A from B:",
+    "questionHi": "A, B से शुरू होता है, 5 किमी पूर्व चलता है, दायें मुड़ता है, 3 किमी चलता है, बायें मुड़ता है, 5 किमी चलता है। B से A की दिशा:",
     "optionsEn": [
       "East",
       "South",
@@ -9373,10 +9373,10 @@ export const reasoningQuestions: Question[] = [
       "North-East"
     ],
     "optionsHi": [
-      "East",
-      "South",
-      "South-East",
-      "North-East"
+      "पूर्व",
+      "दक्षिण",
+      "दक्षिण-पूर्व",
+      "उत्तर-पूर्व"
     ],
     "correctAnswer": 2,
     "explanationEn": "5km E + 3km S + 5km E = 10km E, 3km S. Direction = South-East",
@@ -11341,7 +11341,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-437",
     "questionEn": "COMPUTER: Which letter is 3rd from left when arranged alphabetically?",
-    "questionHi": "COMPUTER: Which letter is 3rd from left when arranged alphabetically?",
+    "questionHi": "COMPUTER: वर्णानुक्रम में व्यवस्थित करने पर बाएं से तीसरा अक्षर कौन सा है?",
     "optionsEn": [
       "E",
       "M",
@@ -11356,7 +11356,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "C-E-M-O-P-R-T-U. 3rd is M. Wait: C-E-M-O-P-R-T-U. C=1,E=2,M=3. Answer M",
-    "explanationHi": "C-E-M-O-P-R-T-U. 3rd is M. Wait: C-E-M-O-P-R-T-U. C=1,E=2,M=3. Answer M",
+    "explanationHi": "C-E-M-O-P-R-T-U। तीसरा M है। C=1,E=2,M=3। उत्तर M",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabetical Rank",
@@ -11367,7 +11367,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-438",
     "questionEn": "HOSPITAL: Middle letter when arranged alphabetically:",
-    "questionHi": "HOSPITAL: Middle letter when arranged alphabetically:",
+    "questionHi": "HOSPITAL: वर्णानुक्रम में व्यवस्थित करने पर मध्य अक्षर:",
     "optionsEn": [
       "I",
       "L",
@@ -11382,7 +11382,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 2,
     "explanationEn": "A-H-I-L-O-P-S-T. 8 letters, middle = 4th and 5th = L and O",
-    "explanationHi": "A-H-I-L-O-P-S-T. 8 letters, middle = 4th and 5th = L and O",
+    "explanationHi": "A-H-I-L-O-P-S-T। 8 अक्षर, मध्य = 4वां और 5वां = L और O",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabetical Rank",
@@ -11393,7 +11393,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-439",
     "questionEn": "NATION: Which letter doesn't change position when arranged alphabetically?",
-    "questionHi": "NATION: Which letter doesn't change position when arranged alphabetically?",
+    "questionHi": "NATION: वर्णानुक्रम में व्यवस्थित करने पर कौन सा अक्षर स्थिति नहीं बदलता?",
     "optionsEn": [
       "N",
       "A",
@@ -11408,7 +11408,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 3,
     "explanationEn": "Original: N-A-T-I-O-N. Alphabetical: A-I-N-N-O-T. I at position 4 in both? Original: N(1)-A(2)-T(3)-I(4)-O(5)-N(6). Alpha: A-I-N-N-O-T. I at 2nd. Position changed",
-    "explanationHi": "Original: N-A-T-I-O-N. Alphabetical: A-I-N-N-O-T. I at position 4 in both? Original: N(1)-A(2)-T(3)-I(4)-O(5)-N(6). Alpha: A-I-N-N-O-T. I at 2nd. Position changed",
+    "explanationHi": "मूल: N-A-T-I-O-N। वर्णानुक्रम: A-I-N-N-O-T। मूल: N(1)-A(2)-T(3)-I(4)-O(5)-N(6)। वर्णानुक्रम: A-I-N-N-O-T। I दूसरे स्थान पर",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabetical Rank",
@@ -11419,7 +11419,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-440",
     "questionEn": "REASONING: How many letters remain at same position?",
-    "questionHi": "REASONING: How many letters remain at same position?",
+    "questionHi": "REASONING: कितने अक्षर समान स्थिति पर रहते हैं?",
     "optionsEn": [
       "0",
       "1",
@@ -11434,7 +11434,7 @@ export const reasoningQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "R-E-A-S-O-N-I-N-G vs A-E-G-I-N-N-O-R-S. E remains at 2nd position",
-    "explanationHi": "R-E-A-S-O-N-I-N-G vs A-E-G-I-N-N-O-R-S. E remains at 2nd position",
+    "explanationHi": "R-E-A-S-O-N-I-N-G बनाम A-E-G-I-N-N-O-R-S। E दूसरी स्थिति पर रहता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Alphabetical Rank",
@@ -11445,7 +11445,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-441",
     "questionEn": "Statement: All politicians are corrupt. Ram is a politician. Conclusion: Ram is corrupt.",
-    "questionHi": "Statement: All politicians are corrupt. Ram is a politician. Conclusion: Ram is corrupt.",
+    "questionHi": "कथन: सभी राजनेता भ्रष्ट हैं। राम एक राजनेता है। निष्कर्ष: राम भ्रष्ट है।",
     "optionsEn": [
       "Follows",
       "Does not follow",
@@ -11453,14 +11453,14 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Follows",
-      "Does not follow",
-      "Cannot say",
-      "Data insufficient"
+      "अनुसरण करता है",
+      "अनुसरण नहीं करता",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 0,
     "explanationEn": "Valid: All politicians corrupt + Ram is politician = Ram is corrupt",
-    "explanationHi": "Valid: All politicians corrupt + Ram is politician = Ram is corrupt",
+    "explanationHi": "वैध: सभी राजनेता भ्रष्ट + राम राजनेता है = राम भ्रष्ट है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Statement Conclusion",
@@ -11575,7 +11575,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-446",
     "questionEn": "Statement: 'Join our coaching for guaranteed success.' Assumption: Coaching ensures success.",
-    "questionHi": "Statement: 'Join our coaching for guaranteed success.' Assumption: Coaching ensures success.",
+    "questionHi": "कथन: 'गारंटीड सफलता के लिए हमारी कोचिंग में शामिल हों।' धारणा: कोचिंग सफलता सुनिश्चित करती है।",
     "optionsEn": [
       "Implicit",
       "Not implicit",
@@ -11583,14 +11583,14 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Implicit",
-      "Not implicit",
-      "Cannot say",
-      "Data insufficient"
+      "अंतर्निहित",
+      "अंतर्निहित नहीं",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 0,
     "explanationEn": "The statement implies coaching leads to success",
-    "explanationHi": "The statement implies coaching leads to success",
+    "explanationHi": "कथन इंगित करता है कि कोचिंग सफलता की ओर ले जाती है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Statement Assumption",
@@ -11601,7 +11601,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-447",
     "questionEn": "Statement: 'Please lock the door when leaving.' Assumption: The door has a lock.",
-    "questionHi": "Statement: 'Please lock the door when leaving.' Assumption: The door has a lock.",
+    "questionHi": "कथन: 'कृपया जाते समय दरवाजा बंद करें।' धारणा: दरवाजे में ताला है।",
     "optionsEn": [
       "Implicit",
       "Not implicit",
@@ -11609,10 +11609,10 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Implicit",
-      "Not implicit",
-      "Cannot say",
-      "Data insufficient"
+      "अंतर्निहित",
+      "अंतर्निहित नहीं",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 0,
     "explanationEn": "Cannot lock without a lock",
@@ -11627,7 +11627,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-448",
     "questionEn": "Statement: 'Switch on the fan, it's hot.' Assumption I: Fan will reduce heat. Assumption II: Listener can reach the switch.",
-    "questionHi": "Statement: 'Switch on the fan, it's hot.' Assumption I: Fan will reduce heat. Assumption II: Listener can reach the switch.",
+    "questionHi": "कथन: 'पंखा चालू करो, गर्मी है।' धारणा I: पंखा गर्मी कम करेगा। धारणा II: सुनने वाला स्विच तक पहुंच सकता है।",
     "optionsEn": [
       "Only I",
       "Only II",
@@ -11635,14 +11635,14 @@ export const reasoningQuestions: Question[] = [
       "Neither"
     ],
     "optionsHi": [
-      "Only I",
-      "Only II",
-      "Both",
-      "Neither"
+      "केवल I",
+      "केवल II",
+      "दोनों",
+      "कोई नहीं"
     ],
     "correctAnswer": 2,
     "explanationEn": "Both assumptions are implicit",
-    "explanationHi": "Both assumptions are implicit",
+    "explanationHi": "दोनों धारणाएं अंतर्निहित हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Statement Assumption",
@@ -11653,7 +11653,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-449",
     "questionEn": "Statement: 'Apply before December 31.' Assumption: Applications are not accepted after December 31.",
-    "questionHi": "Statement: 'Apply before December 31.' Assumption: Applications are not accepted after December 31.",
+    "questionHi": "कथन: '31 दिसंबर से पहले आवेदन करें।' धारणा: 31 दिसंबर के बाद आवेदन स्वीकार नहीं किए जाते।",
     "optionsEn": [
       "Implicit",
       "Not implicit",
@@ -11661,10 +11661,10 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Implicit",
-      "Not implicit",
-      "Cannot say",
-      "Data insufficient"
+      "अंतर्निहित",
+      "अंतर्निहित नहीं",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 0,
     "explanationEn": "Deadline implies no applications after",
@@ -11679,7 +11679,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-450",
     "questionEn": "Statement: 'Take umbrella, it might rain.' Assumption: Umbrella protects from rain.",
-    "questionHi": "Statement: 'Take umbrella, it might rain.' Assumption: Umbrella protects from rain.",
+    "questionHi": "कथन: 'छाता ले लो, बारिश हो सकती है।' धारणा: छाता बारिश से बचाता है।",
     "optionsEn": [
       "Implicit",
       "Not implicit",
@@ -11687,10 +11687,10 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Implicit",
-      "Not implicit",
-      "Cannot say",
-      "Data insufficient"
+      "अंतर्निहित",
+      "अंतर्निहित नहीं",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 0,
     "explanationEn": "Purpose of taking umbrella is rain protection",
@@ -11965,7 +11965,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-461",
     "questionEn": "Statement: Crops failed this year. Cause or Effect? Low rainfall.",
-    "questionHi": "Statement: Crops failed this year. Cause or Effect? Low rainfall.",
+    "questionHi": "कथन: इस वर्ष फसलें खराब हुईं। कारण या प्रभाव? कम वर्षा।",
     "optionsEn": [
       "Cause",
       "Effect",
@@ -11973,14 +11973,14 @@ export const reasoningQuestions: Question[] = [
       "Both"
     ],
     "optionsHi": [
-      "Cause",
-      "Effect",
-      "Cannot say",
-      "Both"
+      "कारण",
+      "प्रभाव",
+      "नहीं कह सकते",
+      "दोनों"
     ],
     "correctAnswer": 0,
     "explanationEn": "Low rainfall causes crop failure",
-    "explanationHi": "Low rainfall causes crop failure",
+    "explanationHi": "कम वर्षा फसल विफलता का कारण बनती है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Cause Effect",
@@ -11991,7 +11991,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-462",
     "questionEn": "Statement: Students scored well. Cause or Effect? Good teaching.",
-    "questionHi": "Statement: Students scored well. Cause or Effect? Good teaching.",
+    "questionHi": "कथन: छात्रों ने अच्छे अंक प्राप्त किए। कारण या प्रभाव? अच्छा शिक्षण।",
     "optionsEn": [
       "Cause",
       "Effect",
@@ -11999,14 +11999,14 @@ export const reasoningQuestions: Question[] = [
       "Both"
     ],
     "optionsHi": [
-      "Cause",
-      "Effect",
-      "Cannot say",
-      "Both"
+      "कारण",
+      "प्रभाव",
+      "नहीं कह सकते",
+      "दोनों"
     ],
     "correctAnswer": 0,
     "explanationEn": "Good teaching causes good scores",
-    "explanationHi": "Good teaching causes good scores",
+    "explanationHi": "अच्छा शिक्षण अच्छे अंकों का कारण बनता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Cause Effect",
@@ -12017,7 +12017,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-463",
     "questionEn": "Statement: Many people fell ill. Cause or Effect? Contaminated water.",
-    "questionHi": "Statement: Many people fell ill. Cause or Effect? Contaminated water.",
+    "questionHi": "कथन: कई लोग बीमार पड़ गए। कारण या प्रभाव? दूषित पानी।",
     "optionsEn": [
       "Cause",
       "Effect",
@@ -12025,14 +12025,14 @@ export const reasoningQuestions: Question[] = [
       "Both"
     ],
     "optionsHi": [
-      "Cause",
-      "Effect",
-      "Cannot say",
-      "Both"
+      "कारण",
+      "प्रभाव",
+      "नहीं कह सकते",
+      "दोनों"
     ],
     "correctAnswer": 0,
     "explanationEn": "Contaminated water causes illness",
-    "explanationHi": "Contaminated water causes illness",
+    "explanationHi": "दूषित पानी बीमारी का कारण बनता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Cause Effect",
@@ -12225,7 +12225,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-471",
     "questionEn": "Doctors, Females, Married. Relationship:",
-    "questionHi": "Doctors, Females, Married. Relationship:",
+    "questionHi": "डॉक्टर, महिलाएं, विवाहित। संबंध:",
     "optionsEn": [
       "All separate",
       "All overlapping",
@@ -12251,7 +12251,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-472",
     "questionEn": "India, Asia, World. Relationship:",
-    "questionHi": "India, Asia, World. Relationship:",
+    "questionHi": "भारत, एशिया, विश्व। संबंध:",
     "optionsEn": [
       "All separate",
       "All same",
@@ -12277,7 +12277,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-473",
     "questionEn": "Pencil, Stationery, Rubber. Relationship:",
-    "questionHi": "Pencil, Stationery, Rubber. Relationship:",
+    "questionHi": "पेंसिल, स्टेशनरी, रबर। संबंध:",
     "optionsEn": [
       "Pencil and Rubber inside Stationery",
       "All same",
@@ -12303,7 +12303,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-474",
     "questionEn": "Dog, Cat, Pet. Relationship:",
-    "questionHi": "Dog, Cat, Pet. Relationship:",
+    "questionHi": "कुत्ता, बिल्ली, पालतू जानवर। संबंध:",
     "optionsEn": [
       "All separate",
       "Dog and Cat overlap, both inside Pet",
@@ -12329,7 +12329,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-475",
     "questionEn": "Rectangle, Square, Quadrilateral. Relationship:",
-    "questionHi": "Rectangle, Square, Quadrilateral. Relationship:",
+    "questionHi": "आयत, वर्ग, चतुर्भुज। संबंध:",
     "optionsEn": [
       "Square⊂Rectangle⊂Quadrilateral",
       "All separate",
@@ -12485,7 +12485,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-481",
     "questionEn": "All birds fly. Penguin is a bird. Conclusion: Penguin flies.",
-    "questionHi": "All birds fly. Penguin is a bird. Conclusion: Penguin flies.",
+    "questionHi": "सभी पक्षी उड़ते हैं। पेंगुइन एक पक्षी है। निष्कर्ष: पेंगुइन उड़ता है।",
     "optionsEn": [
       "Follows",
       "Does not follow",
@@ -12493,14 +12493,14 @@ export const reasoningQuestions: Question[] = [
       "Partly"
     ],
     "optionsHi": [
-      "Follows",
-      "Does not follow",
-      "Cannot say",
-      "Partly"
+      "अनुसरण करता है",
+      "अनुसरण नहीं करता",
+      "नहीं कह सकते",
+      "आंशिक रूप से"
     ],
     "correctAnswer": 0,
     "explanationEn": "Logically follows (ignoring real-world knowledge)",
-    "explanationHi": "Logically follows (ignoring real-world knowledge)",
+    "explanationHi": "तार्किक रूप से अनुसरण करता है (वास्तविक ज्ञान को छोड़कर)",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Practice Syllogism",
@@ -12511,7 +12511,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-482",
     "questionEn": "Some doctors are teachers. All teachers are educated. Conclusion: Some doctors are educated.",
-    "questionHi": "Some doctors are teachers. All teachers are educated. Conclusion: Some doctors are educated.",
+    "questionHi": "कुछ डॉक्टर शिक्षक हैं। सभी शिक्षक शिक्षित हैं। निष्कर्ष: कुछ डॉक्टर शिक्षित हैं।",
     "optionsEn": [
       "Follows",
       "Does not follow",
@@ -12519,14 +12519,14 @@ export const reasoningQuestions: Question[] = [
       "Probably"
     ],
     "optionsHi": [
-      "Follows",
-      "Does not follow",
-      "Cannot say",
-      "Probably"
+      "अनुसरण करता है",
+      "अनुसरण नहीं करता",
+      "नहीं कह सकते",
+      "संभवतः"
     ],
     "correctAnswer": 0,
     "explanationEn": "Those doctors who are teachers are educated",
-    "explanationHi": "Those doctors who are teachers are educated",
+    "explanationHi": "जो डॉक्टर शिक्षक हैं वे शिक्षित हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Practice Syllogism",
@@ -12537,7 +12537,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-483",
     "questionEn": "No metal is liquid. Mercury is a metal. Conclusion: Mercury is not liquid.",
-    "questionHi": "No metal is liquid. Mercury is a metal. Conclusion: Mercury is not liquid.",
+    "questionHi": "कोई धातु तरल नहीं है। पारा एक धातु है। निष्कर्ष: पारा तरल नहीं है।",
     "optionsEn": [
       "Follows",
       "Does not follow",
@@ -12545,14 +12545,14 @@ export const reasoningQuestions: Question[] = [
       "Partly"
     ],
     "optionsHi": [
-      "Follows",
-      "Does not follow",
-      "Cannot say",
-      "Partly"
+      "अनुसरण करता है",
+      "अनुसरण नहीं करता",
+      "नहीं कह सकते",
+      "आंशिक रूप से"
     ],
     "correctAnswer": 0,
     "explanationEn": "Logically follows from premises",
-    "explanationHi": "Logically follows from premises",
+    "explanationHi": "परिसरों से तार्किक रूप से अनुसरण करता है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Practice Syllogism",
@@ -12745,7 +12745,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-491",
     "questionEn": "Statement: Crime rate has increased 50% this year. Inference: Law enforcement is weak.",
-    "questionHi": "Statement: Crime rate has increased 50% this year. Inference: Law enforcement is weak.",
+    "questionHi": "कथन: इस वर्ष अपराध दर 50% बढ़ गई है। निष्कर्ष: कानून प्रवर्तन कमजोर है।",
     "optionsEn": [
       "Definite",
       "Probable",
@@ -12753,14 +12753,14 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Definite",
-      "Probable",
-      "Cannot say",
-      "Data insufficient"
+      "निश्चित",
+      "संभावित",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 1,
     "explanationEn": "Probable but not certain - other factors possible",
-    "explanationHi": "Probable but not certain - other factors possible",
+    "explanationHi": "संभावित लेकिन निश्चित नहीं - अन्य कारक संभव हैं",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Inference",
@@ -12771,7 +12771,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-492",
     "questionEn": "Statement: All students passed. Inference: The exam was easy.",
-    "questionHi": "Statement: All students passed. Inference: The exam was easy.",
+    "questionHi": "कथन: सभी छात्र पास हुए। निष्कर्ष: परीक्षा आसान थी।",
     "optionsEn": [
       "Definite",
       "Probable",
@@ -12779,14 +12779,14 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Definite",
-      "Probable",
-      "Cannot say",
-      "Data insufficient"
+      "निश्चित",
+      "संभावित",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 2,
     "explanationEn": "Could be students studied well - cannot determine",
-    "explanationHi": "Could be students studied well - cannot determine",
+    "explanationHi": "हो सकता है छात्रों ने अच्छे से पढ़ाई की - निर्धारित नहीं कर सकते",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Inference",
@@ -12797,7 +12797,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-493",
     "questionEn": "Statement: Prices of vegetables doubled. Inference: Demand increased.",
-    "questionHi": "Statement: Prices of vegetables doubled. Inference: Demand increased.",
+    "questionHi": "कथन: सब्जियों की कीमतें दोगुनी हो गईं। निष्कर्ष: मांग बढ़ गई।",
     "optionsEn": [
       "Definite",
       "Probable",
@@ -12805,14 +12805,14 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Definite",
-      "Probable",
-      "Cannot say",
-      "Data insufficient"
+      "निश्चित",
+      "संभावित",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 2,
     "explanationEn": "Could be supply shortage - cannot determine cause",
-    "explanationHi": "Could be supply shortage - cannot determine cause",
+    "explanationHi": "आपूर्ति की कमी हो सकती है - कारण निर्धारित नहीं कर सकते",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Inference",
@@ -12823,7 +12823,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-494",
     "questionEn": "Statement: Company profits increased 100%. Inference: Sales increased.",
-    "questionHi": "Statement: Company profits increased 100%. Inference: Sales increased.",
+    "questionHi": "कथन: कंपनी का लाभ 100% बढ़ गया। निष्कर्ष: बिक्री बढ़ गई।",
     "optionsEn": [
       "Definite",
       "Probable",
@@ -12831,14 +12831,14 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Definite",
-      "Probable",
-      "Cannot say",
-      "Data insufficient"
+      "निश्चित",
+      "संभावित",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 1,
     "explanationEn": "Probable, though cost reduction also possible",
-    "explanationHi": "Probable, though cost reduction also possible",
+    "explanationHi": "संभावित, हालांकि लागत में कमी भी संभव है",
     "difficulty": "medium",
     "topic": "reasoning",
     "subtopic": "Inference",
@@ -12849,7 +12849,7 @@ export const reasoningQuestions: Question[] = [
   {
     "id": "REASONING-495",
     "questionEn": "Statement: Unemployment is at record high. Inference: Economy is in recession.",
-    "questionHi": "Statement: Unemployment is at record high. Inference: Economy is in recession.",
+    "questionHi": "कथन: बेरोजगारी रिकॉर्ड उच्च स्तर पर है। निष्कर्ष: अर्थव्यवस्था मंदी में है।",
     "optionsEn": [
       "Definite",
       "Probable",
@@ -12857,10 +12857,10 @@ export const reasoningQuestions: Question[] = [
       "Data insufficient"
     ],
     "optionsHi": [
-      "Definite",
-      "Probable",
-      "Cannot say",
-      "Data insufficient"
+      "निश्चित",
+      "संभावित",
+      "नहीं कह सकते",
+      "डेटा अपर्याप्त"
     ],
     "correctAnswer": 1,
     "explanationEn": "Probable inference from unemployment data",

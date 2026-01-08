@@ -5,7 +5,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-001",
     "questionEn": "Pharmacology is the study of:",
-    "questionHi": "Pharmacology is the study of:",
+    "questionHi": "फार्माकोलॉजी किसका अध्ययन है:",
     "optionsEn": [
       "Only poisons",
       "Drugs and their effects on living organisms",
@@ -13,14 +13,14 @@ export const pharmacologyQuestions: Question[] = [
       "Only surgery"
     ],
     "optionsHi": [
-      "Only poisons",
-      "Drugs and their effects on living organisms",
-      "Only herbal medicines",
-      "Only surgery"
+      "केवल विष",
+      "दवाएं और जीवित जीवों पर उनके प्रभाव",
+      "केवल हर्बल दवाएं",
+      "केवल शल्य चिकित्सा"
     ],
     "correctAnswer": 1,
     "explanationEn": "Pharmacology is study of drugs and their effects.",
-    "explanationHi": "Pharmacology is study of drugs and their effects.",
+    "explanationHi": "फार्माकोलॉजी दवाओं और उनके प्रभावों का अध्ययन है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -31,7 +31,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-002",
     "questionEn": "Generic name of a drug is:",
-    "questionHi": "Generic name of a drug is:",
+    "questionHi": "दवा का जेनेरिक नाम है:",
     "optionsEn": [
       "Trade name",
       "Official name, same worldwide",
@@ -39,14 +39,14 @@ export const pharmacologyQuestions: Question[] = [
       "Chemical formula"
     ],
     "optionsHi": [
-      "Trade name",
-      "Official name, same worldwide",
-      "Company name",
-      "Chemical formula"
+      "व्यापारिक नाम",
+      "आधिकारिक नाम, विश्वभर में समान",
+      "कंपनी का नाम",
+      "रासायनिक सूत्र"
     ],
     "correctAnswer": 1,
     "explanationEn": "Generic name is official name, same worldwide.",
-    "explanationHi": "Generic name is official name, same worldwide.",
+    "explanationHi": "जेनेरिक नाम आधिकारिक नाम है, विश्वभर में समान।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -57,7 +57,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-003",
     "questionEn": "Advantage of generic drugs is:",
-    "questionHi": "Advantage of generic drugs is:",
+    "questionHi": "जेनेरिक दवाओं का लाभ है:",
     "optionsEn": [
       "Better quality",
       "Lower cost",
@@ -65,14 +65,14 @@ export const pharmacologyQuestions: Question[] = [
       "More side effects"
     ],
     "optionsHi": [
-      "Better quality",
-      "Lower cost",
-      "Faster action",
-      "More side effects"
+      "बेहतर गुणवत्ता",
+      "कम लागत",
+      "तेज कार्रवाई",
+      "अधिक दुष्प्रभाव"
     ],
     "correctAnswer": 1,
     "explanationEn": "Generic drugs are usually lower cost.",
-    "explanationHi": "Generic drugs are usually lower cost.",
+    "explanationHi": "जेनेरिक दवाएं आमतौर पर कम लागत वाली होती हैं।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -83,7 +83,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-004",
     "questionEn": "Most common route of drug administration is:",
-    "questionHi": "Most common route of drug administration is:",
+    "questionHi": "दवा प्रशासन का सबसे आम मार्ग है:",
     "optionsEn": [
       "Intravenous",
       "Intramuscular",
@@ -91,14 +91,14 @@ export const pharmacologyQuestions: Question[] = [
       "Topical"
     ],
     "optionsHi": [
-      "Intravenous",
-      "Intramuscular",
-      "Oral",
-      "Topical"
+      "अंतःशिरा",
+      "इंट्रामस्क्युलर",
+      "मौखिक",
+      "त्वचीय"
     ],
     "correctAnswer": 2,
     "explanationEn": "Oral is most common, convenient route.",
-    "explanationHi": "Oral is most common, convenient route.",
+    "explanationHi": "मौखिक सबसे आम, सुविधाजनक मार्ग है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -109,7 +109,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-005",
     "questionEn": "Fastest onset of drug action is by:",
-    "questionHi": "Fastest onset of drug action is by:",
+    "questionHi": "दवा की क्रिया की सबसे तेज शुरुआत किसके द्वारा होती है:",
     "optionsEn": [
       "Oral route",
       "Intramuscular route",
@@ -117,14 +117,14 @@ export const pharmacologyQuestions: Question[] = [
       "Subcutaneous route"
     ],
     "optionsHi": [
-      "Oral route",
-      "Intramuscular route",
-      "Intravenous route",
-      "Subcutaneous route"
+      "मौखिक मार्ग",
+      "इंट्रामस्क्युलर मार्ग",
+      "अंतःशिरा मार्ग",
+      "त्वचा के नीचे का मार्ग"
     ],
     "correctAnswer": 2,
     "explanationEn": "IV gives fastest onset.",
-    "explanationHi": "IV gives fastest onset.",
+    "explanationHi": "IV सबसे तेज शुरुआत देता है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -135,7 +135,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-006",
     "questionEn": "Sublingual route means drug is placed:",
-    "questionHi": "Sublingual route means drug is placed:",
+    "questionHi": "सब्लिंगुअल मार्ग का अर्थ है दवा रखी जाती है:",
     "optionsEn": [
       "On tongue",
       "Under tongue",
@@ -143,14 +143,14 @@ export const pharmacologyQuestions: Question[] = [
       "Swallowed"
     ],
     "optionsHi": [
-      "On tongue",
-      "Under tongue",
-      "In cheek",
-      "Swallowed"
+      "जीभ पर",
+      "जीभ के नीचे",
+      "गाल में",
+      "निगल लिया जाता है"
     ],
     "correctAnswer": 1,
     "explanationEn": "Sublingual is under the tongue.",
-    "explanationHi": "Sublingual is under the tongue.",
+    "explanationHi": "सब्लिंगुअल जीभ के नीचे होता है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -161,7 +161,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-007",
     "questionEn": "Sublingual route bypasses:",
-    "questionHi": "Sublingual route bypasses:",
+    "questionHi": "सब्लिंगुअल मार्ग किसे बायपास करता है:",
     "optionsEn": [
       "Kidneys",
       "First-pass metabolism in liver",
@@ -169,14 +169,14 @@ export const pharmacologyQuestions: Question[] = [
       "Lungs"
     ],
     "optionsHi": [
-      "Kidneys",
-      "First-pass metabolism in liver",
-      "Heart",
-      "Lungs"
+      "गुर्दे",
+      "यकृत में फर्स्ट-पास मेटाबोलिज्म",
+      "हृदय",
+      "फेफड़े"
     ],
     "correctAnswer": 1,
     "explanationEn": "Sublingual bypasses first-pass metabolism.",
-    "explanationHi": "Sublingual bypasses first-pass metabolism.",
+    "explanationHi": "सब्लिंगुअल फर्स्ट-पास मेटाबोलिज्म को बायपास करता है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -187,7 +187,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-008",
     "questionEn": "BCG vaccine is given by which route?",
-    "questionHi": "BCG vaccine is given by which route?",
+    "questionHi": "BCG टीका किस मार्ग से दिया जाता है?",
     "optionsEn": [
       "Oral",
       "Intramuscular",
@@ -195,14 +195,14 @@ export const pharmacologyQuestions: Question[] = [
       "Subcutaneous"
     ],
     "optionsHi": [
-      "Oral",
-      "Intramuscular",
-      "Intradermal",
-      "Subcutaneous"
+      "मौखिक",
+      "इंट्रामस्क्युलर",
+      "इंट्राडर्मल",
+      "त्वचा के नीचे"
     ],
     "correctAnswer": 2,
     "explanationEn": "BCG is given intradermally.",
-    "explanationHi": "BCG is given intradermally.",
+    "explanationHi": "BCG इंट्राडर्मल रूप से दिया जाता है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -213,7 +213,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-009",
     "questionEn": "Insulin is administered by which route?",
-    "questionHi": "Insulin is administered by which route?",
+    "questionHi": "इंसुलिन किस मार्ग से दी जाती है?",
     "optionsEn": [
       "Oral",
       "Subcutaneous",
@@ -221,14 +221,14 @@ export const pharmacologyQuestions: Question[] = [
       "Inhalation"
     ],
     "optionsHi": [
-      "Oral",
-      "Subcutaneous",
-      "Topical",
-      "Inhalation"
+      "मौखिक",
+      "त्वचा के नीचे",
+      "त्वचीय",
+      "साँस द्वारा"
     ],
     "correctAnswer": 1,
     "explanationEn": "Insulin is given subcutaneously.",
-    "explanationHi": "Insulin is given subcutaneously.",
+    "explanationHi": "इंसुलिन त्वचा के नीचे दी जाती है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -239,7 +239,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-010",
     "questionEn": "Tablet is an example of:",
-    "questionHi": "Tablet is an example of:",
+    "questionHi": "टैबलेट किसका उदाहरण है:",
     "optionsEn": [
       "Liquid dosage form",
       "Solid dosage form",
@@ -247,14 +247,14 @@ export const pharmacologyQuestions: Question[] = [
       "Gaseous form"
     ],
     "optionsHi": [
-      "Liquid dosage form",
-      "Solid dosage form",
-      "Semi-solid form",
-      "Gaseous form"
+      "तरल खुराक रूप",
+      "ठोस खुराक रूप",
+      "अर्ध-ठोस रूप",
+      "गैसीय रूप"
     ],
     "correctAnswer": 1,
     "explanationEn": "Tablet is solid dosage form.",
-    "explanationHi": "Tablet is solid dosage form.",
+    "explanationHi": "टैबलेट ठोस खुराक रूप है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -265,7 +265,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-011",
     "questionEn": "Ointment is an example of:",
-    "questionHi": "Ointment is an example of:",
+    "questionHi": "मरहम किसका उदाहरण है:",
     "optionsEn": [
       "Solid form",
       "Liquid form",
@@ -273,14 +273,14 @@ export const pharmacologyQuestions: Question[] = [
       "Gaseous form"
     ],
     "optionsHi": [
-      "Solid form",
-      "Liquid form",
-      "Semi-solid form",
-      "Gaseous form"
+      "ठोस रूप",
+      "तरल रूप",
+      "अर्ध-ठोस रूप",
+      "गैसीय रूप"
     ],
     "correctAnswer": 2,
     "explanationEn": "Ointment is semi-solid form.",
-    "explanationHi": "Ointment is semi-solid form.",
+    "explanationHi": "मरहम अर्ध-ठोस रूप है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -291,7 +291,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-012",
     "questionEn": "Suppository is used for:",
-    "questionHi": "Suppository is used for:",
+    "questionHi": "सपोसिटरी किसके लिए उपयोग की जाती है:",
     "optionsEn": [
       "Oral use",
       "Rectal/vaginal use",
@@ -299,14 +299,14 @@ export const pharmacologyQuestions: Question[] = [
       "Inhalation"
     ],
     "optionsHi": [
-      "Oral use",
-      "Rectal/vaginal use",
-      "Only injection",
-      "Inhalation"
+      "मौखिक उपयोग",
+      "रेक्टल/योनि उपयोग",
+      "केवल इंजेक्शन",
+      "साँस द्वारा"
     ],
     "correctAnswer": 1,
     "explanationEn": "Suppositories for rectal/vaginal use.",
-    "explanationHi": "Suppositories for rectal/vaginal use.",
+    "explanationHi": "सपोसिटरी रेक्टल/योनि उपयोग के लिए होती हैं।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -317,7 +317,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-013",
     "questionEn": "Most vaccines should be stored at:",
-    "questionHi": "Most vaccines should be stored at:",
+    "questionHi": "अधिकांश टीकों को किस तापमान पर संग्रहीत किया जाना चाहिए:",
     "optionsEn": [
       "-20°C",
       "+2 to +8°C",
@@ -326,13 +326,13 @@ export const pharmacologyQuestions: Question[] = [
     ],
     "optionsHi": [
       "-20°C",
-      "+2 to +8°C",
-      "Room temperature",
-      "+25 to +30°C"
+      "+2 से +8°C",
+      "कमरे का तापमान",
+      "+25 से +30°C"
     ],
     "correctAnswer": 1,
     "explanationEn": "Most vaccines stored at +2 to +8°C.",
-    "explanationHi": "Most vaccines stored at +2 to +8°C.",
+    "explanationHi": "अधिकांश टीकों को +2 से +8°C पर संग्रहीत किया जाता है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -343,7 +343,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-014",
     "questionEn": "Insulin should be stored in:",
-    "questionHi": "Insulin should be stored in:",
+    "questionHi": "इंसुलिन को कहाँ संग्रहीत किया जाना चाहिए:",
     "optionsEn": [
       "Freezer",
       "Refrigerator (2-8°C)",
@@ -351,14 +351,14 @@ export const pharmacologyQuestions: Question[] = [
       "Room temperature always"
     ],
     "optionsHi": [
-      "Freezer",
-      "Refrigerator (2-8°C)",
-      "Direct sunlight",
-      "Room temperature always"
+      "फ्रीज़र",
+      "रेफ्रिजरेटर (2-8°C)",
+      "सीधी धूप",
+      "हमेशा कमरे के तापमान पर"
     ],
     "correctAnswer": 1,
     "explanationEn": "Insulin stored in refrigerator.",
-    "explanationHi": "Insulin stored in refrigerator.",
+    "explanationHi": "इंसुलिन को रेफ्रिजरेटर में संग्रहीत किया जाता है।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",
@@ -369,7 +369,7 @@ export const pharmacologyQuestions: Question[] = [
   {
     "id": "PHARMACOLOGY-015",
     "questionEn": "Drug expiry date indicates:",
-    "questionHi": "Drug expiry date indicates:",
+    "questionHi": "दवा की समाप्ति तिथि क्या दर्शाती है:",
     "optionsEn": [
       "Manufacturing date",
       "Date after which drug may not be effective/safe",
@@ -377,14 +377,14 @@ export const pharmacologyQuestions: Question[] = [
       "Testing date"
     ],
     "optionsHi": [
-      "Manufacturing date",
-      "Date after which drug may not be effective/safe",
-      "Sale date",
-      "Testing date"
+      "निर्माण तिथि",
+      "जिस तिथि के बाद दवा प्रभावी/सुरक्षित नहीं हो सकती",
+      "बिक्री तिथि",
+      "परीक्षण तिथि"
     ],
     "correctAnswer": 1,
     "explanationEn": "Expiry indicates when drug may not be effective.",
-    "explanationHi": "Expiry indicates when drug may not be effective.",
+    "explanationHi": "समाप्ति यह दर्शाती है कि दवा कब प्रभावी नहीं हो सकती।",
     "difficulty": "easy",
     "topic": "pharmacology",
     "subtopic": "1",

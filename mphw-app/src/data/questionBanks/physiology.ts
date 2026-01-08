@@ -941,7 +941,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-037",
     "questionEn": "Which nervous system increases heart rate?",
-    "questionHi": "Which nervous system increases heart rate?",
+    "questionHi": "कौन सी तंत्रिका तंत्र हृदय गति बढ़ाता है?",
     "optionsEn": [
       "Parasympathetic",
       "Sympathetic",
@@ -949,14 +949,14 @@ export const physiologyQuestions: Question[] = [
       "Enteric"
     ],
     "optionsHi": [
-      "Parasympathetic",
-      "Sympathetic",
-      "Somatic",
-      "Enteric"
+      "पैरासिम्पैथेटिक",
+      "सिम्पैथेटिक",
+      "सोमेटिक",
+      "एंटरिक"
     ],
     "correctAnswer": 1,
     "explanationEn": "Sympathetic nervous system increases heart rate (fight or flight).",
-    "explanationHi": "Sympathetic nervous system increases heart rate (fight or flight).",
+    "explanationHi": "सिम्पैथेटिक तंत्रिका तंत्र हृदय गति बढ़ाता है (लड़ो या भागो)।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -967,7 +967,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-038",
     "questionEn": "Hypertension Stage 1 is defined as BP:",
-    "questionHi": "Hypertension Stage 1 is defined as BP:",
+    "questionHi": "उच्च रक्तचाप चरण 1 की परिभाषा है BP:",
     "optionsEn": [
       "120-129/<80",
       "130-139/80-89",
@@ -982,7 +982,7 @@ export const physiologyQuestions: Question[] = [
     ],
     "correctAnswer": 1,
     "explanationEn": "Hypertension Stage 1 is 130-139/80-89 mmHg.",
-    "explanationHi": "Hypertension Stage 1 is 130-139/80-89 mmHg.",
+    "explanationHi": "उच्च रक्तचाप चरण 1 है 130-139/80-89 mmHg।",
     "difficulty": "medium",
     "topic": "physiology",
     "subtopic": "3",
@@ -993,7 +993,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-039",
     "questionEn": "The carotid pulse is used primarily in:",
-    "questionHi": "The carotid pulse is used primarily in:",
+    "questionHi": "कैरोटिड पल्स का उपयोग मुख्य रूप से किया जाता है:",
     "optionsEn": [
       "Routine assessment",
       "Emergency situations",
@@ -1001,14 +1001,14 @@ export const physiologyQuestions: Question[] = [
       "Elderly only"
     ],
     "optionsHi": [
-      "Routine assessment",
-      "Emergency situations",
-      "Children only",
-      "Elderly only"
+      "नियमित मूल्यांकन में",
+      "आपातकालीन स्थितियों में",
+      "केवल बच्चों में",
+      "केवल बुजुर्गों में"
     ],
     "correctAnswer": 1,
     "explanationEn": "Carotid pulse (neck) is used in emergencies when peripheral pulses are weak.",
-    "explanationHi": "Carotid pulse (neck) is used in emergencies when peripheral pulses are weak.",
+    "explanationHi": "कैरोटिड पल्स (गर्दन) का उपयोग आपात स्थिति में होता है जब परिधीय पल्स कमजोर हो।",
     "difficulty": "easy",
     "topic": "physiology",
     "subtopic": "3",
@@ -1019,7 +1019,7 @@ export const physiologyQuestions: Question[] = [
   {
     "id": "PHYSIOLOGY-040",
     "questionEn": "Stroke volume is the amount of blood:",
-    "questionHi": "Stroke volume is the amount of blood:",
+    "questionHi": "स्ट्रोक वॉल्यूम रक्त की मात्रा है:",
     "optionsEn": [
       "In the heart at rest",
       "Pumped per beat",
@@ -1027,10 +1027,10 @@ export const physiologyQuestions: Question[] = [
       "Returned to heart"
     ],
     "optionsHi": [
-      "In the heart at rest",
-      "Pumped per beat",
-      "Pumped per minute",
-      "Returned to heart"
+      "विश्राम में हृदय में",
+      "प्रति धड़कन पंप किया गया",
+      "प्रति मिनट पंप किया गया",
+      "हृदय में लौटाया गया"
     ],
     "correctAnswer": 1,
     "explanationEn": "Stroke volume is the volume of blood pumped by the heart per beat (~70 mL).",

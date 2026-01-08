@@ -1253,7 +1253,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-049",
     "questionEn": "First stage in Stages of Change model is:",
-    "questionHi": "First stage in Stages of Change model is:",
+    "questionHi": "परिवर्तन के चरण मॉडल में पहला चरण है:",
     "optionsEn": [
       "Contemplation",
       "Pre-contemplation",
@@ -1261,14 +1261,14 @@ export const healthEducationQuestions: Question[] = [
       "Action"
     ],
     "optionsHi": [
-      "Contemplation",
-      "Pre-contemplation",
-      "Preparation",
-      "Action"
+      "चिंतन",
+      "पूर्व-चिंतन",
+      "तैयारी",
+      "कार्रवाई"
     ],
     "correctAnswer": 1,
     "explanationEn": "Pre-contemplation: not thinking about change.",
-    "explanationHi": "Pre-contemplation: not thinking about change.",
+    "explanationHi": "पूर्व-चिंतन: परिवर्तन के बारे में नहीं सोच रहा।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1279,7 +1279,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-050",
     "questionEn": "In pre-contemplation stage, the person:",
-    "questionHi": "In pre-contemplation stage, the person:",
+    "questionHi": "पूर्व-चिंतन चरण में, व्यक्ति:",
     "optionsEn": [
       "Is actively changing",
       "Is not thinking about changing",
@@ -1287,14 +1287,14 @@ export const healthEducationQuestions: Question[] = [
       "Has relapsed"
     ],
     "optionsHi": [
-      "Is actively changing",
-      "Is not thinking about changing",
-      "Is maintaining change",
-      "Has relapsed"
+      "सक्रिय रूप से बदल रहा है",
+      "बदलने के बारे में नहीं सोच रहा",
+      "परिवर्तन बनाए रख रहा है",
+      "पुनः पतन हो गया है"
     ],
     "correctAnswer": 1,
     "explanationEn": "Pre-contemplation: unaware or not considering change.",
-    "explanationHi": "Pre-contemplation: unaware or not considering change.",
+    "explanationHi": "पूर्व-चिंतन: अनजान या परिवर्तन पर विचार नहीं कर रहा।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1305,7 +1305,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-051",
     "questionEn": "In contemplation stage, the person:",
-    "questionHi": "In contemplation stage, the person:",
+    "questionHi": "चिंतन चरण में, व्यक्ति:",
     "optionsEn": [
       "Is not aware of problem",
       "Is thinking about changing",
@@ -1313,14 +1313,14 @@ export const healthEducationQuestions: Question[] = [
       "Is maintaining change"
     ],
     "optionsHi": [
-      "Is not aware of problem",
-      "Is thinking about changing",
-      "Has already changed",
-      "Is maintaining change"
+      "समस्या से अनजान है",
+      "बदलने के बारे में सोच रहा है",
+      "पहले ही बदल चुका है",
+      "परिवर्तन बनाए रख रहा है"
     ],
     "correctAnswer": 1,
     "explanationEn": "Contemplation: considering pros and cons.",
-    "explanationHi": "Contemplation: considering pros and cons.",
+    "explanationHi": "चिंतन: फायदे और नुकसान पर विचार कर रहा है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1331,7 +1331,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-052",
     "questionEn": "In preparation stage, the person:",
-    "questionHi": "In preparation stage, the person:",
+    "questionHi": "तैयारी चरण में, व्यक्ति:",
     "optionsEn": [
       "Is not thinking about change",
       "Is planning to change soon",
@@ -1339,14 +1339,14 @@ export const healthEducationQuestions: Question[] = [
       "Has relapsed"
     ],
     "optionsHi": [
-      "Is not thinking about change",
-      "Is planning to change soon",
-      "Has maintained change for 6 months",
-      "Has relapsed"
+      "परिवर्तन के बारे में नहीं सोच रहा",
+      "जल्द ही बदलने की योजना बना रहा है",
+      "6 महीने से परिवर्तन बनाए रखा है",
+      "पुनः पतन हो गया है"
     ],
     "correctAnswer": 1,
     "explanationEn": "Preparation: getting ready to act.",
-    "explanationHi": "Preparation: getting ready to act.",
+    "explanationHi": "तैयारी: कार्य करने के लिए तैयार हो रहा है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1357,7 +1357,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-053",
     "questionEn": "In action stage, the person:",
-    "questionHi": "In action stage, the person:",
+    "questionHi": "कार्रवाई चरण में, व्यक्ति:",
     "optionsEn": [
       "Is thinking about change",
       "Is actively making the change",
@@ -1365,14 +1365,14 @@ export const healthEducationQuestions: Question[] = [
       "Has been maintaining for years"
     ],
     "optionsHi": [
-      "Is thinking about change",
-      "Is actively making the change",
-      "Is not aware of need to change",
-      "Has been maintaining for years"
+      "परिवर्तन के बारे में सोच रहा है",
+      "सक्रिय रूप से परिवर्तन कर रहा है",
+      "बदलने की आवश्यकता से अनजान है",
+      "वर्षों से बनाए रख रहा है"
     ],
     "correctAnswer": 1,
     "explanationEn": "Action: implementing behavior change.",
-    "explanationHi": "Action: implementing behavior change.",
+    "explanationHi": "कार्रवाई: व्यवहार परिवर्तन लागू कर रहा है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1383,7 +1383,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-054",
     "questionEn": "In maintenance stage, the person:",
-    "questionHi": "In maintenance stage, the person:",
+    "questionHi": "रखरखाव चरण में, व्यक्ति:",
     "optionsEn": [
       "Has just started change",
       "Is sustaining change over time",
@@ -1391,14 +1391,14 @@ export const healthEducationQuestions: Question[] = [
       "Has relapsed"
     ],
     "optionsHi": [
-      "Has just started change",
-      "Is sustaining change over time",
-      "Is thinking about change",
-      "Has relapsed"
+      "अभी परिवर्तन शुरू किया है",
+      "समय के साथ परिवर्तन बनाए रख रहा है",
+      "परिवर्तन के बारे में सोच रहा है",
+      "पुनः पतन हो गया है"
     ],
     "correctAnswer": 1,
     "explanationEn": "Maintenance: sustaining behavior.",
-    "explanationHi": "Maintenance: sustaining behavior.",
+    "explanationHi": "रखरखाव: व्यवहार को बनाए रख रहा है।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1409,7 +1409,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-055",
     "questionEn": "Relapse in behavior change is:",
-    "questionHi": "Relapse in behavior change is:",
+    "questionHi": "व्यवहार परिवर्तन में पुनः पतन है:",
     "optionsEn": [
       "Permanent failure",
       "Common and normal part of change process",
@@ -1417,14 +1417,14 @@ export const healthEducationQuestions: Question[] = [
       "Sign to give up"
     ],
     "optionsHi": [
-      "Permanent failure",
-      "Common and normal part of change process",
-      "Never happens",
-      "Sign to give up"
+      "स्थायी विफलता",
+      "परिवर्तन प्रक्रिया का सामान्य और आम हिस्सा",
+      "कभी नहीं होता",
+      "हार मान लेने का संकेत"
     ],
     "correctAnswer": 1,
     "explanationEn": "Relapse is normal; can restart.",
-    "explanationHi": "Relapse is normal; can restart.",
+    "explanationHi": "पुनः पतन सामान्य है; पुनः शुरू कर सकते हैं।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",
@@ -1435,7 +1435,7 @@ export const healthEducationQuestions: Question[] = [
   {
     "id": "HEALTH-EDUCATION-056",
     "questionEn": "Strategy for pre-contemplation stage is:",
-    "questionHi": "Strategy for pre-contemplation stage is:",
+    "questionHi": "पूर्व-चिंतन चरण के लिए रणनीति है:",
     "optionsEn": [
       "Help plan action",
       "Raise awareness about issue",
@@ -1443,14 +1443,14 @@ export const healthEducationQuestions: Question[] = [
       "Prevent relapse"
     ],
     "optionsHi": [
-      "Help plan action",
-      "Raise awareness about issue",
-      "Reinforce behavior",
-      "Prevent relapse"
+      "कार्रवाई की योजना बनाने में मदद करना",
+      "मुद्दे के बारे में जागरूकता बढ़ाना",
+      "व्यवहार को मजबूत करना",
+      "पुनः पतन को रोकना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Pre-contemplation: increase awareness.",
-    "explanationHi": "Pre-contemplation: increase awareness.",
+    "explanationHi": "पूर्व-चिंतन: जागरूकता बढ़ाना।",
     "difficulty": "easy",
     "topic": "health-education",
     "subtopic": "3",

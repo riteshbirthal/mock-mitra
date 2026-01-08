@@ -5,7 +5,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-001",
     "questionEn": "Who is known as the Father of Microbiology?",
-    "questionHi": "Who is known as the Father of Microbiology?",
+    "questionHi": "माइक्रोबायोलॉजी के जनक के रूप में किसे जाना जाता है?",
     "optionsEn": [
       "Louis Pasteur",
       "Robert Koch",
@@ -13,14 +13,14 @@ export const microbiologyQuestions: Question[] = [
       "Joseph Lister"
     ],
     "optionsHi": [
-      "Louis Pasteur",
-      "Robert Koch",
-      "Antonie van Leeuwenhoek",
-      "Joseph Lister"
+      "लुई पाश्चर",
+      "रॉबर्ट कोच",
+      "एंटोनी वैन लीउवेनहोक",
+      "जोसेफ लिस्टर"
     ],
     "correctAnswer": 2,
     "explanationEn": "Antonie van Leeuwenhoek was the first to observe bacteria using a simple microscope in 1674.",
-    "explanationHi": "Antonie van Leeuwenhoek was the first to observe bacteria using a simple microscope in 1674.",
+    "explanationHi": "एंटोनी वैन लीउवेनहोक ने 1674 में एक सरल माइक्रोस्कोप का उपयोग करके पहली बार बैक्टीरिया का अवलोकन किया।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -31,7 +31,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-002",
     "questionEn": "Microbiology is the study of:",
-    "questionHi": "Microbiology is the study of:",
+    "questionHi": "माइक्रोबायोलॉजी किसका अध्ययन है:",
     "optionsEn": [
       "Large organisms",
       "Microorganisms",
@@ -39,14 +39,14 @@ export const microbiologyQuestions: Question[] = [
       "Animals only"
     ],
     "optionsHi": [
-      "Large organisms",
-      "Microorganisms",
-      "Plants only",
-      "Animals only"
+      "बड़े जीव",
+      "सूक्ष्मजीव",
+      "केवल पौधे",
+      "केवल जानवर"
     ],
     "correctAnswer": 1,
     "explanationEn": "Microbiology is the study of microorganisms - organisms too small to be seen with naked eye.",
-    "explanationHi": "Microbiology is the study of microorganisms - organisms too small to be seen with naked eye.",
+    "explanationHi": "माइक्रोबायोलॉजी सूक्ष्मजीवों का अध्ययन है - नग्न आंखों से न दिखने वाले जीव।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -57,7 +57,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-003",
     "questionEn": "Koch's postulates are used to:",
-    "questionHi": "Koch's postulates are used to:",
+    "questionHi": "कोच के सिद्धांतों का उपयोग किसके लिए किया जाता है:",
     "optionsEn": [
       "Classify bacteria",
       "Prove disease causation",
@@ -65,14 +65,14 @@ export const microbiologyQuestions: Question[] = [
       "Culture bacteria"
     ],
     "optionsHi": [
-      "Classify bacteria",
-      "Prove disease causation",
-      "Stain bacteria",
-      "Culture bacteria"
+      "बैक्टीरिया को वर्गीकृत करने के लिए",
+      "रोग कारण सिद्ध करने के लिए",
+      "बैक्टीरिया को रंगने के लिए",
+      "बैक्टीरिया की संवर्धन करने के लिए"
     ],
     "correctAnswer": 1,
     "explanationEn": "Koch's postulates establish the relationship between a microorganism and disease.",
-    "explanationHi": "Koch's postulates establish the relationship between a microorganism and disease.",
+    "explanationHi": "कोच के सिद्धांत सूक्ष्मजीव और रोग के बीच संबंध स्थापित करते हैं।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -83,7 +83,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-004",
     "questionEn": "Who developed the rabies vaccine?",
-    "questionHi": "Who developed the rabies vaccine?",
+    "questionHi": "रेबीज का टीका किसने विकसित किया?",
     "optionsEn": [
       "Robert Koch",
       "Louis Pasteur",
@@ -91,14 +91,14 @@ export const microbiologyQuestions: Question[] = [
       "Joseph Lister"
     ],
     "optionsHi": [
-      "Robert Koch",
-      "Louis Pasteur",
-      "Alexander Fleming",
-      "Joseph Lister"
+      "रॉबर्ट कोच",
+      "लुई पाश्चर",
+      "अलेक्जेंडर फ्लेमिंग",
+      "जोसेफ लिस्टर"
     ],
     "correctAnswer": 1,
     "explanationEn": "Louis Pasteur developed vaccines for rabies and anthrax.",
-    "explanationHi": "Louis Pasteur developed vaccines for rabies and anthrax.",
+    "explanationHi": "लुई पाश्चर ने रेबीज और एंथ्रेक्स के लिए टीके विकसित किए।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -109,7 +109,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-005",
     "questionEn": "Penicillin was discovered by:",
-    "questionHi": "Penicillin was discovered by:",
+    "questionHi": "पेनिसिलिन की खोज किसने की:",
     "optionsEn": [
       "Louis Pasteur",
       "Robert Koch",
@@ -117,14 +117,14 @@ export const microbiologyQuestions: Question[] = [
       "Joseph Lister"
     ],
     "optionsHi": [
-      "Louis Pasteur",
-      "Robert Koch",
-      "Alexander Fleming",
-      "Joseph Lister"
+      "लुई पाश्चर",
+      "रॉबर्ट कोच",
+      "अलेक्जेंडर फ्लेमिंग",
+      "जोसेफ लिस्टर"
     ],
     "correctAnswer": 2,
     "explanationEn": "Alexander Fleming discovered penicillin in 1928.",
-    "explanationHi": "Alexander Fleming discovered penicillin in 1928.",
+    "explanationHi": "अलेक्जेंडर फ्लेमिंग ने 1928 में पेनिसिलिन की खोज की।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -135,7 +135,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-006",
     "questionEn": "Bacteria are classified as:",
-    "questionHi": "Bacteria are classified as:",
+    "questionHi": "बैक्टीरिया को वर्गीकृत किया जाता है:",
     "optionsEn": [
       "Eukaryotes",
       "Prokaryotes",
@@ -143,14 +143,14 @@ export const microbiologyQuestions: Question[] = [
       "Fungi"
     ],
     "optionsHi": [
-      "Eukaryotes",
-      "Prokaryotes",
-      "Viruses",
-      "Fungi"
+      "यूकेरियोट्स",
+      "प्रोकेरियोट्स",
+      "वायरस",
+      "कवक"
     ],
     "correctAnswer": 1,
     "explanationEn": "Bacteria are prokaryotes - they lack a true nucleus.",
-    "explanationHi": "Bacteria are prokaryotes - they lack a true nucleus.",
+    "explanationHi": "बैक्टीरिया प्रोकेरियोट्स हैं - उनमें वास्तविक नाभिक नहीं होता।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -161,7 +161,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-007",
     "questionEn": "Which of the following is NOT a microorganism?",
-    "questionHi": "Which of the following is NOT a microorganism?",
+    "questionHi": "निम्नलिखित में से कौन सूक्ष्मजीव नहीं है?",
     "optionsEn": [
       "Bacteria",
       "Virus",
@@ -169,14 +169,14 @@ export const microbiologyQuestions: Question[] = [
       "Elephant"
     ],
     "optionsHi": [
-      "Bacteria",
-      "Virus",
-      "Fungi",
-      "Elephant"
+      "बैक्टीरिया",
+      "वायरस",
+      "कवक",
+      "हाथी"
     ],
     "correctAnswer": 3,
     "explanationEn": "Microorganisms are microscopic; elephants are macroscopic animals.",
-    "explanationHi": "Microorganisms are microscopic; elephants are macroscopic animals.",
+    "explanationHi": "सूक्ष्मजीव सूक्ष्मदर्शी होते हैं; हाथी मैक्रोस्कोपिक जानवर हैं।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -187,7 +187,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-008",
     "questionEn": "The study of viruses is called:",
-    "questionHi": "The study of viruses is called:",
+    "questionHi": "वायरस के अध्ययन को कहा जाता है:",
     "optionsEn": [
       "Bacteriology",
       "Mycology",
@@ -195,14 +195,14 @@ export const microbiologyQuestions: Question[] = [
       "Parasitology"
     ],
     "optionsHi": [
-      "Bacteriology",
-      "Mycology",
-      "Virology",
-      "Parasitology"
+      "बैक्टीरियोलॉजी",
+      "माइकोलॉजी",
+      "वायरोलॉजी",
+      "पैरासिटोलॉजी"
     ],
     "correctAnswer": 2,
     "explanationEn": "Virology is the branch of microbiology that studies viruses.",
-    "explanationHi": "Virology is the branch of microbiology that studies viruses.",
+    "explanationHi": "वायरोलॉजी माइक्रोबायोलॉजी की वह शाखा है जो वायरस का अध्ययन करती है।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -213,7 +213,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-009",
     "questionEn": "The study of fungi is called:",
-    "questionHi": "The study of fungi is called:",
+    "questionHi": "कवक के अध्ययन को कहा जाता है:",
     "optionsEn": [
       "Virology",
       "Mycology",
@@ -221,14 +221,14 @@ export const microbiologyQuestions: Question[] = [
       "Parasitology"
     ],
     "optionsHi": [
-      "Virology",
-      "Mycology",
-      "Bacteriology",
-      "Parasitology"
+      "वायरोलॉजी",
+      "माइकोलॉजी",
+      "बैक्टीरियोलॉजी",
+      "पैरासिटोलॉजी"
     ],
     "correctAnswer": 1,
     "explanationEn": "Mycology is the study of fungi.",
-    "explanationHi": "Mycology is the study of fungi.",
+    "explanationHi": "माइकोलॉजी कवक का अध्ययन है।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -239,7 +239,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-010",
     "questionEn": "Which scientist introduced antiseptic surgery?",
-    "questionHi": "Which scientist introduced antiseptic surgery?",
+    "questionHi": "किस वैज्ञानिक ने एंटीसेप्टिक सर्जरी की शुरुआत की?",
     "optionsEn": [
       "Robert Koch",
       "Louis Pasteur",
@@ -247,14 +247,14 @@ export const microbiologyQuestions: Question[] = [
       "Alexander Fleming"
     ],
     "optionsHi": [
-      "Robert Koch",
-      "Louis Pasteur",
-      "Joseph Lister",
-      "Alexander Fleming"
+      "रॉबर्ट कोच",
+      "लुई पाश्चर",
+      "जोसेफ लिस्टर",
+      "अलेक्जेंडर फ्लेमिंग"
     ],
     "correctAnswer": 2,
     "explanationEn": "Joseph Lister introduced antiseptic techniques using carbolic acid.",
-    "explanationHi": "Joseph Lister introduced antiseptic techniques using carbolic acid.",
+    "explanationHi": "जोसेफ लिस्टर ने कार्बोलिक एसिड का उपयोग करके एंटीसेप्टिक तकनीक शुरू की।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -265,7 +265,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-011",
     "questionEn": "Organisms that cause disease are called:",
-    "questionHi": "Organisms that cause disease are called:",
+    "questionHi": "रोग पैदा करने वाले जीवों को कहा जाता है:",
     "optionsEn": [
       "Commensals",
       "Pathogens",
@@ -273,14 +273,14 @@ export const microbiologyQuestions: Question[] = [
       "Normal flora"
     ],
     "optionsHi": [
-      "Commensals",
-      "Pathogens",
-      "Saprophytes",
-      "Normal flora"
+      "कॉमेन्सल",
+      "रोगाणु",
+      "सैप्रोफाइट्स",
+      "सामान्य वनस्पति"
     ],
     "correctAnswer": 1,
     "explanationEn": "Pathogens are microorganisms capable of causing disease.",
-    "explanationHi": "Pathogens are microorganisms capable of causing disease.",
+    "explanationHi": "रोगाणु ऐसे सूक्ष्मजीव हैं जो रोग पैदा करने में सक्षम होते हैं।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -291,7 +291,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-012",
     "questionEn": "Organisms that require oxygen to survive are called:",
-    "questionHi": "Organisms that require oxygen to survive are called:",
+    "questionHi": "जीवित रहने के लिए ऑक्सीजन की आवश्यकता वाले जीवों को कहा जाता है:",
     "optionsEn": [
       "Anaerobes",
       "Aerobes",
@@ -299,14 +299,14 @@ export const microbiologyQuestions: Question[] = [
       "Microaerophilic"
     ],
     "optionsHi": [
-      "Anaerobes",
-      "Aerobes",
-      "Facultative",
-      "Microaerophilic"
+      "एनारोब्स",
+      "एरोब्स",
+      "फैकल्टेटिव",
+      "माइक्रोएरोफिलिक"
     ],
     "correctAnswer": 1,
     "explanationEn": "Aerobes require oxygen for growth and survival.",
-    "explanationHi": "Aerobes require oxygen for growth and survival.",
+    "explanationHi": "एरोब्स को वृद्धि और जीवित रहने के लिए ऑक्सीजन की आवश्यकता होती है।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -317,7 +317,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-013",
     "questionEn": "Organisms that cannot survive in the presence of oxygen are:",
-    "questionHi": "Organisms that cannot survive in the presence of oxygen are:",
+    "questionHi": "ऑक्सीजन की उपस्थिति में जीवित नहीं रह सकने वाले जीव हैं:",
     "optionsEn": [
       "Aerobes",
       "Obligate anaerobes",
@@ -325,14 +325,14 @@ export const microbiologyQuestions: Question[] = [
       "Microaerophiles"
     ],
     "optionsHi": [
-      "Aerobes",
-      "Obligate anaerobes",
-      "Facultative anaerobes",
-      "Microaerophiles"
+      "एरोब्स",
+      "अनिवार्य एनारोब्स",
+      "फैकल्टेटिव एनारोब्स",
+      "माइक्रोएरोफाइल्स"
     ],
     "correctAnswer": 1,
     "explanationEn": "Obligate anaerobes die in the presence of oxygen.",
-    "explanationHi": "Obligate anaerobes die in the presence of oxygen.",
+    "explanationHi": "अनिवार्य एनारोब्स ऑक्सीजन की उपस्थिति में मर जाते हैं।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -343,7 +343,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-014",
     "questionEn": "Pasteurization was developed to:",
-    "questionHi": "Pasteurization was developed to:",
+    "questionHi": "पाश्चरीकरण किसके लिए विकसित किया गया था:",
     "optionsEn": [
       "Sterilize instruments",
       "Kill pathogens in milk",
@@ -351,14 +351,14 @@ export const microbiologyQuestions: Question[] = [
       "Culture viruses"
     ],
     "optionsHi": [
-      "Sterilize instruments",
-      "Kill pathogens in milk",
-      "Stain bacteria",
-      "Culture viruses"
+      "उपकरणों को बाँझ करना",
+      "दूध में रोगाणुओं को मारना",
+      "बैक्टीरिया को रंगना",
+      "वायरस की संवर्धन करना"
     ],
     "correctAnswer": 1,
     "explanationEn": "Pasteurization kills harmful organisms in milk and beverages.",
-    "explanationHi": "Pasteurization kills harmful organisms in milk and beverages.",
+    "explanationHi": "पाश्चरीकरण दूध और पेय पदार्थों में हानिकारक जीवों को मारता है।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
@@ -369,7 +369,7 @@ export const microbiologyQuestions: Question[] = [
   {
     "id": "MICROBIOLOGY-015",
     "questionEn": "The germ theory of disease was proposed by:",
-    "questionHi": "The germ theory of disease was proposed by:",
+    "questionHi": "रोग का जर्म सिद्धांत किसने प्रस्तावित किया:",
     "optionsEn": [
       "Koch",
       "Pasteur",
@@ -377,14 +377,14 @@ export const microbiologyQuestions: Question[] = [
       "Fleming"
     ],
     "optionsHi": [
-      "Koch",
-      "Pasteur",
-      "Lister",
-      "Fleming"
+      "कोच",
+      "पाश्चर",
+      "लिस्टर",
+      "फ्लेमिंग"
     ],
     "correctAnswer": 1,
     "explanationEn": "Louis Pasteur proposed that microorganisms cause disease.",
-    "explanationHi": "Louis Pasteur proposed that microorganisms cause disease.",
+    "explanationHi": "लुई पाश्चर ने प्रस्तावित किया कि सूक्ष्मजीव रोग का कारण बनते हैं।",
     "difficulty": "easy",
     "topic": "microbiology",
     "subtopic": "1",
